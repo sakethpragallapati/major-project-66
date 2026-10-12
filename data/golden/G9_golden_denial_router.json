@@ -1,0 +1,982 @@
+[
+  {
+    "case_id": "G9-001",
+    "raw_denial_paragraph": "Your claim for Coronary Artery Bypass Graft has been denied as the treatment is not considered medically necessary. Our medical panel has reviewed the case and determined that the procedure is elective in nature.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Indira Rajan",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-002",
+    "raw_denial_paragraph": "The insurer has determined that Total Hip Replacement does not meet the criteria for medical necessity as per the policy terms. Conservative treatment options have not been exhausted.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Dinesh Saxena",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-003",
+    "raw_denial_paragraph": "Claim denied: The requested Laparoscopic Sleeve Gastrectomy is classified as an experimental/unproven treatment under current clinical guidelines.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Ramesh Kumar",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-004",
+    "raw_denial_paragraph": "Your request for Total Knee Replacement has been denied. The condition can be adequately managed through outpatient treatment without hospitalization.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Neha Agarwal",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-005",
+    "raw_denial_paragraph": "The medical review board has determined that the proposed Liver Transplant is cosmetic in nature and does not qualify as medically necessary treatment.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Lakshmi Rao",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-006",
+    "raw_denial_paragraph": "Your claim for Cervical Spinal Fusion has been denied as the treatment is not considered medically necessary. Our medical panel has reviewed the case and determined that the procedure is elective in nature.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Kishore Sinha",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-007",
+    "raw_denial_paragraph": "The insurer has determined that Laparoscopic Sleeve Gastrectomy does not meet the criteria for medical necessity as per the policy terms. Conservative treatment options have not been exhausted.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Vanaja Kurian",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-008",
+    "raw_denial_paragraph": "Claim denied: The requested Robotic Prostatectomy is classified as an experimental/unproven treatment under current clinical guidelines.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Gopal Mehta",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-009",
+    "raw_denial_paragraph": "Your request for Mastectomy (Breast Cancer) has been denied. The condition can be adequately managed through outpatient treatment without hospitalization.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Vanaja Kurian",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-010",
+    "raw_denial_paragraph": "The medical review board has determined that the proposed Laparoscopic Sleeve Gastrectomy is cosmetic in nature and does not qualify as medically necessary treatment.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Swati Ghosh",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-011",
+    "raw_denial_paragraph": "Your claim for Mastectomy (Breast Cancer) has been denied as the treatment is not considered medically necessary. Our medical panel has reviewed the case and determined that the procedure is elective in nature.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Kavita Joshi",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-012",
+    "raw_denial_paragraph": "The insurer has determined that Liver Transplant does not meet the criteria for medical necessity as per the policy terms. Conservative treatment options have not been exhausted.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Swati Ghosh",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-013",
+    "raw_denial_paragraph": "Claim denied: The requested Total Hip Replacement is classified as an experimental/unproven treatment under current clinical guidelines.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Alok Tripathi",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-014",
+    "raw_denial_paragraph": "Your request for Coronary Artery Bypass Graft has been denied. The condition can be adequately managed through outpatient treatment without hospitalization.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Lakshmi Rao",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-015",
+    "raw_denial_paragraph": "The medical review board has determined that the proposed Robotic Prostatectomy is cosmetic in nature and does not qualify as medically necessary treatment.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Saroja Nambiar",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-016",
+    "raw_denial_paragraph": "Your claim for Craniotomy for Tumor has been denied as the treatment is not considered medically necessary. Our medical panel has reviewed the case and determined that the procedure is elective in nature.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Indira Rajan",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-017",
+    "raw_denial_paragraph": "The insurer has determined that Percutaneous Coronary Stent does not meet the criteria for medical necessity as per the policy terms. Conservative treatment options have not been exhausted.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Sunil Jha",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-018",
+    "raw_denial_paragraph": "Claim denied: The requested Percutaneous Coronary Stent is classified as an experimental/unproven treatment under current clinical guidelines.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Saroja Nambiar",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-019",
+    "raw_denial_paragraph": "Your request for IMRT Radiation Therapy has been denied. The condition can be adequately managed through outpatient treatment without hospitalization.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Ramesh Kumar",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-020",
+    "raw_denial_paragraph": "The medical review board has determined that the proposed Total Hip Replacement is cosmetic in nature and does not qualify as medically necessary treatment.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Mohan Das",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-021",
+    "raw_denial_paragraph": "Your claim for treatment of Hypertensive Nephropathy has been denied as it is classified as a pre-existing disease. The 36-month waiting period has not been completed.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Suresh Patel",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-022",
+    "raw_denial_paragraph": "Claim repudiated: Chronic Kidney Disease was pre-existing at the time of policy inception. Waiting period of 48 months not served.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Ravi Menon",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-023",
+    "raw_denial_paragraph": "The condition Diabetic Retinopathy is deemed pre-existing based on medical records predating the policy inception. Coverage will begin after the mandatory waiting period.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Vanaja Kurian",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-024",
+    "raw_denial_paragraph": "Your claim is denied under the 24-month specific disease waiting period clause. Type 2 Diabetes Mellitus falls under the list of specified diseases requiring completion of the waiting period.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Dinesh Saxena",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-025",
+    "raw_denial_paragraph": "Non-disclosure of pre-existing Calculus of Kidney detected during claim investigation. The proposal form did not mention this condition.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Gopal Mehta",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-026",
+    "raw_denial_paragraph": "Your claim for treatment of Hypothyroidism has been denied as it is classified as a pre-existing disease. The 48-month waiting period has not been completed.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Rani Mukherjee",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-027",
+    "raw_denial_paragraph": "Claim repudiated: Heart Failure was pre-existing at the time of policy inception. Waiting period of 48 months not served.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Swati Ghosh",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-028",
+    "raw_denial_paragraph": "The condition Epilepsy is deemed pre-existing based on medical records predating the policy inception. Coverage will begin after the mandatory waiting period.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Rani Mukherjee",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-029",
+    "raw_denial_paragraph": "Your claim is denied under the 24-month specific disease waiting period clause. Benign Prostatic Hyperplasia falls under the list of specified diseases requiring completion of the waiting period.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Ravi Menon",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-030",
+    "raw_denial_paragraph": "Non-disclosure of pre-existing Type 2 Diabetes Mellitus detected during claim investigation. The proposal form did not mention this condition.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Prakash Choudhury",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-031",
+    "raw_denial_paragraph": "Your claim for treatment of Atrial Fibrillation has been denied as it is classified as a pre-existing disease. The 48-month waiting period has not been completed.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Saroja Nambiar",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-032",
+    "raw_denial_paragraph": "Claim repudiated: COPD was pre-existing at the time of policy inception. Waiting period of 48 months not served.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Asha Tiwari",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-033",
+    "raw_denial_paragraph": "The condition Diabetic Retinopathy is deemed pre-existing based on medical records predating the policy inception. Coverage will begin after the mandatory waiting period.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Mahesh Yadav",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-034",
+    "raw_denial_paragraph": "Your claim is denied under the 24-month specific disease waiting period clause. Hypothyroidism falls under the list of specified diseases requiring completion of the waiting period.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Vanaja Kurian",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-035",
+    "raw_denial_paragraph": "Non-disclosure of pre-existing Type 2 Diabetes Mellitus detected during claim investigation. The proposal form did not mention this condition.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Deepa Iyer",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-036",
+    "raw_denial_paragraph": "Your claim for treatment of Atrial Fibrillation has been denied as it is classified as a pre-existing disease. The 48-month waiting period has not been completed.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Vikram Singh",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-037",
+    "raw_denial_paragraph": "Claim repudiated: Chronic Kidney Disease was pre-existing at the time of policy inception. Waiting period of 48 months not served.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Suresh Patel",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-038",
+    "raw_denial_paragraph": "The condition Chronic Kidney Disease is deemed pre-existing based on medical records predating the policy inception. Coverage will begin after the mandatory waiting period.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Hema Sundaram",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-039",
+    "raw_denial_paragraph": "Your claim is denied under the 24-month specific disease waiting period clause. Essential Hypertension falls under the list of specified diseases requiring completion of the waiting period.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Rajeev Bansal",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-040",
+    "raw_denial_paragraph": "Non-disclosure of pre-existing Benign Prostatic Hyperplasia detected during claim investigation. The proposal form did not mention this condition.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Rajeev Bansal",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-041",
+    "raw_denial_paragraph": "Your claim for Total Hip Replacement is excluded under the permanent exclusions section of your policy. This treatment falls under the list of excluded procedures.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Rekha Bhat",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-042",
+    "raw_denial_paragraph": "Claim denied: Treatment for COPD is permanently excluded under the policy terms. This includes self-inflicted injuries and substance abuse related conditions.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Suresh Patel",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-043",
+    "raw_denial_paragraph": "The claimed dental treatment is excluded under your health insurance policy as it does not arise from an accident.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Deepa Iyer",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-044",
+    "raw_denial_paragraph": "Infertility treatments including IVF are excluded under the base health insurance plan. A separate fertility rider was not purchased.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Jaya Kamath",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-045",
+    "raw_denial_paragraph": "AYUSH (Ayurveda, Unani, Siddha, Homeopathy) treatments are not covered under your current policy plan.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Gopal Mehta",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-046",
+    "raw_denial_paragraph": "Your claim for Lumbar Spinal Fusion is excluded under the permanent exclusions section of your policy. This treatment falls under the list of excluded procedures.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Rekha Bhat",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-047",
+    "raw_denial_paragraph": "Claim denied: Treatment for COPD is permanently excluded under the policy terms. This includes self-inflicted injuries and substance abuse related conditions.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Vanaja Kurian",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-048",
+    "raw_denial_paragraph": "The claimed dental treatment is excluded under your health insurance policy as it does not arise from an accident.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Arun Nair",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-049",
+    "raw_denial_paragraph": "Infertility treatments including IVF are excluded under the base health insurance plan. A separate fertility rider was not purchased.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Deepa Iyer",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-050",
+    "raw_denial_paragraph": "AYUSH (Ayurveda, Unani, Siddha, Homeopathy) treatments are not covered under your current policy plan.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Vijay Khanna",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-051",
+    "raw_denial_paragraph": "Your claim for Craniotomy for Tumor is excluded under the permanent exclusions section of your policy. This treatment falls under the list of excluded procedures.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Hema Sundaram",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-052",
+    "raw_denial_paragraph": "Claim denied: Treatment for Type 2 Diabetes Mellitus is permanently excluded under the policy terms. This includes self-inflicted injuries and substance abuse related conditions.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Amit Verma",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-053",
+    "raw_denial_paragraph": "The claimed dental treatment is excluded under your health insurance policy as it does not arise from an accident.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Alok Tripathi",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-054",
+    "raw_denial_paragraph": "Infertility treatments including IVF are excluded under the base health insurance plan. A separate fertility rider was not purchased.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Mohan Das",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-055",
+    "raw_denial_paragraph": "AYUSH (Ayurveda, Unani, Siddha, Homeopathy) treatments are not covered under your current policy plan.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Savita Hegde",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-056",
+    "raw_denial_paragraph": "Your claim for Mastectomy (Breast Cancer) is excluded under the permanent exclusions section of your policy. This treatment falls under the list of excluded procedures.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Hema Sundaram",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-057",
+    "raw_denial_paragraph": "Claim denied: Treatment for COPD is permanently excluded under the policy terms. This includes self-inflicted injuries and substance abuse related conditions.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Hema Sundaram",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-058",
+    "raw_denial_paragraph": "The claimed dental treatment is excluded under your health insurance policy as it does not arise from an accident.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Rani Mukherjee",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-059",
+    "raw_denial_paragraph": "Infertility treatments including IVF are excluded under the base health insurance plan. A separate fertility rider was not purchased.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Harish Pandey",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-060",
+    "raw_denial_paragraph": "AYUSH (Ayurveda, Unani, Siddha, Homeopathy) treatments are not covered under your current policy plan.",
+    "ground_truth_category": "POLICY_EXCLUSION",
+    "patient_name": "Pavan Kumar B",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-061",
+    "raw_denial_paragraph": "Your claim amount exceeds the remaining sum insured for this policy year. The admissible amount has been limited to the available balance.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Naresh Biswas",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-062",
+    "raw_denial_paragraph": "Room charges of Rs. 5000/day exceed the per-day limit of Rs. 4000/day. Proportionate deduction has been applied to all related expenses.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Hema Sundaram",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-063",
+    "raw_denial_paragraph": "The claimed amount is below the mandatory deductible/excess threshold of Rs. 50000. No amount is payable.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Rajesh Gupta",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-064",
+    "raw_denial_paragraph": "Non-medical expenses totaling Rs. 2500 have been deducted as per IRDAI guidelines on NME items.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Meera Reddy",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-065",
+    "raw_denial_paragraph": "A mandatory co-payment of 5% has been applied to the admissible claim amount as per policy terms.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Meera Reddy",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-066",
+    "raw_denial_paragraph": "Your claim amount exceeds the remaining sum insured for this policy year. The admissible amount has been limited to the available balance.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Hema Sundaram",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-067",
+    "raw_denial_paragraph": "Room charges of Rs. 5000/day exceed the per-day limit of Rs. 4000/day. Proportionate deduction has been applied to all related expenses.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Vijay Khanna",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-068",
+    "raw_denial_paragraph": "The claimed amount is below the mandatory deductible/excess threshold of Rs. 25000. No amount is payable.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Mahesh Yadav",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-069",
+    "raw_denial_paragraph": "Non-medical expenses totaling Rs. 8000 have been deducted as per IRDAI guidelines on NME items.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Ramesh Kumar",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-070",
+    "raw_denial_paragraph": "A mandatory co-payment of 5% has been applied to the admissible claim amount as per policy terms.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Vijay Khanna",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-071",
+    "raw_denial_paragraph": "Your claim amount exceeds the remaining sum insured for this policy year. The admissible amount has been limited to the available balance.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Rajesh Gupta",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-072",
+    "raw_denial_paragraph": "Room charges of Rs. 8000/day exceed the per-day limit of Rs. 4000/day. Proportionate deduction has been applied to all related expenses.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Mohan Das",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-073",
+    "raw_denial_paragraph": "The claimed amount is below the mandatory deductible/excess threshold of Rs. 10000. No amount is payable.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Asha Tiwari",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-074",
+    "raw_denial_paragraph": "Non-medical expenses totaling Rs. 8000 have been deducted as per IRDAI guidelines on NME items.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Ashok Malhotra",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-075",
+    "raw_denial_paragraph": "A mandatory co-payment of 5% has been applied to the admissible claim amount as per policy terms.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Pooja Kapoor",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-076",
+    "raw_denial_paragraph": "Your claim amount exceeds the remaining sum insured for this policy year. The admissible amount has been limited to the available balance.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Naresh Biswas",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-077",
+    "raw_denial_paragraph": "Room charges of Rs. 5000/day exceed the per-day limit of Rs. 2000/day. Proportionate deduction has been applied to all related expenses.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Sanjay Desai",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-078",
+    "raw_denial_paragraph": "The claimed amount is below the mandatory deductible/excess threshold of Rs. 10000. No amount is payable.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Pooja Kapoor",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-079",
+    "raw_denial_paragraph": "Non-medical expenses totaling Rs. 8000 have been deducted as per IRDAI guidelines on NME items.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Indira Rajan",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-080",
+    "raw_denial_paragraph": "A mandatory co-payment of 5% has been applied to the admissible claim amount as per policy terms.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
+    "patient_name": "Padma Srinivasan",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-081",
+    "raw_denial_paragraph": "Your claim cannot be processed due to missing discharge summary from Amrita Hospital, Kochi. Please submit the complete hospital discharge report.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Naresh Biswas",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-082",
+    "raw_denial_paragraph": "Itemized hospital bills with detailed breakup of charges have not been provided. The claim is on hold pending documentation.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Jaya Kamath",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-083",
+    "raw_denial_paragraph": "Pre-authorization was not obtained before the planned hospitalization. This is mandatory for elective procedures under your policy.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Venkatesh Murthy",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-084",
+    "raw_denial_paragraph": "The claim form is incomplete and contains discrepancies between the dates mentioned and the hospital records.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Asha Tiwari",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-085",
+    "raw_denial_paragraph": "Diagnostic investigation reports (lab reports, radiology) required for claim assessment have not been submitted.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Rekha Bhat",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-086",
+    "raw_denial_paragraph": "Your claim cannot be processed due to missing discharge summary from Narayana Health, Bangalore. Please submit the complete hospital discharge report.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Neha Agarwal",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-087",
+    "raw_denial_paragraph": "Itemized hospital bills with detailed breakup of charges have not been provided. The claim is on hold pending documentation.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Deepa Iyer",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-088",
+    "raw_denial_paragraph": "Pre-authorization was not obtained before the planned hospitalization. This is mandatory for elective procedures under your policy.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Pavan Kumar B",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-089",
+    "raw_denial_paragraph": "The claim form is incomplete and contains discrepancies between the dates mentioned and the hospital records.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Naresh Biswas",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-090",
+    "raw_denial_paragraph": "Diagnostic investigation reports (lab reports, radiology) required for claim assessment have not been submitted.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Ravi Menon",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-091",
+    "raw_denial_paragraph": "Your claim cannot be processed due to missing discharge summary from Amrita Hospital, Kochi. Please submit the complete hospital discharge report.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Saroja Nambiar",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-092",
+    "raw_denial_paragraph": "Itemized hospital bills with detailed breakup of charges have not been provided. The claim is on hold pending documentation.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Meera Reddy",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-093",
+    "raw_denial_paragraph": "Pre-authorization was not obtained before the planned hospitalization. This is mandatory for elective procedures under your policy.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Asha Tiwari",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-094",
+    "raw_denial_paragraph": "The claim form is incomplete and contains discrepancies between the dates mentioned and the hospital records.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Saroja Nambiar",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-095",
+    "raw_denial_paragraph": "Diagnostic investigation reports (lab reports, radiology) required for claim assessment have not been submitted.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Rekha Bhat",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-096",
+    "raw_denial_paragraph": "Your claim cannot be processed due to missing discharge summary from Tata Memorial Hospital, Mumbai. Please submit the complete hospital discharge report.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Rajeev Bansal",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-097",
+    "raw_denial_paragraph": "Itemized hospital bills with detailed breakup of charges have not been provided. The claim is on hold pending documentation.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Naresh Biswas",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-098",
+    "raw_denial_paragraph": "Pre-authorization was not obtained before the planned hospitalization. This is mandatory for elective procedures under your policy.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Meera Reddy",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-099",
+    "raw_denial_paragraph": "The claim form is incomplete and contains discrepancies between the dates mentioned and the hospital records.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Jaya Kamath",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-100",
+    "raw_denial_paragraph": "Diagnostic investigation reports (lab reports, radiology) required for claim assessment have not been submitted.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Mohan Das",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-101",
+    "raw_denial_paragraph": "Your claim has been denied as it was submitted 45 days after discharge, exceeding the stipulated 30-day filing window.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Pavan Kumar B",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-102",
+    "raw_denial_paragraph": "Hospitalization was not intimated to the TPA within 48 hours as required under the policy terms.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Harish Pandey",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-103",
+    "raw_denial_paragraph": "Treatment was taken at a non-network hospital without emergency justification or prior approval.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Mohan Das",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-104",
+    "raw_denial_paragraph": "Policy premium was not paid within the grace period. The policy was lapsed at the time of hospitalization.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Amit Verma",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-105",
+    "raw_denial_paragraph": "This appears to be a duplicate claim. A claim for the same hospitalization has already been processed under another policy.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Rani Mukherjee",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-106",
+    "raw_denial_paragraph": "Your claim has been denied as it was submitted 90 days after discharge, exceeding the stipulated 30-day filing window.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Girish Kaul",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-107",
+    "raw_denial_paragraph": "Hospitalization was not intimated to the TPA within 48 hours as required under the policy terms.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Deepa Iyer",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-108",
+    "raw_denial_paragraph": "Treatment was taken at a non-network hospital without emergency justification or prior approval.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Padma Srinivasan",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-109",
+    "raw_denial_paragraph": "Policy premium was not paid within the grace period. The policy was lapsed at the time of hospitalization.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Neha Agarwal",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-110",
+    "raw_denial_paragraph": "This appears to be a duplicate claim. A claim for the same hospitalization has already been processed under another policy.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Lakshmi Rao",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-111",
+    "raw_denial_paragraph": "Your claim has been denied as it was submitted 45 days after discharge, exceeding the stipulated 30-day filing window.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Asha Tiwari",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-112",
+    "raw_denial_paragraph": "Hospitalization was not intimated to the TPA within 48 hours as required under the policy terms.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Sanjay Desai",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-113",
+    "raw_denial_paragraph": "Treatment was taken at a non-network hospital without emergency justification or prior approval.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Rani Mukherjee",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-114",
+    "raw_denial_paragraph": "Policy premium was not paid within the grace period. The policy was lapsed at the time of hospitalization.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Geeta Pillai",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-115",
+    "raw_denial_paragraph": "This appears to be a duplicate claim. A claim for the same hospitalization has already been processed under another policy.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Geeta Pillai",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-116",
+    "raw_denial_paragraph": "Your claim has been denied as it was submitted 90 days after discharge, exceeding the stipulated 30-day filing window.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Venkatesh Murthy",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-117",
+    "raw_denial_paragraph": "Hospitalization was not intimated to the TPA within 48 hours as required under the policy terms.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Suresh Patel",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-118",
+    "raw_denial_paragraph": "Treatment was taken at a non-network hospital without emergency justification or prior approval.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Mahesh Yadav",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-119",
+    "raw_denial_paragraph": "Policy premium was not paid within the grace period. The policy was lapsed at the time of hospitalization.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Kavita Joshi",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-120",
+    "raw_denial_paragraph": "This appears to be a duplicate claim. A claim for the same hospitalization has already been processed under another policy.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "patient_name": "Girish Kaul",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G9-121",
+    "raw_denial_paragraph": "The policy was not in force on the date of hospitalization. Your coverage had expired 90 days prior to admission.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Ravi Menon",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-122",
+    "raw_denial_paragraph": "The claimant is not listed as an insured member under the active policy. Only the primary policyholder and declared dependents are covered.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Mohan Das",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-123",
+    "raw_denial_paragraph": "Outpatient (OPD) consultation expenses are not covered under your hospitalization policy.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Gopal Mehta",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-124",
+    "raw_denial_paragraph": "The claimed day care procedure is not listed in the approved day care procedures list under your policy.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Kishore Sinha",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-125",
+    "raw_denial_paragraph": "Hospitalization was less than 24 hours and the procedure does not qualify as an approved day care treatment.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Mohan Das",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-126",
+    "raw_denial_paragraph": "The policy was not in force on the date of hospitalization. Your coverage had expired 45 days prior to admission.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Harish Pandey",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-127",
+    "raw_denial_paragraph": "The claimant is not listed as an insured member under the active policy. Only the primary policyholder and declared dependents are covered.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Suresh Patel",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-128",
+    "raw_denial_paragraph": "Outpatient (OPD) consultation expenses are not covered under your hospitalization policy.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Kishore Sinha",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G9-129",
+    "raw_denial_paragraph": "The claimed day care procedure is not listed in the approved day care procedures list under your policy.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Lakshmi Rao",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-130",
+    "raw_denial_paragraph": "Hospitalization was less than 24 hours and the procedure does not qualify as an approved day care treatment.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Harish Pandey",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-131",
+    "raw_denial_paragraph": "The policy was not in force on the date of hospitalization. Your coverage had expired 90 days prior to admission.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Lakshmi Rao",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-132",
+    "raw_denial_paragraph": "The claimant is not listed as an insured member under the active policy. Only the primary policyholder and declared dependents are covered.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Rajeev Bansal",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-133",
+    "raw_denial_paragraph": "Outpatient (OPD) consultation expenses are not covered under your hospitalization policy.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Dinesh Saxena",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-134",
+    "raw_denial_paragraph": "The claimed day care procedure is not listed in the approved day care procedures list under your policy.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Mahesh Yadav",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G9-135",
+    "raw_denial_paragraph": "Hospitalization was less than 24 hours and the procedure does not qualify as an approved day care treatment.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Savita Hegde",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G9-136",
+    "raw_denial_paragraph": "The policy was not in force on the date of hospitalization. Your coverage had expired 45 days prior to admission.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Rani Mukherjee",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G9-137",
+    "raw_denial_paragraph": "The claimant is not listed as an insured member under the active policy. Only the primary policyholder and declared dependents are covered.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Vijay Khanna",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-138",
+    "raw_denial_paragraph": "Outpatient (OPD) consultation expenses are not covered under your hospitalization policy.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Priya Sharma",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G9-139",
+    "raw_denial_paragraph": "The claimed day care procedure is not listed in the approved day care procedures list under your policy.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Rekha Bhat",
+    "source_product": "Health Booster"
+  },
+  {
+    "case_id": "G9-140",
+    "raw_denial_paragraph": "Hospitalization was less than 24 hours and the procedure does not qualify as an approved day care treatment.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Lakshmi Rao",
+    "source_product": "Health Booster"
+  }
+]

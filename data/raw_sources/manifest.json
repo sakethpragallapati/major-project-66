@@ -1,0 +1,149 @@
+{
+  "title": "Raw Datasets Registry & Ingestion Manifest",
+  "description": "Upstream source repositories and public records sampled to build the Denial Appeal Knowledge Base and Evaluation Benchmarks.",
+  "directory": "c:\\Users\\Saketh\\Desktop\\Major Project\\data\\raw_sources",
+  "sources": {
+    "D10_Persius_IMR_Appeals": {
+      "status": "DOWNLOADED",
+      "source": "Hugging Face (Persius/imr-appeals)",
+      "file": "persius_imr_appeals_sample.jsonl",
+      "records": 100
+    },
+    "D6_IBM_Policy_Rules": {
+      "status": "DOWNLOADED",
+      "source": "GitHub (IBM/rules_extraction_from_healthcare_policy)",
+      "file": "ibm_benefit_rules.json",
+      "records": 51
+    },
+    "D9_CA_DMHC_IMR_Trend": {
+      "status": "DOWNLOADED",
+      "source": "California HHS Open Data Portal",
+      "file": "ca_dmhc_imr_sample.csv",
+      "records": 199
+    },
+    "D8_CARC_RARC_Codes": {
+      "status": "INGESTED",
+      "source": "X12 / CMS Standard Healthcare Codes",
+      "file": "carc_rarc_raw.json",
+      "records": 20
+    },
+    "D11_CIO_Ombudsman_Cases": {
+      "status": "INGESTED",
+      "source": "cioins.co.in / Indian Kanoon Legal Precedents",
+      "file": "ombudsman_ped_cases_raw.json",
+      "records": 3
+    },
+    "D13_IRDAI_Repudiation_Norms": {
+      "status": "INGESTED",
+      "source": "IRDAI Health Master Circulars",
+      "file": "irdai_repudiation_template.json",
+      "records": 1
+    },
+    "D7_Policy_Wordings": {
+      "status": "INGESTED_LOCAL",
+      "source": "Insurer Official Portals (Recursive Directory Search)",
+      "directory": "c:\\Users\\Saketh\\Desktop\\Major Project\\data\\policy_wordings",
+      "total_pdfs": 13,
+      "total_insurers": 4,
+      "insurers": [
+        "Care Health",
+        "HDFC ERGO",
+        "ICICI Lombard",
+        "Star Health"
+      ],
+      "inventory": [
+        {
+          "filename": "care---policy-terms-&-conditions-(effective-from-21-march-2026).pdf",
+          "insurer": "Care Health",
+          "product": "Care",
+          "rel_path": "Care Health\\care---policy-terms-&-conditions-(effective-from-21-march-2026).pdf",
+          "size_kb": 2053.2
+        },
+        {
+          "filename": "care-supreme---policy-terms-&-conditions-(effective-from-29-april-2026).pdf",
+          "insurer": "Care Health",
+          "product": "Care Supreme",
+          "rel_path": "Care Health\\care-supreme---policy-terms-&-conditions-(effective-from-29-april-2026).pdf",
+          "size_kb": 2171.2
+        },
+        {
+          "filename": "hdfc-optima-restore.pdf",
+          "insurer": "HDFC ERGO",
+          "product": "Optima Restore",
+          "rel_path": "HDFC ERGO\\hdfc-optima-restore.pdf",
+          "size_kb": 755.5
+        },
+        {
+          "filename": "hdfc-optima-secure.pdf",
+          "insurer": "HDFC ERGO",
+          "product": "my:Optima Secure",
+          "rel_path": "HDFC ERGO\\hdfc-optima-secure.pdf",
+          "size_kb": 904.2
+        },
+        {
+          "filename": "arogya-sanjeevani.pdf",
+          "insurer": "ICICI Lombard",
+          "product": "Arogya Sanjeevani",
+          "rel_path": "ICICI Lombard\\arogya-sanjeevani.pdf",
+          "size_kb": 536.5
+        },
+        {
+          "filename": "complete-health-insurance.pdf",
+          "insurer": "ICICI Lombard",
+          "product": "Complete Health Insurance",
+          "rel_path": "ICICI Lombard\\complete-health-insurance.pdf",
+          "size_kb": 406.6
+        },
+        {
+          "filename": "elevate.pdf",
+          "insurer": "ICICI Lombard",
+          "product": "Elevate Health",
+          "rel_path": "ICICI Lombard\\elevate.pdf",
+          "size_kb": 1597.7
+        },
+        {
+          "filename": "health-advantedge8c0007ff45fd68ff8a0df0055fa75ed5.pdf",
+          "insurer": "ICICI Lombard",
+          "product": "Health AdvantEdge",
+          "rel_path": "ICICI Lombard\\health-advantedge8c0007ff45fd68ff8a0df0055fa75ed5.pdf",
+          "size_kb": 1282.2
+        },
+        {
+          "filename": "health-booster8c0007ff45fd68ff8a0df0055fa75fa4.pdf",
+          "insurer": "ICICI Lombard",
+          "product": "Health Booster",
+          "rel_path": "ICICI Lombard\\health-booster8c0007ff45fd68ff8a0df0055fa75fa4.pdf",
+          "size_kb": 612.0
+        },
+        {
+          "filename": "health-shield-360-retail_icihlip23165v012223_policy-wording.pdf",
+          "insurer": "ICICI Lombard",
+          "product": "Health Shield 360",
+          "rel_path": "ICICI Lombard\\health-shield-360-retail_icihlip23165v012223_policy-wording.pdf",
+          "size_kb": 1279.5
+        },
+        {
+          "filename": "max-protect.pdf",
+          "insurer": "ICICI Lombard",
+          "product": "Max Protect",
+          "rel_path": "ICICI Lombard\\max-protect.pdf",
+          "size_kb": 878.2
+        },
+        {
+          "filename": "star-comprehensive.pdf",
+          "insurer": "Star Health",
+          "product": "Star Comprehensive",
+          "rel_path": "STAR\\star-comprehensive.pdf",
+          "size_kb": 2052.4
+        },
+        {
+          "filename": "star-family-health-optima.pdf",
+          "insurer": "Star Health",
+          "product": "Family Health Optima",
+          "rel_path": "STAR\\star-family-health-optima.pdf",
+          "size_kb": 1242.8
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+Policy Extraction & Healthcare Claims Automation
+A curated reference list on extracting actionable knowledge from policy text and automating healthcare
+claims processing.
+Policy Extraction
+1. López et al. — Towards Protecting Vital Healthcare Programs by Extracting Actionable Knowledge
+from Policy (ACL Findings 2021)
+https://doi.org/10.18653/v1/2021.findings-acl.308
+2. Picco et al. — Learning Insurance Benefit Rules from Policy Texts with Small Labeled Data (2022)
+https://doi.org/10.3233/SHTI220081
+Medical–Policy Linking
+3. KAMEL — Knowledge Aware Medical Entity Linkage to Automate Health Insurance Claims
+Processing (AAAI 2024)
+https://doi.org/10.1609/aaai.v38i21.30314
+4. Knowledge Aware Automated Health Claims Processing with Medical Ontologies and Large
+Language Models (AAAI Fall Symposium 2024)
+https://doi.org/10.1609/aaaiss.v4i1.31794
+Evidence Reasoning
+5. Pandey et al. — Advancing Healthcare Automation: Multi-Agent System for Medical Necessity
+Justification (2024)
+https://doi.org/10.48550/arXiv.2404.17977
+6. Ahsan et al. — Retrieving Evidence from EHRs with LLMs: Possibilities and Challenges (2023)
+https://doi.org/10.48550/arXiv.2309.04550
+Claims Compliance
+7. Sbodio et al. — Collaborative Artificial Intelligence System for Investigation of Healthcare Claims
+Compliance (Scientific Reports 2024)
+https://doi.org/10.1038/s41598-024-62665-0
+8. Kumar et al. — Data Mining to Predict and Prevent Errors in Health Insurance Claims Processing
+(SIGKDD 2010)
+https://doi.org/10.1145/1835804.1835816
+Argumentative Reasoning
+
+9. Liu et al. — InsLogicBench: An Argumentation Logic Grounded Benchmark for Complex Insurance
+Claims Adjudication (ACL 2026)
+https://doi.org/10.18653/v1/2026.acl-long.1035
+Policy-to-Logic
+10. Pokharel et al. — From Policy to Logic for Efficient and Interpretable Coverage Assessment (2026)
+https://doi.org/10.48550/arXiv.2601.01266
+Appeal Generation
+11. Kiser et al. — Large Language Models to Help Appeal Denied Radiotherapy Services (2024)
+https://doi.org/10.1200/CCI.24.00129
+12. DENIED-AI Pilot Study — Decreasing Administrative Effort Related to Non-Approval of
+Image-guided Procedures Using Large Language Models (2026)
+https://doi.org/10.1016/j.acra.2026.04.021
+Denial Triage
+13. Owolabi — Transforming Appeal Decisions: Machine Learning Triage for Hospital Admission
+Denials
+https://doi.org/10.1093/jamiaopen/ooaf016

@@ -1,0 +1,121 @@
+item_id,item_name,category,typically_excluded
+NME-001,Admission Kit / Welcome Kit,Consumables,True
+NME-002,Gown / Pajama / Patient Dress,Consumables,True
+NME-003,"Toiletries (Soap, Toothpaste, Toothbrush)",Consumables,True
+NME-004,Slippers / Footwear,Consumables,True
+NME-005,Tissue Paper / Paper Towels,Consumables,True
+NME-006,Sanitary Pads / Diapers (Adult),Consumables,True
+NME-007,Face Mask (Non-Surgical),Consumables,True
+NME-008,Hand Gloves (Non-Surgical),Consumables,True
+NME-009,Cap / Shoe Cover (Non-OT),Consumables,True
+NME-010,Cotton Balls / Cotton Roll,Consumables,False
+NME-011,Gauze / Bandage (Regular Dressing),Consumables,False
+NME-012,Micropore Tape / Surgical Tape,Consumables,False
+NME-013,Extra Diet / Special Meal Charges,Food & Beverage,True
+NME-014,Mineral Water / Packaged Drinking Water,Food & Beverage,True
+NME-015,Guest Meal / Attendant Food Charges,Food & Beverage,True
+NME-016,Tea / Coffee / Juice (Non-Dietary),Food & Beverage,True
+NME-017,Fruit Basket / Dry Fruits (Complimentary),Food & Beverage,True
+NME-018,Extra Bed / Attendant Bed Charges,Room Amenities,True
+NME-019,Laundry / Linen Charges,Room Amenities,True
+NME-020,Room Freshener / Mosquito Repellent,Room Amenities,True
+NME-021,TV / Cable / Entertainment Charges,Room Amenities,True
+NME-022,Wi-Fi / Internet Charges,Room Amenities,True
+NME-023,Telephone / STD / ISD Charges,Room Amenities,True
+NME-024,Newspaper / Magazine Charges,Room Amenities,True
+NME-025,Room Heater / Air Cooler Charges,Room Amenities,True
+NME-026,Registration / Admission Charges,Administrative,False
+NME-027,Service Charge (on Room),Administrative,True
+NME-028,Surcharge on Billing,Administrative,True
+NME-029,Medical Records / Report Charges,Administrative,True
+NME-030,Medical Certificate / Fitness Certificate,Administrative,True
+NME-031,Documentation / Courier / Postal Charges,Administrative,True
+NME-032,Convenience Charges / Facility Fee,Administrative,True
+NME-033,Attendant / Visitor Pass Charges,Administrative,True
+NME-034,Credit Card / Processing Fee,Administrative,True
+NME-035,Surgical Gloves (Sterile),Surgical Consumables,False
+NME-036,Surgical Drapes / Gowns (OT),Surgical Consumables,False
+NME-037,Suture Material / Staples,Surgical Consumables,False
+NME-038,Catheter (Foley / IV / Central Line),Surgical Consumables,False
+NME-039,Syringe / Needle / Cannula,Surgical Consumables,False
+NME-040,IV Infusion Set / Blood Transfusion Set,Surgical Consumables,False
+NME-041,Urine Bag / Collection Container,Surgical Consumables,False
+NME-042,Ryles Tube / NG Tube,Surgical Consumables,False
+NME-043,Oxygen Mask / Nasal Prongs,Surgical Consumables,False
+NME-044,Nebulizer Kit / Circuit,Surgical Consumables,False
+NME-045,ECG Electrodes / Monitoring Patches,Surgical Consumables,False
+NME-046,Pulse Oximeter Probe (Disposable),Surgical Consumables,False
+NME-047,Endotracheal Tube / LMA,Surgical Consumables,False
+NME-048,Surgical Blade / Scalpel (Disposable),Surgical Consumables,False
+NME-049,Drain Tube / Chest Tube,Surgical Consumables,False
+NME-050,Sterile Water / Normal Saline (for Irrigation),Surgical Consumables,False
+NME-051,Knee Implant (TKR),Implants,False
+NME-052,Hip Implant (THR),Implants,False
+NME-053,Coronary Stent (Drug Eluting),Implants,False
+NME-054,Pacemaker / ICD,Implants,False
+NME-055,Intraocular Lens (IOL),Implants,False
+NME-056,"Spinal Instrumentation (Screws, Rods, Cage)",Implants,False
+NME-057,Orthopedic Plates / Screws / Nails,Implants,False
+NME-058,Hernia Mesh (Synthetic),Implants,False
+NME-059,Cochlear Implant,Implants,False
+NME-060,Vitamins / Nutritional Supplements (Non-Prescription),Pharmacy,True
+NME-061,Creams / Ointments / Lotions (Cosmetic),Pharmacy,True
+NME-062,Protein Powder / Nutritional Drink,Pharmacy,True
+NME-063,Hand Sanitizer / Disinfectant (Patient Use),Pharmacy,True
+NME-064,Cold Pack / Hot Pack,Pharmacy,True
+NME-065,Elastic Bandage / Crepe Bandage,Pharmacy,False
+NME-066,Walking Aid / Walker,Equipment,True
+NME-067,Wheelchair (Take-Home),Equipment,True
+NME-068,Cervical Collar / Lumbar Belt,Equipment,True
+NME-069,Knee Brace / Ankle Support,Equipment,True
+NME-070,CPAP / BiPAP Machine (Take-Home),Equipment,True
+NME-071,Glucometer / BP Monitor (Take-Home),Equipment,True
+NME-072,Ambulance Charges (Non-Emergency),Miscellaneous,True
+NME-073,Parking Charges,Miscellaneous,True
+NME-074,Baby Kit / Nursery Charges,Miscellaneous,True
+NME-075,Photography / CCTV charges,Miscellaneous,True
+NME-076,Housekeeping / Cleaning Charges,Miscellaneous,True
+NME-077,Bio-Hazard / Waste Disposal Fee,Miscellaneous,True
+NME-078,Blood Grouping & Cross Match,Lab - Routine,False
+NME-079,ECG Recording,Diagnostics,False
+NME-080,Chest X-Ray,Diagnostics,False
+NME-081,Pre-Anesthesia Evaluation,Anesthesia,False
+NME-082,OT Charges / OT Equipment Usage,Operating Theatre,False
+NME-083,Anesthesiologist Fee,Anesthesia,False
+NME-084,Surgeon Fee,Professional Fees,False
+NME-085,Consultation Fee (Specialist),Professional Fees,False
+NME-086,Nursing Charges,Nursing,False
+NME-087,ICU Charges (Per Day),ICU,False
+NME-088,Ventilator Charges (Per Hour),ICU,False
+NME-089,Blood / Blood Products Charges,Blood Bank,False
+NME-090,Central Sterile Supply Department (CSSD),Sterilization,False
+NME-091,PPE Kit (COVID / Infection Control),Infection Control,True
+NME-092,Antigen / RT-PCR Test (Mandatory Pre-Admission),Diagnostics,False
+NME-093,Isolation Room Surcharge,Room Amenities,True
+NME-094,Telehealth / Virtual Consultation Fee,Telemedicine,True
+NME-095,Second Opinion / Remote Specialist Consultation,Telemedicine,True
+NME-096,Physiotherapy Session (In-Hospital),Rehabilitation,False
+NME-097,Occupational Therapy Session,Rehabilitation,False
+NME-098,Speech Therapy Session,Rehabilitation,False
+NME-099,Dietician Consultation,Allied Health,True
+NME-100,Psychologist / Counselor Session,Allied Health,True
+NME-101,Antiseptic Solution (Betadine / Chlorhexidine),Pharmacy,False
+NME-102,Eye Drops / Ear Drops (Post-Surgical),Pharmacy,False
+NME-103,Insulin Pen / Needle (Take-Home),Pharmacy,True
+NME-104,Compression Stockings (DVT Prophylaxis),Equipment,False
+NME-105,Abdominal Binder (Post-Surgery),Equipment,False
+NME-106,AC Charges (Separate from Room),Room Amenities,True
+NME-107,Generator / Power Backup Charges,Room Amenities,True
+NME-108,Water Purifier / RO Charges,Room Amenities,True
+NME-109,Lift / Elevator Usage Charges,Miscellaneous,True
+NME-110,Gas Pipeline Charges (Oxygen / Nitrous),Miscellaneous,False
+NME-111,Fumigation Charges,Infection Control,True
+NME-112,Patient Identification Band / Wristband,Consumables,True
+NME-113,Emergency / After-Hours Surcharge,Administrative,True
+NME-114,Night Charges / Holiday Surcharge,Administrative,True
+NME-115,MLC / Police Verification Charges,Administrative,True
+NME-116,Death Certificate / Birth Certificate Charges,Administrative,True
+NME-117,Embalming Charges,Miscellaneous,True
+NME-118,Mortuary Charges,Miscellaneous,True
+NME-119,Hearse Van / Body Transfer Charges,Miscellaneous,True
+NME-120,Organ Retrieval / Preservation Charges,Transplant,False

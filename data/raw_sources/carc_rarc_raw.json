@@ -1,0 +1,122 @@
+[
+  {
+    "code": "PR-1",
+    "type": "CARC",
+    "description": "Deductible Amount",
+    "category": "FINANCIAL_LIMIT"
+  },
+  {
+    "code": "PR-2",
+    "type": "CARC",
+    "description": "Coinsurance Amount",
+    "category": "FINANCIAL_LIMIT"
+  },
+  {
+    "code": "PR-3",
+    "type": "CARC",
+    "description": "Co-payment Amount",
+    "category": "FINANCIAL_LIMIT"
+  },
+  {
+    "code": "CO-4",
+    "type": "CARC",
+    "description": "The procedure code is inconsistent with the modifier used or a required modifier is missing.",
+    "category": "DOCUMENTATION"
+  },
+  {
+    "code": "CO-16",
+    "type": "CARC",
+    "description": "Claim/service lacks information or has submission/billing error(s).",
+    "category": "DOCUMENTATION"
+  },
+  {
+    "code": "CO-18",
+    "type": "CARC",
+    "description": "Exact duplicate claim/service.",
+    "category": "ADMINISTRATIVE_PROCEDURAL"
+  },
+  {
+    "code": "CO-29",
+    "type": "CARC",
+    "description": "The time limit for filing has expired.",
+    "category": "ADMINISTRATIVE_PROCEDURAL"
+  },
+  {
+    "code": "CO-35",
+    "type": "CARC",
+    "description": "Lifetime benefit maximum has been reached.",
+    "category": "FINANCIAL_LIMIT"
+  },
+  {
+    "code": "CO-50",
+    "type": "CARC",
+    "description": "These are non-covered services because this is not deemed a 'medical necessity' by the payer.",
+    "category": "MEDICAL_NECESSITY"
+  },
+  {
+    "code": "CO-57",
+    "type": "CARC",
+    "description": "Decision based on medical review: lack of sufficient clinical records.",
+    "category": "MEDICAL_NECESSITY"
+  },
+  {
+    "code": "CO-96",
+    "type": "CARC",
+    "description": "Non-covered charge(s). At least one Remark Code must be provided.",
+    "category": "POLICY_EXCLUSION"
+  },
+  {
+    "code": "CO-119",
+    "type": "CARC",
+    "description": "Benefit maximum for this time period or occurrence has been reached.",
+    "category": "FINANCIAL_LIMIT"
+  },
+  {
+    "code": "CO-149",
+    "type": "CARC",
+    "description": "Lifetime benefit maximum has been reached for this specific service.",
+    "category": "FINANCIAL_LIMIT"
+  },
+  {
+    "code": "CO-197",
+    "type": "CARC",
+    "description": "Pre-certification/authorization/prior-approval was absent or deficient.",
+    "category": "ADMINISTRATIVE_PROCEDURAL"
+  },
+  {
+    "code": "CO-204",
+    "type": "CARC",
+    "description": "This service/equipment/drug is not covered under the patient's current benefit plan.",
+    "category": "ELIGIBILITY_COVERAGE"
+  },
+  {
+    "code": "CO-252",
+    "type": "CARC",
+    "description": "Pre-existing condition clause waiting period has not elapsed.",
+    "category": "PRE_EXISTING_WAITING_PERIOD"
+  },
+  {
+    "code": "N115",
+    "type": "RARC",
+    "description": "This procedure is non-covered when performed for this diagnosis.",
+    "category": "POLICY_EXCLUSION"
+  },
+  {
+    "code": "N382",
+    "type": "RARC",
+    "description": "Missing documentation: pre-operative clinical notes and conservative therapy log.",
+    "category": "DOCUMENTATION"
+  },
+  {
+    "code": "M38",
+    "type": "RARC",
+    "description": "The patient is not eligible for benefits under this program.",
+    "category": "ELIGIBILITY_COVERAGE"
+  },
+  {
+    "code": "MA01",
+    "type": "RARC",
+    "description": "Alert: If you do not agree with what we approved, you may appeal our decision.",
+    "category": "APPEAL_NOTICE"
+  }
+]

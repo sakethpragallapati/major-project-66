@@ -1,0 +1,872 @@
+[
+  {
+    "case_id": "G10-001",
+    "claim_id": "CLM-2024-7251",
+    "patient_name": "Saroja Nambiar",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Liver Transplant",
+    "hospital": "CMC Vellore",
+    "insurer": "Care Health",
+    "product": "Care",
+    "claimed_amount": 465000.0,
+    "claim_date": "2024-08-13",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "OVERTURN",
+      "appeal_persuasiveness_score": 4.9,
+      "factual_correctness_score": 4.2,
+      "reversal_feasibility_score": 0.94,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.94
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-002",
+    "claim_id": "CLM-2024-1187",
+    "patient_name": "Sunita Mishra",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Liver Transplant",
+    "hospital": "Narayana Health, Bangalore",
+    "insurer": "Star Health",
+    "product": "Star Comprehensive",
+    "claimed_amount": 1629000.0,
+    "claim_date": "2024-10-30",
+    "system_generated_verdict": "UPHOLD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHOLD",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 3.6,
+      "factual_correctness_score": 4.4,
+      "reversal_feasibility_score": 0.2,
+      "consensus_verdict": "UPHOLD",
+      "inter_rater_agreement": 0.82
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-003",
+    "claim_id": "CLM-2023-7436",
+    "patient_name": "Tarun Bhatt",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Liver Transplant",
+    "hospital": "Narayana Health, Bangalore",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claimed_amount": 1235000.0,
+    "claim_date": "2023-02-21",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 3.8,
+      "factual_correctness_score": 4.1,
+      "reversal_feasibility_score": 0.7,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.77
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-004",
+    "claim_id": "CLM-2024-5301",
+    "patient_name": "Pavan Kumar B",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Laparoscopic Sleeve Gastrectomy",
+    "hospital": "Fortis Hospital, Gurgaon",
+    "insurer": "ICICI Lombard",
+    "product": "Health Booster",
+    "claimed_amount": 478000.0,
+    "claim_date": "2024-02-13",
+    "system_generated_verdict": "UPHOLD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHOLD",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 4.7,
+      "factual_correctness_score": 4.0,
+      "reversal_feasibility_score": 0.14,
+      "consensus_verdict": "UPHOLD",
+      "inter_rater_agreement": 0.85
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-005",
+    "claim_id": "CLM-2024-9589",
+    "patient_name": "Saroja Nambiar",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Coronary Artery Bypass Graft",
+    "hospital": "SRM Institute, Chennai",
+    "insurer": "HDFC ERGO",
+    "product": "my:Optima Secure",
+    "claimed_amount": 816000.0,
+    "claim_date": "2024-07-28",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "OVERTURN",
+      "appeal_persuasiveness_score": 3.9,
+      "factual_correctness_score": 4.3,
+      "reversal_feasibility_score": 0.84,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.77
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-006",
+    "claim_id": "CLM-2023-4120",
+    "patient_name": "Harish Pandey",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Aortic Valve Replacement",
+    "hospital": "Ruby Hall Clinic, Pune",
+    "insurer": "ICICI Lombard",
+    "product": "Complete Health Insurance",
+    "claimed_amount": 973000.0,
+    "claim_date": "2023-12-23",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "OVERTURN",
+      "appeal_persuasiveness_score": 4.7,
+      "factual_correctness_score": 4.0,
+      "reversal_feasibility_score": 0.67,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.91
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-007",
+    "claim_id": "CLM-2023-4825",
+    "patient_name": "Indira Rajan",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Cervical Spinal Fusion",
+    "hospital": "AIIMS, New Delhi",
+    "insurer": "ICICI Lombard",
+    "product": "Health AdvantEdge",
+    "claimed_amount": 719000.0,
+    "claim_date": "2023-02-15",
+    "system_generated_verdict": "UPHOLD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHOLD",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 3.7,
+      "factual_correctness_score": 4.7,
+      "reversal_feasibility_score": 0.13,
+      "consensus_verdict": "UPHOLD",
+      "inter_rater_agreement": 0.8
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-008",
+    "claim_id": "CLM-2023-6624",
+    "patient_name": "Indira Rajan",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Liver Transplant",
+    "hospital": "AIIMS, New Delhi",
+    "insurer": "ICICI Lombard",
+    "product": "Arogya Sanjeevani",
+    "claimed_amount": 1755000.0,
+    "claim_date": "2023-01-15",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "OVERTURN",
+      "appeal_persuasiveness_score": 4.0,
+      "factual_correctness_score": 4.4,
+      "reversal_feasibility_score": 0.67,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.79
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-009",
+    "claim_id": "CLM-2023-9991",
+    "patient_name": "Mohan Das",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Craniotomy for Tumor",
+    "hospital": "Global Hospitals, Hyderabad",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claimed_amount": 1313000.0,
+    "claim_date": "2023-09-22",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "OVERTURN",
+      "appeal_persuasiveness_score": 4.5,
+      "factual_correctness_score": 4.6,
+      "reversal_feasibility_score": 0.69,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.86
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-010",
+    "claim_id": "CLM-2023-4288",
+    "patient_name": "Ravi Menon",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Renal Transplant",
+    "hospital": "Medanta, Gurgaon",
+    "insurer": "Care Health",
+    "product": "Care",
+    "claimed_amount": 1955000.0,
+    "claim_date": "2023-10-18",
+    "system_generated_verdict": "UPHOLD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHOLD",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 3.6,
+      "factual_correctness_score": 4.6,
+      "reversal_feasibility_score": 0.1,
+      "consensus_verdict": "UPHOLD",
+      "inter_rater_agreement": 0.8
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-011",
+    "claim_id": "CLM-2023-5792",
+    "patient_name": "Rajeev Bansal",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Laparoscopic Sleeve Gastrectomy",
+    "hospital": "Yashoda Hospital, Hyderabad",
+    "insurer": "Care Health",
+    "product": "Care Supreme",
+    "claimed_amount": 1662000.0,
+    "claim_date": "2023-01-20",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "OVERTURN",
+      "appeal_persuasiveness_score": 5.0,
+      "factual_correctness_score": 4.4,
+      "reversal_feasibility_score": 0.85,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.85
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-012",
+    "claim_id": "CLM-2023-4258",
+    "patient_name": "Vijay Khanna",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Mastectomy (Breast Cancer)",
+    "hospital": "Amrita Hospital, Kochi",
+    "insurer": "Care Health",
+    "product": "Care Supreme",
+    "claimed_amount": 1350000.0,
+    "claim_date": "2023-07-10",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "OVERTURN",
+      "appeal_persuasiveness_score": 3.6,
+      "factual_correctness_score": 4.9,
+      "reversal_feasibility_score": 0.65,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.9
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-013",
+    "claim_id": "CLM-2023-6822",
+    "patient_name": "Priya Sharma",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Percutaneous Coronary Stent",
+    "hospital": "Yashoda Hospital, Hyderabad",
+    "insurer": "ICICI Lombard",
+    "product": "Max Protect",
+    "claimed_amount": 1611000.0,
+    "claim_date": "2023-12-27",
+    "system_generated_verdict": "OVERTURN",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "OVERTURN",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 5.0,
+      "factual_correctness_score": 5.0,
+      "reversal_feasibility_score": 0.64,
+      "consensus_verdict": "OVERTURN",
+      "inter_rater_agreement": 0.8
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-014",
+    "claim_id": "CLM-2023-4695",
+    "patient_name": "Kishore Sinha",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Aortic Valve Replacement",
+    "hospital": "Apollo Hospitals, Hyderabad",
+    "insurer": "ICICI Lombard",
+    "product": "Health Booster",
+    "claimed_amount": 618000.0,
+    "claim_date": "2023-10-14",
+    "system_generated_verdict": "UPHOLD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHOLD",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 4.5,
+      "factual_correctness_score": 3.9,
+      "reversal_feasibility_score": 0.21,
+      "consensus_verdict": "UPHOLD",
+      "inter_rater_agreement": 0.87
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-015",
+    "claim_id": "CLM-2023-3502",
+    "patient_name": "Ashok Malhotra",
+    "category": "MEDICAL_NECESSITY",
+    "condition": "Percutaneous Coronary Stent",
+    "hospital": "Narayana Health, Bangalore",
+    "insurer": "ICICI Lombard",
+    "product": "Elevate Health",
+    "claimed_amount": 1194000.0,
+    "claim_date": "2023-09-04",
+    "system_generated_verdict": "UPHOLD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHOLD",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 4.2,
+      "factual_correctness_score": 4.0,
+      "reversal_feasibility_score": 0.3,
+      "consensus_verdict": "UPHOLD",
+      "inter_rater_agreement": 0.89
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-016",
+    "claim_id": "CLM-2024-9582",
+    "patient_name": "Sanjay Desai",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Diabetic Retinopathy",
+    "hospital": "AIIMS, New Delhi",
+    "insurer": "ICICI Lombard",
+    "product": "Arogya Sanjeevani",
+    "claimed_amount": 584000.0,
+    "claim_date": "2024-12-06",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 4.5,
+      "factual_correctness_score": 4.5,
+      "reversal_feasibility_score": 0.58,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.86
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-017",
+    "claim_id": "CLM-2023-3384",
+    "patient_name": "Sunil Jha",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Essential Hypertension",
+    "hospital": "Manipal Hospital, Bangalore",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claimed_amount": 1825000.0,
+    "claim_date": "2023-11-22",
+    "system_generated_verdict": "UPHELD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHELD",
+      "reviewer_2_verdict": "UPHELD",
+      "appeal_persuasiveness_score": 4.8,
+      "factual_correctness_score": 4.3,
+      "reversal_feasibility_score": 0.22,
+      "consensus_verdict": "UPHELD",
+      "inter_rater_agreement": 0.94
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-018",
+    "claim_id": "CLM-2023-2749",
+    "patient_name": "Ashok Malhotra",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Hypothyroidism",
+    "hospital": "Tata Memorial Hospital, Mumbai",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claimed_amount": 576000.0,
+    "claim_date": "2023-07-12",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "REVERSAL",
+      "appeal_persuasiveness_score": 4.6,
+      "factual_correctness_score": 4.5,
+      "reversal_feasibility_score": 0.63,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.8
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-019",
+    "claim_id": "CLM-2023-6886",
+    "patient_name": "Amit Verma",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Epilepsy",
+    "hospital": "Narayana Health, Bangalore",
+    "insurer": "ICICI Lombard",
+    "product": "Max Protect",
+    "claimed_amount": 467000.0,
+    "claim_date": "2023-01-27",
+    "system_generated_verdict": "UPHELD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHELD",
+      "reviewer_2_verdict": "UPHELD",
+      "appeal_persuasiveness_score": 3.7,
+      "factual_correctness_score": 4.8,
+      "reversal_feasibility_score": 0.24,
+      "consensus_verdict": "UPHELD",
+      "inter_rater_agreement": 0.79
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-020",
+    "claim_id": "CLM-2023-3683",
+    "patient_name": "Kishore Sinha",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Chronic Kidney Disease",
+    "hospital": "BLK-MAX, New Delhi",
+    "insurer": "ICICI Lombard",
+    "product": "Health AdvantEdge",
+    "claimed_amount": 705000.0,
+    "claim_date": "2023-05-21",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "REVERSAL",
+      "appeal_persuasiveness_score": 4.1,
+      "factual_correctness_score": 5.0,
+      "reversal_feasibility_score": 0.96,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.79
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-021",
+    "claim_id": "CLM-2023-2083",
+    "patient_name": "Rajeev Bansal",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Calculus of Kidney",
+    "hospital": "Kokilaben Dhirubhai Ambani, Mumbai",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claimed_amount": 671000.0,
+    "claim_date": "2023-07-29",
+    "system_generated_verdict": "UPHELD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHELD",
+      "reviewer_2_verdict": "UPHELD",
+      "appeal_persuasiveness_score": 4.8,
+      "factual_correctness_score": 4.4,
+      "reversal_feasibility_score": 0.2,
+      "consensus_verdict": "UPHELD",
+      "inter_rater_agreement": 0.8
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-022",
+    "claim_id": "CLM-2024-6126",
+    "patient_name": "Madhavi Kulkarni",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Benign Prostatic Hyperplasia",
+    "hospital": "Fortis Hospital, Gurgaon",
+    "insurer": "ICICI Lombard",
+    "product": "Health Shield 360",
+    "claimed_amount": 1127000.0,
+    "claim_date": "2024-01-25",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 4.3,
+      "factual_correctness_score": 4.3,
+      "reversal_feasibility_score": 0.91,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.95
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-023",
+    "claim_id": "CLM-2023-7347",
+    "patient_name": "Jaya Kamath",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Hyperlipidemia",
+    "hospital": "Amrita Hospital, Kochi",
+    "insurer": "ICICI Lombard",
+    "product": "Elevate Health",
+    "claimed_amount": 1382000.0,
+    "claim_date": "2023-02-10",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "REVERSAL",
+      "appeal_persuasiveness_score": 3.8,
+      "factual_correctness_score": 4.3,
+      "reversal_feasibility_score": 0.94,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.81
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-024",
+    "claim_id": "CLM-2024-1893",
+    "patient_name": "Mahesh Yadav",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Osteoarthritis (Bilateral Knee)",
+    "hospital": "Ruby Hall Clinic, Pune",
+    "insurer": "ICICI Lombard",
+    "product": "Arogya Sanjeevani",
+    "claimed_amount": 1747000.0,
+    "claim_date": "2024-09-19",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "REVERSAL",
+      "appeal_persuasiveness_score": 4.2,
+      "factual_correctness_score": 4.6,
+      "reversal_feasibility_score": 0.55,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.79
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-025",
+    "claim_id": "CLM-2024-7775",
+    "patient_name": "Kamala Subramaniam",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "COPD",
+    "hospital": "Amrita Hospital, Kochi",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claimed_amount": 978000.0,
+    "claim_date": "2024-02-07",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "REVERSAL",
+      "appeal_persuasiveness_score": 3.8,
+      "factual_correctness_score": 4.5,
+      "reversal_feasibility_score": 0.86,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.84
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-026",
+    "claim_id": "CLM-2024-3686",
+    "patient_name": "Ravi Menon",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Epilepsy",
+    "hospital": "KIMS, Hyderabad",
+    "insurer": "Star Health",
+    "product": "Star Comprehensive",
+    "claimed_amount": 1807000.0,
+    "claim_date": "2024-10-26",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "UPHOLD",
+      "appeal_persuasiveness_score": 3.6,
+      "factual_correctness_score": 4.6,
+      "reversal_feasibility_score": 0.82,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.89
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-027",
+    "claim_id": "CLM-2023-7204",
+    "patient_name": "Sunil Jha",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Diabetic Retinopathy",
+    "hospital": "Global Hospitals, Hyderabad",
+    "insurer": "ICICI Lombard",
+    "product": "Health Shield 360",
+    "claimed_amount": 1454000.0,
+    "claim_date": "2023-06-13",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "REVERSAL",
+      "appeal_persuasiveness_score": 4.7,
+      "factual_correctness_score": 4.9,
+      "reversal_feasibility_score": 0.78,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.78
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-028",
+    "claim_id": "CLM-2024-1840",
+    "patient_name": "Kavita Joshi",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Coronary Artery Disease",
+    "hospital": "Medanta, Gurgaon",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claimed_amount": 1180000.0,
+    "claim_date": "2024-12-30",
+    "system_generated_verdict": "UPHELD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHELD",
+      "reviewer_2_verdict": "UPHELD",
+      "appeal_persuasiveness_score": 4.6,
+      "factual_correctness_score": 5.0,
+      "reversal_feasibility_score": 0.19,
+      "consensus_verdict": "UPHELD",
+      "inter_rater_agreement": 0.93
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-029",
+    "claim_id": "CLM-2023-1200",
+    "patient_name": "Sanjay Desai",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "COPD",
+    "hospital": "Apollo Hospitals, Hyderabad",
+    "insurer": "ICICI Lombard",
+    "product": "Health Shield 360",
+    "claimed_amount": 1262000.0,
+    "claim_date": "2023-09-17",
+    "system_generated_verdict": "UPHELD",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "UPHELD",
+      "reviewer_2_verdict": "UPHELD",
+      "appeal_persuasiveness_score": 4.3,
+      "factual_correctness_score": 3.8,
+      "reversal_feasibility_score": 0.36,
+      "consensus_verdict": "UPHELD",
+      "inter_rater_agreement": 0.87
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  },
+  {
+    "case_id": "G10-030",
+    "claim_id": "CLM-2024-2300",
+    "patient_name": "Naresh Biswas",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "condition": "Benign Prostatic Hyperplasia",
+    "hospital": "Artemis Hospital, Gurgaon",
+    "insurer": "ICICI Lombard",
+    "product": "Elevate Health",
+    "claimed_amount": 1561000.0,
+    "claim_date": "2024-03-28",
+    "system_generated_verdict": "REVERSAL",
+    "adjudicator_consensus": {
+      "reviewer_1_verdict": "REVERSAL",
+      "reviewer_2_verdict": "REVERSAL",
+      "appeal_persuasiveness_score": 3.9,
+      "factual_correctness_score": 4.5,
+      "reversal_feasibility_score": 0.81,
+      "consensus_verdict": "REVERSAL",
+      "inter_rater_agreement": 0.92
+    },
+    "complete_appeal_pack": {
+      "denial_letter_present": true,
+      "clinical_evidence_present": true,
+      "policy_clause_analysis_present": true,
+      "toulmin_reasoning_present": true,
+      "appeal_draft_present": true
+    }
+  }
+]

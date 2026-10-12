@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram id="SquareArchitecture" name="Square System Architecture">
+    <mxGraphModel dx="2020" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1070" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="grp_client" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="INPUT DOCUMENTS" vertex="1">
+          <mxGeometry height="74" width="1100" x="50" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="doc_denial" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=10;verticalAlign=middle;align=center;fillColor=#FFFFFF;strokeColor=#475569;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;" value="Claim Denial Letter" vertex="1">
+          <mxGeometry height="36" width="290" x="80" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="doc_policy" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=10;verticalAlign=middle;align=center;fillColor=#FFFFFF;strokeColor=#475569;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;" value="Policy Document (PDF)" vertex="1">
+          <mxGeometry height="36" width="290" x="455" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="doc_clinical" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=10;verticalAlign=middle;align=center;fillColor=#FFFFFF;strokeColor=#475569;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;" value="Discharge Summary" vertex="1">
+          <mxGeometry height="36" width="290" x="830" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_ingest" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="DOCUMENT PROCESSING" vertex="1">
+          <mxGeometry height="74" width="1100" x="50" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="ing_ocr" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="OCR &amp; Text Extractor" vertex="1">
+          <mxGeometry height="36" width="290" x="80" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ing_layout" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Medical Document Parser" vertex="1">
+          <mxGeometry height="36" width="290" x="455" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ing_ner" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Clinical Data Extractor" vertex="1">
+          <mxGeometry height="36" width="290" x="830" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_triage" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="STANDARDIZATION &amp; TRIAGE" vertex="1">
+          <mxGeometry height="74" width="1100" x="50" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="tri_norm" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Denial Code (CARC) Standardizer" vertex="1">
+          <mxGeometry height="36" width="290" x="80" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="tri_chrono" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Medical Timeline Builder" vertex="1">
+          <mxGeometry height="36" width="290" x="455" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="tri_class" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Denial Category Classifier" vertex="1">
+          <mxGeometry height="36" width="290" x="830" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="orch_langgraph" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#0F172A;strokeWidth=1.8;fontFamily=Helvetica;fontSize=11;fontStyle=1;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Workflow Orchestrator" vertex="1">
+          <mxGeometry height="46" width="360" x="410" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_invest" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="INVESTIGATION ENGINES (7 SPECIALIZED WORKERS)" vertex="1">
+          <mxGeometry height="285" width="530" x="50" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_ped" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Waiting Period Engine" vertex="1">
+          <mxGeometry height="34" width="230" x="65" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_doc" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Missing Document Checker" vertex="1">
+          <mxGeometry height="34" width="230" x="65" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_elig" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Patient Eligibility Engine" vertex="1">
+          <mxGeometry height="34" width="230" x="65" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_excl" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Policy Exclusion Engine" vertex="1">
+          <mxGeometry height="34" width="235" x="330" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_mn" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Medical Necessity Engine" vertex="1">
+          <mxGeometry height="34" width="235" x="330" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_fin" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Billing &amp; Sub-Limit Engine" vertex="1">
+          <mxGeometry height="34" width="235" x="330" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_admin" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Claim Procedure Engine" vertex="1">
+          <mxGeometry height="34" width="235" x="330" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_collector" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#334155;strokeWidth=1.4;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Consolidated Investigation Findings" vertex="1">
+          <mxGeometry height="38" width="500" x="65" y="626" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_knowledge" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="REFERENCE DATABASES" vertex="1">
+          <mxGeometry height="285" width="475" x="675" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="db_clauses" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Policy Clauses Database" vertex="1">
+          <mxGeometry height="34" width="215" x="695" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="db_icd" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Medical Guidelines &amp; Codes" vertex="1">
+          <mxGeometry height="34" width="215" x="695" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="db_tariff" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Hospital Tariffs &amp; Limits" vertex="1">
+          <mxGeometry height="34" width="215" x="695" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="db_irdai" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Insurance Rules &amp; Circulars" vertex="1">
+          <mxGeometry height="34" width="215" x="695" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="db_state" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Case History &amp; Audit DB" vertex="1">
+          <mxGeometry height="110" width="200" x="930" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_reason" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="EVIDENCE &amp; REASONING" vertex="1">
+          <mxGeometry height="230" width="250" x="50" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rsn_graph" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Evidence Aggregator" vertex="1">
+          <mxGeometry height="52" width="210" x="70" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="rsn_toulmin" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Appeal Grounds Builder" vertex="1">
+          <mxGeometry height="52" width="210" x="70" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_verdict" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="VERDICT &amp; COMPLIANCE" vertex="1">
+          <mxGeometry height="230" width="250" x="325" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rsn_verdict" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#0F172A;strokeWidth=1.8;fontFamily=Helvetica;fontSize=11;fontStyle=1;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Appeal Verdict Evaluator" vertex="1">
+          <mxGeometry height="52" width="210" x="345" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="app_guard" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Guideline &amp; Rule Checker" vertex="1">
+          <mxGeometry height="52" width="210" x="345" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_appeal" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="APPEAL DRAFTING &amp; REVIEW" vertex="1">
+          <mxGeometry height="230" width="255" x="600" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="app_draft" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#334155;strokeWidth=1.2;fontFamily=Helvetica;fontSize=10;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Appeal Letter Drafter" vertex="1">
+          <mxGeometry height="52" width="210" x="622" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="app_hitl" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#0F172A;strokeWidth=1.8;fontFamily=Helvetica;fontSize=11;fontStyle=1;fontColor=#0F172A;align=center;verticalAlign=middle;shadow=0;" value="Reviewer Dashboard" vertex="1">
+          <mxGeometry height="52" width="210" x="622" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_output" parent="1" style="rounded=1;dashed=1;dashPattern=4 4;strokeColor=#64748B;fillColor=none;strokeWidth=1.2;verticalAlign=top;align=center;spacingTop=8;fontFamily=Helvetica;fontStyle=1;fontSize=10;fontColor=#475569;" value="FINAL OUTPUT" vertex="1">
+          <mxGeometry height="230" width="270" x="880" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="out_dossier" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=center;fillColor=#F8FAFC;strokeColor=#0F172A;strokeWidth=1.8;fontFamily=Helvetica;fontSize=11;fontStyle=1;fontColor=#0F172A;shadow=0;" value="Final Appeal Package" vertex="1">
+          <mxGeometry height="140" width="180" x="925" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_denial" edge="1" parent="1" source="doc_denial" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ing_ocr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_policy" edge="1" parent="1" source="doc_policy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ing_layout" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_clinical" edge="1" parent="1" source="doc_clinical" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ing_ner" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_ocr" edge="1" parent="1" source="ing_ocr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tri_norm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_layout" edge="1" parent="1" source="ing_layout" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tri_chrono" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_ner" edge="1" parent="1" source="ing_ner" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tri_class" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_norm" edge="1" parent="1" source="tri_norm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.15;entryY=0;entryDx=0;entryDy=0;" target="orch_langgraph" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_chrono" edge="1" parent="1" source="tri_chrono" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="orch_langgraph" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_class" edge="1" parent="1" source="tri_class" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;" target="orch_langgraph" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_disp_col1" edge="1" parent="1" source="orch_langgraph" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="inv_ped" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_disp_col2" edge="1" parent="1" source="orch_langgraph" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="inv_excl" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_db_state" edge="1" parent="1" source="orch_langgraph" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.2;dashed=1;dashPattern=3 3;endArrow=classic;endSize=4;fontFamily=Helvetica;fontSize=8.5;fontColor=#334155;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="db_state" value="State Sync &amp; Audit Log">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_db_clauses" edge="1" parent="1" source="db_clauses" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.2;dashed=1;dashPattern=3 3;endArrow=classic;startArrow=classic;endSize=4;startSize=4;fontFamily=Helvetica;fontSize=8.5;fontColor=#334155;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="inv_excl" value="Clause Scope &amp; Exceptions">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_db_icd" edge="1" parent="1" source="db_icd" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.2;dashed=1;dashPattern=3 3;endArrow=classic;startArrow=classic;endSize=4;startSize=4;fontFamily=Helvetica;fontSize=8.5;fontColor=#334155;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="inv_mn" value="Clinical Indications (ICD-10)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_db_tariff" edge="1" parent="1" source="db_tariff" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.2;dashed=1;dashPattern=3 3;endArrow=classic;startArrow=classic;endSize=4;startSize=4;fontFamily=Helvetica;fontSize=8.5;fontColor=#334155;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="inv_fin" value="NME Schedules &amp; Capping">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_db_irdai" edge="1" parent="1" source="db_irdai" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;strokeWidth=1.2;dashed=1;dashPattern=3 3;endArrow=classic;startArrow=classic;endSize=4;startSize=4;fontFamily=Helvetica;fontSize=8.5;fontColor=#334155;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="inv_admin" value="Statutory Delay Circulars">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_col1_coll" edge="1" parent="1" source="inv_elig" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.23;entryY=0;entryDx=0;entryDy=0;" target="inv_collector" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_col2_coll" edge="1" parent="1" source="inv_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.76;entryY=0;entryDx=0;entryDy=0;" target="inv_collector" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_findings_agg" edge="1" parent="1" source="inv_collector" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=1.8;endArrow=classic;endSize=6;fontFamily=Helvetica;fontSize=9;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=0.22;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rsn_graph" value="Consolidated Findings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_gt" edge="1" parent="1" source="rsn_graph" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rsn_toulmin" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_gv" edge="1" parent="1" source="rsn_graph" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rsn_verdict" value="Evidence Graph">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_tg" edge="1" parent="1" source="rsn_toulmin" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="app_guard" value="Claim Grounds">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8_gv" edge="1" parent="1" source="app_guard" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rsn_verdict" value="Rule Compliance">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_vd" edge="1" parent="1" source="rsn_verdict" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=1.8;endArrow=classic;endSize=6;fontFamily=Helvetica;fontSize=9;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="app_draft" value="Validated Verdict">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10_dh" edge="1" parent="1" source="app_draft" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=1.2;endArrow=classic;endSize=5;fontFamily=Helvetica;fontSize=9;fontColor=#475569;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="app_hitl" value="Draft Letter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11_out" edge="1" parent="1" source="app_hitl" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0F172A;strokeWidth=1.8;endArrow=classic;endSize=6;fontFamily=Helvetica;fontSize=9;fontStyle=1;fontColor=#0F172A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="out_dossier" value="Approved Dossier">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

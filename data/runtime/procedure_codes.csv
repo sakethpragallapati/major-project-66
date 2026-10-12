@@ -1,0 +1,73 @@
+hcpcs_code,short_description,category
+27447,Total Knee Replacement (TKR),Orthopedic Surgery
+27130,Total Hip Replacement (THR),Orthopedic Surgery
+27446,Revision of Total Knee Arthroplasty,Orthopedic Surgery
+27236,Open Treatment of Femoral Fracture,Orthopedic Surgery
+22612,Lumbar Spinal Fusion,Orthopedic Surgery
+22551,"Cervical Spinal Fusion, Anterior",Orthopedic Surgery
+63030,Lumbar Laminectomy/Discectomy,Orthopedic Surgery
+29881,Arthroscopy Knee with Meniscectomy,Orthopedic Surgery
+23472,Total Shoulder Replacement,Orthopedic Surgery
+27245,ORIF Intertrochanteric Femoral Fracture,Orthopedic Surgery
+33533,Coronary Artery Bypass Graft (CABG) Single,Cardiovascular Surgery
+33534,Coronary Artery Bypass Graft (CABG) Two,Cardiovascular Surgery
+33535,Coronary Artery Bypass Graft (CABG) Three,Cardiovascular Surgery
+92928,Percutaneous Coronary Stent Placement,Cardiovascular Surgery
+92920,Percutaneous Transluminal Coronary Angioplasty (PTCA),Cardiovascular Surgery
+33405,Aortic Valve Replacement,Cardiovascular Surgery
+33430,Mitral Valve Replacement,Cardiovascular Surgery
+93458,Cardiac Catheterization Left Heart,Cardiovascular Diagnostics
+33249,ICD/Pacemaker Implantation,Cardiovascular Surgery
+34800,Endovascular Repair Infrarenal Aortic Aneurysm,Cardiovascular Surgery
+47562,Laparoscopic Cholecystectomy,General Surgery
+47563,Laparoscopic Cholecystectomy with Cholangiography,General Surgery
+44970,Laparoscopic Appendectomy,General Surgery
+49505,Inguinal Hernia Repair,General Surgery
+49650,Laparoscopic Inguinal Hernia Repair,General Surgery
+49560,Ventral/Incisional Hernia Repair,General Surgery
+43239,Upper GI Endoscopy with Biopsy,GI Diagnostics
+45378,Colonoscopy Diagnostic,GI Diagnostics
+45385,Colonoscopy with Polypectomy,GI Diagnostics
+43280,Laparoscopic Fundoplication (Anti-Reflux),General Surgery
+52601,TURP (Transurethral Resection of Prostate),Urology
+52353,Ureteroscopy with Lithotripsy,Urology
+50590,Extracorporeal Shock Wave Lithotripsy (ESWL),Urology
+50080,Percutaneous Nephrolithotomy (PCNL),Urology
+55866,Laparoscopic Radical Prostatectomy,Urology
+66984,Cataract Surgery with IOL Implantation,Ophthalmology
+65855,Trabeculoplasty by Laser,Ophthalmology
+67028,Intravitreal Injection,Ophthalmology
+65760,Keratomileusis (LASIK),Ophthalmology
+61510,Craniotomy for Tumor Removal,Neurosurgery
+61624,Transcatheter Embolization CNS,Neurosurgery
+63047,Laminectomy Lumbar with Decompression,Neurosurgery
+19301,"Mastectomy, Partial (Lumpectomy)",Oncology Surgery
+19303,"Mastectomy, Simple Complete",Oncology Surgery
+38720,Cervical Lymphadenectomy (Radical),Oncology Surgery
+77385,Intensity Modulated Radiation Therapy (IMRT),Radiation Oncology
+96413,Chemotherapy Administration IV Infusion,Medical Oncology
+43775,Laparoscopic Sleeve Gastrectomy,Bariatric Surgery
+43644,Laparoscopic Roux-en-Y Gastric Bypass,Bariatric Surgery
+42820,Tonsillectomy and Adenoidectomy,ENT Surgery
+31255,Nasal/Sinus Endoscopy with Ethmoidectomy,ENT Surgery
+30520,Septoplasty,ENT Surgery
+59510,Cesarean Delivery,Obstetrics
+59400,Routine Obstetric Care Including Vaginal Delivery,Obstetrics
+90935,"Hemodialysis, Single Session",Dialysis
+90945,"Dialysis, Other Than Hemodialysis",Dialysis
+36800,AV Fistula Creation for Hemodialysis,Dialysis Access
+97110,Therapeutic Exercise,Physical Therapy
+97140,Manual Therapy Techniques,Physical Therapy
+97530,Therapeutic Activities,Physical Therapy
+S2900,Robotic Surgical Assistance (Add-on),Robotic Surgery
+50360,"Renal Transplant, Allotransplant",Transplant Surgery
+47135,"Liver Transplant, Allotransplant",Transplant Surgery
+33945,Heart Transplant,Transplant Surgery
+D7140,"Extraction, Erupted Tooth or Exposed Root",Dental
+D7210,"Extraction, Surgical, Erupted Tooth",Dental
+70553,MRI Brain with and without Contrast,Diagnostic Imaging
+71260,CT Chest with Contrast,Diagnostic Imaging
+74177,CT Abdomen and Pelvis with Contrast,Diagnostic Imaging
+78816,PET-CT Scan,Nuclear Medicine
+76700,Ultrasound Abdomen Complete,Diagnostic Imaging
+93306,Transthoracic Echocardiography Complete,Cardiac Imaging

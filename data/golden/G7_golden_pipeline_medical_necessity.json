@@ -1,0 +1,1352 @@
+[
+  {
+    "case_id": "G7-001",
+    "raw_input_narrative": "47yo female admitted to AIIMS, New Delhi on 2024-07-09 for Craniotomy for Tumor. Diagnosis: G40.909. Patient has failed 15 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 936,000.",
+    "patient_name": "Pavan Kumar B",
+    "procedure": "Craniotomy for Tumor",
+    "icd10_code": "G40.909",
+    "hcpcs_code": "61510",
+    "hospital": "AIIMS, New Delhi",
+    "insurer": "ICICI Lombard",
+    "product": "Health Shield 360",
+    "claim_id": "CLM-2024-6063",
+    "claimed_amount": 936000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 15,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 47,
+      "gender": "female",
+      "admission_date": "2024-07-09",
+      "procedure_category": "Neurosurgery"
+    }
+  },
+  {
+    "case_id": "G7-002",
+    "raw_input_narrative": "73yo male admitted to Fortis Hospital, Gurgaon on 2023-01-21 for Total Knee Replacement. Diagnosis: M17.11. Patient has failed 6 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 2,205,000.",
+    "patient_name": "Meera Reddy",
+    "procedure": "Total Knee Replacement",
+    "icd10_code": "M17.11",
+    "hcpcs_code": "27447",
+    "hospital": "Fortis Hospital, Gurgaon",
+    "insurer": "HDFC ERGO",
+    "product": "my:Optima Secure",
+    "claim_id": "CLM-2023-9625",
+    "claimed_amount": 2205000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 6,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 73,
+      "gender": "male",
+      "admission_date": "2023-01-21",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-003",
+    "raw_input_narrative": "43yo female admitted to Kokilaben Dhirubhai Ambani, Mumbai on 2023-07-01 for Aortic Valve Replacement. Diagnosis: I50.9. Patient has failed 6 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 450,000.",
+    "patient_name": "Indira Rajan",
+    "procedure": "Aortic Valve Replacement",
+    "icd10_code": "I50.9",
+    "hcpcs_code": "33405",
+    "hospital": "Kokilaben Dhirubhai Ambani, Mumbai",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claim_id": "CLM-2023-6301",
+    "claimed_amount": 450000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 6,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 43,
+      "gender": "female",
+      "admission_date": "2023-07-01",
+      "procedure_category": "Cardiovascular Surgery"
+    }
+  },
+  {
+    "case_id": "G7-004",
+    "raw_input_narrative": "42yo female admitted to AIIMS, New Delhi on 2023-03-16 for Lumbar Spinal Fusion. Diagnosis: M47.816. Patient has failed 18 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,859,000.",
+    "patient_name": "Kamala Subramaniam",
+    "procedure": "Lumbar Spinal Fusion",
+    "icd10_code": "M47.816",
+    "hcpcs_code": "22612",
+    "hospital": "AIIMS, New Delhi",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claim_id": "CLM-2023-7120",
+    "claimed_amount": 1859000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 18,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 42,
+      "gender": "female",
+      "admission_date": "2023-03-16",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-005",
+    "raw_input_narrative": "43yo male admitted to CMC Vellore on 2024-03-23 for Total Hip Replacement. Diagnosis: M16.11. Patient has failed 8 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,531,000.",
+    "patient_name": "Asha Tiwari",
+    "procedure": "Total Hip Replacement",
+    "icd10_code": "M16.11",
+    "hcpcs_code": "27130",
+    "hospital": "CMC Vellore",
+    "insurer": "ICICI Lombard",
+    "product": "Complete Health Insurance",
+    "claim_id": "CLM-2024-8982",
+    "claimed_amount": 1531000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 8,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 43,
+      "gender": "male",
+      "admission_date": "2024-03-23",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-006",
+    "raw_input_narrative": "57yo male admitted to Aster MIMS, Kozhikode on 2024-11-12 for Renal Transplant. Diagnosis: N18.6. Patient has failed 12 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,787,000.",
+    "patient_name": "Swati Ghosh",
+    "procedure": "Renal Transplant",
+    "icd10_code": "N18.6",
+    "hcpcs_code": "50360",
+    "hospital": "Aster MIMS, Kozhikode",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claim_id": "CLM-2024-3872",
+    "claimed_amount": 1787000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 12,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 57,
+      "gender": "male",
+      "admission_date": "2024-11-12",
+      "procedure_category": "Transplant Surgery"
+    }
+  },
+  {
+    "case_id": "G7-007",
+    "raw_input_narrative": "46yo male admitted to CMC Vellore on 2024-12-19 for Renal Transplant. Diagnosis: N18.6. Patient has failed 8 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 336,000.",
+    "patient_name": "Tarun Bhatt",
+    "procedure": "Renal Transplant",
+    "icd10_code": "N18.6",
+    "hcpcs_code": "50360",
+    "hospital": "CMC Vellore",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claim_id": "CLM-2024-7415",
+    "claimed_amount": 336000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 8,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 46,
+      "gender": "male",
+      "admission_date": "2024-12-19",
+      "procedure_category": "Transplant Surgery"
+    }
+  },
+  {
+    "case_id": "G7-008",
+    "raw_input_narrative": "75yo male admitted to Aster MIMS, Kozhikode on 2024-05-23 for Craniotomy for Tumor. Diagnosis: G40.909. Patient has failed 24 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,589,000.",
+    "patient_name": "Venkatesh Murthy",
+    "procedure": "Craniotomy for Tumor",
+    "icd10_code": "G40.909",
+    "hcpcs_code": "61510",
+    "hospital": "Aster MIMS, Kozhikode",
+    "insurer": "HDFC ERGO",
+    "product": "my:Optima Secure",
+    "claim_id": "CLM-2024-3304",
+    "claimed_amount": 1589000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 24,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 75,
+      "gender": "male",
+      "admission_date": "2024-05-23",
+      "procedure_category": "Neurosurgery"
+    }
+  },
+  {
+    "case_id": "G7-009",
+    "raw_input_narrative": "45yo male admitted to Yashoda Hospital, Hyderabad on 2024-12-26 for Total Hip Replacement. Diagnosis: M16.11. Patient has failed 6 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 2,073,000.",
+    "patient_name": "Pooja Kapoor",
+    "procedure": "Total Hip Replacement",
+    "icd10_code": "M16.11",
+    "hcpcs_code": "27130",
+    "hospital": "Yashoda Hospital, Hyderabad",
+    "insurer": "ICICI Lombard",
+    "product": "Complete Health Insurance",
+    "claim_id": "CLM-2024-6500",
+    "claimed_amount": 2073000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 6,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 45,
+      "gender": "male",
+      "admission_date": "2024-12-26",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-010",
+    "raw_input_narrative": "39yo female admitted to Narayana Health, Bangalore on 2023-09-20 for Percutaneous Coronary Stent. Diagnosis: I25.110. Patient has failed 6 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 205,000.",
+    "patient_name": "Lakshmi Rao",
+    "procedure": "Percutaneous Coronary Stent",
+    "icd10_code": "I25.110",
+    "hcpcs_code": "92928",
+    "hospital": "Narayana Health, Bangalore",
+    "insurer": "Star Health",
+    "product": "Star Comprehensive",
+    "claim_id": "CLM-2023-2770",
+    "claimed_amount": 205000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 6,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 39,
+      "gender": "female",
+      "admission_date": "2023-09-20",
+      "procedure_category": "Cardiovascular Surgery"
+    }
+  },
+  {
+    "case_id": "G7-011",
+    "raw_input_narrative": "61yo female admitted to Ruby Hall Clinic, Pune on 2024-01-23 for Laparoscopic Sleeve Gastrectomy. Diagnosis: E66.01. Patient has failed 15 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 2,490,000.",
+    "patient_name": "Gopal Mehta",
+    "procedure": "Laparoscopic Sleeve Gastrectomy",
+    "icd10_code": "E66.01",
+    "hcpcs_code": "43775",
+    "hospital": "Ruby Hall Clinic, Pune",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claim_id": "CLM-2024-6754",
+    "claimed_amount": 2490000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 15,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 61,
+      "gender": "female",
+      "admission_date": "2024-01-23",
+      "procedure_category": "Bariatric Surgery"
+    }
+  },
+  {
+    "case_id": "G7-012",
+    "raw_input_narrative": "49yo male admitted to SRM Institute, Chennai on 2024-04-07 for Total Hip Replacement. Diagnosis: M16.11. Patient has failed 12 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 340,000.",
+    "patient_name": "Naresh Biswas",
+    "procedure": "Total Hip Replacement",
+    "icd10_code": "M16.11",
+    "hcpcs_code": "27130",
+    "hospital": "SRM Institute, Chennai",
+    "insurer": "ICICI Lombard",
+    "product": "Max Protect",
+    "claim_id": "CLM-2024-2207",
+    "claimed_amount": 340000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 12,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 49,
+      "gender": "male",
+      "admission_date": "2024-04-07",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-013",
+    "raw_input_narrative": "39yo female admitted to Tata Memorial Hospital, Mumbai on 2023-06-24 for Total Knee Replacement. Diagnosis: M17.11. Patient has failed 24 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 875,000.",
+    "patient_name": "Venkatesh Murthy",
+    "procedure": "Total Knee Replacement",
+    "icd10_code": "M17.11",
+    "hcpcs_code": "27447",
+    "hospital": "Tata Memorial Hospital, Mumbai",
+    "insurer": "Care Health",
+    "product": "Care Supreme",
+    "claim_id": "CLM-2023-7151",
+    "claimed_amount": 875000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 24,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 39,
+      "gender": "female",
+      "admission_date": "2023-06-24",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-014",
+    "raw_input_narrative": "73yo female admitted to Max Super Speciality, Saket on 2024-12-22 for Total Hip Replacement. Diagnosis: M16.11. Patient has failed 24 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 2,009,000.",
+    "patient_name": "Swati Ghosh",
+    "procedure": "Total Hip Replacement",
+    "icd10_code": "M16.11",
+    "hcpcs_code": "27130",
+    "hospital": "Max Super Speciality, Saket",
+    "insurer": "ICICI Lombard",
+    "product": "Complete Health Insurance",
+    "claim_id": "CLM-2024-1507",
+    "claimed_amount": 2009000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 24,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 73,
+      "gender": "female",
+      "admission_date": "2024-12-22",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-015",
+    "raw_input_narrative": "38yo male admitted to Ruby Hall Clinic, Pune on 2023-12-06 for Lumbar Spinal Fusion. Diagnosis: M47.816. Patient has failed 15 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 997,000.",
+    "patient_name": "Vijay Khanna",
+    "procedure": "Lumbar Spinal Fusion",
+    "icd10_code": "M47.816",
+    "hcpcs_code": "22612",
+    "hospital": "Ruby Hall Clinic, Pune",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claim_id": "CLM-2023-4367",
+    "claimed_amount": 997000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 15,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 38,
+      "gender": "male",
+      "admission_date": "2023-12-06",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-016",
+    "raw_input_narrative": "53yo female admitted to Amrita Hospital, Kochi on 2023-09-01 for Renal Transplant. Diagnosis: N18.6. Patient has failed 15 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 408,000.",
+    "patient_name": "Swati Ghosh",
+    "procedure": "Renal Transplant",
+    "icd10_code": "N18.6",
+    "hcpcs_code": "50360",
+    "hospital": "Amrita Hospital, Kochi",
+    "insurer": "ICICI Lombard",
+    "product": "Arogya Sanjeevani",
+    "claim_id": "CLM-2023-2571",
+    "claimed_amount": 408000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 15,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 53,
+      "gender": "female",
+      "admission_date": "2023-09-01",
+      "procedure_category": "Transplant Surgery"
+    }
+  },
+  {
+    "case_id": "G7-017",
+    "raw_input_narrative": "38yo female admitted to BLK-MAX, New Delhi on 2023-01-04 for Craniotomy for Tumor. Diagnosis: G40.909. Patient has failed 12 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 568,000.",
+    "patient_name": "Swati Ghosh",
+    "procedure": "Craniotomy for Tumor",
+    "icd10_code": "G40.909",
+    "hcpcs_code": "61510",
+    "hospital": "BLK-MAX, New Delhi",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claim_id": "CLM-2023-8005",
+    "claimed_amount": 568000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 12,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 38,
+      "gender": "female",
+      "admission_date": "2023-01-04",
+      "procedure_category": "Neurosurgery"
+    }
+  },
+  {
+    "case_id": "G7-018",
+    "raw_input_narrative": "47yo male admitted to Aster MIMS, Kozhikode on 2023-01-27 for Robotic Prostatectomy. Diagnosis: C61. Patient has failed 24 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 917,000.",
+    "patient_name": "Rajeev Bansal",
+    "procedure": "Robotic Prostatectomy",
+    "icd10_code": "C61",
+    "hcpcs_code": "55866",
+    "hospital": "Aster MIMS, Kozhikode",
+    "insurer": "ICICI Lombard",
+    "product": "Health AdvantEdge",
+    "claim_id": "CLM-2023-4390",
+    "claimed_amount": 917000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 24,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 47,
+      "gender": "male",
+      "admission_date": "2023-01-27",
+      "procedure_category": "Urology"
+    }
+  },
+  {
+    "case_id": "G7-019",
+    "raw_input_narrative": "54yo female admitted to BLK-MAX, New Delhi on 2024-04-27 for Percutaneous Coronary Stent. Diagnosis: I25.110. Patient has failed 6 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,312,000.",
+    "patient_name": "Meera Reddy",
+    "procedure": "Percutaneous Coronary Stent",
+    "icd10_code": "I25.110",
+    "hcpcs_code": "92928",
+    "hospital": "BLK-MAX, New Delhi",
+    "insurer": "Care Health",
+    "product": "Care Supreme",
+    "claim_id": "CLM-2024-9013",
+    "claimed_amount": 1312000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 6,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 54,
+      "gender": "female",
+      "admission_date": "2024-04-27",
+      "procedure_category": "Cardiovascular Surgery"
+    }
+  },
+  {
+    "case_id": "G7-020",
+    "raw_input_narrative": "58yo female admitted to Lilavati Hospital, Mumbai on 2024-01-14 for Cervical Spinal Fusion. Diagnosis: M47.812. Patient has failed 6 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 2,070,000.",
+    "patient_name": "Mohan Das",
+    "procedure": "Cervical Spinal Fusion",
+    "icd10_code": "M47.812",
+    "hcpcs_code": "22551",
+    "hospital": "Lilavati Hospital, Mumbai",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claim_id": "CLM-2024-4056",
+    "claimed_amount": 2070000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 6,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 58,
+      "gender": "female",
+      "admission_date": "2024-01-14",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-021",
+    "raw_input_narrative": "49yo female admitted to Artemis Hospital, Gurgaon on 2024-07-31 for Percutaneous Coronary Stent. Diagnosis: I25.110. Patient has failed 24 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 834,000.",
+    "patient_name": "Gopal Mehta",
+    "procedure": "Percutaneous Coronary Stent",
+    "icd10_code": "I25.110",
+    "hcpcs_code": "92928",
+    "hospital": "Artemis Hospital, Gurgaon",
+    "insurer": "ICICI Lombard",
+    "product": "Arogya Sanjeevani",
+    "claim_id": "CLM-2024-2009",
+    "claimed_amount": 834000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 24,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 49,
+      "gender": "female",
+      "admission_date": "2024-07-31",
+      "procedure_category": "Cardiovascular Surgery"
+    }
+  },
+  {
+    "case_id": "G7-022",
+    "raw_input_narrative": "57yo female admitted to Max Super Speciality, Saket on 2024-08-26 for Cervical Spinal Fusion. Diagnosis: M47.812. Patient has failed 15 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 456,000.",
+    "patient_name": "Rajesh Gupta",
+    "procedure": "Cervical Spinal Fusion",
+    "icd10_code": "M47.812",
+    "hcpcs_code": "22551",
+    "hospital": "Max Super Speciality, Saket",
+    "insurer": "ICICI Lombard",
+    "product": "Max Protect",
+    "claim_id": "CLM-2024-4727",
+    "claimed_amount": 456000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 15,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 57,
+      "gender": "female",
+      "admission_date": "2024-08-26",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-023",
+    "raw_input_narrative": "65yo male admitted to Ruby Hall Clinic, Pune on 2024-05-02 for Robotic Prostatectomy. Diagnosis: C61. Patient has failed 15 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 531,000.",
+    "patient_name": "Jaya Kamath",
+    "procedure": "Robotic Prostatectomy",
+    "icd10_code": "C61",
+    "hcpcs_code": "55866",
+    "hospital": "Ruby Hall Clinic, Pune",
+    "insurer": "ICICI Lombard",
+    "product": "Health Booster",
+    "claim_id": "CLM-2024-5896",
+    "claimed_amount": 531000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 15,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 65,
+      "gender": "male",
+      "admission_date": "2024-05-02",
+      "procedure_category": "Urology"
+    }
+  },
+  {
+    "case_id": "G7-024",
+    "raw_input_narrative": "71yo male admitted to Fortis Hospital, Gurgaon on 2023-05-04 for Septoplasty. Diagnosis: J45.20. Patient has failed 8 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 925,000.",
+    "patient_name": "Leela Krishnan",
+    "procedure": "Septoplasty",
+    "icd10_code": "J45.20",
+    "hcpcs_code": "30520",
+    "hospital": "Fortis Hospital, Gurgaon",
+    "insurer": "ICICI Lombard",
+    "product": "Health Booster",
+    "claim_id": "CLM-2023-8357",
+    "claimed_amount": 925000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 8,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 71,
+      "gender": "male",
+      "admission_date": "2023-05-04",
+      "procedure_category": "ENT Surgery"
+    }
+  },
+  {
+    "case_id": "G7-025",
+    "raw_input_narrative": "62yo male admitted to AIIMS, New Delhi on 2024-11-30 for Coronary Artery Bypass Graft. Diagnosis: I25.10. Patient has failed 24 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,047,000.",
+    "patient_name": "Sanjay Desai",
+    "procedure": "Coronary Artery Bypass Graft",
+    "icd10_code": "I25.10",
+    "hcpcs_code": "33533",
+    "hospital": "AIIMS, New Delhi",
+    "insurer": "Care Health",
+    "product": "Care",
+    "claim_id": "CLM-2024-8133",
+    "claimed_amount": 1047000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 24,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 62,
+      "gender": "male",
+      "admission_date": "2024-11-30",
+      "procedure_category": "Cardiovascular Surgery"
+    }
+  },
+  {
+    "case_id": "G7-026",
+    "raw_input_narrative": "39yo male admitted to Tata Memorial Hospital, Mumbai on 2024-02-02 for Lumbar Spinal Fusion. Diagnosis: M47.816. Patient has failed 12 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,568,000.",
+    "patient_name": "Vijay Khanna",
+    "procedure": "Lumbar Spinal Fusion",
+    "icd10_code": "M47.816",
+    "hcpcs_code": "22612",
+    "hospital": "Tata Memorial Hospital, Mumbai",
+    "insurer": "ICICI Lombard",
+    "product": "Complete Health Insurance",
+    "claim_id": "CLM-2024-7510",
+    "claimed_amount": 1568000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 12,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 39,
+      "gender": "male",
+      "admission_date": "2024-02-02",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-027",
+    "raw_input_narrative": "74yo female admitted to Apollo Hospitals, Hyderabad on 2023-04-26 for IMRT Radiation Therapy. Diagnosis: C34.90. Patient has failed 8 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 828,000.",
+    "patient_name": "Usha Chauhan",
+    "procedure": "IMRT Radiation Therapy",
+    "icd10_code": "C34.90",
+    "hcpcs_code": "77385",
+    "hospital": "Apollo Hospitals, Hyderabad",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claim_id": "CLM-2023-7790",
+    "claimed_amount": 828000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 8,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 74,
+      "gender": "female",
+      "admission_date": "2023-04-26",
+      "procedure_category": "Radiation Oncology"
+    }
+  },
+  {
+    "case_id": "G7-028",
+    "raw_input_narrative": "41yo male admitted to SRM Institute, Chennai on 2024-07-30 for Craniotomy for Tumor. Diagnosis: G40.909. Patient has failed 18 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,400,000.",
+    "patient_name": "Kamala Subramaniam",
+    "procedure": "Craniotomy for Tumor",
+    "icd10_code": "G40.909",
+    "hcpcs_code": "61510",
+    "hospital": "SRM Institute, Chennai",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claim_id": "CLM-2024-2654",
+    "claimed_amount": 1400000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 18,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 41,
+      "gender": "male",
+      "admission_date": "2024-07-30",
+      "procedure_category": "Neurosurgery"
+    }
+  },
+  {
+    "case_id": "G7-029",
+    "raw_input_narrative": "59yo female admitted to Ruby Hall Clinic, Pune on 2024-08-08 for Septoplasty. Diagnosis: J45.20. Patient has failed 8 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 357,000.",
+    "patient_name": "Dinesh Saxena",
+    "procedure": "Septoplasty",
+    "icd10_code": "J45.20",
+    "hcpcs_code": "30520",
+    "hospital": "Ruby Hall Clinic, Pune",
+    "insurer": "ICICI Lombard",
+    "product": "Arogya Sanjeevani",
+    "claim_id": "CLM-2024-8750",
+    "claimed_amount": 357000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 8,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 59,
+      "gender": "female",
+      "admission_date": "2024-08-08",
+      "procedure_category": "ENT Surgery"
+    }
+  },
+  {
+    "case_id": "G7-030",
+    "raw_input_narrative": "73yo female admitted to AIIMS, New Delhi on 2023-02-09 for Percutaneous Coronary Stent. Diagnosis: I25.110. Patient has failed 24 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,590,000.",
+    "patient_name": "Madhavi Kulkarni",
+    "procedure": "Percutaneous Coronary Stent",
+    "icd10_code": "I25.110",
+    "hcpcs_code": "92928",
+    "hospital": "AIIMS, New Delhi",
+    "insurer": "ICICI Lombard",
+    "product": "Health Shield 360",
+    "claim_id": "CLM-2023-7484",
+    "claimed_amount": 1590000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 24,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 73,
+      "gender": "female",
+      "admission_date": "2023-02-09",
+      "procedure_category": "Cardiovascular Surgery"
+    }
+  },
+  {
+    "case_id": "G7-031",
+    "raw_input_narrative": "58yo male admitted to BLK-MAX, New Delhi on 2023-12-12 for Coronary Artery Bypass Graft. Diagnosis: I25.10. Patient has failed 12 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,504,000.",
+    "patient_name": "Anita Devi",
+    "procedure": "Coronary Artery Bypass Graft",
+    "icd10_code": "I25.10",
+    "hcpcs_code": "33533",
+    "hospital": "BLK-MAX, New Delhi",
+    "insurer": "ICICI Lombard",
+    "product": "Arogya Sanjeevani",
+    "claim_id": "CLM-2023-5965",
+    "claimed_amount": 1504000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 12,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 58,
+      "gender": "male",
+      "admission_date": "2023-12-12",
+      "procedure_category": "Cardiovascular Surgery"
+    }
+  },
+  {
+    "case_id": "G7-032",
+    "raw_input_narrative": "43yo female admitted to Manipal Hospital, Bangalore on 2024-03-29 for Robotic Prostatectomy. Diagnosis: C61. Patient has failed 24 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,330,000.",
+    "patient_name": "Padma Srinivasan",
+    "procedure": "Robotic Prostatectomy",
+    "icd10_code": "C61",
+    "hcpcs_code": "55866",
+    "hospital": "Manipal Hospital, Bangalore",
+    "insurer": "HDFC ERGO",
+    "product": "my:Optima Secure",
+    "claim_id": "CLM-2024-6257",
+    "claimed_amount": 1330000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 24,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 43,
+      "gender": "female",
+      "admission_date": "2024-03-29",
+      "procedure_category": "Urology"
+    }
+  },
+  {
+    "case_id": "G7-033",
+    "raw_input_narrative": "63yo male admitted to Max Super Speciality, Saket on 2024-02-21 for Laparoscopic Sleeve Gastrectomy. Diagnosis: E66.01. Patient has failed 12 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 2,366,000.",
+    "patient_name": "Vijay Khanna",
+    "procedure": "Laparoscopic Sleeve Gastrectomy",
+    "icd10_code": "E66.01",
+    "hcpcs_code": "43775",
+    "hospital": "Max Super Speciality, Saket",
+    "insurer": "HDFC ERGO",
+    "product": "my:Optima Secure",
+    "claim_id": "CLM-2024-8937",
+    "claimed_amount": 2366000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 12,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 63,
+      "gender": "male",
+      "admission_date": "2024-02-21",
+      "procedure_category": "Bariatric Surgery"
+    }
+  },
+  {
+    "case_id": "G7-034",
+    "raw_input_narrative": "45yo male admitted to Global Hospitals, Hyderabad on 2023-11-15 for Robotic Prostatectomy. Diagnosis: C61. Patient has failed 8 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,892,000.",
+    "patient_name": "Anita Devi",
+    "procedure": "Robotic Prostatectomy",
+    "icd10_code": "C61",
+    "hcpcs_code": "55866",
+    "hospital": "Global Hospitals, Hyderabad",
+    "insurer": "Star Health",
+    "product": "Family Health Optima",
+    "claim_id": "CLM-2023-9303",
+    "claimed_amount": 1892000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 8,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 45,
+      "gender": "male",
+      "admission_date": "2023-11-15",
+      "procedure_category": "Urology"
+    }
+  },
+  {
+    "case_id": "G7-035",
+    "raw_input_narrative": "46yo male admitted to SRM Institute, Chennai on 2023-07-25 for Liver Transplant. Diagnosis: K80.20. Patient has failed 6 months of conservative management including physiotherapy, medication, and specialist consultations. Treating physician certifies that surgical intervention is medically necessary. Claim amount: Rs. 1,246,000.",
+    "patient_name": "Jaya Kamath",
+    "procedure": "Liver Transplant",
+    "icd10_code": "K80.20",
+    "hcpcs_code": "47135",
+    "hospital": "SRM Institute, Chennai",
+    "insurer": "Care Health",
+    "product": "Care",
+    "claim_id": "CLM-2023-1944",
+    "claimed_amount": 1246000.0,
+    "ground_truth_verdict_and_summary": "OVERTURN",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": true,
+      "duration_months": 6,
+      "physician_certification": true,
+      "acute_severity_documented": true,
+      "guideline_conformance": true
+    },
+    "case_facts": {
+      "age": 46,
+      "gender": "male",
+      "admission_date": "2023-07-25",
+      "procedure_category": "Transplant Surgery"
+    }
+  },
+  {
+    "case_id": "G7-036",
+    "raw_input_narrative": "47yo female at Yashoda Hospital, Hyderabad. No evidence of any conservative treatment attempted before requesting Mastectomy (Breast Cancer). Diagnosis: C50.911. Claim amount: Rs. 2,319,000.",
+    "patient_name": "Anita Devi",
+    "procedure": "Mastectomy (Breast Cancer)",
+    "icd10_code": "C50.911",
+    "hcpcs_code": "19303",
+    "hospital": "Yashoda Hospital, Hyderabad",
+    "insurer": "Star Health",
+    "product": "Star Comprehensive",
+    "claim_id": "CLM-2024-8605",
+    "claimed_amount": 2319000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 47,
+      "gender": "female",
+      "admission_date": "2024-01-13",
+      "procedure_category": "Oncology Surgery"
+    }
+  },
+  {
+    "case_id": "G7-037",
+    "raw_input_narrative": "58yo female at Apollo Hospitals, Hyderabad. No evidence of any conservative treatment attempted before requesting Septoplasty. Diagnosis: J45.20. Claim amount: Rs. 945,000.",
+    "patient_name": "Sunita Mishra",
+    "procedure": "Septoplasty",
+    "icd10_code": "J45.20",
+    "hcpcs_code": "30520",
+    "hospital": "Apollo Hospitals, Hyderabad",
+    "insurer": "HDFC ERGO",
+    "product": "my:Optima Secure",
+    "claim_id": "CLM-2024-8308",
+    "claimed_amount": 945000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 58,
+      "gender": "female",
+      "admission_date": "2024-08-31",
+      "procedure_category": "ENT Surgery"
+    }
+  },
+  {
+    "case_id": "G7-038",
+    "raw_input_narrative": "51yo male at Yashoda Hospital, Hyderabad. Request for IMRT Radiation Therapy classified as cosmetic. No functional impairment documented. Diagnosis: C34.90. Claim amount: Rs. 1,821,000.",
+    "patient_name": "Dinesh Saxena",
+    "procedure": "IMRT Radiation Therapy",
+    "icd10_code": "C34.90",
+    "hcpcs_code": "77385",
+    "hospital": "Yashoda Hospital, Hyderabad",
+    "insurer": "HDFC ERGO",
+    "product": "Optima Restore",
+    "claim_id": "CLM-2023-1449",
+    "claimed_amount": 1821000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 51,
+      "gender": "male",
+      "admission_date": "2023-10-19",
+      "procedure_category": "Radiation Oncology"
+    }
+  },
+  {
+    "case_id": "G7-039",
+    "raw_input_narrative": "49yo male at Kokilaben Dhirubhai Ambani, Mumbai. No evidence of any conservative treatment attempted before requesting Robotic Prostatectomy. Diagnosis: C61. Claim amount: Rs. 2,353,000.",
+    "patient_name": "Pavan Kumar B",
+    "procedure": "Robotic Prostatectomy",
+    "icd10_code": "C61",
+    "hcpcs_code": "55866",
+    "hospital": "Kokilaben Dhirubhai Ambani, Mumbai",
+    "insurer": "HDFC ERGO",
+    "product": "my:Optima Secure",
+    "claim_id": "CLM-2023-7709",
+    "claimed_amount": 2353000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 49,
+      "gender": "male",
+      "admission_date": "2023-10-03",
+      "procedure_category": "Urology"
+    }
+  },
+  {
+    "case_id": "G7-040",
+    "raw_input_narrative": "46yo male at AIIMS, New Delhi. No evidence of any conservative treatment attempted before requesting Total Knee Replacement. Diagnosis: M17.11. Claim amount: Rs. 1,481,000.",
+    "patient_name": "Naresh Biswas",
+    "procedure": "Total Knee Replacement",
+    "icd10_code": "M17.11",
+    "hcpcs_code": "27447",
+    "hospital": "AIIMS, New Delhi",
+    "insurer": "ICICI Lombard",
+    "product": "Max Protect",
+    "claim_id": "CLM-2023-5135",
+    "claimed_amount": 1481000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 46,
+      "gender": "male",
+      "admission_date": "2023-08-18",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-041",
+    "raw_input_narrative": "57yo female at Ruby Hall Clinic, Pune. No evidence of any conservative treatment attempted before requesting Cervical Spinal Fusion. Diagnosis: M47.812. Claim amount: Rs. 2,157,000.",
+    "patient_name": "Neha Agarwal",
+    "procedure": "Cervical Spinal Fusion",
+    "icd10_code": "M47.812",
+    "hcpcs_code": "22551",
+    "hospital": "Ruby Hall Clinic, Pune",
+    "insurer": "ICICI Lombard",
+    "product": "Elevate Health",
+    "claim_id": "CLM-2023-4575",
+    "claimed_amount": 2157000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 57,
+      "gender": "female",
+      "admission_date": "2023-09-16",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-042",
+    "raw_input_narrative": "41yo male at Lilavati Hospital, Mumbai. No evidence of any conservative treatment attempted before requesting IMRT Radiation Therapy. Diagnosis: C34.90. Claim amount: Rs. 1,386,000.",
+    "patient_name": "Indira Rajan",
+    "procedure": "IMRT Radiation Therapy",
+    "icd10_code": "C34.90",
+    "hcpcs_code": "77385",
+    "hospital": "Lilavati Hospital, Mumbai",
+    "insurer": "ICICI Lombard",
+    "product": "Health Shield 360",
+    "claim_id": "CLM-2024-7131",
+    "claimed_amount": 1386000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 41,
+      "gender": "male",
+      "admission_date": "2024-06-07",
+      "procedure_category": "Radiation Oncology"
+    }
+  },
+  {
+    "case_id": "G7-043",
+    "raw_input_narrative": "52yo female at Max Super Speciality, Saket. Request for Total Hip Replacement classified as cosmetic. No functional impairment documented. Diagnosis: M16.11. Claim amount: Rs. 1,453,000.",
+    "patient_name": "Naresh Biswas",
+    "procedure": "Total Hip Replacement",
+    "icd10_code": "M16.11",
+    "hcpcs_code": "27130",
+    "hospital": "Max Super Speciality, Saket",
+    "insurer": "ICICI Lombard",
+    "product": "Complete Health Insurance",
+    "claim_id": "CLM-2023-5278",
+    "claimed_amount": 1453000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 52,
+      "gender": "female",
+      "admission_date": "2023-10-11",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-044",
+    "raw_input_narrative": "73yo female at Narayana Health, Bangalore. Request for IMRT Radiation Therapy classified as cosmetic. No functional impairment documented. Diagnosis: C34.90. Claim amount: Rs. 787,000.",
+    "patient_name": "Girish Kaul",
+    "procedure": "IMRT Radiation Therapy",
+    "icd10_code": "C34.90",
+    "hcpcs_code": "77385",
+    "hospital": "Narayana Health, Bangalore",
+    "insurer": "Care Health",
+    "product": "Care",
+    "claim_id": "CLM-2024-6236",
+    "claimed_amount": 787000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 73,
+      "gender": "female",
+      "admission_date": "2024-11-07",
+      "procedure_category": "Radiation Oncology"
+    }
+  },
+  {
+    "case_id": "G7-045",
+    "raw_input_narrative": "61yo female at CMC Vellore. No evidence of any conservative treatment attempted before requesting Cervical Spinal Fusion. Diagnosis: M47.812. Claim amount: Rs. 997,000.",
+    "patient_name": "Padma Srinivasan",
+    "procedure": "Cervical Spinal Fusion",
+    "icd10_code": "M47.812",
+    "hcpcs_code": "22551",
+    "hospital": "CMC Vellore",
+    "insurer": "ICICI Lombard",
+    "product": "Arogya Sanjeevani",
+    "claim_id": "CLM-2024-1578",
+    "claimed_amount": 997000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 61,
+      "gender": "female",
+      "admission_date": "2024-02-02",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-046",
+    "raw_input_narrative": "65yo female at Amrita Hospital, Kochi. No evidence of any conservative treatment attempted before requesting Renal Transplant. Diagnosis: N18.6. Claim amount: Rs. 913,000.",
+    "patient_name": "Amit Verma",
+    "procedure": "Renal Transplant",
+    "icd10_code": "N18.6",
+    "hcpcs_code": "50360",
+    "hospital": "Amrita Hospital, Kochi",
+    "insurer": "ICICI Lombard",
+    "product": "Max Protect",
+    "claim_id": "CLM-2024-5918",
+    "claimed_amount": 913000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 65,
+      "gender": "female",
+      "admission_date": "2024-06-03",
+      "procedure_category": "Transplant Surgery"
+    }
+  },
+  {
+    "case_id": "G7-047",
+    "raw_input_narrative": "43yo female at Manipal Hospital, Bangalore. Request for Lumbar Spinal Fusion classified as cosmetic. No functional impairment documented. Diagnosis: M47.816. Claim amount: Rs. 1,608,000.",
+    "patient_name": "Prakash Choudhury",
+    "procedure": "Lumbar Spinal Fusion",
+    "icd10_code": "M47.816",
+    "hcpcs_code": "22612",
+    "hospital": "Manipal Hospital, Bangalore",
+    "insurer": "ICICI Lombard",
+    "product": "Health AdvantEdge",
+    "claim_id": "CLM-2024-3999",
+    "claimed_amount": 1608000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 43,
+      "gender": "female",
+      "admission_date": "2024-07-26",
+      "procedure_category": "Orthopedic Surgery"
+    }
+  },
+  {
+    "case_id": "G7-048",
+    "raw_input_narrative": "54yo female at Narayana Health, Bangalore. Request for experimental Coronary Artery Bypass Graft technique not approved by CDSCO. Diagnosis: I25.10. Claim amount: Rs. 1,293,000.",
+    "patient_name": "Dinesh Saxena",
+    "procedure": "Coronary Artery Bypass Graft",
+    "icd10_code": "I25.10",
+    "hcpcs_code": "33533",
+    "hospital": "Narayana Health, Bangalore",
+    "insurer": "Star Health",
+    "product": "Star Comprehensive",
+    "claim_id": "CLM-2023-7089",
+    "claimed_amount": 1293000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 54,
+      "gender": "female",
+      "admission_date": "2023-12-06",
+      "procedure_category": "Cardiovascular Surgery"
+    }
+  },
+  {
+    "case_id": "G7-049",
+    "raw_input_narrative": "75yo male at BLK-MAX, New Delhi. No evidence of any conservative treatment attempted before requesting Mastectomy (Breast Cancer). Diagnosis: C50.911. Claim amount: Rs. 2,299,000.",
+    "patient_name": "Sunita Mishra",
+    "procedure": "Mastectomy (Breast Cancer)",
+    "icd10_code": "C50.911",
+    "hcpcs_code": "19303",
+    "hospital": "BLK-MAX, New Delhi",
+    "insurer": "Care Health",
+    "product": "Care",
+    "claim_id": "CLM-2024-4187",
+    "claimed_amount": 2299000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 75,
+      "gender": "male",
+      "admission_date": "2024-04-28",
+      "procedure_category": "Oncology Surgery"
+    }
+  },
+  {
+    "case_id": "G7-050",
+    "raw_input_narrative": "38yo male at CMC Vellore. No evidence of any conservative treatment attempted before requesting Laparoscopic Sleeve Gastrectomy. Diagnosis: E66.01. Claim amount: Rs. 1,637,000.",
+    "patient_name": "Jaya Kamath",
+    "procedure": "Laparoscopic Sleeve Gastrectomy",
+    "icd10_code": "E66.01",
+    "hcpcs_code": "43775",
+    "hospital": "CMC Vellore",
+    "insurer": "ICICI Lombard",
+    "product": "Elevate Health",
+    "claim_id": "CLM-2023-4281",
+    "claimed_amount": 1637000.0,
+    "ground_truth_verdict_and_summary": "UPHOLD",
+    "evidence_coverage_matrix": {
+      "conservative_failure_documented": false,
+      "duration_months": 0,
+      "physician_certification": false,
+      "acute_severity_documented": false,
+      "guideline_conformance": false
+    },
+    "case_facts": {
+      "age": 38,
+      "gender": "male",
+      "admission_date": "2023-05-21",
+      "procedure_category": "Bariatric Surgery"
+    }
+  }
+]

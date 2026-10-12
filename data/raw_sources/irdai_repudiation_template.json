@@ -1,0 +1,21 @@
+{
+  "regulatory_authority": "Insurance Regulatory and Development Authority of India (IRDAI)",
+  "governing_circular": "IRDAI/HLT/REG/CIR/193/07/2020 & Master Circular 2024",
+  "mandatory_fields_in_repudiation_letter": [
+    "claim_reference_number",
+    "policy_number_and_variant",
+    "policy_inception_date",
+    "date_of_admission_and_discharge",
+    "hospital_name_and_treating_doctor",
+    "claimed_amount_and_deductions",
+    "specific_clause_number_cited",
+    "verbatim_reproduction_of_policy_exclusion_text",
+    "exact_factual_reason_for_rejection",
+    "grievance_redressal_officer_contact_details",
+    "insurance_ombudsman_jurisdiction_and_address"
+  ],
+  "standard_denial_templates": {
+    "PRE_EXISTING_DISEASE": "With reference to Claim ID {claim_id} submitted under Policy No {policy_no}, we regret to inform you that the claim has been repudiated under Policy Clause {clause_no} (Pre-existing Disease Waiting Period). As per clinical records, the symptoms/diagnosis of {diagnosis} originated prior to the policy inception date {inception_date}. As per policy terms, a waiting period of {waiting_period_months} months applies before expenses relating to pre-existing conditions are payable.",
+    "MEDICAL_NECESSITY": "With reference to Claim ID {claim_id} submitted under Policy No {policy_no}, the claim for {procedure} has been repudiated under Policy Clause {clause_no} (Medical Necessity). Our medical scrutiny indicates that conservative management protocol was not documented or exhausted, and active inpatient hospitalisation was not medically imperative as per standard clinical guidelines."
+  }
+}

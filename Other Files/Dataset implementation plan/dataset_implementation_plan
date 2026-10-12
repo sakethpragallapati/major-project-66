@@ -1,0 +1,502 @@
+# End-to-End Dataset & Evaluation Implementation Plan
+## Master Guide: Source Datasets, Golden Benchmarks, and 3-Tier Evaluation (DeepEval)
+
+---
+
+## Executive Summary & Status
+
+### 1. Downloaded Policy Wordings Status (`data/policy_wordings/`)
+All **13 essential retail policy documents across India's top 4 private health insurers (ICICI Lombard, Care Health, HDFC ERGO, Star Health)** are organized and verified in [`data/policy_wordings/`](file:///c:/Users/Saketh/Desktop/Major%20Project/data/policy_wordings):
+
+| # | Insurer | File Name | Size | Product Category | Relevance to Pipelines |
+|---|---|---|---|---|---|
+| 1 | ICICI Lombard | `complete-health-insurance.pdf` | 416 KB | Retail Comprehensive | **Primary Core**: Standard exclusions, 24/48-month PED clauses |
+| 2 | ICICI Lombard | `health-shield-360-retail...pdf` | 1.3 MB | Retail Modular | **Primary Core**: Elective surgery & exception wording |
+| 3 | ICICI Lombard | `arogya-sanjeevani.pdf` | 549 KB | IRDAI Standardized | **Primary Core**: Statutory benchmark (Code-Excl01 to Excl04) |
+| 4 | ICICI Lombard | `elevate.pdf` | 1.6 MB | Modern Comprehensive | **Primary Core**: Modern treatments, robotic surgeries, infinite SI |
+| 5 | ICICI Lombard | `health-advantedge...pdf` | 1.3 MB | High-Sum-Insured Retail | High-value claim sub-limits and room-rent clauses |
+| 6 | ICICI Lombard | `health-booster...pdf` | 626 KB | Super Top-Up | Deductible threshold calculations and secondary claim denials |
+| 7 | ICICI Lombard | `max-protect.pdf` | 899 KB | Retail Health | 1Y/2Y/3Y waiting period modification rules |
+| 8 | Care Health | `care...pdf` | 2.1 MB | Classic Comprehensive | Flagship retail comprehensive coverage (formerly Religare Care) |
+| 9 | Care Health | `care-supreme...pdf` | 2.2 MB | Modern Comprehensive | Modern daycare, robotic surgery, cumulative bonus rules |
+| 10 | HDFC ERGO | `hdfc-optima-secure.pdf` | 925 KB | Modern Flagship | Automatic 4X restore benefit, non-medical expense coverage |
+| 11 | HDFC ERGO | `hdfc-optima-restore.pdf` | 773 KB | Classic Flagship | Most widely held retail health policy in HDFC ERGO history |
+| 12 | Star Health | `star-comprehensive.pdf` | 2.1 MB | Standalone Flagship | #1 retail health insurer in India, bariatric & modern surgery |
+| 13 | Star Health | `star-family-health-optima.pdf` | 1.3 MB | Classic Floater | Widely held family floater health policy in India |
+
+> [!NOTE]
+> All irrelevant policy types (Group policies, Personal Accident, Hospital Cash, Single-disease benefit riders) have been excluded, ensuring our knowledge base and evaluation suite remain uncontaminated.
+
+---
+
+## 2. Complete Source Dataset Registry (Free & Public)
+
+To build both the **Runtime Knowledge Base** and the **3-Tier Golden Evaluation Datasets**, we utilize 13 public, freely accessible datasets:
+
+### Part A: Raw Source Pools & Knowledge-Base Inputs (D1 – D8)
+| ID | Dataset Name | Source / Provider | License | Role in System & Lifecycle |
+|---|---|---|---|---|
+| **D1** | CMS DE-SynPUF | [Kaggle (CMS)](https://www.kaggle.com/datasets/drscarlat/cmssynpuf55m) | Public Domain | **Upstream Pool Only**: Sampled to synthesize golden claim dates and amounts; *dropped at runtime*. |
+| **D2** | MTSamples | [Kaggle (CC0)](https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions) | CC0 Public | **Upstream Pool Only**: Sampled to populate clinical narratives in golden JSONs; *dropped at runtime*. |
+| **D3** | ICD-10-CM Codes | [Kaggle / CDC](https://www.kaggle.com/datasets/arashnic/icd10-codes-and-descriptions) | Public Domain | **Active Runtime CSV** (`icd10_codes.csv`): Diagnosis validation & entity lookup. |
+| **D4** | ClaimSaathi | [Kaggle](https://www.kaggle.com/datasets/siddhant2002/claimsaathi-indian-health-insurance-dataset) | Open | **Upstream Pool Only**: Sampled for Indian waiting period edge cases; *dropped at runtime*. |
+| **D5** | HCPCS Level II | [CMS.gov](https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system) | Public Domain | **Active Runtime CSV** (`procedure_codes.csv`): Procedure code verification. |
+| **D6** | IBM Policy Rules | [GitHub (IBM)](https://github.com/IBM/rules_extraction_from_healthcare_policy) | Apache 2.0 | Reference schema for converting policy clauses to IF-THEN rules. |
+| **D7** | 13 Retail Policy PDFs (4 Insurers) | Local (`data/policy_wordings/`) | Free Public | **Active Runtime Core**: Extracted into `policy_clauses.csv` (Vector Store for RAG, 1,997 clauses) & `nme_exclusions.csv`. |
+| **D8** | CARC/RARC Codes | [X12 / CMS](https://x12.org/products/external-code-lists) | Public Domain | **Active Runtime CSV** (`denial_reasons.csv`): Taxonomy mapping table for the Denial Router. |
+
+### Part B: Dedicated Golden Evaluation Benchmarks (D9 – D13)
+| ID | Dataset Name | Source / Provider | License | Role in Evaluation |
+|---|---|---|---|---|
+| **D9** | CA DMHC IMR Trend | [CA Open Data](https://data.chhs.ca.gov/dataset/independent-medical-review-imr-determinations-trend) / [Kaggle](https://www.kaggle.com/datasets) | Public Domain | **100,000+ real Medical Necessity appeal cases** with clinical findings and Overturned/Upheld ground truth. Direct CSV download. |
+| **D10** | Persius/imr-appeals & hicric | [Hugging Face](https://huggingface.co/datasets/Persius/imr-appeals) | Open Research | Span-labeled external appeal adjudications and policy rules for health coverage denials. Direct download. |
+| **D11** | CIO Ombudsman & Indian Kanoon | [cioins.co.in](https://www.cioins.co.in) / [Indian Kanoon](https://indiankanoon.org) | Public Legal Records | **Real Indian Pre-Existing Disease (PED) & waiting period repudiations**. Annual Reports direct PDF download; Indian Kanoon full legal texts (zero OTP/login). |
+| **D12** | InsLogicBench & InsClaimBench | [ACL 2026](https://aclanthology.org) / [arXiv:2610.09671](https://arxiv.org/abs/2610.09671) | Open Benchmark | Nested Toulmin argumentation ground truth & claim decision chains. |
+| **D13** | IRDAI Indian Repudiation Notices | [IRDAI Guidelines](https://irdai.gov.in) / Insurer Portals | Public Regulatory | Standard 1-page health claim repudiation notice format (ICICI Lombard, Star Health) populated with ClaimSaathi & Kanoon facts. *(100% pure healthcare; replaces generic Nemotron-PII)*. |
+
+### Part C: Accessibility & Verification Audit Table
+Every source dataset has been verified for accessibility, licensing, and domain relevance:
+
+| ID | Dataset | Direct Download Link / Access | Cost | Auth / Credentials Needed? | Domain Pure Healthcare? | Verified Status |
+|---|---|---|:---:|:---:|:---:|:---:|
+| **D1** | CMS DE-SynPUF | [Kaggle](https://www.kaggle.com/datasets/drscarlat/cmssynpuf55m) | Free | Free Kaggle Account | Yes (Medicare Claims) | **VERIFIED** |
+| **D2** | MTSamples | [Kaggle](https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions) | Free | Free Kaggle Account | Yes (Clinical Notes) | **VERIFIED** |
+| **D3** | ICD-10-CM Codes | [CDC / CMS](https://www.cms.gov/medicare/coding-billing/icd-10-codes) | Free | None (Public Domain) | Yes (Diagnosis Taxonomy) | **VERIFIED** |
+| **D4** | ClaimSaathi | [Kaggle](https://www.kaggle.com/datasets/siddhant2002/claimsaathi-indian-health-insurance-dataset) | Free | Free Kaggle Account | Yes (Indian Health Claims) | **VERIFIED** |
+| **D5** | HCPCS Level II | [CMS.gov](https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system) | Free | None (Direct Excel/CSV) | Yes (Medical Procedures) | **VERIFIED** |
+| **D6** | IBM Policy Rules | [GitHub](https://github.com/IBM/rules_extraction_from_healthcare_policy) | Free | None (Public GitHub) | Yes (Health Policy Rules) | **VERIFIED** |
+| **D7** | 13 Policy PDFs (4 Insurers) | Local: `data/policy_wordings/` | Free | None (Downloaded & Verified) | Yes (Retail Health Policies) | **READY LOCALLY** |
+| **D8** | CARC/RARC Codes | [X12.org / CMS](https://x12.org/products/external-code-lists) | Free | None (Public Domain) | Yes (Denial Reasons) | **VERIFIED** |
+| **D9** | CA DMHC IMR Trend | [CA Open Data Portal](https://data.chhs.ca.gov/dataset/independent-medical-review-imr-determinations-trend) | Free | None (Direct CSV Download) | Yes (Medical Necessity) | **VERIFIED** |
+| **D10** | Persius/imr-appeals | [Hugging Face](https://huggingface.co/datasets/Persius/imr-appeals) | Free | None (Direct HF Download) | Yes (Health Coverage Appeals) | **VERIFIED** |
+| **D11** | CIO & Indian Kanoon | [Indian Kanoon](https://indiankanoon.org) & [CIO Publications](https://www.cioins.co.in) | Free | None (Zero OTP / Open Web) | Yes (Indian PED Repudiations) | **VERIFIED** |
+| **D12** | InsLogicBench | [ACL Anthology](https://aclanthology.org) / arXiv:2610.09671 | Free | None (Open Research) | Yes (Insurance Reasoning) | **VERIFIED** |
+| **D13** | IRDAI Repudiation Forms | [IRDAI Portals](https://irdai.gov.in) | Free | None (Regulatory Templates) | Yes (Health Claim Repudiation) | **VERIFIED** |
+
+---
+
+## 3. Runtime Knowledge Base vs. Golden JSON Architecture
+
+A critical architectural distinction is made between **Runtime Knowledge Bases** and **Evaluation Benchmarks**:
+
+* **Runtime Knowledge-Base CSVs:** External dictionaries and vector databases that AI agents query during live execution (e.g., searching for clause wording, checking ICD-10 validity).
+* **Golden Dataset JSONs:** Self-contained evaluation cases containing both the input prompt/documents and the expected ground truth used by **DeepEval** to grade the system.
+
+```mermaid
+graph LR
+    subgraph Golden Test Benchmark (JSON)
+        IN["Input: 'Denial under Clause 4.3 for TKR'<br/>(from golden_clause_retrieval.json)"]
+        GT["Ground Truth: Clause HS360-EX-043<br/>Exception 4.3.2 applicable"]
+    end
+
+    subgraph Agent Execution Runtime
+        IN --> AGENT["RAG Agent"]
+        CSV[("policy_clauses.csv<br/>(Vector DB / Knowledge Base)")] --> AGENT
+        AGENT --> OUT["Actual Output: Found Exception 4.3.2"]
+    end
+
+    subgraph DeepEval Evaluation
+        OUT --> EVAL["DeepEval Evaluator"]
+        GT --> EVAL
+        EVAL --> SCORE["Score: Contextual Recall = 1.0 ✅"]
+    end
+```
+
+### A. The 5 Active Runtime Knowledge-Base CSVs
+Only these 5 CSVs are maintained at runtime. Agents query these files as external knowledge:
+
+```
+c:\Users\Saketh\Desktop\Major Project\data\runtime\
+├── policy_clauses.csv       (Extracted from D7 PDFs: 1,997 structured clauses indexed in Vector DB across 4 insurers)
+├── denial_reasons.csv       (Standardized D8 + IRDAI: ~80 denial categories for Router lookup)
+├── icd10_codes.csv          (Direct D3: 70,000+ diagnosis codes for medical entity validation)
+├── procedure_codes.csv      (Direct D5: 7,000+ procedure codes for surgery validation)
+└── nme_exclusions.csv       (Extracted from D7 Annexures: ~120 non-medical items for financial audit)
+```
+
+#### Detailed Schemas for Active Runtime CSVs:
+1. **`policy_clauses.csv`** (Loaded into ChromaDB / FAISS for RAG):
+   * Columns: `clause_id`, `insurer`, `product_name`, `section`, `clause_number`, `clause_text`, `clause_type`, `has_exception`, `exception_text`, `temporal_rule`
+2. **`denial_reasons.csv`** (Used by Denial Reason Normalization & Router):
+   * Columns: `reason_id`, `category`, `sub_category`, `reason_text`, `carc_code`, `typical_clause_type`, `appeal_route`
+3. **`icd10_codes.csv`** (Used by Medical Entity Linker):
+   * Columns: `code`, `short_description`, `long_description`, `is_billable`
+4. **`procedure_codes.csv`** (Used by Procedure Verification):
+   * Columns: `hcpcs_code`, `short_description`, `category`
+5. **`nme_exclusions.csv`** (Used by Financial Audit Module):
+   * Columns: `item_id`, `item_name`, `category`, `typically_excluded`
+
+---
+
+### B. Eliminated / Redundant CSVs (Superseded by Golden JSONs)
+The following 2 CSVs from initial planning are **completely eliminated** from runtime:
+
+| Eliminated File | Original Purpose | Why It Is Eliminated |
+|---|---|---|
+| ❌ `medical_notes.csv` | Raw table of 2,000 MTSamples clinical notes. | **Superseded by Golden JSONs.** Clinical discharge summaries are embedded directly inside `golden_clinical_evidence.json` and `golden_pipeline_medical_necessity.json`. Agents receive the note directly in the test case; querying a 2,000-row CSV at runtime is unnecessary. |
+| ❌ `claims_master.csv` | 10,000 synthetic patient rows. | **Superseded by Golden JSONs.** Patient demographics, policy inception dates, waiting period milestones, and billed amounts are self-contained within `golden_chronology_ped.json` and `golden_intake_entities.json`. |
+
+---
+
+## 4. The 3-Tier Golden Datasets Specification
+
+To evaluate our two prototype pipelines (**Medical Necessity** and **Pre-Existing Waiting Period**) and the overall system, we construct **10 purpose-built Golden Datasets**.
+
+```mermaid
+graph TD
+    subgraph Level 1: Component Golden Datasets
+        G1["G1: golden_intake_entities.json<br/>(100 Cases: Raw Letter → Entity Spans)"]
+        G2["G2: golden_clause_retrieval.json<br/>(100 Triplets: Query → Clause ID + Exception)"]
+        G3["G3: golden_clinical_evidence.json<br/>(60 Cases: Clinical Text → Checklist Ground Truth)"]
+        G4["G4: golden_chronology_ped.json<br/>(60 Cases: Timeline Dates → Symbolic Math Truth)"]
+        G5["G5: golden_reasoning_toulmin.json<br/>(80 Cases: Facts + Clauses → Toulmin Verdict)"]
+        G6["G6: golden_appeal_drafts.json<br/>(40 Cases: Findings → Reference Legal Letter)"]
+    end
+
+    subgraph Level 2: Pipeline Golden Datasets
+        G7["G7: golden_pipeline_medical_necessity.json<br/>(50 End-to-End Cases: Notes + Policy → Overturn Verdict)"]
+        G8["G8: golden_pipeline_waiting_period.json<br/>(50 End-to-End Cases: Timeline + Schedule → Ombudsman Ruling)"]
+    end
+
+    subgraph Level 3: Application Golden Datasets
+        G9["G9: golden_denial_router.json<br/>(140 Raw Letters: 20 per 7 Categories)"]
+        G10["G10: golden_hitl_benchmark.json<br/>(30 Complete Packs: Human Adjudicator Consensus)"]
+    end
+```
+
+---
+
+### Tier 1: Component-Wise Golden Datasets
+
+#### G1: `golden_intake_entities.json` (Component 1.1: Denial Intake)
+* **Target Component:** Denial Intake & Entity Extraction Agent ([Lop21])
+* **Source:** D10 (Persius/imr-appeals for Medical Necessity) + D13 (IRDAI Repudiation Notices populated with D4 ClaimSaathi & Kanoon facts for Waiting Period).
+* **Size:** 100 cases (unstructured text letters).
+* **Schema:**
+  ```json
+  {
+    "case_id": "G1-001",
+    "raw_letter_text": "Ref: CLM-2024-8921. Dear Ramesh Kumar, with reference to your hospitalization on 15/03/2024 at Apollo Hospitals for Total Knee Replacement (ICD-10: M17.11), your claim for Rs 4,50,000 has been repudiated under Clause 4.3 (Elective Surgery)...",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-8921",
+      "patient_name": "Ramesh Kumar",
+      "denial_date": "2024-03-15",
+      "procedure": "Total Knee Replacement",
+      "icd10_code": "M17.11",
+      "claimed_amount": 450000.0,
+      "cited_clause_raw": "Clause 4.3",
+      "denial_category_hint": "Elective Surgery"
+    }
+  }
+  ```
+
+#### G2: `golden_clause_retrieval.json` (Component 1.2: Policy Clause RAG)
+* **Target Component:** Policy Clause Retriever & Verifier ([Pic22], [Pok26])
+* **Source:** Extracted directly from the 13 verified retail policy PDFs across ICICI Lombard, Care Health, HDFC ERGO, and Star Health.
+* **Size:** 100 query-context triplets.
+* **Schema:**
+  ```json
+  {
+    "query_id": "G2-018",
+    "user_query": "Is Total Knee Replacement covered if conservative medical treatment failed under Health Shield 360?",
+    "product_name": "Health Shield 360",
+    "expected_clause_id": "HS360-EX-043",
+    "expected_subclause": "4.3.2",
+    "has_exception": true,
+    "ground_truth_context_snippet": "Sub-clause 4.3.2: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "distractor_clauses": ["HS360-EX-001", "HS360-COV-012"]
+  }
+  ```
+
+#### G3: `golden_clinical_evidence.json` (Component 1.3A: Clinical Extraction)
+* **Target Component:** Clinical Evidence Investigation Agent ([Pan24], [Ahs23])
+* **Source:** D9 (California DMHC IMR dataset) + D2 (MTSamples discharge summaries).
+* **Size:** 60 annotated clinical narratives.
+* **Schema:**
+  ```json
+  {
+    "case_id": "G3-005",
+    "clinical_notes": "58yo male with chronic right knee pain unresponsive to 18 months of physical therapy, multiple steroid injections, and daily NSAIDs. Weight-bearing radiographs reveal Grade IV osteoarthritis with complete joint space loss and bone-on-bone contact. Dr. Sen certifies surgical intervention is imperative.",
+    "ground_truth_checklist": {
+      "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 18,
+      "treatment_modalities": ["physical therapy", "steroid injections", "NSAIDs"],
+      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "physician_necessity_stated": true
+    },
+    "verbatim_evidence_spans": [
+      "unresponsive to 18 months of physical therapy, multiple steroid injections, and daily NSAIDs",
+      "Grade IV osteoarthritis with complete joint space loss and bone-on-bone contact"
+    ]
+  }
+  ```
+
+#### G4: `golden_chronology_ped.json` (Component 1.3B: Chronology Engine)
+* **Target Component:** Chronology & Waiting Period Engine ([Pok26])
+* **Source:** D11 (Indian Insurance Ombudsman awards) + D4 (ClaimSaathi timeline records).
+* **Size:** 60 chronological disputes.
+* **Schema:**
+  ```json
+  {
+    "case_id": "G4-012",
+    "policy_inception_date": "2021-04-10",
+    "admission_date": "2024-05-15",
+    "claimed_condition": "Hypertensive Nephropathy",
+    "clinical_history_onset_statement": "Patient has a history of essential hypertension diagnosed 2 years ago (May 2022).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 3,
+    "applicable_waiting_period_months": 36,
+    "ground_truth_calculation": {
+      "elapsed_months": 37.1,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  }
+  ```
+
+#### G5: `golden_reasoning_toulmin.json` (Component 1.4: Toulmin Reasoner)
+* **Target Component:** Toulmin & Defeasible Reasoner ([Liu26], [Pok26])
+* **Source:** Modeled from D12 (InsLogicBench / InsClaimBench architecture).
+* **Size:** 80 structured reasoning cases (50% Reversal, 50% Uphold).
+* **Schema:**
+  ```json
+  {
+    "case_id": "G5-024",
+    "category": "MEDICAL_NECESSITY",
+    "toulmin_components": {
+      "claim": "Total Knee Replacement is an excluded elective procedure.",
+      "grounds": "Patient underwent 18 months of failed conservative management.",
+      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "No contradicting evidence found; physician certifies necessity."
+    },
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.90
+  }
+  ```
+
+#### G6: `golden_appeal_drafts.json` (Component 1.5: Appeal Drafting Agent)
+* **Target Component:** Appeal Agent ([Kis24])
+* **Source:** Expert appeal letters adapted from D11 (Ombudsman filings) and D10 (Persius).
+* **Size:** 40 complete case-to-letter pairs.
+* **Schema:**
+  ```json
+  {
+    "case_id": "G6-003",
+    "case_facts": { "claim_id": "CLM-2024-8921", "clause": "4.3", "exception": "4.3.2", "patient": "Ramesh Kumar" },
+    "mandatory_citations": [
+      "Clause 4.3.2 of Health Shield 360",
+      "Discharge Summary dated 15/03/2024",
+      "18 months of documented conservative management"
+    ],
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman, Hyderabad...\nSubject: Appeal against wrongful repudiation of Claim CLM-2024-8921..."
+  }
+  ```
+
+---
+
+### Tier 2: Pipeline-Wise Golden Datasets (End-to-End Category Benchmarks)
+
+#### G7: `golden_pipeline_medical_necessity.json` (Pipeline A Benchmark)
+* **Target:** End-to-End Medical Necessity Pipeline (Intake $\rightarrow$ RAG $\rightarrow$ Clinical Extraction $\rightarrow$ Toulmin $\rightarrow$ Appeal).
+* **Source:** 50 real clinical dispute cases from **D9 (California DMHC IMR Trend Dataset)** paired with ICICI policy wordings.
+* **Composition:**
+  * 35 Overturn cases (clear evidence of conservative failure, acute severity, or clinical guideline conformance).
+  * 15 Upheld cases (cosmetic surgeries, zero prior conservative therapy, unproven experimental procedures).
+* **Evaluation Target:** Complete pipeline must take raw unstructured inputs and output:
+  1. Correct binary verdict (`OVERTURN` vs `UPHOLD`).
+  2. Grounded Evidence Matrix with $>0.85$ recall on critical clinical facts.
+  3. Grounded appeal draft.
+
+#### G8: `golden_pipeline_waiting_period.json` (Pipeline B Benchmark)
+* **Target:** End-to-End Pre-Existing Waiting Period Pipeline (Intake $\rightarrow$ RAG $\rightarrow$ Chronology Engine $\rightarrow$ Toulmin $\rightarrow$ Appeal).
+* **Source:** 50 real cases curated from **D11 (Indian Insurance Ombudsman Awards & Indian Kanoon)**.
+* **Composition:**
+  * 25 Reversals where waiting period expired prior to admission.
+  * 10 Reversals protected by the statutory Moratorium Clause (IRDAI 8-year / 60-month rule).
+  * 15 Justified Denials (deliberate non-disclosure of bypass surgery 2 months before policy inception).
+* **Evaluation Target:** Symbolic math accuracy $= 100\%$, statutory compliance $= 100\%$.
+
+---
+
+### Tier 3: Application-Wise Golden Datasets
+
+#### G9: `golden_denial_router.json` (7-Class Triage Router)
+* **Target:** Global Denial Router (Triage Node 4 in architecture).
+* **Source:** D8 (CARC/RARC codes) + IRDAI claim rejection taxonomy.
+* **Size:** 140 raw denial letter paragraphs (20 per category across all 7 categories: `MEDICAL_NECESSITY`, `PRE_EXISTING_WAITING_PERIOD`, `POLICY_EXCLUSION`, `FINANCIAL_LIMIT`, `DOCUMENTATION`, `ADMINISTRATIVE_PROCEDURAL`, `ELIGIBILITY_COVERAGE`).
+* **Ground Truth:** Single-label categorical enum.
+
+#### G10: `golden_hitl_benchmark.json` (Human Adjudicator Review Alignment)
+* **Target:** System-wide Human Review Node (Node 14 in architecture, [Sbo24]).
+* **Size:** 30 comprehensive claim appeal packs.
+* **Ground Truth:** Independent adjudication consensus by two senior medical claim reviewers scoring Appeal Persuasiveness, Factual Correctness, and Reversal Feasibility.
+
+---
+
+## 5. Golden Dataset Construction Pipeline (Step-by-Step)
+
+Here is the exact step-by-step workflow to build these datasets from raw downloads:
+
+```mermaid
+graph TD
+    A["Step 1: Download D9 (CA DMHC IMR), D10 (Hugging Face), D11 (Ombudsman)"] --> B["Step 2: Parse & Filter by Category"]
+    B --> C1["Extract 50 Medical Necessity Cases (D9 → G3, G7)"]
+    B --> C2["Extract 50 Waiting Period Cases (D11 → G4, G8)"]
+    
+    D["Step 3: Parse Local Policy PDFs (data/policy_wordings/)"] --> E["Extract Clauses & Exceptions into policy_clauses.csv & G2"]
+    
+    F["Step 4: Generate Synthetic Intake Letters (D13 + D4 → G1)"]
+    G["Step 5: Synthesize Toulmin Ground Truth (D12 patterns → G5)"]
+    
+    C1 & C2 & E & F & G --> H["Step 6: Validate Schemas with Pydantic"]
+    H --> I["Step 7: Store in data/golden/ Directory"]
+```
+
+### Scripted Construction Details:
+1. **Curate Policy Clauses (`policy_clauses.csv` & G2):**
+   - Run Python PyMuPDF (`fitz`) over `complete-health-insurance.pdf`, `health-shield-360-retail`, `arogya-sanjeevani`, and `elevate`.
+   - Parse Section 3 (Waiting Periods) and Section 4 (Exclusions). Extract rules and sub-clauses into structured JSON/CSV.
+2. **Curate Clinical Evidence (G3 & G7):**
+   - Download `Independent_Medical_Review_IMR_Determinations_Trend.csv` from CA Open Data portal (free, ~150 MB).
+   - Filter `Reason_For_Dispute == "Medical Necessity"` and `Diagnosis_Category.isin(["Orthopedic", "Cardiovascular", "Neurology"])`.
+   - Take 50 cases with rich `Findings` text. The `Determination_Outcome` column (`Overturned` vs `Upheld`) gives verified ground truth.
+3. **Curate Chronology Benchmarks (G4 & G8):**
+   - Extract 50 case summaries from Indian Kanoon querying `"Insurance Ombudsman" AND "waiting period"`.
+   - Record exact dates, waiting periods cited, and the Ombudsman's binding award.
+4. **Curate Router Benchmark (G9):**
+   - Map 140 CARC/RARC code descriptions and real rejection notices to the 7 target categories.
+
+---
+
+## 6. Three-Tier Evaluation Framework & Metrics
+
+We evaluate performance using standard statistical metrics, symbolic exact-matches, and **DeepEval** metrics:
+
+| Level | Component | Evaluation Metric | Tool / Formula | Target Threshold |
+| :--- | :--- | :--- | :--- | :---: |
+| **L1** | Intake Entities (G1) | Token F1 & Exact Match | `scikit-learn` / Python | Entity F1 $\ge 0.95$, EM $\ge 0.98$ |
+| **L1** | Clause RAG (G2) | `ContextualPrecisionMetric`<br>`ContextualRecallMetric` | **DeepEval** | Precision $\ge 0.90$<br>Recall $\ge 0.95$ |
+| **L1** | Clinical Extraction (G3) | `FaithfulnessMetric`<br>Checklist Accuracy | **DeepEval**<br>$\frac{\text{Correct Checks}}{\text{Total Checks}}$ | Faithfulness $\ge 0.95$<br>Checklist Acc $\ge 0.90$ |
+| **L1** | Chronology Engine (G4) | Deterministic Exact Match<br>Date Offset Error (MAE) | Python Unit Tests<br>$\text{MAE} = \frac{1}{N}\sum \|d_{\text{pred}} - d_{\text{true}}\|$ | Accuracy $= 100\%$<br>$\text{MAE} = 0$ days |
+| **L1** | Toulmin Reasoner (G5) | Verdict Accuracy<br>`GEval` (Logic Soundness) | `scikit-learn`<br>**DeepEval** G-Eval (1-5) | Accuracy $\ge 0.92$<br>G-Eval $\ge 4.5/5.0$ |
+| **L1** | Appeal Drafter (G6) | `FaithfulnessMetric`<br>`GEval` (Legal Persuasiveness) | **DeepEval** | Faithfulness $\ge 0.98$<br>Persuasiveness $\ge 4.2/5$ |
+| **L2** | Medical Necessity (G7) | Overturn Prediction F1<br>Clinical Coverage Recall | End-to-End Suite | Macro-F1 $\ge 0.90$<br>Coverage Recall $\ge 0.85$ |
+| **L2** | Waiting Period (G8) | Statutory Compliance Rate<br>Ombudsman Alignment | End-to-End Suite | Compliance $= 100\%$<br>Alignment $\ge 0.92$ |
+| **L3** | Denial Router (G9) | Multiclass Macro-F1<br>Confusion Matrix | `scikit-learn` | Macro-F1 $\ge 0.95$ |
+| **L3** | HITL Review (G10) | Inter-Rater Reliability | **Cohen's Kappa ($\kappa$)**<br>$\kappa = \frac{P_o - P_e}{1 - P_e}$ | $\kappa \ge 0.80$ (Substantial Agreement) |
+| **L3** | Operational | Latency & Token Cost | Profiler & Token Counter | P95 $< 45\text{s}$, Cost $< \$0.10$ |
+
+---
+
+## 7. DeepEval Code Harness & Execution Blueprint
+
+Below is the concrete implementation harness using `deepeval` to run component and pipeline evaluations:
+
+```python
+import json
+from deepeval import evaluate
+from deepeval.metrics import (
+    ContextualPrecisionMetric,
+    ContextualRecallMetric,
+    FaithfulnessMetric,
+    GEval,
+)
+from deepeval.test_case import LLMTestCase, LLMTestCaseParams
+
+# -------------------------------------------------------------
+# 1. Custom G-Eval: Toulmin Logical Argumentation Soundness
+# -------------------------------------------------------------
+toulmin_argument_metric = GEval(
+    name="Toulmin Argumentation Soundness",
+    criteria=(
+        "Evaluate whether the reasoning correctly establishes that an exception defeats the policy exclusion. "
+        "The conclusion must logically flow from the grounds and warrant without contradictions or ungrounded assumptions."
+    ),
+    evaluation_params=[
+        LLMTestCaseParams.INPUT,
+        LLMTestCaseParams.ACTUAL_OUTPUT,
+        LLMTestCaseParams.RETRIEVAL_CONTEXT,
+    ],
+    threshold=0.85,
+)
+
+# -------------------------------------------------------------
+# 2. Custom G-Eval: Ombudsman Appeal Persuasiveness & Regulatory Rigor
+# -------------------------------------------------------------
+appeal_quality_metric = GEval(
+    name="Ombudsman Appeal Legal Rigor",
+    criteria=(
+        "Assess whether the draft appeal: (1) cites the exact policy sub-clause and exception, "
+        "(2) references specific clinical reports and treatment duration, and (3) adheres to formal Insurance Ombudsman standards."
+    ),
+    evaluation_params=[
+        LLMTestCaseParams.INPUT,
+        LLMTestCaseParams.ACTUAL_OUTPUT,
+        LLMTestCaseParams.EXPECTED_OUTPUT,
+    ],
+    threshold=0.80,
+)
+
+# -------------------------------------------------------------
+# 3. Execution Pipeline for Medical Necessity (G7 Benchmark)
+# -------------------------------------------------------------
+def run_medical_necessity_evaluation(golden_dataset_path: str):
+    with open(golden_dataset_path, "r") as f:
+        test_data = json.load(f)
+
+    test_cases = []
+    faithfulness_metric = FaithfulnessMetric(threshold=0.95)
+    context_recall_metric = ContextualRecallMetric(threshold=0.90)
+
+    for item in test_data:
+        # Run agent pipeline to get actual outputs
+        # actual_output, retrieved_context = medical_necessity_pipeline.run(item["input"])
+        
+        tc = LLMTestCase(
+            input=item["raw_input_narrative"],
+            actual_output=item["pipeline_actual_output"],
+            expected_output=item["ground_truth_verdict_and_summary"],
+            retrieval_context=item["retrieved_policy_and_clinical_context"],
+            context=item["case_facts"],
+        )
+        test_cases.append(tc)
+
+    # Execute DeepEval test suite
+    results = evaluate(
+        test_cases=test_cases,
+        metrics=[
+            faithfulness_metric,
+            context_recall_metric,
+            toulmin_argument_metric,
+            appeal_quality_metric,
+        ],
+    )
+    return results
+
+if __name__ == "__main__":
+    print("Ready to execute 3-tier DeepEval test suite.")
+```
+
+---
+
+## 8. Master Traceability Matrix
+
+This table traces every stage from source data to the final evaluation metric:
+
+| Flow Stage / Agent | Paper Method | Source Data Used | Golden Dataset Produced | Evaluation Tool & Metric |
+|---|---|---|---|---|
+| **Intake Agent** | [Lop21] | D13 + D8 + D4 | `golden_intake_entities.json` | Python Exact Match & Entity F1 |
+| **Denial Router** | [Owo24] | D8 + IRDAI Tax. | `golden_denial_router.json` | Multiclass Confusion Matrix & Macro-F1 |
+| **Clause Verifier** | [Pic22], [Pok26] | D7 (Local PDFs) | `golden_clause_retrieval.json` | DeepEval Contextual Precision & Recall |
+| **Clinical Investigator** | [Pan24], [Ahs23] | D9 (CA IMR) + D2 | `golden_clinical_evidence.json` | DeepEval Faithfulness & Checklist Acc |
+| **Chronology Engine** | [Pok26] | D11 (Ombudsman) + D4 | `golden_chronology_ped.json` | Symbolic Math Acc ($=100\%$) & MAE |
+| **Toulmin Reasoner** | [Liu26] | D12 (InsLogicBench) | `golden_reasoning_toulmin.json` | DeepEval G-Eval Argumentation Soundness |
+| **Appeal Drafter** | [Kis24] | D11 + D10 | `golden_appeal_drafts.json` | DeepEval Faithfulness & Legal Persuasiveness |
+| **Med. Nec. Pipeline** | End-to-End | D9 + D7 + D2 | `golden_pipeline_medical_necessity.json` | Pipeline Overturn Accuracy & Coverage |
+| **Waiting Period Pipeline** | End-to-End | D11 + D7 + D4 | `golden_pipeline_waiting_period.json` | Statutory Compliance & Chronology F1 |
+| **Human Review** | [Sbo24] | All Artifacts | `golden_hitl_benchmark.json` | Cohen's Kappa ($\kappa \ge 0.80$) |

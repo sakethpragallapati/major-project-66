@@ -1,0 +1,62 @@
+[
+  {
+    "award_id": "CIO/HYD/A/HI/0012/2023-24",
+    "forum": "Insurance Ombudsman, Hyderabad",
+    "complainant": "S. Venkat Rao",
+    "insurer": "ICICI Lombard General Insurance Co. Ltd.",
+    "policy_type": "Health Shield 360",
+    "inception_date": "2020-06-15",
+    "admission_date": "2023-09-10",
+    "diagnosis": "Coronary Artery Disease - Triple Vessel Disease (CAD-TVD)",
+    "procedure": "Coronary Artery Bypass Graft (CABG)",
+    "repudiation_ground": "Non-disclosure of pre-existing Hypertension and Diabetes Mellitus",
+    "dispute_facts": "Insurer repudiated under Clause 3.1 citing history of HTN for 5 years recorded in discharge summary. Complainant proved inception was >3 years prior and no active treatment existed before 2020.",
+    "ombudsman_findings": "The policy completed 3 continuous years. Under IRDAI Guidelines Ref IRDAI/HLT/REG/CIR/193/07/2020, pre-existing waiting period is 36 months max. As 39 months elapsed, repudiation is unsustainable.",
+    "award_verdict": "REVERSED",
+    "award_amount_inr": 485000,
+    "statutory_provisions_cited": [
+      "IRDAI Health Insurance Regulations 2016 Reg 12",
+      "Section 45 of Insurance Act 1938"
+    ]
+  },
+  {
+    "award_id": "CIO/MUM/A/HI/0089/2023-24",
+    "forum": "Insurance Ombudsman, Mumbai",
+    "complainant": "Meenakshi Sundaram",
+    "insurer": "ICICI Lombard General Insurance Co. Ltd.",
+    "policy_type": "Complete Health Insurance",
+    "inception_date": "2015-08-01",
+    "admission_date": "2023-11-20",
+    "diagnosis": "Chronic Kidney Disease Stage V",
+    "procedure": "Renal Transplant",
+    "repudiation_ground": "Suppression of pre-existing Polycystic Kidney Disease at time of inception",
+    "dispute_facts": "Insurer cancelled policy and rejected claim citing genetic condition. Policy was continuously renewed for 8 consecutive years without any lapse.",
+    "ombudsman_findings": "IRDAI Moratorium Period circular strictly bars insurers from repudiating any claim or questioning non-disclosure after 8 continuous policy years, except for established fraudulent collusion, which insurer failed to prove.",
+    "award_verdict": "REVERSED",
+    "award_amount_inr": 850000,
+    "statutory_provisions_cited": [
+      "IRDAI Moratorium Clause Guidelines 2020",
+      "IRDAI/HLT/CIR/MISC/2020"
+    ]
+  },
+  {
+    "award_id": "CIO/DEL/A/HI/0145/2023-24",
+    "forum": "Insurance Ombudsman, Delhi",
+    "complainant": "Rajeshwar Goel",
+    "insurer": "ICICI Lombard General Insurance Co. Ltd.",
+    "policy_type": "Health AdvantEdge",
+    "inception_date": "2023-01-10",
+    "admission_date": "2023-08-15",
+    "diagnosis": "Total Knee Replacement due to severe Bilateral Osteoarthritis",
+    "procedure": "Bilateral TKR",
+    "repudiation_ground": "Clause 3.2 - 24-Month Waiting Period for Specific Joint Replacement Surgeries",
+    "dispute_facts": "Claim repudiated as surgery occurred within 7 months of inception. Complainant claimed surgery was an emergency due to severe pain.",
+    "ombudsman_findings": "Joint replacement surgery carries a mandatory 2-year specific waiting period under Section 3.2 of the policy wording. Medical records show no acute traumatic fracture. Repudiation is legally sound.",
+    "award_verdict": "UPHELD",
+    "award_amount_inr": 0,
+    "statutory_provisions_cited": [
+      "IRDAI Standard Waiting Period Norms",
+      "Policy Clause 3.2"
+    ]
+  }
+]

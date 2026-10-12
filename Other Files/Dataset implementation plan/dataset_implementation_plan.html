@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dataset Implementation Plan — Major Project</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            @bottom-left {
+                content: "Major Project: Denial Appeal Multi-Agent System";
+                font-size: 8pt;
+                color: #64748b;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            }
+            @bottom-right {
+                content: "Page " counter(page);
+                font-size: 8pt;
+                color: #64748b;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1e293b;
+            line-height: 1.55;
+            font-size: 9.2pt;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        /* Document Header / Cover Banner */
+        .doc-header {
+            border-bottom: 2px solid #0284c7;
+            padding-bottom: 14px;
+            margin-bottom: 20px;
+        }
+        .doc-badge-row {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .badge {
+            display: inline-block;
+            font-size: 7.2pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 2px 8px;
+            border-radius: 4px;
+            letter-spacing: 0.5px;
+        }
+        .badge-blue { background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; }
+        .badge-green { background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+        .badge-purple { background: #f3e8ff; color: #7e22ce; border: 1px solid #e9d5ff; }
+        
+        h1 {
+            color: #0f172a;
+            font-size: 18pt;
+            font-weight: 800;
+            margin: 4px 0 6px 0;
+            letter-spacing: -0.4px;
+        }
+        h2 {
+            color: #0369a1;
+            font-size: 12pt;
+            font-weight: 700;
+            margin: 22px 0 8px 0;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 4px;
+            page-break-after: avoid;
+        }
+        h3 {
+            color: #1e293b;
+            font-size: 10pt;
+            font-weight: 700;
+            margin: 14px 0 6px 0;
+            page-break-after: avoid;
+        }
+        h4 {
+            color: #334155;
+            font-size: 9.2pt;
+            font-weight: 700;
+            margin: 10px 0 4px 0;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin: 0 0 8px 0;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 8px 0 14px 0;
+            font-size: 8.2pt;
+            page-break-inside: avoid;
+        }
+        th {
+            background: #f1f5f9;
+            color: #0f172a;
+            font-weight: 700;
+            text-align: left;
+            padding: 5px 7px;
+            border: 1px solid #cbd5e1;
+        }
+        td {
+            padding: 5px 7px;
+            border: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+        tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+        /* Code Blocks & Inline Code */
+        code {
+            font-family: "Consolas", "Courier New", monospace;
+            font-size: 8pt;
+            background: #f1f5f9;
+            color: #0f172a;
+            padding: 1px 4px;
+            border-radius: 3px;
+            border: 1px solid #e2e8f0;
+        }
+        pre {
+            background: #0f172a;
+            color: #f8fafc;
+            padding: 8px 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 7.5pt;
+            line-height: 1.4;
+            margin: 6px 0 12px 0;
+            page-break-inside: avoid;
+        }
+        pre code {
+            background: transparent;
+            color: inherit;
+            border: none;
+            padding: 0;
+        }
+
+        /* Callouts */
+        .callout {
+            border-left: 4px solid #0284c7;
+            background: #f8fafc;
+            padding: 6px 10px;
+            margin: 8px 0 12px 0;
+            border-radius: 0 5px 5px 0;
+            page-break-inside: avoid;
+        }
+        .callout-title {
+            font-weight: 700;
+            font-size: 8pt;
+            margin-bottom: 2px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .callout-body {
+            font-size: 8.5pt;
+        }
+        .callout-note { border-left-color: #0284c7; background: #f0f9ff; }
+        .callout-note .callout-title { color: #0284c7; }
+        .callout-tip { border-left-color: #10b981; background: #f0fdf4; }
+        .callout-tip .callout-title { color: #10b981; }
+        .callout-important { border-left-color: #f59e0b; background: #fffbeb; }
+        .callout-important .callout-title { color: #d97706; }
+        .callout-caution { border-left-color: #ef4444; background: #fef2f2; }
+        .callout-caution .callout-title { color: #dc2626; }
+
+        /* Visual Diagrams */
+        .diagram-wrapper {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 12px 0 16px 0;
+            page-break-inside: avoid;
+        }
+        .diagram-title {
+            font-weight: 800;
+            font-size: 8.5pt;
+            color: #0369a1;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            border-bottom: 1px dashed #cbd5e1;
+            padding-bottom: 3px;
+        }
+        .flow-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 6px;
+        }
+        .flow-card {
+            flex: 1;
+            border-radius: 5px;
+            padding: 6px 8px;
+            font-size: 7.8pt;
+            border: 1px solid #cbd5e1;
+        }
+        .card-tag {
+            font-weight: 700;
+            font-size: 7.2pt;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+        .flow-arrow {
+            font-weight: 800;
+            color: #64748b;
+            font-size: 8pt;
+        }
+        .bg-gold { background: #fffbeb; border-color: #fde68a; }
+        .bg-gold .card-tag { color: #b45309; }
+        .bg-blue { background: #f0f9ff; border-color: #bae6fd; }
+        .bg-blue .card-tag { color: #0369a1; }
+        .bg-green { background: #f0fdf4; border-color: #bbf7d0; }
+        .bg-green .card-tag { color: #15803d; }
+        .bg-slate { background: #334155; color: #ffffff; }
+        .bg-indigo { background: #4338ca; color: #ffffff; }
+        .bg-emerald { background: #047857; color: #ffffff; }
+
+        .tier-grid {
+            display: flex;
+            gap: 8px;
+        }
+        .tier-column {
+            flex: 1;
+            border: 1px solid #e2e8f0;
+            border-radius: 5px;
+            background: #ffffff;
+            overflow: hidden;
+        }
+        .tier-header {
+            padding: 5px 6px;
+            font-size: 7.6pt;
+            font-weight: 700;
+            text-align: center;
+        }
+        .tier-item {
+            padding: 5px 6px;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 7.5pt;
+        }
+        .tier-item:last-child { border-bottom: none; }
+        .highlight-blue { background: #eff6ff; }
+        .highlight-purple { background: #faf5ff; }
+
+        /* Detailed Pipeline Flow Diagram */
+        .pipeline-flow {
+            display: flex;
+            align-items: stretch;
+            gap: 5px;
+        }
+        .pipe-stage {
+            flex: 1;
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 5px;
+            padding: 6px;
+            font-size: 7.2pt;
+        }
+        .stage-num {
+            font-size: 6.2pt;
+            font-weight: 800;
+            color: #0284c7;
+            text-transform: uppercase;
+        }
+        .stage-name {
+            font-size: 7.6pt;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 3px;
+            border-bottom: 1px solid #f1f5f9;
+            padding-bottom: 2px;
+        }
+        .stage-content {
+            line-height: 1.35;
+            color: #475569;
+        }
+        .pipe-arrow {
+            display: flex;
+            align-items: center;
+            font-weight: 800;
+            color: #94a3b8;
+            font-size: 8pt;
+        }
+        .pipe-stage-split {
+            flex: 1.2;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .stage-split-box {
+            border-radius: 4px;
+            padding: 5px 6px;
+            font-size: 7.1pt;
+            border: 1px solid #cbd5e1;
+        }
+        .split-title {
+            font-weight: 700;
+            font-size: 7.3pt;
+            margin-bottom: 2px;
+        }
+
+        ul, ol {
+            margin: 4px 0 8px 16px;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="doc-header">
+    <div class="doc-badge-row">
+        <span class="badge badge-blue">Major Project Architecture</span>
+        <span class="badge badge-green">Status: Verified & Approved</span>
+        <span class="badge badge-purple">Target: Medical Necessity & Waiting Period</span>
+    </div>
+    <h1>End-to-End Dataset & Evaluation Implementation Plan</h1>
+    <p style="color: #64748b; font-size: 9.5pt; margin: 0;">
+        <strong>Master Guide:</strong> Source Datasets, Golden Benchmarks, and 3-Tier DeepEval Evaluation Suite
+    </p>
+</div>
+
+<h2>Executive Summary &amp; Status</h2>
+<h3>1. Downloaded Policy Wordings Status (<code>data/policy_wordings/</code>)</h3>
+<p>All <strong>13 essential retail policy documents across India's top 4 private health insurers (ICICI Lombard, Care Health, HDFC ERGO, Star Health)</strong> are organized and verified in <a href="#harmful-link"><code>data/policy_wordings/</code></a>:</p>
+<table>
+<thead>
+<tr>
+  <th>#</th>
+  <th>Insurer</th>
+  <th>File Name</th>
+  <th>Size</th>
+  <th>Product Category</th>
+  <th>Relevance to Pipelines</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td>ICICI Lombard</td>
+  <td><code>complete-health-insurance.pdf</code></td>
+  <td>416 KB</td>
+  <td>Retail Comprehensive</td>
+  <td><strong>Primary Core</strong>: Standard exclusions, 24/48-month PED clauses</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>ICICI Lombard</td>
+  <td><code>health-shield-360-retail...pdf</code></td>
+  <td>1.3 MB</td>
+  <td>Retail Modular</td>
+  <td><strong>Primary Core</strong>: Elective surgery &amp; exception wording</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>ICICI Lombard</td>
+  <td><code>arogya-sanjeevani.pdf</code></td>
+  <td>549 KB</td>
+  <td>IRDAI Standardized</td>
+  <td><strong>Primary Core</strong>: Statutory benchmark (Code-Excl01 to Excl04)</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>ICICI Lombard</td>
+  <td><code>elevate.pdf</code></td>
+  <td>1.6 MB</td>
+  <td>Modern Comprehensive</td>
+  <td><strong>Primary Core</strong>: Modern treatments, robotic surgeries, infinite SI</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>ICICI Lombard</td>
+  <td><code>health-advantedge...pdf</code></td>
+  <td>1.3 MB</td>
+  <td>High-Sum-Insured Retail</td>
+  <td>High-value claim sub-limits and room-rent clauses</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>ICICI Lombard</td>
+  <td><code>health-booster...pdf</code></td>
+  <td>626 KB</td>
+  <td>Super Top-Up</td>
+  <td>Deductible threshold calculations and secondary claim denials</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>ICICI Lombard</td>
+  <td><code>max-protect.pdf</code></td>
+  <td>899 KB</td>
+  <td>Retail Health</td>
+  <td>1Y/2Y/3Y waiting period modification rules</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>Care Health</td>
+  <td><code>care...pdf</code></td>
+  <td>2.1 MB</td>
+  <td>Classic Comprehensive</td>
+  <td>Flagship retail comprehensive coverage (formerly Religare Care)</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td>Care Health</td>
+  <td><code>care-supreme...pdf</code></td>
+  <td>2.2 MB</td>
+  <td>Modern Comprehensive</td>
+  <td>Modern daycare, robotic surgery, cumulative bonus rules</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td>HDFC ERGO</td>
+  <td><code>hdfc-optima-secure.pdf</code></td>
+  <td>925 KB</td>
+  <td>Modern Flagship</td>
+  <td>Automatic 4X restore benefit, non-medical expense coverage</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td>HDFC ERGO</td>
+  <td><code>hdfc-optima-restore.pdf</code></td>
+  <td>773 KB</td>
+  <td>Classic Flagship</td>
+  <td>Most widely held retail health policy in HDFC ERGO history</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td>Star Health</td>
+  <td><code>star-comprehensive.pdf</code></td>
+  <td>2.1 MB</td>
+  <td>Standalone Flagship</td>
+  <td>#1 retail health insurer in India, bariatric &amp; modern surgery</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td>Star Health</td>
+  <td><code>star-family-health-optima.pdf</code></td>
+  <td>1.3 MB</td>
+  <td>Classic Floater</td>
+  <td>Widely held family floater health policy in India</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-note"><div class="callout-title">NOTE</div><div class="callout-body">All irrelevant policy types (Group policies, Personal Accident, Hospital Cash, Single-disease benefit riders) have been excluded, ensuring our knowledge base and evaluation suite remain uncontaminated.</div></div>
+<hr />
+<h2>2. Complete Source Dataset Registry (Free &amp; Public)</h2>
+<p>To build both the <strong>Runtime Knowledge Base</strong> and the <strong>3-Tier Golden Evaluation Datasets</strong>, we utilize 13 public, freely accessible datasets:</p>
+<h3>Part A: Raw Source Pools &amp; Knowledge-Base Inputs (D1 – D8)</h3>
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Dataset Name</th>
+  <th>Source / Provider</th>
+  <th>License</th>
+  <th>Role in System &amp; Lifecycle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>D1</strong></td>
+  <td>CMS DE-SynPUF</td>
+  <td><a href="https://www.kaggle.com/datasets/drscarlat/cmssynpuf55m">Kaggle (CMS)</a></td>
+  <td>Public Domain</td>
+  <td><strong>Upstream Pool Only</strong>: Sampled to synthesize golden claim dates and amounts; <em>dropped at runtime</em>.</td>
+</tr>
+<tr>
+  <td><strong>D2</strong></td>
+  <td>MTSamples</td>
+  <td><a href="https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions">Kaggle (CC0)</a></td>
+  <td>CC0 Public</td>
+  <td><strong>Upstream Pool Only</strong>: Sampled to populate clinical narratives in golden JSONs; <em>dropped at runtime</em>.</td>
+</tr>
+<tr>
+  <td><strong>D3</strong></td>
+  <td>ICD-10-CM Codes</td>
+  <td><a href="https://www.kaggle.com/datasets/arashnic/icd10-codes-and-descriptions">Kaggle / CDC</a></td>
+  <td>Public Domain</td>
+  <td><strong>Active Runtime CSV</strong> (<code>icd10_codes.csv</code>): Diagnosis validation &amp; entity lookup.</td>
+</tr>
+<tr>
+  <td><strong>D4</strong></td>
+  <td>ClaimSaathi</td>
+  <td><a href="https://www.kaggle.com/datasets/siddhant2002/claimsaathi-indian-health-insurance-dataset">Kaggle</a></td>
+  <td>Open</td>
+  <td><strong>Upstream Pool Only</strong>: Sampled for Indian waiting period edge cases; <em>dropped at runtime</em>.</td>
+</tr>
+<tr>
+  <td><strong>D5</strong></td>
+  <td>HCPCS Level II</td>
+  <td><a href="https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system">CMS.gov</a></td>
+  <td>Public Domain</td>
+  <td><strong>Active Runtime CSV</strong> (<code>procedure_codes.csv</code>): Procedure code verification.</td>
+</tr>
+<tr>
+  <td><strong>D6</strong></td>
+  <td>IBM Policy Rules</td>
+  <td><a href="https://github.com/IBM/rules_extraction_from_healthcare_policy">GitHub (IBM)</a></td>
+  <td>Apache 2.0</td>
+  <td>Reference schema for converting policy clauses to IF-THEN rules.</td>
+</tr>
+<tr>
+  <td><strong>D7</strong></td>
+  <td>13 Retail Policy PDFs (4 Insurers)</td>
+  <td>Local (<code>data/policy_wordings/</code>)</td>
+  <td>Free Public</td>
+  <td><strong>Active Runtime Core</strong>: Extracted into <code>policy_clauses.csv</code> (Vector Store for RAG, 1,997 clauses) &amp; <code>nme_exclusions.csv</code>.</td>
+</tr>
+<tr>
+  <td><strong>D8</strong></td>
+  <td>CARC/RARC Codes</td>
+  <td><a href="https://x12.org/products/external-code-lists">X12 / CMS</a></td>
+  <td>Public Domain</td>
+  <td><strong>Active Runtime CSV</strong> (<code>denial_reasons.csv</code>): Taxonomy mapping table for the Denial Router.</td>
+</tr>
+</tbody>
+</table>
+<h3>Part B: Dedicated Golden Evaluation Benchmarks (D9 – D13)</h3>
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Dataset Name</th>
+  <th>Source / Provider</th>
+  <th>License</th>
+  <th>Role in Evaluation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>D9</strong></td>
+  <td>CA DMHC IMR Trend</td>
+  <td><a href="https://data.chhs.ca.gov/dataset/independent-medical-review-imr-determinations-trend">CA Open Data</a> / <a href="https://www.kaggle.com/datasets">Kaggle</a></td>
+  <td>Public Domain</td>
+  <td><strong>100,000+ real Medical Necessity appeal cases</strong> with clinical findings and Overturned/Upheld ground truth. Direct CSV download.</td>
+</tr>
+<tr>
+  <td><strong>D10</strong></td>
+  <td>Persius/imr-appeals &amp; hicric</td>
+  <td><a href="https://huggingface.co/datasets/Persius/imr-appeals">Hugging Face</a></td>
+  <td>Open Research</td>
+  <td>Span-labeled external appeal adjudications and policy rules for health coverage denials. Direct download.</td>
+</tr>
+<tr>
+  <td><strong>D11</strong></td>
+  <td>CIO Ombudsman &amp; Indian Kanoon</td>
+  <td><a href="https://www.cioins.co.in">cioins.co.in</a> / <a href="https://indiankanoon.org">Indian Kanoon</a></td>
+  <td>Public Legal Records</td>
+  <td><strong>Real Indian Pre-Existing Disease (PED) &amp; waiting period repudiations</strong>. Annual Reports direct PDF download; Indian Kanoon full legal texts (zero OTP/login).</td>
+</tr>
+<tr>
+  <td><strong>D12</strong></td>
+  <td>InsLogicBench &amp; InsClaimBench</td>
+  <td><a href="https://aclanthology.org">ACL 2026</a> / <a href="https://arxiv.org/abs/2610.09671">arXiv:2610.09671</a></td>
+  <td>Open Benchmark</td>
+  <td>Nested Toulmin argumentation ground truth &amp; claim decision chains.</td>
+</tr>
+<tr>
+  <td><strong>D13</strong></td>
+  <td>IRDAI Indian Repudiation Notices</td>
+  <td><a href="https://irdai.gov.in">IRDAI Guidelines</a> / Insurer Portals</td>
+  <td>Public Regulatory</td>
+  <td>Standard 1-page health claim repudiation notice format (ICICI Lombard, Star Health) populated with ClaimSaathi &amp; Kanoon facts. <em>(100% pure healthcare; replaces generic Nemotron-PII)</em>.</td>
+</tr>
+</tbody>
+</table>
+<h3>Part C: Accessibility &amp; Verification Audit Table</h3>
+<p>Every source dataset has been verified for accessibility, licensing, and domain relevance:</p>
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Dataset</th>
+  <th>Direct Download Link / Access</th>
+  <th style="text-align:center">Cost</th>
+  <th style="text-align:center">Auth / Credentials Needed?</th>
+  <th style="text-align:center">Domain Pure Healthcare?</th>
+  <th style="text-align:center">Verified Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>D1</strong></td>
+  <td>CMS DE-SynPUF</td>
+  <td><a href="https://www.kaggle.com/datasets/drscarlat/cmssynpuf55m">Kaggle</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">Free Kaggle Account</td>
+  <td style="text-align:center">Yes (Medicare Claims)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D2</strong></td>
+  <td>MTSamples</td>
+  <td><a href="https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions">Kaggle</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">Free Kaggle Account</td>
+  <td style="text-align:center">Yes (Clinical Notes)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D3</strong></td>
+  <td>ICD-10-CM Codes</td>
+  <td><a href="https://www.cms.gov/medicare/coding-billing/icd-10-codes">CDC / CMS</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Public Domain)</td>
+  <td style="text-align:center">Yes (Diagnosis Taxonomy)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D4</strong></td>
+  <td>ClaimSaathi</td>
+  <td><a href="https://www.kaggle.com/datasets/siddhant2002/claimsaathi-indian-health-insurance-dataset">Kaggle</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">Free Kaggle Account</td>
+  <td style="text-align:center">Yes (Indian Health Claims)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D5</strong></td>
+  <td>HCPCS Level II</td>
+  <td><a href="https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system">CMS.gov</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Direct Excel/CSV)</td>
+  <td style="text-align:center">Yes (Medical Procedures)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D6</strong></td>
+  <td>IBM Policy Rules</td>
+  <td><a href="https://github.com/IBM/rules_extraction_from_healthcare_policy">GitHub</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Public GitHub)</td>
+  <td style="text-align:center">Yes (Health Policy Rules)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D7</strong></td>
+  <td>13 Policy PDFs (4 Insurers)</td>
+  <td>Local: <code>data/policy_wordings/</code></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Downloaded &amp; Verified)</td>
+  <td style="text-align:center">Yes (Retail Health Policies)</td>
+  <td style="text-align:center"><strong>READY LOCALLY</strong></td>
+</tr>
+<tr>
+  <td><strong>D8</strong></td>
+  <td>CARC/RARC Codes</td>
+  <td><a href="https://x12.org/products/external-code-lists">X12.org / CMS</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Public Domain)</td>
+  <td style="text-align:center">Yes (Denial Reasons)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D9</strong></td>
+  <td>CA DMHC IMR Trend</td>
+  <td><a href="https://data.chhs.ca.gov/dataset/independent-medical-review-imr-determinations-trend">CA Open Data Portal</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Direct CSV Download)</td>
+  <td style="text-align:center">Yes (Medical Necessity)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D10</strong></td>
+  <td>Persius/imr-appeals</td>
+  <td><a href="https://huggingface.co/datasets/Persius/imr-appeals">Hugging Face</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Direct HF Download)</td>
+  <td style="text-align:center">Yes (Health Coverage Appeals)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D11</strong></td>
+  <td>CIO &amp; Indian Kanoon</td>
+  <td><a href="https://indiankanoon.org">Indian Kanoon</a> &amp; <a href="https://www.cioins.co.in">CIO Publications</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Zero OTP / Open Web)</td>
+  <td style="text-align:center">Yes (Indian PED Repudiations)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D12</strong></td>
+  <td>InsLogicBench</td>
+  <td><a href="https://aclanthology.org">ACL Anthology</a> / arXiv:2610.09671</td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Open Research)</td>
+  <td style="text-align:center">Yes (Insurance Reasoning)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+<tr>
+  <td><strong>D13</strong></td>
+  <td>IRDAI Repudiation Forms</td>
+  <td><a href="https://irdai.gov.in">IRDAI Portals</a></td>
+  <td style="text-align:center">Free</td>
+  <td style="text-align:center">None (Regulatory Templates)</td>
+  <td style="text-align:center">Yes (Health Claim Repudiation)</td>
+  <td style="text-align:center"><strong>VERIFIED</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>3. Runtime Knowledge Base vs. Golden JSON Architecture</h2>
+<p>A critical architectural distinction is made between <strong>Runtime Knowledge Bases</strong> and <strong>Evaluation Benchmarks</strong>:</p>
+<ul>
+<li><strong>Runtime Knowledge-Base CSVs:</strong> External dictionaries and vector databases that AI agents query during live execution (e.g., searching for clause wording, checking ICD-10 validity).</li>
+<li><strong>Golden Dataset JSONs:</strong> Self-contained evaluation cases containing both the input prompt/documents and the expected ground truth used by <strong>DeepEval</strong> to grade the system.</li>
+</ul>
+<p>&lt;!-- DIAGRAM_1 --&gt;</p>
+<h3>A. The 5 Active Runtime Knowledge-Base CSVs</h3>
+<p>Only these 5 CSVs are maintained at runtime. Agents query these files as external knowledge:</p>
+<pre><code>c:\Users\Saketh\Desktop\Major Project\data\runtime\
+├── policy_clauses.csv       (Extracted from D7 PDFs: 1,997 structured clauses indexed in Vector DB across 4 insurers)
+├── denial_reasons.csv       (Standardized D8 + IRDAI: ~80 denial categories for Router lookup)
+├── icd10_codes.csv          (Direct D3: 70,000+ diagnosis codes for medical entity validation)
+├── procedure_codes.csv      (Direct D5: 7,000+ procedure codes for surgery validation)
+└── nme_exclusions.csv       (Extracted from D7 Annexures: ~120 non-medical items for financial audit)
+</code></pre>
+<h4>Detailed Schemas for Active Runtime CSVs:</h4>
+<ol>
+<li><strong><code>policy_clauses.csv</code></strong> (Loaded into ChromaDB / FAISS for RAG):<ul>
+<li>Columns: <code>clause_id</code>, <code>insurer</code>, <code>product_name</code>, <code>section</code>, <code>clause_number</code>, <code>clause_text</code>, <code>clause_type</code>, <code>has_exception</code>, <code>exception_text</code>, <code>temporal_rule</code></li>
+</ul>
+</li>
+<li><strong><code>denial_reasons.csv</code></strong> (Used by Denial Reason Normalization &amp; Router):<ul>
+<li>Columns: <code>reason_id</code>, <code>category</code>, <code>sub_category</code>, <code>reason_text</code>, <code>carc_code</code>, <code>typical_clause_type</code>, <code>appeal_route</code></li>
+</ul>
+</li>
+<li><strong><code>icd10_codes.csv</code></strong> (Used by Medical Entity Linker):<ul>
+<li>Columns: <code>code</code>, <code>short_description</code>, <code>long_description</code>, <code>is_billable</code></li>
+</ul>
+</li>
+<li><strong><code>procedure_codes.csv</code></strong> (Used by Procedure Verification):<ul>
+<li>Columns: <code>hcpcs_code</code>, <code>short_description</code>, <code>category</code></li>
+</ul>
+</li>
+<li><strong><code>nme_exclusions.csv</code></strong> (Used by Financial Audit Module):<ul>
+<li>Columns: <code>item_id</code>, <code>item_name</code>, <code>category</code>, <code>typically_excluded</code></li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3>B. Eliminated / Redundant CSVs (Superseded by Golden JSONs)</h3>
+<p>The following 2 CSVs from initial planning are <strong>completely eliminated</strong> from runtime:</p>
+<table>
+<thead>
+<tr>
+  <th>Eliminated File</th>
+  <th>Original Purpose</th>
+  <th>Why It Is Eliminated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>❌ <code>medical_notes.csv</code></td>
+  <td>Raw table of 2,000 MTSamples clinical notes.</td>
+  <td><strong>Superseded by Golden JSONs.</strong> Clinical discharge summaries are embedded directly inside <code>golden_clinical_evidence.json</code> and <code>golden_pipeline_medical_necessity.json</code>. Agents receive the note directly in the test case; querying a 2,000-row CSV at runtime is unnecessary.</td>
+</tr>
+<tr>
+  <td>❌ <code>claims_master.csv</code></td>
+  <td>10,000 synthetic patient rows.</td>
+  <td><strong>Superseded by Golden JSONs.</strong> Patient demographics, policy inception dates, waiting period milestones, and billed amounts are self-contained within <code>golden_chronology_ped.json</code> and <code>golden_intake_entities.json</code>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>4. The 3-Tier Golden Datasets Specification</h2>
+<p>To evaluate our two prototype pipelines (<strong>Medical Necessity</strong> and <strong>Pre-Existing Waiting Period</strong>) and the overall system, we construct <strong>10 purpose-built Golden Datasets</strong>.</p>
+<p>&lt;!-- DIAGRAM_2 --&gt;</p>
+<hr />
+<h3>Tier 1: Component-Wise Golden Datasets</h3>
+<h4>G1: <code>golden_intake_entities.json</code> (Component 1.1: Denial Intake)</h4>
+<ul>
+<li><strong>Target Component:</strong> Denial Intake &amp; Entity Extraction Agent ([Lop21])</li>
+<li><strong>Source:</strong> D10 (Persius/imr-appeals for Medical Necessity) + D13 (IRDAI Repudiation Notices populated with D4 ClaimSaathi &amp; Kanoon facts for Waiting Period).</li>
+<li><strong>Size:</strong> 100 cases (unstructured text letters).</li>
+<li><strong>Schema:</strong><pre><code class="language-json">{
+  &quot;case_id&quot;: &quot;G1-001&quot;,
+  &quot;raw_letter_text&quot;: &quot;Ref: CLM-2024-8921. Dear Ramesh Kumar, with reference to your hospitalization on 15/03/2024 at Apollo Hospitals for Total Knee Replacement (ICD-10: M17.11), your claim for Rs 4,50,000 has been repudiated under Clause 4.3 (Elective Surgery)...&quot;,
+  &quot;ground_truth_entities&quot;: {
+    &quot;claim_id&quot;: &quot;CLM-2024-8921&quot;,
+    &quot;patient_name&quot;: &quot;Ramesh Kumar&quot;,
+    &quot;denial_date&quot;: &quot;2024-03-15&quot;,
+    &quot;procedure&quot;: &quot;Total Knee Replacement&quot;,
+    &quot;icd10_code&quot;: &quot;M17.11&quot;,
+    &quot;claimed_amount&quot;: 450000.0,
+    &quot;cited_clause_raw&quot;: &quot;Clause 4.3&quot;,
+    &quot;denial_category_hint&quot;: &quot;Elective Surgery&quot;
+  }
+}
+</code></pre>
+</li>
+</ul>
+<h4>G2: <code>golden_clause_retrieval.json</code> (Component 1.2: Policy Clause RAG)</h4>
+<ul>
+<li><strong>Target Component:</strong> Policy Clause Retriever &amp; Verifier ([Pic22], [Pok26])</li>
+<li><strong>Source:</strong> Extracted directly from the 13 verified retail policy PDFs across ICICI Lombard, Care Health, HDFC ERGO, and Star Health.</li>
+<li><strong>Size:</strong> 100 query-context triplets.</li>
+<li><strong>Schema:</strong><pre><code class="language-json">{
+  &quot;query_id&quot;: &quot;G2-018&quot;,
+  &quot;user_query&quot;: &quot;Is Total Knee Replacement covered if conservative medical treatment failed under Health Shield 360?&quot;,
+  &quot;product_name&quot;: &quot;Health Shield 360&quot;,
+  &quot;expected_clause_id&quot;: &quot;HS360-EX-043&quot;,
+  &quot;expected_subclause&quot;: &quot;4.3.2&quot;,
+  &quot;has_exception&quot;: true,
+  &quot;ground_truth_context_snippet&quot;: &quot;Sub-clause 4.3.2: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.&quot;,
+  &quot;distractor_clauses&quot;: [&quot;HS360-EX-001&quot;, &quot;HS360-COV-012&quot;]
+}
+</code></pre>
+</li>
+</ul>
+<h4>G3: <code>golden_clinical_evidence.json</code> (Component 1.3A: Clinical Extraction)</h4>
+<ul>
+<li><strong>Target Component:</strong> Clinical Evidence Investigation Agent ([Pan24], [Ahs23])</li>
+<li><strong>Source:</strong> D9 (California DMHC IMR dataset) + D2 (MTSamples discharge summaries).</li>
+<li><strong>Size:</strong> 60 annotated clinical narratives.</li>
+<li><strong>Schema:</strong><pre><code class="language-json">{
+  &quot;case_id&quot;: &quot;G3-005&quot;,
+  &quot;clinical_notes&quot;: &quot;58yo male with chronic right knee pain unresponsive to 18 months of physical therapy, multiple steroid injections, and daily NSAIDs. Weight-bearing radiographs reveal Grade IV osteoarthritis with complete joint space loss and bone-on-bone contact. Dr. Sen certifies surgical intervention is imperative.&quot;,
+  &quot;ground_truth_checklist&quot;: {
+    &quot;conservative_treatment_attempted&quot;: true,
+    &quot;conservative_treatment_duration_months&quot;: 18,
+    &quot;treatment_modalities&quot;: [&quot;physical therapy&quot;, &quot;steroid injections&quot;, &quot;NSAIDs&quot;],
+    &quot;disease_severity_grade&quot;: &quot;Grade IV / Bone-on-bone&quot;,
+    &quot;physician_necessity_stated&quot;: true
+  },
+  &quot;verbatim_evidence_spans&quot;: [
+    &quot;unresponsive to 18 months of physical therapy, multiple steroid injections, and daily NSAIDs&quot;,
+    &quot;Grade IV osteoarthritis with complete joint space loss and bone-on-bone contact&quot;
+  ]
+}
+</code></pre>
+</li>
+</ul>
+<h4>G4: <code>golden_chronology_ped.json</code> (Component 1.3B: Chronology Engine)</h4>
+<ul>
+<li><strong>Target Component:</strong> Chronology &amp; Waiting Period Engine ([Pok26])</li>
+<li><strong>Source:</strong> D11 (Indian Insurance Ombudsman awards) + D4 (ClaimSaathi timeline records).</li>
+<li><strong>Size:</strong> 60 chronological disputes.</li>
+<li><strong>Schema:</strong><pre><code class="language-json">{
+  &quot;case_id&quot;: &quot;G4-012&quot;,
+  &quot;policy_inception_date&quot;: &quot;2021-04-10&quot;,
+  &quot;admission_date&quot;: &quot;2024-05-15&quot;,
+  &quot;claimed_condition&quot;: &quot;Hypertensive Nephropathy&quot;,
+  &quot;clinical_history_onset_statement&quot;: &quot;Patient has a history of essential hypertension diagnosed 2 years ago (May 2022).&quot;,
+  &quot;proposal_form_ped_declared&quot;: false,
+  &quot;continuous_renewal_years&quot;: 3,
+  &quot;applicable_waiting_period_months&quot;: 36,
+  &quot;ground_truth_calculation&quot;: {
+    &quot;elapsed_months&quot;: 37.1,
+    &quot;first_symptom_relative_to_inception&quot;: &quot;POST_INCEPTION&quot;,
+    &quot;waiting_period_satisfied&quot;: true,
+    &quot;pre_existing_non_disclosure&quot;: false,
+    &quot;moratorium_clause_applicable&quot;: false,
+    &quot;symbolic_decision&quot;: &quot;DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED&quot;
+  }
+}
+</code></pre>
+</li>
+</ul>
+<h4>G5: <code>golden_reasoning_toulmin.json</code> (Component 1.4: Toulmin Reasoner)</h4>
+<ul>
+<li><strong>Target Component:</strong> Toulmin &amp; Defeasible Reasoner ([Liu26], [Pok26])</li>
+<li><strong>Source:</strong> Modeled from D12 (InsLogicBench / InsClaimBench architecture).</li>
+<li><strong>Size:</strong> 80 structured reasoning cases (50% Reversal, 50% Uphold).</li>
+<li><strong>Schema:</strong><pre><code class="language-json">{
+  &quot;case_id&quot;: &quot;G5-024&quot;,
+  &quot;category&quot;: &quot;MEDICAL_NECESSITY&quot;,
+  &quot;toulmin_components&quot;: {
+    &quot;claim&quot;: &quot;Total Knee Replacement is an excluded elective procedure.&quot;,
+    &quot;grounds&quot;: &quot;Patient underwent 18 months of failed conservative management.&quot;,
+    &quot;warrant&quot;: &quot;Clause 4.3 excludes elective surgeries unless conservative treatment failed for &gt;= 6 months.&quot;,
+    &quot;exception_status&quot;: &quot;SATISFIED&quot;,
+    &quot;rebuttal&quot;: &quot;No contradicting evidence found; physician certifies necessity.&quot;
+  },
+  &quot;expected_verdict&quot;: &quot;CONTRADICTS_DENIAL&quot;,
+  &quot;confidence_threshold&quot;: 0.90
+}
+</code></pre>
+</li>
+</ul>
+<h4>G6: <code>golden_appeal_drafts.json</code> (Component 1.5: Appeal Drafting Agent)</h4>
+<ul>
+<li><strong>Target Component:</strong> Appeal Agent ([Kis24])</li>
+<li><strong>Source:</strong> Expert appeal letters adapted from D11 (Ombudsman filings) and D10 (Persius).</li>
+<li><strong>Size:</strong> 40 complete case-to-letter pairs.</li>
+<li><strong>Schema:</strong><pre><code class="language-json">{
+  &quot;case_id&quot;: &quot;G6-003&quot;,
+  &quot;case_facts&quot;: { &quot;claim_id&quot;: &quot;CLM-2024-8921&quot;, &quot;clause&quot;: &quot;4.3&quot;, &quot;exception&quot;: &quot;4.3.2&quot;, &quot;patient&quot;: &quot;Ramesh Kumar&quot; },
+  &quot;mandatory_citations&quot;: [
+    &quot;Clause 4.3.2 of Health Shield 360&quot;,
+    &quot;Discharge Summary dated 15/03/2024&quot;,
+    &quot;18 months of documented conservative management&quot;
+  ],
+  &quot;target_forum&quot;: &quot;Insurance Ombudsman&quot;,
+  &quot;reference_appeal_text&quot;: &quot;To: The Insurance Ombudsman, Hyderabad...\nSubject: Appeal against wrongful repudiation of Claim CLM-2024-8921...&quot;
+}
+</code></pre>
+</li>
+</ul>
+<hr />
+<h3>Tier 2: Pipeline-Wise Golden Datasets (End-to-End Category Benchmarks)</h3>
+<h4>G7: <code>golden_pipeline_medical_necessity.json</code> (Pipeline A Benchmark)</h4>
+<ul>
+<li><strong>Target:</strong> End-to-End Medical Necessity Pipeline (Intake $\rightarrow$ RAG $\rightarrow$ Clinical Extraction $\rightarrow$ Toulmin $\rightarrow$ Appeal).</li>
+<li><strong>Source:</strong> 50 real clinical dispute cases from <strong>D9 (California DMHC IMR Trend Dataset)</strong> paired with ICICI policy wordings.</li>
+<li><strong>Composition:</strong><ul>
+<li>35 Overturn cases (clear evidence of conservative failure, acute severity, or clinical guideline conformance).</li>
+<li>15 Upheld cases (cosmetic surgeries, zero prior conservative therapy, unproven experimental procedures).</li>
+</ul>
+</li>
+<li><strong>Evaluation Target:</strong> Complete pipeline must take raw unstructured inputs and output:<ol>
+<li>Correct binary verdict (<code>OVERTURN</code> vs <code>UPHOLD</code>).</li>
+<li>Grounded Evidence Matrix with $&gt;0.85$ recall on critical clinical facts.</li>
+<li>Grounded appeal draft.</li>
+</ol>
+</li>
+</ul>
+<h4>G8: <code>golden_pipeline_waiting_period.json</code> (Pipeline B Benchmark)</h4>
+<ul>
+<li><strong>Target:</strong> End-to-End Pre-Existing Waiting Period Pipeline (Intake $\rightarrow$ RAG $\rightarrow$ Chronology Engine $\rightarrow$ Toulmin $\rightarrow$ Appeal).</li>
+<li><strong>Source:</strong> 50 real cases curated from <strong>D11 (Indian Insurance Ombudsman Awards &amp; Indian Kanoon)</strong>.</li>
+<li><strong>Composition:</strong><ul>
+<li>25 Reversals where waiting period expired prior to admission.</li>
+<li>10 Reversals protected by the statutory Moratorium Clause (IRDAI 8-year / 60-month rule).</li>
+<li>15 Justified Denials (deliberate non-disclosure of bypass surgery 2 months before policy inception).</li>
+</ul>
+</li>
+<li><strong>Evaluation Target:</strong> Symbolic math accuracy $= 100%$, statutory compliance $= 100%$.</li>
+</ul>
+<hr />
+<h3>Tier 3: Application-Wise Golden Datasets</h3>
+<h4>G9: <code>golden_denial_router.json</code> (7-Class Triage Router)</h4>
+<ul>
+<li><strong>Target:</strong> Global Denial Router (Triage Node 4 in architecture).</li>
+<li><strong>Source:</strong> D8 (CARC/RARC codes) + IRDAI claim rejection taxonomy.</li>
+<li><strong>Size:</strong> 140 raw denial letter paragraphs (20 per category across all 7 categories: <code>MEDICAL_NECESSITY</code>, <code>PRE_EXISTING_WAITING_PERIOD</code>, <code>POLICY_EXCLUSION</code>, <code>FINANCIAL_LIMIT</code>, <code>DOCUMENTATION</code>, <code>ADMINISTRATIVE_PROCEDURAL</code>, <code>ELIGIBILITY_COVERAGE</code>).</li>
+<li><strong>Ground Truth:</strong> Single-label categorical enum.</li>
+</ul>
+<h4>G10: <code>golden_hitl_benchmark.json</code> (Human Adjudicator Review Alignment)</h4>
+<ul>
+<li><strong>Target:</strong> System-wide Human Review Node (Node 14 in architecture, [Sbo24]).</li>
+<li><strong>Size:</strong> 30 comprehensive claim appeal packs.</li>
+<li><strong>Ground Truth:</strong> Independent adjudication consensus by two senior medical claim reviewers scoring Appeal Persuasiveness, Factual Correctness, and Reversal Feasibility.</li>
+</ul>
+<hr />
+<h2>5. Golden Dataset Construction Pipeline (Step-by-Step)</h2>
+<p>Here is the exact step-by-step workflow to build these datasets from raw downloads:</p>
+<p>&lt;!-- DIAGRAM_3 --&gt;</p>
+<h3>Scripted Construction Details:</h3>
+<ol>
+<li><strong>Curate Policy Clauses (<code>policy_clauses.csv</code> &amp; G2):</strong><ul>
+<li>Run Python PyMuPDF (<code>fitz</code>) over <code>complete-health-insurance.pdf</code>, <code>health-shield-360-retail</code>, <code>arogya-sanjeevani</code>, and <code>elevate</code>.</li>
+<li>Parse Section 3 (Waiting Periods) and Section 4 (Exclusions). Extract rules and sub-clauses into structured JSON/CSV.</li>
+</ul>
+</li>
+<li><strong>Curate Clinical Evidence (G3 &amp; G7):</strong><ul>
+<li>Download <code>Independent_Medical_Review_IMR_Determinations_Trend.csv</code> from CA Open Data portal (free, ~150 MB).</li>
+<li>Filter <code>Reason_For_Dispute == &quot;Medical Necessity&quot;</code> and <code>Diagnosis_Category.isin([&quot;Orthopedic&quot;, &quot;Cardiovascular&quot;, &quot;Neurology&quot;])</code>.</li>
+<li>Take 50 cases with rich <code>Findings</code> text. The <code>Determination_Outcome</code> column (<code>Overturned</code> vs <code>Upheld</code>) gives verified ground truth.</li>
+</ul>
+</li>
+<li><strong>Curate Chronology Benchmarks (G4 &amp; G8):</strong><ul>
+<li>Extract 50 case summaries from Indian Kanoon querying <code>&quot;Insurance Ombudsman&quot; AND &quot;waiting period&quot;</code>.</li>
+<li>Record exact dates, waiting periods cited, and the Ombudsman's binding award.</li>
+</ul>
+</li>
+<li><strong>Curate Router Benchmark (G9):</strong><ul>
+<li>Map 140 CARC/RARC code descriptions and real rejection notices to the 7 target categories.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>6. Three-Tier Evaluation Framework &amp; Metrics</h2>
+<p>We evaluate performance using standard statistical metrics, symbolic exact-matches, and <strong>DeepEval</strong> metrics:</p>
+<table>
+<thead>
+<tr>
+  <th style="text-align:left">Level</th>
+  <th style="text-align:left">Component</th>
+  <th style="text-align:left">Evaluation Metric</th>
+  <th style="text-align:left">Tool / Formula</th>
+  <th style="text-align:center">Target Threshold</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:left"><strong>L1</strong></td>
+  <td style="text-align:left">Intake Entities (G1)</td>
+  <td style="text-align:left">Token F1 &amp; Exact Match</td>
+  <td style="text-align:left"><code>scikit-learn</code> / Python</td>
+  <td style="text-align:center">Entity F1 $\ge 0.95$, EM $\ge 0.98$</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L1</strong></td>
+  <td style="text-align:left">Clause RAG (G2)</td>
+  <td style="text-align:left"><code>ContextualPrecisionMetric</code>&lt;br&gt;<code>ContextualRecallMetric</code></td>
+  <td style="text-align:left"><strong>DeepEval</strong></td>
+  <td style="text-align:center">Precision $\ge 0.90$&lt;br&gt;Recall $\ge 0.95$</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L1</strong></td>
+  <td style="text-align:left">Clinical Extraction (G3)</td>
+  <td style="text-align:left"><code>FaithfulnessMetric</code>&lt;br&gt;Checklist Accuracy</td>
+  <td style="text-align:left"><strong>DeepEval</strong>&lt;br&gt;$\frac{\text{Correct Checks}}{\text{Total Checks}}$</td>
+  <td style="text-align:center">Faithfulness $\ge 0.95$&lt;br&gt;Checklist Acc $\ge 0.90$</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L1</strong></td>
+  <td style="text-align:left">Chronology Engine (G4)</td>
+  <td style="text-align:left">Deterministic Exact Match&lt;br&gt;Date Offset Error (MAE)</td>
+  <td style="text-align:left">Python Unit Tests&lt;br&gt;$\text{MAE} = \frac{1}{N}\sum |d_{\text{pred}} - d_{\text{true}}|$</td>
+  <td style="text-align:center">Accuracy $= 100%$&lt;br&gt;$\text{MAE} = 0$ days</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L1</strong></td>
+  <td style="text-align:left">Toulmin Reasoner (G5)</td>
+  <td style="text-align:left">Verdict Accuracy&lt;br&gt;<code>GEval</code> (Logic Soundness)</td>
+  <td style="text-align:left"><code>scikit-learn</code>&lt;br&gt;<strong>DeepEval</strong> G-Eval (1-5)</td>
+  <td style="text-align:center">Accuracy $\ge 0.92$&lt;br&gt;G-Eval $\ge 4.5/5.0$</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L1</strong></td>
+  <td style="text-align:left">Appeal Drafter (G6)</td>
+  <td style="text-align:left"><code>FaithfulnessMetric</code>&lt;br&gt;<code>GEval</code> (Legal Persuasiveness)</td>
+  <td style="text-align:left"><strong>DeepEval</strong></td>
+  <td style="text-align:center">Faithfulness $\ge 0.98$&lt;br&gt;Persuasiveness $\ge 4.2/5$</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L2</strong></td>
+  <td style="text-align:left">Medical Necessity (G7)</td>
+  <td style="text-align:left">Overturn Prediction F1&lt;br&gt;Clinical Coverage Recall</td>
+  <td style="text-align:left">End-to-End Suite</td>
+  <td style="text-align:center">Macro-F1 $\ge 0.90$&lt;br&gt;Coverage Recall $\ge 0.85$</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L2</strong></td>
+  <td style="text-align:left">Waiting Period (G8)</td>
+  <td style="text-align:left">Statutory Compliance Rate&lt;br&gt;Ombudsman Alignment</td>
+  <td style="text-align:left">End-to-End Suite</td>
+  <td style="text-align:center">Compliance $= 100%$&lt;br&gt;Alignment $\ge 0.92$</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L3</strong></td>
+  <td style="text-align:left">Denial Router (G9)</td>
+  <td style="text-align:left">Multiclass Macro-F1&lt;br&gt;Confusion Matrix</td>
+  <td style="text-align:left"><code>scikit-learn</code></td>
+  <td style="text-align:center">Macro-F1 $\ge 0.95$</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L3</strong></td>
+  <td style="text-align:left">HITL Review (G10)</td>
+  <td style="text-align:left">Inter-Rater Reliability</td>
+  <td style="text-align:left"><strong>Cohen's Kappa ($\kappa$)</strong>&lt;br&gt;$\kappa = \frac{P_o - P_e}{1 - P_e}$</td>
+  <td style="text-align:center">$\kappa \ge 0.80$ (Substantial Agreement)</td>
+</tr>
+<tr>
+  <td style="text-align:left"><strong>L3</strong></td>
+  <td style="text-align:left">Operational</td>
+  <td style="text-align:left">Latency &amp; Token Cost</td>
+  <td style="text-align:left">Profiler &amp; Token Counter</td>
+  <td style="text-align:center">P95 $&lt; 45\text{s}$, Cost $&lt; $0.10$</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>7. DeepEval Code Harness &amp; Execution Blueprint</h2>
+<p>Below is the concrete implementation harness using <code>deepeval</code> to run component and pipeline evaluations:</p>
+<pre><code class="language-python">import json
+from deepeval import evaluate
+from deepeval.metrics import (
+    ContextualPrecisionMetric,
+    ContextualRecallMetric,
+    FaithfulnessMetric,
+    GEval,
+)
+from deepeval.test_case import LLMTestCase, LLMTestCaseParams
+
+# -------------------------------------------------------------
+# 1. Custom G-Eval: Toulmin Logical Argumentation Soundness
+# -------------------------------------------------------------
+toulmin_argument_metric = GEval(
+    name=&quot;Toulmin Argumentation Soundness&quot;,
+    criteria=(
+        &quot;Evaluate whether the reasoning correctly establishes that an exception defeats the policy exclusion. &quot;
+        &quot;The conclusion must logically flow from the grounds and warrant without contradictions or ungrounded assumptions.&quot;
+    ),
+    evaluation_params=[
+        LLMTestCaseParams.INPUT,
+        LLMTestCaseParams.ACTUAL_OUTPUT,
+        LLMTestCaseParams.RETRIEVAL_CONTEXT,
+    ],
+    threshold=0.85,
+)
+
+# -------------------------------------------------------------
+# 2. Custom G-Eval: Ombudsman Appeal Persuasiveness &amp; Regulatory Rigor
+# -------------------------------------------------------------
+appeal_quality_metric = GEval(
+    name=&quot;Ombudsman Appeal Legal Rigor&quot;,
+    criteria=(
+        &quot;Assess whether the draft appeal: (1) cites the exact policy sub-clause and exception, &quot;
+        &quot;(2) references specific clinical reports and treatment duration, and (3) adheres to formal Insurance Ombudsman standards.&quot;
+    ),
+    evaluation_params=[
+        LLMTestCaseParams.INPUT,
+        LLMTestCaseParams.ACTUAL_OUTPUT,
+        LLMTestCaseParams.EXPECTED_OUTPUT,
+    ],
+    threshold=0.80,
+)
+
+# -------------------------------------------------------------
+# 3. Execution Pipeline for Medical Necessity (G7 Benchmark)
+# -------------------------------------------------------------
+def run_medical_necessity_evaluation(golden_dataset_path: str):
+    with open(golden_dataset_path, &quot;r&quot;) as f:
+        test_data = json.load(f)
+
+    test_cases = []
+    faithfulness_metric = FaithfulnessMetric(threshold=0.95)
+    context_recall_metric = ContextualRecallMetric(threshold=0.90)
+
+    for item in test_data:
+        # Run agent pipeline to get actual outputs
+        # actual_output, retrieved_context = medical_necessity_pipeline.run(item[&quot;input&quot;])
+        
+        tc = LLMTestCase(
+            input=item[&quot;raw_input_narrative&quot;],
+            actual_output=item[&quot;pipeline_actual_output&quot;],
+            expected_output=item[&quot;ground_truth_verdict_and_summary&quot;],
+            retrieval_context=item[&quot;retrieved_policy_and_clinical_context&quot;],
+            context=item[&quot;case_facts&quot;],
+        )
+        test_cases.append(tc)
+
+    # Execute DeepEval test suite
+    results = evaluate(
+        test_cases=test_cases,
+        metrics=[
+            faithfulness_metric,
+            context_recall_metric,
+            toulmin_argument_metric,
+            appeal_quality_metric,
+        ],
+    )
+    return results
+
+if __name__ == &quot;__main__&quot;:
+    print(&quot;Ready to execute 3-tier DeepEval test suite.&quot;)
+</code></pre>
+<hr />
+<h2>8. Master Traceability Matrix</h2>
+<p>This table traces every stage from source data to the final evaluation metric:</p>
+<table>
+<thead>
+<tr>
+  <th>Flow Stage / Agent</th>
+  <th>Paper Method</th>
+  <th>Source Data Used</th>
+  <th>Golden Dataset Produced</th>
+  <th>Evaluation Tool &amp; Metric</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>Intake Agent</strong></td>
+  <td>[Lop21]</td>
+  <td>D13 + D8 + D4</td>
+  <td><code>golden_intake_entities.json</code></td>
+  <td>Python Exact Match &amp; Entity F1</td>
+</tr>
+<tr>
+  <td><strong>Denial Router</strong></td>
+  <td>[Owo24]</td>
+  <td>D8 + IRDAI Tax.</td>
+  <td><code>golden_denial_router.json</code></td>
+  <td>Multiclass Confusion Matrix &amp; Macro-F1</td>
+</tr>
+<tr>
+  <td><strong>Clause Verifier</strong></td>
+  <td>[Pic22], [Pok26]</td>
+  <td>D7 (Local PDFs)</td>
+  <td><code>golden_clause_retrieval.json</code></td>
+  <td>DeepEval Contextual Precision &amp; Recall</td>
+</tr>
+<tr>
+  <td><strong>Clinical Investigator</strong></td>
+  <td>[Pan24], [Ahs23]</td>
+  <td>D9 (CA IMR) + D2</td>
+  <td><code>golden_clinical_evidence.json</code></td>
+  <td>DeepEval Faithfulness &amp; Checklist Acc</td>
+</tr>
+<tr>
+  <td><strong>Chronology Engine</strong></td>
+  <td>[Pok26]</td>
+  <td>D11 (Ombudsman) + D4</td>
+  <td><code>golden_chronology_ped.json</code></td>
+  <td>Symbolic Math Acc ($=100%$) &amp; MAE</td>
+</tr>
+<tr>
+  <td><strong>Toulmin Reasoner</strong></td>
+  <td>[Liu26]</td>
+  <td>D12 (InsLogicBench)</td>
+  <td><code>golden_reasoning_toulmin.json</code></td>
+  <td>DeepEval G-Eval Argumentation Soundness</td>
+</tr>
+<tr>
+  <td><strong>Appeal Drafter</strong></td>
+  <td>[Kis24]</td>
+  <td>D11 + D10</td>
+  <td><code>golden_appeal_drafts.json</code></td>
+  <td>DeepEval Faithfulness &amp; Legal Persuasiveness</td>
+</tr>
+<tr>
+  <td><strong>Med. Nec. Pipeline</strong></td>
+  <td>End-to-End</td>
+  <td>D9 + D7 + D2</td>
+  <td><code>golden_pipeline_medical_necessity.json</code></td>
+  <td>Pipeline Overturn Accuracy &amp; Coverage</td>
+</tr>
+<tr>
+  <td><strong>Waiting Period Pipeline</strong></td>
+  <td>End-to-End</td>
+  <td>D11 + D7 + D4</td>
+  <td><code>golden_pipeline_waiting_period.json</code></td>
+  <td>Statutory Compliance &amp; Chronology F1</td>
+</tr>
+<tr>
+  <td><strong>Human Review</strong></td>
+  <td>[Sbo24]</td>
+  <td>All Artifacts</td>
+  <td><code>golden_hitl_benchmark.json</code></td>
+  <td>Cohen's Kappa ($\kappa \ge 0.80$)</td>
+</tr>
+</tbody>
+</table>
+
+
+</body>
+</html>

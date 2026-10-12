@@ -1,0 +1,1202 @@
+[
+  {
+    "case_id": "G4-001",
+    "patient_name": "Padma Srinivasan",
+    "policy_inception_date": "2020-08-12",
+    "admission_date": "2022-11-30",
+    "claimed_condition": "Osteoarthritis (Bilateral Knee)",
+    "icd10_code": "M17.0",
+    "clinical_history_onset_statement": "Patient has a history of osteoarthritis (bilateral knee) diagnosed 9 months after policy inception (2021-05-09).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 2,
+    "applicable_waiting_period_months": 24,
+    "ground_truth_calculation": {
+      "elapsed_months": 27.6,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-002",
+    "patient_name": "Lakshmi Rao",
+    "policy_inception_date": "2020-01-30",
+    "admission_date": "2022-12-15",
+    "claimed_condition": "Calculus of Kidney",
+    "icd10_code": "N20.0",
+    "clinical_history_onset_statement": "Patient has a history of calculus of kidney diagnosed 8 months after policy inception (2020-09-27).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 2,
+    "applicable_waiting_period_months": 24,
+    "ground_truth_calculation": {
+      "elapsed_months": 34.5,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-003",
+    "patient_name": "Amit Verma",
+    "policy_inception_date": "2022-02-27",
+    "admission_date": "2024-07-16",
+    "claimed_condition": "Benign Prostatic Hyperplasia",
+    "icd10_code": "N40.0",
+    "clinical_history_onset_statement": "Patient has a history of benign prostatic hyperplasia diagnosed 1 months after policy inception (2022-04-06).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 2,
+    "applicable_waiting_period_months": 24,
+    "ground_truth_calculation": {
+      "elapsed_months": 28.6,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-004",
+    "patient_name": "Kamala Subramaniam",
+    "policy_inception_date": "2021-04-01",
+    "admission_date": "2025-03-11",
+    "claimed_condition": "Osteoarthritis (Bilateral Knee)",
+    "icd10_code": "M17.0",
+    "clinical_history_onset_statement": "Patient has a history of osteoarthritis (bilateral knee) diagnosed 8 months after policy inception (2021-11-30).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 3,
+    "applicable_waiting_period_months": 24,
+    "ground_truth_calculation": {
+      "elapsed_months": 47.3,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-005",
+    "patient_name": "Sanjay Desai",
+    "policy_inception_date": "2019-11-07",
+    "admission_date": "2024-06-13",
+    "claimed_condition": "Hypothyroidism",
+    "icd10_code": "E03.9",
+    "clinical_history_onset_statement": "Patient has a history of hypothyroidism diagnosed 7 months after policy inception (2020-06-18).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 4,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 55.2,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-006",
+    "patient_name": "Swati Ghosh",
+    "policy_inception_date": "2021-09-02",
+    "admission_date": "2027-06-03",
+    "claimed_condition": "COPD",
+    "icd10_code": "J44.1",
+    "clinical_history_onset_statement": "Patient has a history of copd diagnosed 6 months after policy inception (2022-03-23).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 69.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-007",
+    "patient_name": "Padma Srinivasan",
+    "policy_inception_date": "2022-01-21",
+    "admission_date": "2027-09-22",
+    "claimed_condition": "Hyperlipidemia",
+    "icd10_code": "E78.5",
+    "clinical_history_onset_statement": "Patient has a history of hyperlipidemia diagnosed 9 months after policy inception (2022-10-29).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 68.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-008",
+    "patient_name": "Sunil Jha",
+    "policy_inception_date": "2022-06-17",
+    "admission_date": "2027-05-22",
+    "claimed_condition": "Hypothyroidism",
+    "icd10_code": "E03.9",
+    "clinical_history_onset_statement": "Patient has a history of hypothyroidism diagnosed 3 months after policy inception (2022-10-11).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 4,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 59.1,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-009",
+    "patient_name": "Mohan Das",
+    "policy_inception_date": "2020-09-27",
+    "admission_date": "2025-03-05",
+    "claimed_condition": "Epilepsy",
+    "icd10_code": "G40.909",
+    "clinical_history_onset_statement": "Patient has a history of epilepsy diagnosed 10 months after policy inception (2021-07-31).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 4,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 53.2,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-010",
+    "patient_name": "Suresh Patel",
+    "policy_inception_date": "2022-09-15",
+    "admission_date": "2024-12-03",
+    "claimed_condition": "Osteoarthritis (Bilateral Knee)",
+    "icd10_code": "M17.0",
+    "clinical_history_onset_statement": "Patient has a history of osteoarthritis (bilateral knee) diagnosed 1 months after policy inception (2022-11-08).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 2,
+    "applicable_waiting_period_months": 24,
+    "ground_truth_calculation": {
+      "elapsed_months": 26.6,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-011",
+    "patient_name": "Arun Nair",
+    "policy_inception_date": "2022-09-22",
+    "admission_date": "2028-05-23",
+    "claimed_condition": "Diabetic Retinopathy",
+    "icd10_code": "E11.311",
+    "clinical_history_onset_statement": "Patient has a history of diabetic retinopathy diagnosed 4 months after policy inception (2023-02-17).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 68.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-012",
+    "patient_name": "Kavita Joshi",
+    "policy_inception_date": "2018-01-19",
+    "admission_date": "2022-07-27",
+    "claimed_condition": "Epilepsy",
+    "icd10_code": "G40.909",
+    "clinical_history_onset_statement": "Patient has a history of epilepsy diagnosed 9 months after policy inception (2018-11-03).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 4,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 54.2,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-013",
+    "patient_name": "Anita Devi",
+    "policy_inception_date": "2021-06-19",
+    "admission_date": "2026-02-23",
+    "claimed_condition": "Hypertensive Nephropathy",
+    "icd10_code": "I12.0",
+    "clinical_history_onset_statement": "Patient has a history of hypertensive nephropathy diagnosed 11 months after policy inception (2022-05-30).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 4,
+    "applicable_waiting_period_months": 36,
+    "ground_truth_calculation": {
+      "elapsed_months": 56.2,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-014",
+    "patient_name": "Padma Srinivasan",
+    "policy_inception_date": "2018-02-02",
+    "admission_date": "2022-02-11",
+    "claimed_condition": "Atrial Fibrillation",
+    "icd10_code": "I48.91",
+    "clinical_history_onset_statement": "Patient has a history of atrial fibrillation diagnosed 10 months after policy inception (2018-12-01).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 4,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 48.3,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-015",
+    "patient_name": "Priya Sharma",
+    "policy_inception_date": "2020-12-20",
+    "admission_date": "2026-11-19",
+    "claimed_condition": "Essential Hypertension",
+    "icd10_code": "I10",
+    "clinical_history_onset_statement": "Patient has a history of essential hypertension diagnosed 5 months after policy inception (2021-06-08).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 71.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-016",
+    "patient_name": "Alok Tripathi",
+    "policy_inception_date": "2022-07-24",
+    "admission_date": "2028-05-23",
+    "claimed_condition": "Essential Hypertension",
+    "icd10_code": "I10",
+    "clinical_history_onset_statement": "Patient has a history of essential hypertension diagnosed 8 months after policy inception (2023-03-31).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 70.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-017",
+    "patient_name": "Rajesh Gupta",
+    "policy_inception_date": "2020-12-09",
+    "admission_date": "2025-04-17",
+    "claimed_condition": "Type 2 Diabetes Mellitus",
+    "icd10_code": "E11.9",
+    "clinical_history_onset_statement": "Patient has a history of type 2 diabetes mellitus diagnosed 5 months after policy inception (2021-05-11).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 4,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 52.2,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-018",
+    "patient_name": "Jaya Kamath",
+    "policy_inception_date": "2019-06-01",
+    "admission_date": "2022-05-16",
+    "claimed_condition": "Benign Prostatic Hyperplasia",
+    "icd10_code": "N40.0",
+    "clinical_history_onset_statement": "Patient has a history of benign prostatic hyperplasia diagnosed 5 months after policy inception (2019-11-14).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 2,
+    "applicable_waiting_period_months": 24,
+    "ground_truth_calculation": {
+      "elapsed_months": 35.5,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-019",
+    "patient_name": "Rekha Bhat",
+    "policy_inception_date": "2020-04-11",
+    "admission_date": "2025-06-14",
+    "claimed_condition": "Type 2 Diabetes Mellitus",
+    "icd10_code": "E11.9",
+    "clinical_history_onset_statement": "Patient has a history of type 2 diabetes mellitus diagnosed 10 months after policy inception (2021-02-24).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 62.1,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-020",
+    "patient_name": "Amit Verma",
+    "policy_inception_date": "2019-09-07",
+    "admission_date": "2025-06-07",
+    "claimed_condition": "Epilepsy",
+    "icd10_code": "G40.909",
+    "clinical_history_onset_statement": "Patient has a history of epilepsy diagnosed 2 months after policy inception (2019-11-17).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 69.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-021",
+    "patient_name": "Madhavi Kulkarni",
+    "policy_inception_date": "2020-02-16",
+    "admission_date": "2025-02-19",
+    "claimed_condition": "Type 2 Diabetes Mellitus",
+    "icd10_code": "E11.9",
+    "clinical_history_onset_statement": "Patient has a history of type 2 diabetes mellitus diagnosed 10 months after policy inception (2020-12-24).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 60.1,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-022",
+    "patient_name": "Ashok Malhotra",
+    "policy_inception_date": "2018-01-20",
+    "admission_date": "2023-11-20",
+    "claimed_condition": "Essential Hypertension",
+    "icd10_code": "I10",
+    "clinical_history_onset_statement": "Patient has a history of essential hypertension diagnosed 3 months after policy inception (2018-05-17).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 70.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-023",
+    "patient_name": "Savita Hegde",
+    "policy_inception_date": "2021-08-13",
+    "admission_date": "2026-06-18",
+    "claimed_condition": "COPD",
+    "icd10_code": "J44.1",
+    "clinical_history_onset_statement": "Patient has a history of copd diagnosed 10 months after policy inception (2022-06-28).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 4,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 58.1,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-024",
+    "patient_name": "Jaya Kamath",
+    "policy_inception_date": "2018-03-29",
+    "admission_date": "2020-11-13",
+    "claimed_condition": "Calculus of Kidney",
+    "icd10_code": "N20.0",
+    "clinical_history_onset_statement": "Patient has a history of calculus of kidney diagnosed 4 months after policy inception (2018-08-14).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 2,
+    "applicable_waiting_period_months": 24,
+    "ground_truth_calculation": {
+      "elapsed_months": 31.5,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-025",
+    "patient_name": "Suresh Patel",
+    "policy_inception_date": "2018-06-02",
+    "admission_date": "2024-03-02",
+    "claimed_condition": "Coronary Artery Disease",
+    "icd10_code": "I25.10",
+    "clinical_history_onset_statement": "Patient has a history of coronary artery disease diagnosed 5 months after policy inception (2018-11-22).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 5,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 69.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_REVERSAL_WAITING_PERIOD_EXPIRED"
+    }
+  },
+  {
+    "case_id": "G4-026",
+    "patient_name": "Venkatesh Murthy",
+    "policy_inception_date": "2015-03-01",
+    "admission_date": "2024-10-20",
+    "claimed_condition": "Hypothyroidism",
+    "icd10_code": "E03.9",
+    "clinical_history_onset_statement": "Patient has a history of hypothyroidism diagnosed 1 years before policy inception (2013-05-10).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 9,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 115.7,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-027",
+    "patient_name": "Leela Krishnan",
+    "policy_inception_date": "2016-03-26",
+    "admission_date": "2024-06-10",
+    "claimed_condition": "Hyperlipidemia",
+    "icd10_code": "E78.5",
+    "clinical_history_onset_statement": "Patient has a history of hyperlipidemia diagnosed 2 years before policy inception (2013-07-23).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 8,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 98.5,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-028",
+    "patient_name": "Pavan Kumar B",
+    "policy_inception_date": "2016-03-07",
+    "admission_date": "2026-01-27",
+    "claimed_condition": "Hypothyroidism",
+    "icd10_code": "E03.9",
+    "clinical_history_onset_statement": "Patient has a history of hypothyroidism diagnosed 4 years before policy inception (2012-02-25).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 9,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 118.7,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-029",
+    "patient_name": "Kishore Sinha",
+    "policy_inception_date": "2014-10-14",
+    "admission_date": "2024-09-16",
+    "claimed_condition": "Hypertensive Nephropathy",
+    "icd10_code": "I12.0",
+    "clinical_history_onset_statement": "Patient has a history of hypertensive nephropathy diagnosed 1 years before policy inception (2013-05-07).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 9,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 119.1,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-030",
+    "patient_name": "Rani Mukherjee",
+    "policy_inception_date": "2014-04-20",
+    "admission_date": "2022-07-27",
+    "claimed_condition": "Osteoarthritis (Bilateral Knee)",
+    "icd10_code": "M17.0",
+    "clinical_history_onset_statement": "Patient has a history of osteoarthritis (bilateral knee) diagnosed 3 years before policy inception (2010-11-07).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 8,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 99.2,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-031",
+    "patient_name": "Vikram Singh",
+    "policy_inception_date": "2016-03-23",
+    "admission_date": "2025-02-18",
+    "claimed_condition": "Chronic Kidney Disease",
+    "icd10_code": "N18.3",
+    "clinical_history_onset_statement": "Patient has a history of chronic kidney disease diagnosed 1 years before policy inception (2015-01-23).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 8,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 106.9,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-032",
+    "patient_name": "Neha Agarwal",
+    "policy_inception_date": "2016-07-11",
+    "admission_date": "2025-11-23",
+    "claimed_condition": "Atrial Fibrillation",
+    "icd10_code": "I48.91",
+    "clinical_history_onset_statement": "Patient has a history of atrial fibrillation diagnosed 2 years before policy inception (2014-04-01).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 9,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 112.4,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-033",
+    "patient_name": "Swati Ghosh",
+    "policy_inception_date": "2016-06-03",
+    "admission_date": "2024-12-08",
+    "claimed_condition": "Hypertensive Nephropathy",
+    "icd10_code": "I12.0",
+    "clinical_history_onset_statement": "Patient has a history of hypertensive nephropathy diagnosed 4 years before policy inception (2011-08-12).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 8,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 102.2,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-034",
+    "patient_name": "Rajeev Bansal",
+    "policy_inception_date": "2014-06-25",
+    "admission_date": "2024-03-17",
+    "claimed_condition": "Benign Prostatic Hyperplasia",
+    "icd10_code": "N40.0",
+    "clinical_history_onset_statement": "Patient has a history of benign prostatic hyperplasia diagnosed 2 years before policy inception (2011-10-30).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 9,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 116.7,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-035",
+    "patient_name": "Pooja Kapoor",
+    "policy_inception_date": "2014-05-31",
+    "admission_date": "2022-08-21",
+    "claimed_condition": "Hyperlipidemia",
+    "icd10_code": "E78.5",
+    "clinical_history_onset_statement": "Patient has a history of hyperlipidemia diagnosed 2 years before policy inception (2011-11-30).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 8,
+    "applicable_waiting_period_months": 96,
+    "ground_truth_calculation": {
+      "elapsed_months": 98.7,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": true,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": true,
+      "symbolic_decision": "DENIAL_REVERSAL_MORATORIUM_APPLIES"
+    }
+  },
+  {
+    "case_id": "G4-036",
+    "patient_name": "Kishore Sinha",
+    "policy_inception_date": "2021-12-28",
+    "admission_date": "2025-05-11",
+    "claimed_condition": "Hypothyroidism",
+    "icd10_code": "E03.9",
+    "clinical_history_onset_statement": "Patient has a history of hypothyroidism diagnosed 1 years before policy inception (2020-10-26).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 3,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 40.4,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-037",
+    "patient_name": "Rajesh Gupta",
+    "policy_inception_date": "2018-07-07",
+    "admission_date": "2018-08-06",
+    "claimed_condition": "Hypertensive Nephropathy",
+    "icd10_code": "I12.0",
+    "clinical_history_onset_statement": "Patient has a history of hypertensive nephropathy diagnosed 4 months after policy inception (2018-11-27).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 36,
+    "ground_truth_calculation": {
+      "elapsed_months": 1.0,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-038",
+    "patient_name": "Neha Agarwal",
+    "policy_inception_date": "2018-07-29",
+    "admission_date": "2019-04-25",
+    "claimed_condition": "Hyperlipidemia",
+    "icd10_code": "E78.5",
+    "clinical_history_onset_statement": "Patient has a history of hyperlipidemia diagnosed 1 years before policy inception (2017-12-20).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 8.9,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-039",
+    "patient_name": "Swati Ghosh",
+    "policy_inception_date": "2021-02-10",
+    "admission_date": "2023-10-28",
+    "claimed_condition": "COPD",
+    "icd10_code": "J44.1",
+    "clinical_history_onset_statement": "Patient has a history of copd diagnosed 1 months after policy inception (2021-04-07).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 2,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 32.5,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-040",
+    "patient_name": "Dinesh Saxena",
+    "policy_inception_date": "2021-02-09",
+    "admission_date": "2021-08-08",
+    "claimed_condition": "Type 2 Diabetes Mellitus",
+    "icd10_code": "E11.9",
+    "clinical_history_onset_statement": "Patient has a history of type 2 diabetes mellitus diagnosed 4 months after policy inception (2021-06-17).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 5.9,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-041",
+    "patient_name": "Harish Pandey",
+    "policy_inception_date": "2020-03-05",
+    "admission_date": "2020-09-01",
+    "claimed_condition": "Coronary Artery Disease",
+    "icd10_code": "I25.10",
+    "clinical_history_onset_statement": "Patient has a history of coronary artery disease diagnosed 1 years before policy inception (2018-06-29).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 5.9,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-042",
+    "patient_name": "Kishore Sinha",
+    "policy_inception_date": "2018-12-14",
+    "admission_date": "2019-09-10",
+    "claimed_condition": "Atrial Fibrillation",
+    "icd10_code": "I48.91",
+    "clinical_history_onset_statement": "Patient has a history of atrial fibrillation diagnosed 3 months after policy inception (2019-03-31).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 8.9,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-043",
+    "patient_name": "Kavita Joshi",
+    "policy_inception_date": "2018-05-10",
+    "admission_date": "2019-04-05",
+    "claimed_condition": "COPD",
+    "icd10_code": "J44.1",
+    "clinical_history_onset_statement": "Patient has a history of copd diagnosed 3 months after policy inception (2018-08-18).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 10.8,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-044",
+    "patient_name": "Naresh Biswas",
+    "policy_inception_date": "2022-05-22",
+    "admission_date": "2022-10-19",
+    "claimed_condition": "Coronary Artery Disease",
+    "icd10_code": "I25.10",
+    "clinical_history_onset_statement": "Patient has a history of coronary artery disease diagnosed 3 months after policy inception (2022-08-24).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 4.9,
+      "first_symptom_relative_to_inception": "POST_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-045",
+    "patient_name": "Ashok Malhotra",
+    "policy_inception_date": "2020-10-12",
+    "admission_date": "2023-12-26",
+    "claimed_condition": "Epilepsy",
+    "icd10_code": "G40.909",
+    "clinical_history_onset_statement": "Patient has a history of epilepsy diagnosed 1 years before policy inception (2019-06-02).",
+    "proposal_form_ped_declared": true,
+    "continuous_renewal_years": 3,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 38.4,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": false,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_WITHIN_WAITING_PERIOD"
+    }
+  },
+  {
+    "case_id": "G4-046",
+    "patient_name": "Geeta Pillai",
+    "policy_inception_date": "2018-01-14",
+    "admission_date": "2018-10-03",
+    "claimed_condition": "Hypothyroidism",
+    "icd10_code": "E03.9",
+    "clinical_history_onset_statement": "Patient has a history of hypothyroidism diagnosed 1 years before policy inception (2016-02-04).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 8.6,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-047",
+    "patient_name": "Indira Rajan",
+    "policy_inception_date": "2020-02-18",
+    "admission_date": "2020-10-03",
+    "claimed_condition": "Heart Failure",
+    "icd10_code": "I50.9",
+    "clinical_history_onset_statement": "Patient has a history of heart failure diagnosed 2 years before policy inception (2017-08-01).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 7.5,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-048",
+    "patient_name": "Savita Hegde",
+    "policy_inception_date": "2022-07-29",
+    "admission_date": "2023-07-28",
+    "claimed_condition": "Hypertensive Nephropathy",
+    "icd10_code": "I12.0",
+    "clinical_history_onset_statement": "Patient has a history of hypertensive nephropathy diagnosed 1 years before policy inception (2021-09-24).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 36,
+    "ground_truth_calculation": {
+      "elapsed_months": 12.0,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-049",
+    "patient_name": "Venkatesh Murthy",
+    "policy_inception_date": "2021-05-20",
+    "admission_date": "2021-10-29",
+    "claimed_condition": "Coronary Artery Disease",
+    "icd10_code": "I25.10",
+    "clinical_history_onset_statement": "Patient has a history of coronary artery disease diagnosed 2 years before policy inception (2018-08-13).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 5.3,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-050",
+    "patient_name": "Deepa Iyer",
+    "policy_inception_date": "2020-03-26",
+    "admission_date": "2020-11-04",
+    "claimed_condition": "Hypertensive Nephropathy",
+    "icd10_code": "I12.0",
+    "clinical_history_onset_statement": "Patient has a history of hypertensive nephropathy diagnosed 1 years before policy inception (2018-07-09).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 36,
+    "ground_truth_calculation": {
+      "elapsed_months": 7.3,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-051",
+    "patient_name": "Tarun Bhatt",
+    "policy_inception_date": "2021-07-20",
+    "admission_date": "2022-05-27",
+    "claimed_condition": "Epilepsy",
+    "icd10_code": "G40.909",
+    "clinical_history_onset_statement": "Patient has a history of epilepsy diagnosed 1 years before policy inception (2020-02-10).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 10.2,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-052",
+    "patient_name": "Kishore Sinha",
+    "policy_inception_date": "2019-07-29",
+    "admission_date": "2020-04-15",
+    "claimed_condition": "Hypertensive Nephropathy",
+    "icd10_code": "I12.0",
+    "clinical_history_onset_statement": "Patient has a history of hypertensive nephropathy diagnosed 2 years before policy inception (2017-06-12).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 36,
+    "ground_truth_calculation": {
+      "elapsed_months": 8.6,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-053",
+    "patient_name": "Pavan Kumar B",
+    "policy_inception_date": "2019-02-14",
+    "admission_date": "2020-02-12",
+    "claimed_condition": "Type 2 Diabetes Mellitus",
+    "icd10_code": "E11.9",
+    "clinical_history_onset_statement": "Patient has a history of type 2 diabetes mellitus diagnosed 1 years before policy inception (2018-01-12).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 11.9,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-054",
+    "patient_name": "Hema Sundaram",
+    "policy_inception_date": "2021-01-31",
+    "admission_date": "2021-04-14",
+    "claimed_condition": "Atrial Fibrillation",
+    "icd10_code": "I48.91",
+    "clinical_history_onset_statement": "Patient has a history of atrial fibrillation diagnosed 2 years before policy inception (2018-06-01).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 2.4,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-055",
+    "patient_name": "Lakshmi Rao",
+    "policy_inception_date": "2020-06-16",
+    "admission_date": "2021-01-11",
+    "claimed_condition": "Epilepsy",
+    "icd10_code": "G40.909",
+    "clinical_history_onset_statement": "Patient has a history of epilepsy diagnosed 1 years before policy inception (2019-12-28).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 6.9,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-056",
+    "patient_name": "Harish Pandey",
+    "policy_inception_date": "2021-10-10",
+    "admission_date": "2022-08-21",
+    "claimed_condition": "Heart Failure",
+    "icd10_code": "I50.9",
+    "clinical_history_onset_statement": "Patient has a history of heart failure diagnosed 1 years before policy inception (2020-11-29).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 10.3,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-057",
+    "patient_name": "Geeta Pillai",
+    "policy_inception_date": "2019-05-11",
+    "admission_date": "2019-11-16",
+    "claimed_condition": "Atrial Fibrillation",
+    "icd10_code": "I48.91",
+    "clinical_history_onset_statement": "Patient has a history of atrial fibrillation diagnosed 1 years before policy inception (2018-05-31).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 6.2,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-058",
+    "patient_name": "Savita Hegde",
+    "policy_inception_date": "2022-06-05",
+    "admission_date": "2023-02-13",
+    "claimed_condition": "Epilepsy",
+    "icd10_code": "G40.909",
+    "clinical_history_onset_statement": "Patient has a history of epilepsy diagnosed 1 years before policy inception (2021-12-06).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 8.3,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-059",
+    "patient_name": "Vijay Khanna",
+    "policy_inception_date": "2020-09-08",
+    "admission_date": "2021-09-01",
+    "claimed_condition": "COPD",
+    "icd10_code": "J44.1",
+    "clinical_history_onset_statement": "Patient has a history of copd diagnosed 2 years before policy inception (2018-05-12).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 48,
+    "ground_truth_calculation": {
+      "elapsed_months": 11.8,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  },
+  {
+    "case_id": "G4-060",
+    "patient_name": "Alok Tripathi",
+    "policy_inception_date": "2022-11-17",
+    "admission_date": "2023-08-18",
+    "claimed_condition": "Osteoarthritis (Bilateral Knee)",
+    "icd10_code": "M17.0",
+    "clinical_history_onset_statement": "Patient has a history of osteoarthritis (bilateral knee) diagnosed 1 years before policy inception (2022-08-04).",
+    "proposal_form_ped_declared": false,
+    "continuous_renewal_years": 1,
+    "applicable_waiting_period_months": 24,
+    "ground_truth_calculation": {
+      "elapsed_months": 9.0,
+      "first_symptom_relative_to_inception": "PRE_INCEPTION",
+      "waiting_period_satisfied": false,
+      "pre_existing_non_disclosure": true,
+      "moratorium_clause_applicable": false,
+      "symbolic_decision": "DENIAL_UPHELD_NON_DISCLOSURE"
+    }
+  }
+]

@@ -1,0 +1,79 @@
+code,short_description,long_description,is_billable
+I10,Essential (primary) hypertension,Essential (primary) hypertension,True
+I11.0,Hypertensive heart disease with heart failure,Hypertensive heart disease with heart failure,True
+I11.9,Hypertensive heart disease without heart failure,Hypertensive heart disease without heart failure,True
+I12.0,Hypertensive chronic kidney disease with stage 5 CKD,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease,True
+I12.9,Hypertensive chronic kidney disease with stage 1-4 CKD,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",True
+I20.0,Unstable angina,Unstable angina,True
+I21.0,ST elevation myocardial infarction anterior wall,ST elevation (STEMI) myocardial infarction involving left main coronary artery,True
+I21.3,ST elevation myocardial infarction unspecified site,ST elevation (STEMI) myocardial infarction of unspecified site,True
+I25.10,Atherosclerotic heart disease of native coronary artery,Atherosclerotic heart disease of native coronary artery without angina pectoris,True
+I25.110,Atherosclerotic heart disease with unstable angina,Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,True
+I48.0,Paroxysmal atrial fibrillation,Paroxysmal atrial fibrillation,True
+I48.91,Unspecified atrial fibrillation,Unspecified atrial fibrillation,True
+I50.9,"Heart failure, unspecified","Heart failure, unspecified",True
+I63.9,"Cerebral infarction, unspecified","Cerebral infarction, unspecified",True
+I70.0,Atherosclerosis of aorta,Atherosclerosis of aorta,True
+E11.9,Type 2 diabetes mellitus without complications,Type 2 diabetes mellitus without complications,True
+E11.65,Type 2 diabetes with hyperglycemia,Type 2 diabetes mellitus with hyperglycemia,True
+E11.21,Type 2 diabetes with diabetic nephropathy,Type 2 diabetes mellitus with diabetic nephropathy,True
+E11.22,Type 2 diabetes with diabetic CKD,Type 2 diabetes mellitus with diabetic chronic kidney disease,True
+E11.40,Type 2 diabetes with diabetic neuropathy,"Type 2 diabetes mellitus with diabetic neuropathy, unspecified",True
+E11.311,Type 2 diabetes with diabetic retinopathy,Type 2 diabetes mellitus with unspecified diabetic retinopathy with macular edema,True
+E10.9,Type 1 diabetes mellitus without complications,Type 1 diabetes mellitus without complications,True
+M17.0,Bilateral primary osteoarthritis of knee,Bilateral primary osteoarthritis of knee,True
+M17.11,"Primary osteoarthritis, right knee","Primary osteoarthritis, right knee",True
+M17.12,"Primary osteoarthritis, left knee","Primary osteoarthritis, left knee",True
+M16.0,Bilateral primary osteoarthritis of hip,Bilateral primary osteoarthritis of hip,True
+M16.11,"Primary osteoarthritis, right hip","Primary osteoarthritis, right hip",True
+M47.812,Spondylosis without myelopathy cervical,"Spondylosis without myelopathy or radiculopathy, cervical region",True
+M47.816,Spondylosis without myelopathy lumbar,"Spondylosis without myelopathy or radiculopathy, lumbar region",True
+M51.16,Intervertebral disc degeneration lumbar,"Intervertebral disc degeneration, lumbar region",True
+M54.5,Low back pain,Low back pain,True
+M79.3,"Panniculitis, unspecified","Panniculitis, unspecified",True
+S72.001A,Fracture of unspecified part of neck of right femur,"Fracture of unspecified part of neck of right femur, initial encounter for closed fracture",True
+S82.001A,Unspecified fracture of right patella,"Unspecified fracture of right patella, initial encounter for closed fracture",True
+J18.9,"Pneumonia, unspecified organism","Pneumonia, unspecified organism",True
+J44.1,COPD with acute exacerbation,Chronic obstructive pulmonary disease with (acute) exacerbation,True
+J45.20,"Mild intermittent asthma, uncomplicated","Mild intermittent asthma, uncomplicated",True
+J45.41,Moderate persistent asthma with acute exacerbation,Moderate persistent asthma with (acute) exacerbation,True
+J96.00,Acute respiratory failure,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",True
+N18.6,End stage renal disease,End stage renal disease,True
+N18.3,"Chronic kidney disease, stage 3","Chronic kidney disease, stage 3 (moderate)",True
+N20.0,Calculus of kidney,Calculus of kidney,True
+N40.0,Benign prostatic hyperplasia without obstruction,Benign prostatic hyperplasia without lower urinary tract symptoms,True
+K35.80,Unspecified acute appendicitis,Unspecified acute appendicitis,True
+K40.90,Unilateral inguinal hernia without obstruction,"Unilateral inguinal hernia, without obstruction or gangrene, not specified as recurrent",True
+K80.00,Calculus of gallbladder with acute cholecystitis,Calculus of gallbladder with acute cholecystitis without obstruction,True
+K80.20,Calculus of gallbladder without cholecystitis,Calculus of gallbladder without cholecystitis without obstruction,True
+K21.0,GERD with esophagitis,Gastro-esophageal reflux disease with esophagitis,True
+K57.30,Diverticulosis of large intestine without hemorrhage,Diverticulosis of large intestine without perforation or abscess without bleeding,True
+C50.911,Malignant neoplasm of right breast,Malignant neoplasm of unspecified site of right female breast,True
+C34.90,Malignant neoplasm of lung,Malignant neoplasm of unspecified part of unspecified bronchus or lung,True
+C61,Malignant neoplasm of prostate,Malignant neoplasm of prostate,True
+C18.9,"Malignant neoplasm of colon, unspecified","Malignant neoplasm of colon, unspecified",True
+C73,Malignant neoplasm of thyroid gland,Malignant neoplasm of thyroid gland,True
+D25.9,"Leiomyoma of uterus, unspecified","Leiomyoma of uterus, unspecified",True
+G20,Parkinson's disease,Parkinson's disease,True
+G35,Multiple sclerosis,Multiple sclerosis,True
+G40.909,"Epilepsy, unspecified, not intractable","Epilepsy, unspecified, not intractable, without status epilepticus",True
+G43.909,"Migraine, unspecified, not intractable","Migraine, unspecified, not intractable, without status migrainosus",True
+H25.9,Unspecified age-related cataract,Unspecified age-related cataract,True
+H40.10X0,Unspecified open-angle glaucoma,"Unspecified open-angle glaucoma, stage unspecified",True
+H52.10,"Myopia, unspecified eye","Myopia, unspecified eye",True
+E03.9,"Hypothyroidism, unspecified","Hypothyroidism, unspecified",True
+E05.90,"Thyrotoxicosis, unspecified","Thyrotoxicosis, unspecified without thyrotoxic crisis or storm",True
+E78.5,"Hyperlipidemia, unspecified","Hyperlipidemia, unspecified",True
+E66.01,Morbid (severe) obesity due to excess calories,Morbid (severe) obesity due to excess calories,True
+A09,Infectious gastroenteritis and colitis,"Infectious gastroenteritis and colitis, unspecified",True
+A41.9,"Sepsis, unspecified organism","Sepsis, unspecified organism",True
+B34.9,"Viral infection, unspecified","Viral infection, unspecified",True
+A90,Dengue fever [classical dengue],Dengue fever [classical dengue],True
+A01.0,Typhoid fever,Typhoid fever,True
+B50.9,"Plasmodium falciparum malaria, unspecified","Plasmodium falciparum malaria, unspecified",True
+O80,Encounter for full-term uncomplicated delivery,Encounter for full-term uncomplicated delivery,True
+O82,Encounter for cesarean delivery,Encounter for cesarean delivery without indication,True
+F32.9,"Major depressive disorder, single episode","Major depressive disorder, single episode, unspecified",True
+F41.9,"Anxiety disorder, unspecified","Anxiety disorder, unspecified",True
+I12.0,Hypertensive CKD stage 5,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease,True
+N08,Glomerular disorders in diseases classified elsewhere,Glomerular disorders in diseases classified elsewhere,True
