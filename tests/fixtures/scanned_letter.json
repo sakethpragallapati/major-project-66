@@ -1,0 +1,19 @@
+{
+ "case_id": "G1-003",
+ "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2024-12-08\n\nTo: Neha Agarwal\nPolicy: my:Optima Secure | Claim: CLM-2024-2519\nHospital: AIIMS, New Delhi\nDate of Hospitalization: 2024-11-20\nProcedure/Treatment: Aortic Valve Replacement [I35.0]\nBilled Amount: Rs. 253,000\n\nDenial Ground: Your claim has been denied under Clause 1(i), which pertains to Room Rent Limit, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+ "ground_truth_entities": {
+  "claim_id": "CLM-2024-2519",
+  "patient_name": "Neha Agarwal",
+  "insurer": "HDFC ERGO",
+  "policy_product": "my:Optima Secure",
+  "admission_date": "2024-11-20",
+  "denial_date": "2024-12-08",
+  "hospital_name": "AIIMS, New Delhi",
+  "procedure": "Aortic Valve Replacement",
+  "icd10_code": "I35.0",
+  "claimed_amount": 253000.0,
+  "cited_clause_raw": "Clause 1(i)",
+  "cited_clause_id": "MYOPTI-COV-1058",
+  "denial_category_hint": "Room Rent Limit"
+ }
+}

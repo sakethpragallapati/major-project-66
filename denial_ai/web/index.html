@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denial Intake & Triage</title>
+<style>
+:root {
+  --bg: #f4f6f9; --panel: #ffffff; --ink: #18202b; --muted: #5d6b7e; --line: #e2e7ee;
+  --accent: #1f5fd6; --accent-soft: #e8f0fe; --ok: #18794e; --ok-soft: #e6f4ec;
+  --warn: #9a5b00; --warn-soft: #fff4dc; --bad: #b42318; --bad-soft: #fdecea;
+  --c-MEDICAL_NECESSITY: #2563eb; --c-PRE_EXISTING_WAITING_PERIOD: #7c3aed; --c-POLICY_EXCLUSION: #c2410c;
+  --c-FINANCIAL_LIMIT: #0f766e; --c-DOCUMENTATION: #a16207; --c-ADMINISTRATIVE_PROCEDURAL: #475569;
+  --c-ELIGIBILITY_COVERAGE: #be185d;
+  --radius: 10px; --shadow: 0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.08);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f141b; --panel: #171e27; --ink: #e6ebf2; --muted: #93a1b4; --line: #26303d;
+    --accent: #6c9cff; --accent-soft: #1b2a45; --ok: #4cc38a; --ok-soft: #12291f; --warn: #f0b445;
+    --warn-soft: #2e2412; --bad: #ff7b72; --bad-soft: #321716; --shadow: none; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 14px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+header { display: flex; align-items: center; gap: 16px; padding: 12px 24px; background: var(--panel);
+  border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; flex-wrap: wrap; }
+header h1 { font-size: 16px; margin: 0; font-weight: 650; letter-spacing: .1px; }
+header h1 small { color: var(--muted); font-weight: 400; margin-left: 6px; }
+.chips { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { display: inline-flex; align-items: center; gap: 5px; padding: 2px 9px; border-radius: 999px;
+  font-size: 12px; border: 1px solid var(--line); color: var(--muted); background: var(--panel); white-space: nowrap; }
+.chip.on::before, .chip.off::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--ok); }
+.chip.off::before { background: var(--line); }
+main { display: grid; grid-template-columns: 360px 1fr; gap: 20px; padding: 20px 24px; max-width: 1500px; margin: 0 auto; }
+@media (max-width: 980px) { main { grid-template-columns: 1fr; padding: 16px; } }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.panel > h2, .section-title { font-size: 13px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted);
+  margin: 0; padding: 14px 16px 10px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.panel .body { padding: 0 16px 16px; }
+aside { display: flex; flex-direction: column; gap: 16px; align-self: start; position: sticky; top: 72px; }
+@media (max-width: 980px) { aside { position: static; } }
+.tabs { display: flex; gap: 4px; padding: 0 16px 12px; }
+.tabs button { flex: 1; padding: 7px; border: 1px solid var(--line); background: none; border-radius: 6px; cursor: pointer;
+  color: var(--muted); font: inherit; }
+.tabs button.active { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); font-weight: 600; }
+.drop { display: block; border: 1.5px dashed var(--line); border-radius: 8px; padding: 22px 12px; text-align: center; color: var(--muted);
+  cursor: pointer; transition: .15s; }
+.drop.hover, .drop:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+.drop strong { display: block; color: var(--ink); margin-bottom: 2px; }
+.drop .file { margin-top: 8px; color: var(--accent); font-weight: 600; word-break: break-all; }
+textarea, input, select { width: 100%; font: inherit; color: var(--ink); background: var(--panel);
+  border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; }
+textarea { min-height: 220px; resize: vertical; font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: 12.5px; }
+textarea:focus, input:focus, select:focus { outline: 2px solid var(--accent-soft); border-color: var(--accent); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 9px 14px; border-radius: 7px;
+  border: 1px solid var(--accent); background: var(--accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.btn:disabled { opacity: .55; cursor: wait; }
+.btn.ghost { background: none; color: var(--accent); }
+.btn.block { width: 100%; margin-top: 12px; }
+.recent { list-style: none; margin: 0; padding: 0 8px 10px; max-height: 260px; overflow: auto; }
+.recent li { padding: 7px 8px; border-radius: 6px; cursor: pointer; display: flex; gap: 8px; align-items: center; font-size: 13px; }
+.recent li:hover, .recent li.active { background: var(--accent-soft); }
+.recent .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.recent .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.recent .meta { margin-left: auto; color: var(--muted); font-size: 12px; white-space: nowrap; }
+.recent li.none { color: var(--muted); cursor: default; }
+.recent li.none:hover { background: none; }
+.recent .del { border: 0; background: none; color: var(--muted); cursor: pointer; font: inherit; font-size: 13px;
+  width: 24px; height: 24px; border-radius: 5px; flex: none; opacity: .55; }
+.recent li:hover .del, .recent li.active .del, .recent .del:focus-visible { opacity: 1; }
+.recent .del:hover { background: var(--bad-soft); color: var(--bad); }
+.empty { color: var(--muted); padding: 60px 24px; text-align: center; }
+.empty h3 { color: var(--ink); margin: 0 0 6px; font-size: 18px; }
+#results { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.hero { padding: 18px 20px; display: grid; grid-template-columns: 1fr auto; gap: 14px 24px; align-items: start; }
+@media (max-width: 700px) { .hero { grid-template-columns: 1fr; } }
+.hero .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; }
+.cat { display: inline-flex; align-items: center; gap: 8px; font-size: 20px; font-weight: 700; margin-top: 2px; }
+.cat .sw { width: 12px; height: 12px; border-radius: 3px; }
+.sub { color: var(--muted); margin-top: 4px; }
+.stats { display: flex; gap: 20px; }
+.stat b { display: block; font-size: 20px; }
+.stat span { color: var(--muted); font-size: 12px; }
+.banner { grid-column: 1 / -1; border-radius: 8px; padding: 10px 12px; display: flex; gap: 10px; align-items: flex-start; }
+.banner.warn { background: var(--warn-soft); color: var(--warn); }
+.banner.ok { background: var(--ok-soft); color: var(--ok); }
+.banner ul { margin: 4px 0 0; padding-left: 18px; }
+.reason { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 12px; display: flex; gap: 22px; flex-wrap: wrap; }
+.reason div span { display: block; font-size: 12px; color: var(--muted); }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 1200px) { .grid2 { grid-template-columns: 1fr; } }
+.fields { display: grid; grid-template-columns: 150px 1fr; gap: 6px 12px; align-items: center; }
+.fields label { color: var(--muted); font-size: 13px; }
+.fields input.missing { border-color: var(--warn); background: var(--warn-soft); }
+.note { font-size: 12px; color: var(--muted); margin-top: 10px; }
+.pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.pill.ok { background: var(--ok-soft); color: var(--ok); }
+.pill.warn { background: var(--warn-soft); color: var(--warn); }
+.pill.bad { background: var(--bad-soft); color: var(--bad); }
+.pill.muted { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.cand { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin-top: 8px; }
+.cand.top { border-color: var(--accent); }
+.cand header { all: unset; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.cand .id { font-weight: 650; font-family: ui-monospace, Consolas, monospace; font-size: 13px; }
+.cand .bar { flex: 1; min-width: 60px; height: 5px; background: var(--bg); border-radius: 3px; overflow: hidden; }
+.cand .bar i { display: block; height: 100%; background: var(--accent); }
+.cand p { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
+.linkbtn { background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; font: inherit; font-size: 12.5px; }
+.dist { display: flex; flex-direction: column; gap: 7px; }
+.dist .row { display: grid; grid-template-columns: 210px 1fr 48px; gap: 10px; align-items: center; font-size: 13px; }
+@media (max-width: 600px) { .dist .row { grid-template-columns: 130px 1fr 44px; } }
+.dist .track { height: 10px; background: var(--bg); border-radius: 5px; overflow: hidden; }
+.dist .track i { display: block; height: 100%; border-radius: 5px; }
+.dist .row.primary { font-weight: 650; }
+.dist .pct { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+.agents { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; margin-top: 14px; }
+.agent { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.agent.abst { opacity: .6; }
+.agent h4 { margin: 0; font-size: 13px; display: flex; justify-content: space-between; text-transform: capitalize; }
+.agent .vote { font-weight: 650; margin: 4px 0; font-size: 13px; }
+.agent ul { margin: 0; padding-left: 16px; color: var(--muted); font-size: 12px; }
+.plans { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.plan { border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 10px 12px; }
+.plan h4 { margin: 0 0 6px; font-size: 14px; font-family: ui-monospace, Consolas, monospace; }
+.plan ul { margin: 2px 0 8px; padding-left: 18px; font-size: 13px; }
+.plan .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+.letter { white-space: pre-wrap; font-family: ui-monospace, Consolas, monospace; font-size: 12.5px; background: var(--bg);
+  border-radius: 8px; padding: 12px; max-height: 360px; overflow: auto; margin: 0; }
+mark { background: #ffe58a; color: #1a1a1a; border-radius: 2px; }
+.toast { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--panel);
+  padding: 9px 16px; border-radius: 8px; font-size: 13px; opacity: 0; transition: .2s; pointer-events: none; z-index: 20; }
+.toast.show { opacity: 1; }
+.spinner { width: 14px; height: 14px; border: 2px solid rgba(255,255,255,.4); border-top-color: #fff; border-radius: 50%;
+  animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.modal { position: fixed; inset: 0; background: rgba(10,15,25,.5); display: none; align-items: center; justify-content: center; z-index: 30; padding: 16px; }
+.modal.show { display: flex; }
+.modal .box { background: var(--panel); border-radius: 12px; max-width: 760px; width: 100%; max-height: 80vh; overflow: auto; padding: 18px 20px; }
+.modal h3 { margin: 0 0 4px; }
+.hidden { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Denial Intake &amp; Triage <small>Objective 02</small></h1>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main id="view-analyze">
+  <aside>
+    <section class="panel">
+      <h2>Denial letter</h2>
+      <div class="tabs">
+        <button class="active" data-tab="upload">Upload</button>
+        <button data-tab="paste">Paste</button>
+      </div>
+      <div class="body">
+        <div data-pane="upload">
+          <label class="drop" id="drop">
+            <strong>Drop a letter here</strong>
+            or click to choose a file<br><small>.txt, .pdf (text or scanned), .png, .jpg, .tiff, .webp</small>
+            <input type="file" id="file" accept=".txt,.pdf,.png,.jpg,.jpeg,.tif,.tiff,.bmp,.webp,.gif" hidden>
+            <div class="file" id="filename"></div>
+          </label>
+          <button class="btn block" id="analyze-file">Analyse letter</button>
+        </div>
+        <div data-pane="paste" class="hidden">
+          <textarea id="text" placeholder="Paste the repudiation letter here…"></textarea>
+          <button class="btn block" id="analyze-text">Analyse text</button>
+        </div>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>This session <button class="linkbtn hidden" id="clear-all" style="margin-left:auto;text-transform:none;letter-spacing:0">Delete all</button></h2>
+      <ul class="recent" id="recent"></ul>
+    </section>
+  </aside>
+
+  <section id="results"></section>
+</main>
+
+<div class="modal" id="modal"><div class="box" id="modal-box"></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nice = c => (c || "").toLowerCase().replace(/_/g, " ").replace(/\b\w/g, m => m.toUpperCase());
+const color = c => `var(--c-${c})`;
+const pct = x => `${Math.round((x || 0) * 100)}%`;
+let META = null, CURRENT = null, selectedFile = null;
+const PLACEHOLDER = `<div class="panel empty">
+  <h3>Analyse a denial letter</h3>
+  Upload a letter or paste its text. The system extracts the claim details, finds the policy
+  clause the insurer relied on, classifies the denial into one of seven categories and says
+  which investigation comes next.</div>`;
+
+function toast(msg) {
+  const t = $("#toast"); t.textContent = msg; t.classList.add("show");
+  clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove("show"), 2600);
+}
+async function api(path, opts) {
+  const r = await fetch(path, opts);
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.detail || r.statusText);
+  return data;
+}
+
+// ---------- header, tabs, views ----------
+async function loadMeta() {
+  META = await api("/api/meta");
+  $("#chips").innerHTML = [
+    [`OCR`, META.ocr_available], [`LangGraph`, META.langgraph],
+    [META.llm_provider ? `LLM agent: ${META.llm_provider}` : "LLM agent off", !!META.llm_provider],
+  ].map(([t, on]) => `<span class="chip ${on ? "on" : "off"}">${esc(t)}</span>`).join("");
+}
+$$(".tabs button").forEach(b => b.onclick = () => {
+  $$(".tabs button").forEach(x => x.classList.toggle("active", x === b));
+  $$("[data-pane]").forEach(p => p.classList.toggle("hidden", p.dataset.pane !== b.dataset.tab));
+});
+
+// ---------- input ----------
+const drop = $("#drop");
+$("#file").onchange = e => setFile(e.target.files[0]);
+["dragenter", "dragover"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("hover"); }));
+["dragleave", "drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("hover"); }));
+drop.addEventListener("drop", e => setFile(e.dataTransfer.files[0]));
+function setFile(f) { selectedFile = f || null; $("#filename").textContent = f ? f.name : ""; }
+
+async function run(button, makeRequest) {
+  const label = button.innerHTML;
+  button.disabled = true; button.innerHTML = `<span class="spinner"></span> Analysing…`;
+  try { show(await makeRequest()); }
+  catch (e) { toast(e.message); }
+  finally { button.disabled = false; button.innerHTML = label; }
+}
+$("#analyze-file").onclick = e => {
+  if (!selectedFile) return toast("Choose a file first");
+  const fd = new FormData(); fd.append("file", selectedFile);
+  run(e.currentTarget, () => api("/api/analyze", { method: "POST", body: fd }));
+};
+$("#analyze-text").onclick = e => {
+  const text = $("#text").value.trim();
+  if (!text) return toast("Paste the letter text first");
+  const fd = new FormData(); fd.append("text", text);
+  run(e.currentTarget, () => api("/api/analyze", { method: "POST", body: fd }));
+};
+async function loadRecent() {
+  const list = await api("/api/cases");
+  const ul = $("#recent");
+  $("#clear-all").classList.toggle("hidden", list.length < 2);
+  if (!list.length) {
+    ul.innerHTML = `<li class="none">No letters analysed yet.</li>`;
+    return;
+  }
+  ul.innerHTML = list.map(c => `<li data-id="${c.id}" class="${CURRENT && CURRENT.id === c.id ? "active" : ""}">
+      <span class="dot" style="background:${color(c.category)}"></span>
+      <span class="name">${esc(c.claim_id || c.filename || "Pasted letter")}</span>
+      <span class="meta">${c.needs_review ? "needs review" : ""}</span>
+      <button class="del" data-del="${c.id}" title="Delete this letter" aria-label="Delete ${esc(c.claim_id || c.filename || "letter")}">✕</button></li>`).join("");
+  $$("li[data-id]", ul).forEach(li => li.onclick = async () => show(await api(`/api/cases/${li.dataset.id}`)));
+  $$("[data-del]", ul).forEach(b => b.onclick = async ev => {
+    ev.stopPropagation();   // do not also open the case
+    await deleteCases(`/api/cases/${b.dataset.del}`, b.dataset.del);
+  });
+}
+async function deleteCases(path, id) {
+  try {
+    await api(path, { method: "DELETE" });
+    if (!id || (CURRENT && CURRENT.id === id)) { CURRENT = null; $("#results").innerHTML = PLACEHOLDER; }
+    await loadRecent();
+    toast(id ? "Letter deleted" : "All letters deleted");
+  } catch (e) { toast(e.message); }
+}
+$("#clear-all").onclick = () => { if (confirm("Delete every letter in this session?")) deleteCases("/api/cases"); };
+
+// ---------- results ----------
+const FIELDS = [
+  ["claim_id", "Claim number"], ["application_number", "Application number"], ["letter_ref", "Letter reference"],
+  ["patient_name", "Patient"], ["member_id", "Member ID (UHID)"], ["insurer", "Insurer"], ["tpa", "TPA"],
+  ["policy_type", "Policy type"], ["policy_product", "Product"], ["policy_product_raw", "Product (as written)"],
+  ["policy_holder", "Policy holder (group)"], ["policy_number", "Policy number"],
+  ["policy_start", "Cover from"], ["policy_end", "Cover to"], ["denial_date", "Letter date"],
+  ["admission_date", "Admission date"], ["hospital_name", "Hospital"], ["diagnosis", "Diagnosis"],
+  ["procedure", "Procedure"], ["icd10_code", "ICD-10 code"], ["claimed_amount", "Claimed amount (₹)"],
+  ["cited_clause_raw", "Cited clause"], ["denial_category_hint", "Stated reason"], ["appeal_window_days", "Time limit (days)"],
+];
+// Optional fields are shown only when the letter has them.
+const OPTIONAL = new Set(["letter_ref", "member_id", "policy_holder", "policy_start", "policy_end", "policy_type",
+  "application_number", "tpa", "policy_product_raw", "diagnosis"]);
+// Fields that only a claim has, hidden on a proposal rejection.
+const CLAIM_ONLY = new Set(["claim_id", "admission_date", "hospital_name", "procedure", "icd10_code", "claimed_amount",
+  "cited_clause_raw", "policy_number"]);
+const RESOLUTION = {
+  quoted: ["ok", "Quoted in letter"], unique: ["ok", "Unique match"], confident: ["ok", "Confident match"],
+  ambiguous: ["warn", "Ambiguous"], number_not_found: ["warn", "Number not in policy"],
+  no_number: ["muted", "No number cited"], unresolved: ["muted", "Not resolved"],
+};
+
+function show(c) {
+  CURRENT = c;
+  const t = c.triage, e = c.entities;
+  const review = t.needs_human_review
+    ? `<div class="banner warn"><b>⚠</b><div><b>Send to a reviewer</b><ul>${t.review_reasons.map(r => `<li>${esc(r)}</li>`).join("")}</ul></div></div>`
+    : `<div class="banner ok"><b>✓</b><div><b>No review flags.</b> The agents agree and confidence is above ${pct(META.thresholds.min_confidence)}.</div></div>`;
+  const r = t.matched_reason;
+  const proposal = e.letter_type === "proposal_rejection";
+  const readAs = `Read as ${esc(c.read_method)}${c.filename ? " from " + esc(c.filename) : ""} in ${c.seconds}s`;
+  $("#results").innerHTML = `
+  <section class="panel hero">
+    ${proposal ? `<div>
+      <div class="label">Letter type</div>
+      <div class="cat"><span class="sw" style="background:var(--muted)"></span>Not a claim denial</div>
+      <div class="sub">The insurer refused a proposal (an application for a new policy)${e.denial_category_hint ? ": " + esc(e.denial_category_hint) : ""}.
+        The claim-denial categories below are shown for reference only. · ${readAs}</div>
+    </div>` : `<div>
+      <div class="label">Primary category</div>
+      <div class="cat"><span class="sw" style="background:${color(t.primary_category)}"></span>${esc(nice(t.primary_category))}</div>
+      <div class="sub">${t.secondary_categories.length ? "Also raises: " + t.secondary_categories.map(nice).map(esc).join(", ") + " · " : ""}
+        ${readAs}</div>
+    </div>`}
+    ${proposal ? "" : `<div class="stats">
+      <div class="stat"><b>${pct(t.confidence)}</b><span>confidence</span></div>
+      <div class="stat"><b>${pct(t.margin)}</b><span>margin</span></div>
+      <div class="stat"><b>${t.votes.filter(v => !v.abstained).length}/${t.votes.length}</b><span>agents voting</span></div>
+    </div>`}
+    ${review}
+    ${r ? `<div class="reason">
+      <div><span>Standard reason</span><b>${esc(t.matched_reason_id)}</b> ${esc(r.sub_category)}</div>
+      <div><span>CARC / RARC</span>${esc(r.carc_code)} / ${esc(r.rarc_code)}</div>
+      <div><span>Appeal route</span>${esc(r.appeal_route)}</div>
+      <div style="flex:1;min-width:220px"><span>Grounding</span>${esc(r.irdai_clause_grounding)}</div></div>` : ""}
+  </section>
+
+  <div class="grid2">
+    <section class="panel">
+      <h2>Extracted details <span class="pill muted" style="margin-left:auto">${e.missing_fields.length ? e.missing_fields.length + " not found" : "complete"}</span></h2>
+      <div class="body">
+        <div class="fields">${FIELDS.filter(([k]) => !OPTIONAL.has(k) || (e[k] ?? "") !== "")
+          .filter(([k]) => !(proposal && CLAIM_ONLY.has(k)))
+          .filter(([k]) => !(k === "policy_product" && (e.policy_type === "group" || e.policy_product_raw))).map(([k, label]) => `
+          <label for="f-${k}">${label}</label>
+          <input id="f-${k}" data-field="${k}" readonly value="${esc(e[k] ?? "")}" class="${e.missing_fields.includes(k) ? "missing" : ""}"
+            placeholder="${e.missing_fields.includes(k) ? "not found in letter" : ""}">`).join("")}
+        </div>
+        <div class="note">${e.icd10_code ? (e.icd10_valid
+            ? `<span class="pill ok">ICD-10 ${esc(e.icd10_code)} found</span> ${e.icd10_billable ? "billable code" : "<span class='pill warn'>not a billable code</span>"}`
+            : `<span class="pill bad">ICD-10 ${esc(e.icd10_code)} not in code table</span>`) : ""}
+          ${e.deadline_note ? `<div style="margin:6px 0"><span class="pill warn">Time limit</span> ${esc(e.deadline_note)}</div>` : ""}</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Policy clause relied on</h2>
+      <div class="body">
+        ${e.clause_resolution ? `<span class="pill ${RESOLUTION[e.clause_resolution][0]}">${RESOLUTION[e.clause_resolution][1]}</span>
+          <span class="note" style="margin-left:6px">${esc(e.clause_resolution_note || "")}</span>`
+          : proposal
+            ? `<span class="note">A proposal rejection relies on the insurer's underwriting rules, not on a policy clause, so no clause lookup was done.</span>`
+          : e.policy_type === "group"
+            ? `<span class="pill warn">Group policy</span> <span class="note">The wording of ${esc(e.policy_holder || "this group")}'s policy is not in the knowledge base. Ask for the group policy terms to check the clause the insurer relied on.</span>`
+          : e.policy_product_raw
+            ? `<span class="pill warn">Product not covered</span> <span class="note">“${esc(e.policy_product_raw)}” is not in the knowledge base. Ask for its policy wording to check the clause the insurer relied on.</span>`
+            : `<span class="note">The policy product was not identified, so no clause lookup was done.</span>`}
+        ${e.clause_candidates.map((m, i) => `
+          <div class="cand ${i === 0 && e.cited_clause_id ? "top" : ""}">
+            <header><span class="id">${esc(m.clause_id)}</span>
+              <span class="pill muted">${esc(m.clause_type)}</span>
+              <span class="note" style="margin:0">no. ${esc(m.clause_number || "–")}</span>
+              <span class="bar"><i style="width:${pct(m.score)}"></i></span>
+              <button class="linkbtn" data-clause="${esc(m.clause_id)}">Full text</button></header>
+            <p>${esc(m.text_preview)}…</p>
+            ${m.evidence ? `<div class="note" style="margin-top:4px">${esc(m.evidence)}${esc(m.section ? " · section: " + m.section : "")}</div>` : ""}
+          </div>`).join("")}
+      </div>
+    </section>
+  </div>
+
+  <section class="panel">
+    <h2>How the agents voted</h2>
+    <div class="body">
+      <div class="dist">${Object.entries(t.distribution).sort((a, b) => b[1] - a[1]).map(([cat, p]) => `
+        <div class="row ${cat === t.primary_category ? "primary" : ""}"><span>${esc(nice(cat))}</span>
+          <span class="track"><i style="width:${pct(p)};background:${color(cat)}"></i></span><span class="pct">${pct(p)}</span></div>`).join("")}
+      </div>
+      <div class="agents">${t.votes.map(v => {
+        const top = v.abstained ? null : Object.entries(v.scores).sort((a, b) => b[1] - a[1])[0];
+        return `<div class="agent ${v.abstained ? "abst" : ""}">
+          <h4>${esc(v.agent)} agent <span class="note" style="margin:0">weight ${META.agent_weights[v.agent] ?? "–"}</span></h4>
+          <div class="vote" style="color:${top ? color(top[0]) : "var(--muted)"}">${top ? esc(nice(top[0])) + " · " + pct(top[1]) : "Abstained"}</div>
+          <ul>${v.evidence.slice(0, 4).map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
+      }).join("")}</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Next step: investigation</h2>
+    <div class="body plans">${t.dispatch.map(p => `
+      <div class="plan" style="border-left-color:${color(p.category)}">
+        <h4>${esc(p.pipeline)}</h4>
+        ${p.focus ? `<div class="note" style="margin:0 0 6px">Checks narrowed to ${esc(p.focus)}${t.matched_reason && p.focus === t.matched_reason_id ? " · " + esc(t.matched_reason.sub_category) : ""}</div>` : ""}
+        <div class="k">Checks</div><ul>${p.checks.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+        <div class="k">Documents to request</div><ul>${p.documents_needed.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+        <div class="k">Knowledge tables</div><div class="note" style="margin:2px 0 0">${p.runtime_tables.map(esc).join(", ")}</div>
+      </div>`).join("")}
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Letter text <span class="note" style="margin:0 0 0 auto;text-transform:none;letter-spacing:0"><mark>highlighted</mark> = text used for triage</span></h2>
+    <div class="body"><pre class="letter">${highlight(c.raw_text, e.denial_reason_text)}</pre></div>
+  </section>`;
+
+  $$("[data-clause]").forEach(b => b.onclick = () => openClause(b.dataset.clause));
+  loadRecent();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function highlight(text, reason) {
+  let out = esc(text);
+  (reason || "").split(/(?<=[.!?])\s+/).filter(s => s.length > 12).forEach(s => {
+    const safe = esc(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+    out = out.replace(new RegExp(safe), m => `<mark>${m}</mark>`);
+  });
+  return out;
+}
+
+async function openClause(id) {
+  const row = await api(`/api/clauses/${encodeURIComponent(id)}`);
+  $("#modal-box").innerHTML = `<h3>${esc(row.clause_id)}</h3>
+    <div class="note" style="margin:0 0 10px">${esc(row.insurer)} · ${esc(row.product_name)} · section ${esc(row.section)} · clause ${esc(row.clause_number || "–")} · ${esc(row.clause_type)}</div>
+    <p style="white-space:pre-wrap">${esc(row.clause_text)}</p>
+    ${row.exception_text ? `<p><b>Exception:</b> ${esc(row.exception_text)}</p>` : ""}
+    ${row.temporal_rule ? `<p><b>Time limit:</b> ${esc(row.temporal_rule)}</p>` : ""}
+    <button class="btn ghost" onclick="$('#modal').classList.remove('show')">Close</button>`;
+  $("#modal").classList.add("show");
+}
+$("#modal").onclick = e => { if (e.target.id === "modal") e.target.classList.remove("show"); };
+document.addEventListener("keydown", e => { if (e.key === "Escape") $("#modal").classList.remove("show"); });
+
+$("#results").innerHTML = PLACEHOLDER;
+loadMeta().then(loadRecent).catch(e => toast("Server not reachable: " + e.message));
+</script>
+</body>
+</html>

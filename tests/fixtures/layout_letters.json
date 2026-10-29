@@ -1,0 +1,50 @@
+{
+  "cashless_denial_letter.png": {
+    "truth": {
+      "letter_type": "claim_denial",
+      "claim_id": "CIR/2024/240517/7712093",
+      "patient_name": "MEERA KRISHNAN",
+      "insurer": "Star Health",
+      "policy_product": null,
+      "policy_product_raw": "Young Star Insurance Policy",
+      "policy_number": "10000099887766",
+      "policy_start": "2024-01-15",
+      "policy_end": "2025-01-14",
+      "admission_date": "2024-05-17",
+      "denial_date": "2024-05-18",
+      "hospital_name": "Sunrise Multispeciality Hospital, Nashik",
+      "diagnosis": "GASTROENTERITIS",
+      "denial_category_hint": "hospitalisation which is not medically necessary / does not warrant hospitalization"
+    },
+    "category": "MEDICAL_NECESSITY",
+    "reason_id": "MN-009"
+  },
+  "proposal_rejection_letter.png": {
+    "truth": {
+      "letter_type": "proposal_rejection",
+      "claim_id": null,
+      "application_number": "HE00987654Q202502",
+      "patient_name": "Arjun Mehta",
+      "insurer": "HDFC ERGO",
+      "policy_product": "my:Optima Secure",
+      "denial_date": "2025-02-12",
+      "denial_category_hint": "Uncontrolled diabetes"
+    }
+  },
+  "text_layer_table.pdf": {
+    "truth": {
+      "letter_type": "claim_denial",
+      "claim_id": "MA-2024-7781203",
+      "patient_name": "Rohan Verma",
+      "insurer": "Niva Bupa",
+      "tpa": "Medi Assist",
+      "policy_number": "NB/0099/112233",
+      "admission_date": "2024-03-21",
+      "denial_date": "2024-04-03",
+      "hospital_name": "Lakeview Hospital, Indore",
+      "appeal_window_days": 15
+    },
+    "category": "MEDICAL_NECESSITY",
+    "reason_id": "MN-009"
+  }
+}

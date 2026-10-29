@@ -1,982 +1,982 @@
 [
   {
     "case_id": "G7-001",
-    "raw_denial_paragraph": "The investigations on record do not support the need for Lumbar Spinal Fusion at this stage of the illness.",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-5644, the requested Total Hip Replacement is not in line with accepted clinical guidelines for the diagnosis recorded. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Pooja Kapoor",
-    "source_product": "Optima Restore"
+    "patient_name": "Vijay Khanna",
+    "source_product": "Max Protect"
   },
   {
     "case_id": "G7-002",
-    "raw_denial_paragraph": "This refers to your claim CLM-2024-8723 under Care Supreme. the requested Robotic Prostatectomy is not in line with accepted clinical guidelines for the diagnosis recorded.",
+    "raw_denial_paragraph": "This refers to your claim CLM-2025-2127 under Health AdvantEdge. the treating doctor's notes do not justify inpatient admission for Coronary Artery Bypass Graft; the condition could be treated on an outpatient basis. The claim is therefore closed.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Sunil Jha",
-    "source_product": "Care Supreme"
+    "patient_name": "Mahesh Yadav",
+    "source_product": "Health AdvantEdge"
   },
   {
     "case_id": "G7-003",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-7196, the hospitalization was primarily for observation and did not require active inpatient treatment. The claim is therefore closed.",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-9706, the requested IMRT Radiation Therapy is not in line with accepted clinical guidelines for the diagnosis recorded.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Usha Chauhan",
+    "patient_name": "Deepa Iyer",
     "source_product": "Health Shield 360"
   },
   {
     "case_id": "G7-004",
-    "raw_denial_paragraph": "This refers to your claim CLM-2023-8901 under Family Health Optima. the requested Cervical Spinal Fusion is not in line with accepted clinical guidelines for the diagnosis recorded.",
+    "raw_denial_paragraph": "We have examined your claim CLM-2024-6742 for hospitalization at BLK-MAX, New Delhi. our medical panel has found that Craniotomy for Tumor was not medically necessary and could have been managed conservatively. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Mohan Das",
+    "patient_name": "Amit Verma",
     "source_product": "Family Health Optima"
   },
   {
     "case_id": "G7-005",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-2600, the investigations on record do not support the need for Laparoscopic Sleeve Gastrectomy at this stage of the illness. Please quote the claim number in all further correspondence.",
+    "raw_denial_paragraph": "We have examined your claim CLM-2025-1116 for hospitalization at Kokilaben Dhirubhai Ambani, Mumbai. the requested Craniotomy for Tumor is not in line with accepted clinical guidelines for the diagnosis recorded. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Dinesh Saxena",
-    "source_product": "Family Health Optima"
+    "patient_name": "Ravi Menon",
+    "source_product": "Care"
   },
   {
     "case_id": "G7-006",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-7144, our medical panel has found that Cervical Spinal Fusion was not medically necessary and could have been managed conservatively.",
+    "raw_denial_paragraph": "We have examined your claim CLM-2025-7939 for hospitalization at SRM Institute, Chennai. our medical panel has found that Craniotomy for Tumor was not medically necessary and could have been managed conservatively. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Pavan Kumar B",
-    "source_product": "Care Supreme"
+    "patient_name": "Savita Hegde",
+    "source_product": "Arogya Sanjeevani"
   },
   {
     "case_id": "G7-007",
-    "raw_denial_paragraph": "We have examined your claim CLM-2025-7511 for hospitalization at Yashoda Hospital, Hyderabad. the requested Liver Transplant is not in line with accepted clinical guidelines for the diagnosis recorded. Please quote the claim number in all further correspondence.",
+    "raw_denial_paragraph": "We have examined your claim CLM-2025-7522 for hospitalization at CMC Vellore. the requested Renal Transplant is not in line with accepted clinical guidelines for the diagnosis recorded. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Pavan Kumar B",
+    "patient_name": "Ravi Menon",
     "source_product": "Health Shield 360"
   },
   {
     "case_id": "G7-008",
-    "raw_denial_paragraph": "We have examined your claim CLM-2025-2951 for hospitalization at Lilavati Hospital, Mumbai. Renal Transplant has been assessed as elective, as no failed conservative treatment is documented. The claim is therefore closed.",
+    "raw_denial_paragraph": "We have examined your claim CLM-2023-3381 for hospitalization at Lilavati Hospital, Mumbai. the requested Mastectomy (Breast Cancer) is not in line with accepted clinical guidelines for the diagnosis recorded.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Hema Sundaram",
-    "source_product": "Star Comprehensive"
-  },
-  {
-    "case_id": "G7-009",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-8133, the investigations on record do not support the need for Total Hip Replacement at this stage of the illness.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Meera Reddy",
-    "source_product": "Health AdvantEdge"
-  },
-  {
-    "case_id": "G7-010",
-    "raw_denial_paragraph": "This refers to your claim CLM-2023-9099 under Care. the hospitalization was primarily for observation and did not require active inpatient treatment. The claim is therefore closed.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Leela Krishnan",
-    "source_product": "Care"
-  },
-  {
-    "case_id": "G7-011",
-    "raw_denial_paragraph": "This refers to your claim CLM-2023-2422 under Max Protect. the treating doctor's notes do not justify inpatient admission for Percutaneous Coronary Stent; the condition could be treated on an outpatient basis.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Rekha Bhat",
+    "patient_name": "Mahesh Yadav",
     "source_product": "Max Protect"
   },
   {
-    "case_id": "G7-012",
-    "raw_denial_paragraph": "With reference to claim CLM-2024-5530, the requested Coronary Artery Bypass Graft is not in line with accepted clinical guidelines for the diagnosis recorded. The claim is therefore closed.",
+    "case_id": "G7-009",
+    "raw_denial_paragraph": "The investigations on record do not support the need for Liver Transplant at this stage of the illness. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Sunil Jha",
-    "source_product": "Health Shield 360"
+    "patient_name": "Indira Rajan",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G7-010",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-4919, our medical panel has found that Cervical Spinal Fusion was not medically necessary and could have been managed conservatively. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Indira Rajan",
+    "source_product": "Max Protect"
+  },
+  {
+    "case_id": "G7-011",
+    "raw_denial_paragraph": "This refers to your claim CLM-2025-6703 under Arogya Sanjeevani. our medical panel has found that Aortic Valve Replacement was not medically necessary and could have been managed conservatively.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Meera Reddy",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G7-012",
+    "raw_denial_paragraph": "Dear Swati Ghosh, the requested Liver Transplant is not in line with accepted clinical guidelines for the diagnosis recorded.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Swati Ghosh",
+    "source_product": "Health Booster"
   },
   {
     "case_id": "G7-013",
-    "raw_denial_paragraph": "This refers to your claim CLM-2024-9813 under Family Health Optima. our medical panel has found that Robotic Prostatectomy was not medically necessary and could have been managed conservatively. The claim is therefore closed.",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-8896, Total Hip Replacement has been assessed as elective, as no failed conservative treatment is documented. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Asha Tiwari",
-    "source_product": "Family Health Optima"
+    "patient_name": "Vanaja Kurian",
+    "source_product": "Health Shield 360"
   },
   {
     "case_id": "G7-014",
-    "raw_denial_paragraph": "The investigations on record do not support the need for Cervical Spinal Fusion at this stage of the illness.",
+    "raw_denial_paragraph": "Total Hip Replacement has been assessed as elective, as no failed conservative treatment is documented. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Naresh Biswas",
-    "source_product": "Arogya Sanjeevani"
-  },
-  {
-    "case_id": "G7-015",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-8807, Aortic Valve Replacement has been assessed as elective, as no failed conservative treatment is documented.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Madhavi Kulkarni",
-    "source_product": "Care Supreme"
-  },
-  {
-    "case_id": "G7-016",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-6833, the hospitalization was primarily for observation and did not require active inpatient treatment. You may write to our Grievance Redressal Officer if you disagree.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Ravi Menon",
-    "source_product": "my:Optima Secure"
-  },
-  {
-    "case_id": "G7-017",
-    "raw_denial_paragraph": "Dear Padma Srinivasan, the requested Laparoscopic Sleeve Gastrectomy is not in line with accepted clinical guidelines for the diagnosis recorded. The claim is therefore closed.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Padma Srinivasan",
-    "source_product": "Family Health Optima"
-  },
-  {
-    "case_id": "G7-018",
-    "raw_denial_paragraph": "Dear Usha Chauhan, the hospitalization was primarily for observation and did not require active inpatient treatment. You may write to our Grievance Redressal Officer if you disagree.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Usha Chauhan",
-    "source_product": "Star Comprehensive"
-  },
-  {
-    "case_id": "G7-019",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-6995, the requested Lumbar Spinal Fusion is not in line with accepted clinical guidelines for the diagnosis recorded. The claim is therefore closed.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Pooja Kapoor",
-    "source_product": "Health AdvantEdge"
-  },
-  {
-    "case_id": "G7-020",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-4863, the requested IMRT Radiation Therapy is not in line with accepted clinical guidelines for the diagnosis recorded. You may write to our Grievance Redressal Officer if you disagree.",
-    "ground_truth_category": "MEDICAL_NECESSITY",
-    "patient_name": "Pavan Kumar B",
-    "source_product": "Care Supreme"
-  },
-  {
-    "case_id": "G7-021",
-    "raw_denial_paragraph": "Dear Padma Srinivasan, the records show that Osteoarthritis (Bilateral Knee) was diagnosed before inception, so it is a pre-existing disease still within its waiting period. The claim is therefore closed.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Padma Srinivasan",
-    "source_product": "Arogya Sanjeevani"
-  },
-  {
-    "case_id": "G7-022",
-    "raw_denial_paragraph": "Treatment of Osteoarthritis (Bilateral Knee) is subject to a 24-month waiting period that had not expired on the date of admission. The claim is therefore closed.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Rekha Bhat",
-    "source_product": "Health Booster"
-  },
-  {
-    "case_id": "G7-023",
-    "raw_denial_paragraph": "We have examined your claim CLM-2025-8322 for hospitalization at Global Hospitals, Hyderabad. treatment of Hyperlipidemia is subject to a 36-month waiting period that had not expired on the date of admission. The claim is therefore closed.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Vanaja Kurian",
-    "source_product": "Health AdvantEdge"
-  },
-  {
-    "case_id": "G7-024",
-    "raw_denial_paragraph": "Dear Vikram Singh, the proposal form did not disclose the earlier diagnosis of Hypertensive Nephropathy, and the waiting period had not been served. Please quote the claim number in all further correspondence.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Vikram Singh",
-    "source_product": "Optima Restore"
-  },
-  {
-    "case_id": "G7-025",
-    "raw_denial_paragraph": "Dear Priya Sharma, the records show that Chronic Kidney Disease was diagnosed before inception, so it is a pre-existing disease still within its waiting period. You may write to our Grievance Redressal Officer if you disagree.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Priya Sharma",
-    "source_product": "Star Comprehensive"
-  },
-  {
-    "case_id": "G7-026",
-    "raw_denial_paragraph": "This refers to your claim CLM-2023-2702 under Health Booster. Hyperlipidemia existed before the policy began and the 36-month pre-existing disease waiting period has not been completed.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Hema Sundaram",
-    "source_product": "Health Booster"
-  },
-  {
-    "case_id": "G7-027",
-    "raw_denial_paragraph": "The records show that Essential Hypertension was diagnosed before inception, so it is a pre-existing disease still within its waiting period. You may write to our Grievance Redressal Officer if you disagree.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Jaya Kamath",
-    "source_product": "Care"
-  },
-  {
-    "case_id": "G7-028",
-    "raw_denial_paragraph": "This refers to your claim CLM-2025-9745 under Elevate Health. the claim arose within the first 30 days of the policy for an illness that was not caused by an accident. Please quote the claim number in all further correspondence.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Ashok Malhotra",
+    "patient_name": "Prakash Choudhury",
     "source_product": "Elevate Health"
   },
   {
-    "case_id": "G7-029",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-6634, treatment of Heart Failure is subject to a 48-month waiting period that had not expired on the date of admission.",
-    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "case_id": "G7-015",
+    "raw_denial_paragraph": "Dear Pooja Kapoor, the hospitalization was primarily for observation and did not require active inpatient treatment. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Pooja Kapoor",
+    "source_product": "Star Women Care"
+  },
+  {
+    "case_id": "G7-016",
+    "raw_denial_paragraph": "This refers to your claim CLM-2024-5501 under Health Shield 360. our medical panel has found that Mastectomy (Breast Cancer) was not medically necessary and could have been managed conservatively.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Naresh Biswas",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G7-017",
+    "raw_denial_paragraph": "Dear Alok Tripathi, the requested Mastectomy (Breast Cancer) is not in line with accepted clinical guidelines for the diagnosis recorded.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Alok Tripathi",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G7-018",
+    "raw_denial_paragraph": "Dear Venkatesh Murthy, the requested IMRT Radiation Therapy is not in line with accepted clinical guidelines for the diagnosis recorded.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Venkatesh Murthy",
+    "source_product": "Health Shield 360"
+  },
+  {
+    "case_id": "G7-019",
+    "raw_denial_paragraph": "Dear Rekha Bhat, the hospitalization was primarily for observation and did not require active inpatient treatment. The claim is therefore closed.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
+    "patient_name": "Rekha Bhat",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G7-020",
+    "raw_denial_paragraph": "The treating doctor's notes do not justify inpatient admission for IMRT Radiation Therapy; the condition could be treated on an outpatient basis. Please quote the claim number in all further correspondence.",
+    "ground_truth_category": "MEDICAL_NECESSITY",
     "patient_name": "Ramesh Kumar",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G7-021",
+    "raw_denial_paragraph": "With reference to claim CLM-2024-2577, the proposal form did not disclose the earlier diagnosis of Coronary Artery Disease, and the waiting period had not been served. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Anita Devi",
+    "source_product": "Star Women Care"
+  },
+  {
+    "case_id": "G7-022",
+    "raw_denial_paragraph": "Dear Vanaja Kurian, Benign Prostatic Hyperplasia existed before the policy began and the 24-month pre-existing disease waiting period has not been completed. The claim is therefore closed.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Vanaja Kurian",
+    "source_product": "my:Optima Secure"
+  },
+  {
+    "case_id": "G7-023",
+    "raw_denial_paragraph": "Dear Mahesh Yadav, the proposal form did not disclose the earlier diagnosis of Atrial Fibrillation, and the waiting period had not been served. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Mahesh Yadav",
+    "source_product": "Elevate Health"
+  },
+  {
+    "case_id": "G7-024",
+    "raw_denial_paragraph": "This refers to your claim CLM-2024-9535 under Family Health Optima. the proposal form did not disclose the earlier diagnosis of Heart Failure, and the waiting period had not been served. Please quote the claim number in all further correspondence.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Neha Agarwal",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-030",
-    "raw_denial_paragraph": "With reference to claim CLM-2024-5094, the claim arose within the first 30 days of the policy for an illness that was not caused by an accident. The claim is therefore closed.",
+    "case_id": "G7-025",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-9985, the records show that Calculus of Kidney was diagnosed before inception, so it is a pre-existing disease still within its waiting period. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
-    "patient_name": "Sanjay Desai",
-    "source_product": "Health Booster"
+    "patient_name": "Rajesh Gupta",
+    "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-031",
+    "case_id": "G7-026",
+    "raw_denial_paragraph": "We have examined your claim CLM-2023-3150 for hospitalization at CMC Vellore. the records show that Atrial Fibrillation was diagnosed before inception, so it is a pre-existing disease still within its waiting period. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Rani Mukherjee",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G7-027",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-8126, the proposal form did not disclose the earlier diagnosis of Atrial Fibrillation, and the waiting period had not been served. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Kamala Subramaniam",
+    "source_product": "Health AdvantEdge"
+  },
+  {
+    "case_id": "G7-028",
+    "raw_denial_paragraph": "We have examined your claim CLM-2023-9574 for hospitalization at AIIMS, New Delhi. treatment of Essential Hypertension is subject to a 36-month waiting period that had not expired on the date of admission. Please quote the claim number in all further correspondence.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Ravi Menon",
+    "source_product": "Arogya Sanjeevani"
+  },
+  {
+    "case_id": "G7-029",
+    "raw_denial_paragraph": "Dear Ramesh Kumar, treatment of Chronic Kidney Disease is subject to a 48-month waiting period that had not expired on the date of admission. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
+    "patient_name": "Ramesh Kumar",
+    "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G7-030",
     "raw_denial_paragraph": "This refers to your claim CLM-2024-4080 under Family Health Optima. the claim arose within the first 30 days of the policy for an illness that was not caused by an accident. The claim is therefore closed.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Prakash Choudhury",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-032",
+    "case_id": "G7-031",
     "raw_denial_paragraph": "The claim arose within the first 30 days of the policy for an illness that was not caused by an accident. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Sanjay Desai",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-033",
+    "case_id": "G7-032",
     "raw_denial_paragraph": "With reference to claim CLM-2024-9165, the records show that Diabetic Retinopathy was diagnosed before inception, so it is a pre-existing disease still within its waiting period.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Padma Srinivasan",
     "source_product": "Complete Health Insurance"
   },
   {
-    "case_id": "G7-034",
-    "raw_denial_paragraph": "This refers to your claim CLM-2023-2998 under Elevate Health. Heart Failure is a listed condition with a specific waiting period that was not completed at the time of treatment. You may write to our Grievance Redressal Officer if you disagree.",
+    "case_id": "G7-033",
+    "raw_denial_paragraph": "This refers to your claim CLM-2023-2998 under Star Women Care. Diabetic Retinopathy is a listed condition with a specific waiting period that was not completed at the time of treatment. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Sanjay Desai",
-    "source_product": "Elevate Health"
+    "source_product": "Star Women Care"
   },
   {
-    "case_id": "G7-035",
+    "case_id": "G7-034",
     "raw_denial_paragraph": "This refers to your claim CLM-2024-3598 under Max Protect. the proposal form did not disclose the earlier diagnosis of Coronary Artery Disease, and the waiting period had not been served. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Naresh Biswas",
     "source_product": "Max Protect"
   },
   {
-    "case_id": "G7-036",
+    "case_id": "G7-035",
     "raw_denial_paragraph": "We have examined your claim CLM-2024-1246 for hospitalization at Narayana Health, Bangalore. Diabetic Retinopathy existed before the policy began and the 48-month pre-existing disease waiting period has not been completed. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Sunita Mishra",
     "source_product": "Max Protect"
   },
   {
-    "case_id": "G7-037",
+    "case_id": "G7-036",
     "raw_denial_paragraph": "The claim arose within the first 30 days of the policy for an illness that was not caused by an accident. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Rekha Bhat",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-038",
+    "case_id": "G7-037",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-8187, Atrial Fibrillation is a listed condition with a specific waiting period that was not completed at the time of treatment. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Venkatesh Murthy",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-039",
+    "case_id": "G7-038",
     "raw_denial_paragraph": "Benign Prostatic Hyperplasia is a listed condition with a specific waiting period that was not completed at the time of treatment. The claim is therefore closed.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Mohan Das",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-040",
+    "case_id": "G7-039",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-7210 for hospitalization at Apollo Hospitals, Hyderabad. the claim arose within the first 30 days of the policy for an illness that was not caused by an accident. The claim is therefore closed.",
     "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Usha Chauhan",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-041",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-6285, injuries arising from participation in hazardous adventure sports are excluded. Please quote the claim number in all further correspondence.",
-    "ground_truth_category": "POLICY_EXCLUSION",
+    "case_id": "G7-040",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-6285, the claim arose within the first 30 days of the policy for an illness that was not caused by an accident. Please quote the claim number in all further correspondence.",
+    "ground_truth_category": "PRE_EXISTING_WAITING_PERIOD",
     "patient_name": "Hema Sundaram",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-042",
+    "case_id": "G7-041",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-7366, dental treatment not arising from an accident is a permanent exclusion under the policy. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Sanjay Desai",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-043",
+    "case_id": "G7-042",
     "raw_denial_paragraph": "With reference to claim CLM-2023-6913, the treatment relates to external congenital anomalies, which is excluded under the policy wording. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Meera Reddy",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-044",
+    "case_id": "G7-043",
     "raw_denial_paragraph": "With reference to claim CLM-2023-4164, the treatment relates to external congenital anomalies, which is excluded under the policy wording.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Rajesh Gupta",
     "source_product": "Health Booster"
   },
   {
-    "case_id": "G7-045",
+    "case_id": "G7-044",
     "raw_denial_paragraph": "Injuries arising from participation in hazardous adventure sports are excluded. The claim is therefore closed.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Vanaja Kurian",
     "source_product": "Star Comprehensive"
   },
   {
-    "case_id": "G7-046",
+    "case_id": "G7-045",
     "raw_denial_paragraph": "We have examined your claim CLM-2024-6299 for hospitalization at Ruby Hall Clinic, Pune. expenses for cosmetic surgery fall under the standard exclusions specified by IRDAI. The claim is therefore closed.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Rekha Bhat",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-047",
+    "case_id": "G7-046",
     "raw_denial_paragraph": "Dear Sunil Jha, the policy does not cover treatment for alcohol dependence, and no exception to this exclusion applies.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Sunil Jha",
     "source_product": "Arogya Sanjeevani"
   },
   {
-    "case_id": "G7-048",
+    "case_id": "G7-047",
     "raw_denial_paragraph": "With reference to claim CLM-2024-5093, dental treatment not arising from an accident is a permanent exclusion under the policy. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Dinesh Saxena",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-049",
+    "case_id": "G7-048",
     "raw_denial_paragraph": "Dear Tarun Bhatt, the treatment relates to external congenital anomalies, which is excluded under the policy wording. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Tarun Bhatt",
-    "source_product": "Care Supreme"
+    "source_product": "Star Women Care"
   },
   {
-    "case_id": "G7-050",
+    "case_id": "G7-049",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-1674, hospitalization for evaluation and investigation only, without active treatment, is excluded.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Ashok Malhotra",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-051",
+    "case_id": "G7-050",
     "raw_denial_paragraph": "This refers to your claim CLM-2024-3425 under Arogya Sanjeevani. injuries arising from participation in hazardous adventure sports are excluded.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Amit Verma",
     "source_product": "Arogya Sanjeevani"
   },
   {
-    "case_id": "G7-052",
+    "case_id": "G7-051",
     "raw_denial_paragraph": "This refers to your claim CLM-2023-8993 under Health AdvantEdge. the policy does not cover external congenital anomalies, and no exception to this exclusion applies. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Girish Kaul",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-053",
+    "case_id": "G7-052",
     "raw_denial_paragraph": "Injuries arising from participation in hazardous adventure sports are excluded.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Sunita Mishra",
     "source_product": "Elevate Health"
   },
   {
-    "case_id": "G7-054",
+    "case_id": "G7-053",
     "raw_denial_paragraph": "Dear Sanjay Desai, dental treatment not arising from an accident is a permanent exclusion under the policy. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Sanjay Desai",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-055",
+    "case_id": "G7-054",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-4471 for hospitalization at KIMS, Hyderabad. the policy does not cover spectacles and contact lenses, and no exception to this exclusion applies. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Priya Sharma",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-056",
+    "case_id": "G7-055",
     "raw_denial_paragraph": "Dear Ravi Menon, injuries arising from participation in hazardous adventure sports are excluded.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Ravi Menon",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-057",
+    "case_id": "G7-056",
     "raw_denial_paragraph": "With reference to claim CLM-2025-2631, dental treatment not arising from an accident is a permanent exclusion under the policy. The claim is therefore closed.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Saroja Nambiar",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-058",
+    "case_id": "G7-057",
     "raw_denial_paragraph": "With reference to claim CLM-2023-1301, the treatment relates to external congenital anomalies, which is excluded under the policy wording. The claim is therefore closed.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Asha Tiwari",
     "source_product": "Elevate Health"
   },
   {
-    "case_id": "G7-059",
+    "case_id": "G7-058",
     "raw_denial_paragraph": "Dear Amit Verma, dental treatment not arising from an accident is a permanent exclusion under the policy. The claim is therefore closed.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Amit Verma",
     "source_product": "Complete Health Insurance"
   },
   {
-    "case_id": "G7-060",
+    "case_id": "G7-059",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-3270 for hospitalization at Amrita Hospital, Kochi. injuries arising from participation in hazardous adventure sports are excluded. The claim is therefore closed.",
     "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Gopal Mehta",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-061",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-2939, the claimed amount is within the policy deductible of Rs 50,000, so nothing is payable. You may write to our Grievance Redressal Officer if you disagree.",
-    "ground_truth_category": "FINANCIAL_LIMIT",
+    "case_id": "G7-060",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-2939, hospitalization for evaluation and investigation only, without active treatment, is excluded. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "POLICY_EXCLUSION",
     "patient_name": "Venkatesh Murthy",
     "source_product": "Health Booster"
   },
   {
-    "case_id": "G7-062",
+    "case_id": "G7-061",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-5372, the sum insured for this policy year has been exhausted by earlier claims, and only Rs 86,000 could be paid.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Arun Nair",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-063",
+    "case_id": "G7-062",
     "raw_denial_paragraph": "The sub-limit of Rs 40,000 for this procedure has been applied to the admissible amount. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Alok Tripathi",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-064",
+    "case_id": "G7-063",
     "raw_denial_paragraph": "We have examined your claim CLM-2023-3901 for hospitalization at Kokilaben Dhirubhai Ambani, Mumbai. the sub-limit of Rs 40,000 for this procedure has been applied to the admissible amount. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Rani Mukherjee",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-065",
+    "case_id": "G7-064",
     "raw_denial_paragraph": "A co-payment of 10% applies to this claim under the policy terms, and the payable amount has been reduced accordingly. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Indira Rajan",
     "source_product": "Health Shield 360"
   },
   {
-    "case_id": "G7-066",
+    "case_id": "G7-065",
     "raw_denial_paragraph": "This refers to your claim CLM-2024-5684 under Health AdvantEdge. the claimed amount is within the policy deductible of Rs 25,000, so nothing is payable.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Sanjay Desai",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-067",
+    "case_id": "G7-066",
     "raw_denial_paragraph": "With reference to claim CLM-2023-7440, the claimed amount is within the policy deductible of Rs 25,000, so nothing is payable.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Deepa Iyer",
     "source_product": "Star Comprehensive"
   },
   {
-    "case_id": "G7-068",
+    "case_id": "G7-067",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-8362 for hospitalization at Manipal Hospital, Bangalore. a co-payment of 10% applies to this claim under the policy terms, and the payable amount has been reduced accordingly. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Leela Krishnan",
     "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-069",
+    "case_id": "G7-068",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-1840 for hospitalization at AIIMS, New Delhi. items worth Rs 4,000 fall under the list of non-payable items and have been deducted. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Mahesh Yadav",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-070",
+    "case_id": "G7-069",
     "raw_denial_paragraph": "With reference to claim CLM-2024-9904, items worth Rs 12,000 fall under the list of non-payable items and have been deducted. The claim is therefore closed.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Ramesh Kumar",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-071",
+    "case_id": "G7-070",
     "raw_denial_paragraph": "Dear Pooja Kapoor, the room chosen costs Rs 6,000 per day against an eligible limit of Rs 3,000, so a proportionate deduction has been applied.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Pooja Kapoor",
     "source_product": "Arogya Sanjeevani"
   },
   {
-    "case_id": "G7-072",
+    "case_id": "G7-071",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-5659 for hospitalization at Ruby Hall Clinic, Pune. the room chosen costs Rs 10,000 per day against an eligible limit of Rs 5,000, so a proportionate deduction has been applied.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Rajesh Gupta",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-073",
+    "case_id": "G7-072",
     "raw_denial_paragraph": "With reference to claim CLM-2024-2063, a co-payment of 20% applies to this claim under the policy terms, and the payable amount has been reduced accordingly. The claim is therefore closed.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Rekha Bhat",
-    "source_product": "Care Supreme"
+    "source_product": "Star Women Care"
   },
   {
-    "case_id": "G7-074",
+    "case_id": "G7-073",
     "raw_denial_paragraph": "This refers to your claim CLM-2025-5705 under Care Supreme. the room chosen costs Rs 8,000 per day against an eligible limit of Rs 4,000, so a proportionate deduction has been applied.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Pavan Kumar B",
     "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-075",
+    "case_id": "G7-074",
     "raw_denial_paragraph": "Dear Leela Krishnan, the sum insured for this policy year has been exhausted by earlier claims, and only Rs 36,000 could be paid. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Leela Krishnan",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-076",
+    "case_id": "G7-075",
     "raw_denial_paragraph": "With reference to claim CLM-2023-6042, the claimed amount is within the policy deductible of Rs 50,000, so nothing is payable. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Tarun Bhatt",
     "source_product": "Arogya Sanjeevani"
   },
   {
-    "case_id": "G7-077",
+    "case_id": "G7-076",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-3224, the sum insured for this policy year has been exhausted by earlier claims, and only Rs 78,000 could be paid. The claim is therefore closed.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Asha Tiwari",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-078",
+    "case_id": "G7-077",
     "raw_denial_paragraph": "This refers to your claim CLM-2025-6434 under Care. the claimed amount is within the policy deductible of Rs 100,000, so nothing is payable. The claim is therefore closed.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Swati Ghosh",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-079",
+    "case_id": "G7-078",
     "raw_denial_paragraph": "This refers to your claim CLM-2024-6152 under Care Supreme. items worth Rs 7,000 fall under the list of non-payable items and have been deducted. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Deepa Iyer",
     "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-080",
+    "case_id": "G7-079",
     "raw_denial_paragraph": "This refers to your claim CLM-2023-2517 under Family Health Optima. a co-payment of 10% applies to this claim under the policy terms, and the payable amount has been reduced accordingly. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Sunita Mishra",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-081",
-    "raw_denial_paragraph": "We have examined your claim CLM-2023-8526 for hospitalization at AIIMS, New Delhi. the original itemized bills and payment receipts are still awaited.",
-    "ground_truth_category": "DOCUMENTATION",
+    "case_id": "G7-080",
+    "raw_denial_paragraph": "We have examined your claim CLM-2023-8526 for hospitalization at AIIMS, New Delhi. the sum insured for this policy year has been exhausted by earlier claims, and only Rs 10,000 could be paid.",
+    "ground_truth_category": "FINANCIAL_LIMIT",
     "patient_name": "Jaya Kamath",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-082",
+    "case_id": "G7-081",
     "raw_denial_paragraph": "Dear Jaya Kamath, the discharge summary from CMC Vellore has not been received, and the claim cannot be assessed without it.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Jaya Kamath",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-083",
+    "case_id": "G7-082",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-4384, the investigation reports supporting the diagnosis have not been submitted despite two reminders.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Ramesh Kumar",
     "source_product": "Health Booster"
   },
   {
-    "case_id": "G7-084",
+    "case_id": "G7-083",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-3131, the discharge summary from KIMS, Hyderabad has not been received, and the claim cannot be assessed without it. The claim is therefore closed.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Indira Rajan",
     "source_product": "Health Booster"
   },
   {
-    "case_id": "G7-085",
+    "case_id": "G7-084",
     "raw_denial_paragraph": "The implant invoice and sticker required for this procedure have not been provided. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Indira Rajan",
     "source_product": "Arogya Sanjeevani"
   },
   {
-    "case_id": "G7-086",
+    "case_id": "G7-085",
     "raw_denial_paragraph": "Dear Kavita Joshi, the original itemized bills and payment receipts are still awaited. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Kavita Joshi",
     "source_product": "Arogya Sanjeevani"
   },
   {
-    "case_id": "G7-087",
+    "case_id": "G7-086",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-3087 for hospitalization at CMC Vellore. the claim form is unsigned and the dates on it do not match the hospital records. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Mahesh Yadav",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-088",
+    "case_id": "G7-087",
     "raw_denial_paragraph": "Dear Pooja Kapoor, the implant invoice and sticker required for this procedure have not been provided. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Pooja Kapoor",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-089",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-8584, the indoor case papers requested on 2024-04-21 have not been received.",
+    "case_id": "G7-088",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-8584, the indoor case papers requested on 2024-04-21 have not been received.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Rani Mukherjee",
-    "source_product": "Health AdvantEdge"
+    "source_product": "Star Women Care"
   },
   {
-    "case_id": "G7-090",
+    "case_id": "G7-089",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-1003 for hospitalization at Kokilaben Dhirubhai Ambani, Mumbai. the claim form is unsigned and the dates on it do not match the hospital records.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Meera Reddy",
-    "source_product": "Optima Restore"
+    "source_product": "Star Women Care"
   },
   {
-    "case_id": "G7-091",
+    "case_id": "G7-090",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-5989, the indoor case papers requested on 2024-05-10 have not been received. The claim is therefore closed.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Geeta Pillai",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-092",
-    "raw_denial_paragraph": "With reference to claim CLM-2024-1510, the investigation reports supporting the diagnosis have not been submitted despite two reminders.",
+    "case_id": "G7-091",
+    "raw_denial_paragraph": "With reference to claim CLM-2023-5623, the investigation reports supporting the diagnosis have not been submitted despite two reminders.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Ramesh Kumar",
-    "source_product": "Complete Health Insurance"
+    "source_product": "Star Women Care"
+  },
+  {
+    "case_id": "G7-092",
+    "raw_denial_paragraph": "Dear Rajeev Bansal, the claim form is unsigned and the dates on it do not match the hospital records. You may write to our Grievance Redressal Officer if you disagree.",
+    "ground_truth_category": "DOCUMENTATION",
+    "patient_name": "Rajeev Bansal",
+    "source_product": "Health AdvantEdge"
   },
   {
     "case_id": "G7-093",
-    "raw_denial_paragraph": "This refers to your claim CLM-2024-6902 under my:Optima Secure. the original itemized bills and payment receipts are still awaited. You may write to our Grievance Redressal Officer if you disagree.",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-7813, the indoor case papers requested on 2025-07-19 have not been received. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "DOCUMENTATION",
-    "patient_name": "Naresh Biswas",
-    "source_product": "my:Optima Secure"
-  },
-  {
-    "case_id": "G7-094",
-    "raw_denial_paragraph": "The claim form is unsigned and the dates on it do not match the hospital records. Please quote the claim number in all further correspondence.",
-    "ground_truth_category": "DOCUMENTATION",
-    "patient_name": "Arun Nair",
+    "patient_name": "Rajeev Bansal",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-095",
+    "case_id": "G7-094",
     "raw_denial_paragraph": "Dear Deepa Iyer, the investigation reports supporting the diagnosis have not been submitted despite two reminders. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Deepa Iyer",
     "source_product": "Health Shield 360"
   },
   {
-    "case_id": "G7-096",
+    "case_id": "G7-095",
     "raw_denial_paragraph": "With reference to claim CLM-2024-2311, the implant invoice and sticker required for this procedure have not been provided. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Leela Krishnan",
     "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-097",
+    "case_id": "G7-096",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-1864, the claim form is unsigned and the dates on it do not match the hospital records.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Vanaja Kurian",
     "source_product": "Family Health Optima"
   },
   {
-    "case_id": "G7-098",
+    "case_id": "G7-097",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-5981 for hospitalization at Fortis Hospital, Gurgaon. the investigation reports supporting the diagnosis have not been submitted despite two reminders. The claim is therefore closed.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Mahesh Yadav",
     "source_product": "Star Comprehensive"
   },
   {
-    "case_id": "G7-099",
+    "case_id": "G7-098",
     "raw_denial_paragraph": "The implant invoice and sticker required for this procedure have not been provided.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Prakash Choudhury",
     "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-100",
+    "case_id": "G7-099",
     "raw_denial_paragraph": "This refers to your claim CLM-2023-5280 under Complete Health Insurance. the original itemized bills and payment receipts are still awaited. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Rajeev Bansal",
     "source_product": "Complete Health Insurance"
   },
   {
-    "case_id": "G7-101",
-    "raw_denial_paragraph": "Dear Pooja Kapoor, the same hospitalization has already been settled under another claim, so this is a duplicate claim. Please quote the claim number in all further correspondence.",
-    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
+    "case_id": "G7-100",
+    "raw_denial_paragraph": "Dear Pooja Kapoor, the claim form is unsigned and the dates on it do not match the hospital records. Please quote the claim number in all further correspondence.",
+    "ground_truth_category": "DOCUMENTATION",
     "patient_name": "Pooja Kapoor",
     "source_product": "Star Comprehensive"
   },
   {
-    "case_id": "G7-102",
+    "case_id": "G7-101",
     "raw_denial_paragraph": "We have examined your claim CLM-2023-9690 for hospitalization at Lilavati Hospital, Mumbai. the same hospitalization has already been settled under another claim, so this is a duplicate claim. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Kishore Sinha",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-103",
+    "case_id": "G7-102",
     "raw_denial_paragraph": "With reference to claim CLM-2024-6488, the cashless request was withdrawn by the hospital and no reimbursement claim was filed within the time limit. The claim is therefore closed.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Savita Hegde",
     "source_product": "Max Protect"
   },
   {
-    "case_id": "G7-104",
+    "case_id": "G7-103",
     "raw_denial_paragraph": "This refers to your claim CLM-2023-2113 under Care. treatment was taken at a non-network hospital without the prior approval required for planned admissions. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Venkatesh Murthy",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-105",
+    "case_id": "G7-104",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-4552, the claim documents were submitted 60 days after discharge, beyond the time allowed under the policy.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Indira Rajan",
     "source_product": "Care"
   },
   {
-    "case_id": "G7-106",
+    "case_id": "G7-105",
     "raw_denial_paragraph": "With reference to claim CLM-2023-8429, the claim was filed with the wrong TPA and was not transferred within the permitted time. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Ravi Menon",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-107",
+    "case_id": "G7-106",
     "raw_denial_paragraph": "Dear Anita Devi, the same hospitalization has already been settled under another claim, so this is a duplicate claim. The claim is therefore closed.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Anita Devi",
-    "source_product": "Arogya Sanjeevani"
+    "source_product": "Star Women Care"
   },
   {
-    "case_id": "G7-108",
-    "raw_denial_paragraph": "This refers to your claim CLM-2023-2153 under Care Supreme. the claim was filed with the wrong TPA and was not transferred within the permitted time.",
+    "case_id": "G7-107",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-2153, the cashless request was withdrawn by the hospital and no reimbursement claim was filed within the time limit.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Gopal Mehta",
     "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-109",
+    "case_id": "G7-108",
     "raw_denial_paragraph": "The same hospitalization has already been settled under another claim, so this is a duplicate claim. The claim is therefore closed.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Kavita Joshi",
     "source_product": "Elevate Health"
   },
   {
-    "case_id": "G7-110",
+    "case_id": "G7-109",
     "raw_denial_paragraph": "With reference to claim CLM-2025-2485, the cashless request was withdrawn by the hospital and no reimbursement claim was filed within the time limit. The claim is therefore closed.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Asha Tiwari",
     "source_product": "Elevate Health"
   },
   {
-    "case_id": "G7-111",
+    "case_id": "G7-110",
     "raw_denial_paragraph": "Dear Geeta Pillai, the claim was filed with the wrong TPA and was not transferred within the permitted time. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Geeta Pillai",
     "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-112",
+    "case_id": "G7-111",
     "raw_denial_paragraph": "Dear Mohan Das, the same hospitalization has already been settled under another claim, so this is a duplicate claim.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Mohan Das",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-113",
+    "case_id": "G7-112",
     "raw_denial_paragraph": "The cashless request was withdrawn by the hospital and no reimbursement claim was filed within the time limit. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Rani Mukherjee",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-114",
+    "case_id": "G7-113",
     "raw_denial_paragraph": "With reference to claim CLM-2023-2047, the planned hospitalization was not intimated to the insurer or TPA before admission.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Geeta Pillai",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-115",
+    "case_id": "G7-114",
     "raw_denial_paragraph": "The claim was filed with the wrong TPA and was not transferred within the permitted time. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Venkatesh Murthy",
     "source_product": "Max Protect"
   },
   {
-    "case_id": "G7-116",
+    "case_id": "G7-115",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-1666, the claim was filed with the wrong TPA and was not transferred within the permitted time. The claim is therefore closed.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Swati Ghosh",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-117",
+    "case_id": "G7-116",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-3344, the claim documents were submitted 60 days after discharge, beyond the time allowed under the policy. The claim is therefore closed.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Harish Pandey",
     "source_product": "Star Comprehensive"
   },
   {
-    "case_id": "G7-118",
+    "case_id": "G7-117",
     "raw_denial_paragraph": "The same hospitalization has already been settled under another claim, so this is a duplicate claim.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Ashok Malhotra",
     "source_product": "Complete Health Insurance"
   },
   {
-    "case_id": "G7-119",
+    "case_id": "G7-118",
     "raw_denial_paragraph": "We have examined your claim CLM-2024-9151 for hospitalization at AIIMS, New Delhi. the claim documents were submitted 75 days after discharge, beyond the time allowed under the policy. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Sunita Mishra",
     "source_product": "Max Protect"
   },
   {
-    "case_id": "G7-120",
+    "case_id": "G7-119",
     "raw_denial_paragraph": "This refers to your claim CLM-2023-1476 under Health Booster. the same hospitalization has already been settled under another claim, so this is a duplicate claim.",
     "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Rajesh Gupta",
     "source_product": "Health Booster"
   },
   {
-    "case_id": "G7-121",
-    "raw_denial_paragraph": "The dependent was added to the policy after the date of hospitalization. The claim is therefore closed.",
-    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "case_id": "G7-120",
+    "raw_denial_paragraph": "The claim was filed with the wrong TPA and was not transferred within the permitted time. The claim is therefore closed.",
+    "ground_truth_category": "ADMINISTRATIVE_PROCEDURAL",
     "patient_name": "Amit Verma",
     "source_product": "Complete Health Insurance"
   },
   {
-    "case_id": "G7-122",
+    "case_id": "G7-121",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-4181, the patient is not listed as an insured member in the policy schedule. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Deepa Iyer",
     "source_product": "Complete Health Insurance"
   },
   {
-    "case_id": "G7-123",
+    "case_id": "G7-122",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-4602, the policy was not in force on the date of admission because the renewal premium was received 90 days late. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Usha Chauhan",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-124",
-    "raw_denial_paragraph": "This refers to your claim CLM-2023-8014 under Health AdvantEdge. the hospitalization occurred before the policy start date. You may write to our Grievance Redressal Officer if you disagree.",
+    "case_id": "G7-123",
+    "raw_denial_paragraph": "This refers to your claim CLM-2024-1237 under Star Women Care. the hospitalization occurred before the policy start date. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Kamala Subramaniam",
+    "source_product": "Star Women Care"
+  },
+  {
+    "case_id": "G7-124",
+    "raw_denial_paragraph": "This refers to your claim CLM-2025-1550 under Health AdvantEdge. the policy was not in force on the date of admission because the renewal premium was received 45 days late. Please quote the claim number in all further correspondence.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Suresh Patel",
     "source_product": "Health AdvantEdge"
   },
   {
     "case_id": "G7-125",
-    "raw_denial_paragraph": "With reference to claim CLM-2025-7460, the policy was not in force on the date of admission because the renewal premium was received 90 days late. Please quote the claim number in all further correspondence.",
+    "raw_denial_paragraph": "The dependent was added to the policy after the date of hospitalization. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
-    "patient_name": "Sunil Jha",
-    "source_product": "Care"
+    "patient_name": "Lakshmi Rao",
+    "source_product": "Complete Health Insurance"
   },
   {
     "case_id": "G7-126",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-8860, the patient is not listed as an insured member in the policy schedule. The claim is therefore closed.",
+    "raw_denial_paragraph": "Dear Deepa Iyer, the patient is not listed as an insured member in the policy schedule. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
-    "patient_name": "Prakash Choudhury",
+    "patient_name": "Deepa Iyer",
     "source_product": "Max Protect"
   },
   {
     "case_id": "G7-127",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-6454, the insured person had crossed the maximum age for dependent children on the date of admission. Please quote the claim number in all further correspondence.",
+    "raw_denial_paragraph": "The policy was not in force on the date of admission because the renewal premium was received 60 days late. The claim is therefore closed.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
-    "patient_name": "Leela Krishnan",
-    "source_product": "Max Protect"
-  },
-  {
-    "case_id": "G7-128",
-    "raw_denial_paragraph": "This refers to your claim CLM-2024-1669 under Elevate Health. the dependent was added to the policy after the date of hospitalization. The claim is therefore closed.",
-    "ground_truth_category": "ELIGIBILITY_COVERAGE",
-    "patient_name": "Anita Devi",
-    "source_product": "Elevate Health"
-  },
-  {
-    "case_id": "G7-129",
-    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-4437, the policy had been cancelled at the policyholder's request before the date of treatment.",
-    "ground_truth_category": "ELIGIBILITY_COVERAGE",
-    "patient_name": "Saroja Nambiar",
-    "source_product": "Star Comprehensive"
-  },
-  {
-    "case_id": "G7-130",
-    "raw_denial_paragraph": "With reference to claim CLM-2023-8703, the insured person had crossed the maximum age for dependent children on the date of admission. The claim is therefore closed.",
-    "ground_truth_category": "ELIGIBILITY_COVERAGE",
-    "patient_name": "Gopal Mehta",
+    "patient_name": "Rani Mukherjee",
     "source_product": "Health Booster"
   },
   {
-    "case_id": "G7-131",
+    "case_id": "G7-128",
+    "raw_denial_paragraph": "The policy had been cancelled at the policyholder's request before the date of treatment.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Swati Ghosh",
+    "source_product": "Optima Restore"
+  },
+  {
+    "case_id": "G7-129",
+    "raw_denial_paragraph": "We have examined your claim CLM-2024-8412 for hospitalization at Fortis Hospital, Gurgaon. the policy had been cancelled at the policyholder's request before the date of treatment. Please quote the claim number in all further correspondence.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Neha Agarwal",
+    "source_product": "Care Supreme"
+  },
+  {
+    "case_id": "G7-130",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-2791, the hospitalization occurred before the policy start date.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Meera Reddy",
     "source_product": "Optima Restore"
   },
   {
-    "case_id": "G7-132",
+    "case_id": "G7-131",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-1351 for hospitalization at Yashoda Hospital, Hyderabad. the hospitalization occurred before the policy start date. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Naresh Biswas",
     "source_product": "Elevate Health"
   },
   {
-    "case_id": "G7-133",
+    "case_id": "G7-132",
     "raw_denial_paragraph": "Dear Usha Chauhan, the policy had been cancelled at the policyholder's request before the date of treatment. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Usha Chauhan",
     "source_product": "Health Shield 360"
   },
   {
-    "case_id": "G7-134",
+    "case_id": "G7-133",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2023-3514, the policy had been cancelled at the policyholder's request before the date of treatment. You may write to our Grievance Redressal Officer if you disagree.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Leela Krishnan",
     "source_product": "Arogya Sanjeevani"
   },
   {
-    "case_id": "G7-135",
+    "case_id": "G7-134",
     "raw_denial_paragraph": "This refers to your claim CLM-2024-8347 under Complete Health Insurance. the dependent was added to the policy after the date of hospitalization.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Rajeev Bansal",
     "source_product": "Complete Health Insurance"
   },
   {
-    "case_id": "G7-136",
+    "case_id": "G7-135",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-3409, the policy was not in force on the date of admission because the renewal premium was received 45 days late. The claim is therefore closed.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Saroja Nambiar",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-137",
+    "case_id": "G7-136",
     "raw_denial_paragraph": "We have examined your claim CLM-2023-6347 for hospitalization at Narayana Health, Bangalore. the policy was not in force on the date of admission because the renewal premium was received 90 days late. Please quote the claim number in all further correspondence.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Indira Rajan",
     "source_product": "Health AdvantEdge"
   },
   {
-    "case_id": "G7-138",
+    "case_id": "G7-137",
     "raw_denial_paragraph": "The dependent was added to the policy after the date of hospitalization.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Alok Tripathi",
     "source_product": "my:Optima Secure"
   },
   {
-    "case_id": "G7-139",
+    "case_id": "G7-138",
     "raw_denial_paragraph": "We have examined your claim CLM-2025-8278 for hospitalization at Amrita Hospital, Kochi. the insured person had crossed the maximum age for dependent children on the date of admission. The claim is therefore closed.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Gopal Mehta",
     "source_product": "Care Supreme"
   },
   {
-    "case_id": "G7-140",
+    "case_id": "G7-139",
     "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2025-7156, the patient is not listed as an insured member in the policy schedule. The claim is therefore closed.",
     "ground_truth_category": "ELIGIBILITY_COVERAGE",
     "patient_name": "Naresh Biswas",
     "source_product": "Complete Health Insurance"
+  },
+  {
+    "case_id": "G7-140",
+    "raw_denial_paragraph": "After review of the documents submitted for claim CLM-2024-5979, the patient is not listed as an insured member in the policy schedule. Please quote the claim number in all further correspondence.",
+    "ground_truth_category": "ELIGIBILITY_COVERAGE",
+    "patient_name": "Prakash Choudhury",
+    "source_product": "Health AdvantEdge"
   }
 ]

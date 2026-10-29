@@ -34,7 +34,7 @@ if sys.stdout and hasattr(sys.stdout, "reconfigure"):
 # ──────────────────────────────────────────────────────────────
 # Paths
 # ──────────────────────────────────────────────────────────────
-BASE_DIR = Path(r"c:\Users\Saketh\Desktop\Major Project")
+BASE_DIR = Path(__file__).resolve().parent.parent   # the project folder
 GOLDEN_DIR = BASE_DIR / "data" / "golden"
 GOLDEN_DIR.mkdir(parents=True, exist_ok=True)
 RUNTIME_DIR = BASE_DIR / "data" / "runtime"
@@ -192,7 +192,7 @@ for _cond, _icd, _ in PED_CONDITIONS:
     assert _icd in ICD_CODES, f"ICD-10 code {_icd} ({_cond}) missing from icd10_codes.csv"
 
 _TEXT_COUNTS = Counter(r["clause_text"].strip() for r in CLAUSES)
-_CLAUSE_NUMBER = re.compile(r"^(\d+(\.\d+)*\.?|Code-?\s?Excl\s?\d+)$", re.I)
+_CLAUSE_NUMBER = re.compile(r"^(\d+(\.\d+)*\.?(\((?:[ivx]{1,4}|[a-h])\))?|Code-?\s?Excl\s?\d+)$", re.I)
 
 
 def _is_tabular(text):
@@ -272,6 +272,42 @@ TOPICS = {
 }
 
 
+# The TOPICS pattern finds clauses that mention a topic; many of those only mention it
+# in passing ("free look period of 30 days", "Room Rent means ..."). For these topics
+# the governing clause must state the rule itself:
+# topic -> (required pattern, rejected pattern, preferred pattern)
+TOPIC_RULES = {
+    "initial_wait": (r"(?:first|initial)\s+30[- ]days?|30[- ]day\s+(?:initial\s+)?waiting period"
+                     r"|within\s+30\s+days\s+(?:from|of)\s+the\s+(?:first\s+)?policy\s+(?:commencement|start|inception)",
+                     r"free look|\bport|pre[- ]hospitali|diagnostic credit|consultation|\bopd\b|mobile application|download",
+                     r"expenses related to the treatment"),
+    "specified_wait": (r"specified disease|specific waiting period|listed conditions?",
+                       r"continuity benefit|accrued|\bport|credits? gained|loading",
+                       r"expenses related to the treatment"),
+    "ped_wait": (r"pre-existing disease.{0,200}?(?:excluded until|until the expiry of|waiting period of)",
+                 r"buy back|reduc|additional premium|optional (?:cover|benefit)|just 24|90 days"
+                 r"|non-disclosure|misrepresentation"
+                 r"|longer of the two|\bport|\bmeans\b",
+                 r"expenses related to the treatment|excluded until"),
+    "room_rent": (r"room rent",
+                  r"\bmeans\b|modif|capping cover|optional",
+                  r"up to|limit|proportion|single private|% of"),
+    "co_pay": (r"co-?payment",
+               r"means a cost sharing|not be liable for any deductible|additional premium has been received",
+               r"\d+\s*%|per\s*cent"),
+    "nme": (r"non-medical|non-payable|non payable|items for which coverage is not available"
+            r"|not covered in this policy are placed",
+            r"annexure means|plaster cast|laryngoscopy|anaesthesia, blood, oxygen",
+            r"list i\b|non-medical"),
+    "investigation": (r"(?:primarily|only)\s+for\s+diagnostic|evaluation purposes|investigation\s*(?:&|and)\s*evaluation",
+                      r"subsumed|\bS\.?\s?No\b|\bSr\.?\s?No\b",
+                      r"expenses related to"),
+    "unproven": (r"unproven|experimental",
+                 None,
+                 r"expenses related to"),
+}
+
+
 EXCLUSION_TOPICS = {"cosmetic", "obesity", "maternity", "dental", "infertility", "adventure", "unproven",
                     "investigation", "rest_cure", "war"}
 WAITING_TOPICS = {"ped_wait", "specified_wait", "initial_wait", "moratorium"}
@@ -282,15 +318,25 @@ def _best_clause(product, topic):
     should fit the question, the topic must appear early in the text, and
     exception-bearing clauses are preferred."""
     pattern = TOPICS[topic][0]
+    required, rejected, preferred = TOPIC_RULES.get(topic, (None, None, None))
     wanted = "EXCLUSION" if topic in EXCLUSION_TOPICS else "WAITING_PERIOD" if topic in WAITING_TOPICS else None
     hits = []
     for r in CITABLE:
         if r["product_name"] != product:
             continue
-        m = re.search(pattern, r["clause_text"], re.I)
-        if m:
-            type_mismatch = wanted is not None and r["clause_type"] != wanted
-            hits.append((m.start() > 150, type_mismatch, r["has_exception"] != "True", m.start(), r["clause_id"], r))
+        text = r["clause_text"]
+        m = re.search(pattern, text, re.I)
+        if not m:
+            continue
+        # The rule must be what the clause is about, so it has to appear near the start.
+        if required and not (r_m := re.search(required, text, re.I | re.S)) or required and r_m.start() > 200:
+            continue
+        if rejected and re.search(rejected, text, re.I):
+            continue
+        type_mismatch = wanted is not None and r["clause_type"] != wanted
+        not_preferred = bool(preferred) and not re.search(preferred, text, re.I)
+        hits.append((m.start() > 150, type_mismatch, not_preferred, r["has_exception"] != "True",
+                     m.start(), r["clause_id"], r))
     return min(hits)[-1] if hits else None
 
 

@@ -4,3 +4,16 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Test and tool caches
+.pytest_cache/
+
+# Local editor and preview settings
+.claude/
+
+# Evaluation outputs, written again by every run of the evaluation scripts
+evaluation/results/
+
+# Real denial letters hold claimants' personal data: never commit them
+data/Denial letters/
+Denial Letters/

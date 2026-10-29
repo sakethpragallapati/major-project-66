@@ -3,7 +3,7 @@ build_runtime_csvs.py
 =====================
 Builds all 6 Active Runtime Knowledge-Base CSVs for the Denial Appeal System:
   data/runtime/
-  ├── policy_clauses.csv            (2,877 structured non-truncated clauses across 13 PDFs)
+  ├── policy_clauses.csv            (3,028 structured non-truncated clauses across 14 PDFs)
   ├── denial_reasons.csv            (70 granular denial reasons with specific CARC & RARC codes)
   ├── icd10_codes.csv               (2,999 comprehensive ICD-10 codes across Chapters A-Z)
   ├── procedure_codes.csv           (217 HCPCS/CPT codes across 22 medical specialties)
@@ -23,7 +23,7 @@ from pathlib import Path
 if sys.stdout and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-BASE_DIR = Path(r"c:\Users\Saketh\Desktop\Major Project")
+BASE_DIR = Path(__file__).resolve().parent.parent   # the project folder
 POLICY_DIR = BASE_DIR / "data" / "policy_wordings"
 RUNTIME_DIR = BASE_DIR / "data" / "runtime"
 RUNTIME_DIR.mkdir(parents=True, exist_ok=True)
@@ -70,7 +70,9 @@ def extract_policy_clauses():
     clause_patterns = [
         (re.compile(r'^(Code\s*-?\s*Excl\s*\d+)\s*[:\.\-]?\s*(.+)', re.IGNORECASE | re.DOTALL), "top"),
         (re.compile(r'^Def\.?\s*(\d+)\s*[\.:]\s*(.+)', re.IGNORECASE | re.DOTALL), "def"),
-        (re.compile(r'^(\d{1,2}(?:\.\d{1,3}){0,3})[\.\):]?\s+(?=["\'(A-Z])(.+)', re.DOTALL), "top"),
+        # The text after the number may itself start with a number: "3. 30-day waiting period".
+        (re.compile(r'^(\d{1,2}(?:\.\d{1,3}){0,3})[\.\):]?\s+(?=["\'(A-Z]|\d{1,3}\s*-?\s*(?i:day|month|year|hour)s?\b)(.+)',
+                    re.DOTALL), "top"),
         (re.compile(rf'^\(?({roman})[\.\)]\s*(.+)', re.IGNORECASE | re.DOTALL), "sub"),
         (re.compile(r'^\(?([a-z])\)\s*(.+)', re.DOTALL), "sub"),
     ]
@@ -266,7 +268,8 @@ def extract_policy_clauses():
             "clause_id", "insurer", "product_name", "section", "clause_number",
             "clause_text", "clause_type", "has_exception", "exception_text", "temporal_rule"
         ]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        # LF line ends, as the file is stored in git, so a rebuild changes only the rows that changed.
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(all_clauses)
     print(f"  [DONE] policy_clauses.csv: {len(all_clauses)} clauses -> {output_path}")
@@ -306,9 +309,11 @@ CARC_DICT = {
 }
 
 # Every grievance starts with the insurer's Grievance Redressal Officer (GRO); these are the
-# Indian escalation routes that follow it.
+# Indian escalation routes that follow it. Any total or partial repudiation of a health claim
+# can go to the Insurance Ombudsman once the GRO has replied or 30 days have passed
+# (Insurance Ombudsman Rules 2017, Rule 13), so no route stops at the GRO.
 APPEAL_ROUTES = {
-    "GRO": "Insurer GRO",
+    "GRO": "Insurer GRO, then Insurance Ombudsman",
     "OMBUDSMAN": "Insurer GRO, then Insurance Ombudsman",
     "OMBUDSMAN_OR_COMMISSION": "Insurer GRO, then Insurance Ombudsman or Consumer Commission",
     "BIMA_BHAROSA": "Insurer GRO, then IRDAI Bima Bharosa portal",
@@ -926,7 +931,9 @@ def build_denial_reasons():
                 "rarc_description": rarc_desc,
                 "irdai_clause_grounding": r.get("irdai", ""),
                 "typical_clause_type": r["clause"],
-                "appeal_route": APPEAL_ROUTES[ROUTE_OF[r["route"]]],
+                # A documentation denial is usually cured by sending the documents again.
+                "appeal_route": ("Resubmit the missing documents; if still rejected, "
+                                 if r["cat"] == "DOCUMENTATION" else "") + APPEAL_ROUTES[ROUTE_OF[r["route"]]],
                 "authority_provenance": "ASC X12 Standard Claim Adjustment Reason Codes / CMS Remittance Advice & IRDAI Master Circular"
             })
     print(f"  [OK] denial_reasons.csv: {len(DENIAL_REASONS)} reasons with authentic text -> {output_path}")

@@ -45,6 +45,13 @@ KNOWN_POLICY_METADATA = {
         "product": "Family Health Optima",
         "insurer_code": "STAR"
     },
+    # The product brochure (UIN SHAHLIP27051V032627): it states the coverages, waiting
+    # periods and Code-Excl exclusions, but not the definitions or the full conditions.
+    "star-women-care.pdf": {
+        "insurer": "Star Health",
+        "product": "Star Women Care",
+        "insurer_code": "STAR"
+    },
     # ICICI Lombard
     "complete-health-insurance.pdf": {
         "insurer": "ICICI Lombard",

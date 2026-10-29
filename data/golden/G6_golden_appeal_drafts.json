@@ -2,961 +2,961 @@
   {
     "case_id": "G6-001",
     "case_facts": {
-      "claim_id": "CLM-2024-7381",
-      "patient": "Ashok Malhotra",
-      "hospital": "Lilavati Hospital, Mumbai",
-      "insurer": "HDFC ERGO",
-      "product": "Optima Restore",
-      "clause": "1",
-      "clause_id": "OPTIMA-WAI-0790",
-      "topic": "Moratorium Period",
-      "exception_text": "Renewal of Policy A health insurance policy shall be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause.",
-      "admission_date": "2024-10-09",
-      "denial_date": "2024-10-21"
+      "claim_id": "CLM-2025-7473",
+      "patient": "Vijay Khanna",
+      "hospital": "Max Super Speciality, Saket",
+      "insurer": "ICICI Lombard",
+      "product": "Health AdvantEdge",
+      "clause": "11(i)",
+      "clause_id": "HEALTH-EXC-2011",
+      "topic": "Co-Payment Deduction",
+      "exception_text": "Voluntary Co-payment if chosen by the Insured Person(s) shall be applicable to all Basic Cover under the Policy except Wellness Program, Preventive Health Check-up, Tele-Consultations and incentives associated with vaccination against pneumococcal disease.",
+      "admission_date": "2025-06-15",
+      "denial_date": "2025-07-09"
     },
     "mandatory_citations": [
-      "Clause 1 of Optima Restore",
-      "Repudiation letter dated 2024-10-21",
-      "Discharge summary from Lilavati Hospital, Mumbai dated 2024-10-09",
-      "Certificate of the treating doctor, Dr. Patel"
+      "Clause 11(i) of Health AdvantEdge",
+      "Repudiation letter dated 2025-07-09",
+      "Discharge summary from Max Super Speciality, Saket dated 2025-06-15",
+      "Certificate of the treating doctor, Dr. Reddy"
     ],
     "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2024-7381 under Optima Restore\n\nRespected Sir/Madam,\n\nI, Ashok Malhotra, hold the Optima Restore policy issued by HDFC ERGO. My claim CLM-2024-7381 for treatment at Lilavati Hospital, Mumbai was repudiated by the insurer's letter dated 2024-10-21, citing Clause 1 of Optima Restore (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"Renewal of Policy A health insurance policy shall be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause.\". The Discharge summary from Lilavati Hospital, Mumbai dated 2024-10-09 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct HDFC ERGO to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-10-21; Discharge summary from Lilavati Hospital, Mumbai dated 2024-10-09; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nAshok Malhotra"
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2025-7473 under Health AdvantEdge\n\nRespected Sir/Madam,\n\nI, Vijay Khanna, hold the Health AdvantEdge policy issued by ICICI Lombard. My claim CLM-2025-7473 for treatment at Max Super Speciality, Saket was repudiated by the insurer's letter dated 2025-07-09, citing Clause 11(i) of Health AdvantEdge (Co-Payment Deduction).\n\nThe same clause provides an exception, which reads: \"Voluntary Co-payment if chosen by the Insured Person(s) shall be applicable to all Basic Cover under the Policy except Wellness Program, Preventive Health Check-up, Tele-Consultations and incentives associated with vaccination against pneumococcal disease.\". The Discharge summary from Max Super Speciality, Saket dated 2025-06-15 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 11(i) without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-07-09; Discharge summary from Max Super Speciality, Saket dated 2025-06-15; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nVijay Khanna"
   },
   {
     "case_id": "G6-002",
     "case_facts": {
-      "claim_id": "CLM-2023-2036",
-      "patient": "Vanaja Kurian",
-      "hospital": "Manipal Hospital, Bangalore",
-      "insurer": "ICICI Lombard",
-      "product": "Health Shield 360",
-      "clause": "9",
-      "clause_id": "HEALTH-WAI-2309",
-      "topic": "Grace Period on Renewal",
-      "exception_text": "Renewal of Policy The policy shall ordinarily be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured person provided the policy is not withdrawn and also subject to moratorium conditions.",
-      "admission_date": "2023-01-13",
-      "denial_date": "2023-02-14"
-    },
-    "mandatory_citations": [
-      "Clause 9 of Health Shield 360",
-      "Repudiation letter dated 2023-02-14",
-      "Discharge summary from Manipal Hospital, Bangalore dated 2023-01-13",
-      "Certificate of the treating doctor, Dr. Rao"
-    ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2023-2036 under Health Shield 360\n\nRespected Sir/Madam,\n\nI, Vanaja Kurian, hold the Health Shield 360 policy issued by ICICI Lombard. My claim CLM-2023-2036 for treatment at Manipal Hospital, Bangalore was repudiated by the insurer's letter dated 2023-02-14, citing Clause 9 of Health Shield 360 (Grace Period on Renewal).\n\nThe same clause provides an exception, which reads: \"Renewal of Policy The policy shall ordinarily be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured person provided the policy is not withdrawn and also subject to moratorium conditions.\". The Discharge summary from Manipal Hospital, Bangalore dated 2023-01-13 and the Certificate of the treating doctor, Dr. Rao show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 9 without considering this exception, I request the Insurance Ombudsman to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-02-14; Discharge summary from Manipal Hospital, Bangalore dated 2023-01-13; Certificate of the treating doctor, Dr. Rao.\n\nYours faithfully,\nVanaja Kurian"
-  },
-  {
-    "case_id": "G6-003",
-    "case_facts": {
-      "claim_id": "CLM-2023-9238",
-      "patient": "Girish Kaul",
-      "hospital": "SRM Institute, Chennai",
-      "insurer": "Star Health",
-      "product": "Star Comprehensive",
-      "clause": "8",
-      "clause_id": "STARCO-EXC-2603",
-      "topic": "Cosmetic or Plastic Surgery Exclusion",
-      "exception_text": "Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
-      "admission_date": "2023-05-29",
-      "denial_date": "2023-06-21"
-    },
-    "mandatory_citations": [
-      "Clause 8 of Star Comprehensive",
-      "Repudiation letter dated 2023-06-21",
-      "Discharge summary from SRM Institute, Chennai dated 2023-05-29",
-      "Certificate of the treating doctor, Dr. Sen"
-    ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2023-9238 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Girish Kaul, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2023-9238 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2023-06-21, citing Clause 8 of Star Comprehensive (Cosmetic or Plastic Surgery Exclusion).\n\nThe same clause provides an exception, which reads: \"Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.\". The Discharge summary from SRM Institute, Chennai dated 2023-05-29 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 8 without considering this exception, I request the IRDAI Bima Bharosa portal to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-06-21; Discharge summary from SRM Institute, Chennai dated 2023-05-29; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nGirish Kaul"
-  },
-  {
-    "case_id": "G6-004",
-    "case_facts": {
-      "claim_id": "CLM-2023-8170",
-      "patient": "Rajesh Gupta",
-      "hospital": "CMC Vellore",
-      "insurer": "Care Health",
-      "product": "Care Supreme",
-      "clause": "14",
-      "clause_id": "CARESU-EXC-0565",
-      "topic": "Initial 30-Day Waiting Period",
-      "exception_text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
-      "admission_date": "2023-06-27",
-      "denial_date": "2023-07-18"
-    },
-    "mandatory_citations": [
-      "Clause 14 of Care Supreme",
-      "Repudiation letter dated 2023-07-18",
-      "Discharge summary from CMC Vellore dated 2023-06-27",
-      "Certificate of the treating doctor, Dr. Reddy"
-    ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-8170 under Care Supreme\n\nRespected Sir/Madam,\n\nI, Rajesh Gupta, hold the Care Supreme policy issued by Care Health. My claim CLM-2023-8170 for treatment at CMC Vellore was repudiated by the insurer's letter dated 2023-07-18, citing Clause 14 of Care Supreme (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.\". The Discharge summary from CMC Vellore dated 2023-06-27 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 14 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct Care Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-07-18; Discharge summary from CMC Vellore dated 2023-06-27; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nRajesh Gupta"
-  },
-  {
-    "case_id": "G6-005",
-    "case_facts": {
-      "claim_id": "CLM-2025-9740",
-      "patient": "Kishore Sinha",
-      "hospital": "Lilavati Hospital, Mumbai",
-      "insurer": "ICICI Lombard",
-      "product": "Max Protect",
-      "clause": "9",
-      "clause_id": "MAXPRO-EXC-2434",
-      "topic": "Moratorium Period",
-      "exception_text": "Renewal of Policy The policy shall ordinarily be renewable except on ground of established fraud or Non-disclosure or misrepresentation by the insured person.",
-      "admission_date": "2025-08-28",
-      "denial_date": "2025-09-14"
-    },
-    "mandatory_citations": [
-      "Clause 9 of Max Protect",
-      "Repudiation letter dated 2025-09-14",
-      "Discharge summary from Lilavati Hospital, Mumbai dated 2025-08-28",
-      "Certificate of the treating doctor, Dr. Sen"
-    ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2025-9740 under Max Protect\n\nRespected Sir/Madam,\n\nI, Kishore Sinha, hold the Max Protect policy issued by ICICI Lombard. My claim CLM-2025-9740 for treatment at Lilavati Hospital, Mumbai was repudiated by the insurer's letter dated 2025-09-14, citing Clause 9 of Max Protect (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"Renewal of Policy The policy shall ordinarily be renewable except on ground of established fraud or Non-disclosure or misrepresentation by the insured person.\". The Discharge summary from Lilavati Hospital, Mumbai dated 2025-08-28 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 9 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-09-14; Discharge summary from Lilavati Hospital, Mumbai dated 2025-08-28; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nKishore Sinha"
-  },
-  {
-    "case_id": "G6-006",
-    "case_facts": {
-      "claim_id": "CLM-2024-3360",
-      "patient": "Amit Verma",
-      "hospital": "AIIMS, New Delhi",
-      "insurer": "Star Health",
-      "product": "Family Health Optima",
-      "clause": "30",
-      "clause_id": "FAMILY-EXC-2839",
-      "topic": "Dental Treatment Exclusion",
-      "exception_text": "Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) - Code Excl 32.",
-      "admission_date": "2024-08-27",
-      "denial_date": "2024-09-28"
-    },
-    "mandatory_citations": [
-      "Clause 30 of Family Health Optima",
-      "Repudiation letter dated 2024-09-28",
-      "Discharge summary from AIIMS, New Delhi dated 2024-08-27",
-      "Certificate of the treating doctor, Dr. Patel"
-    ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2024-3360 under Family Health Optima\n\nRespected Sir/Madam,\n\nI, Amit Verma, hold the Family Health Optima policy issued by Star Health. My claim CLM-2024-3360 for treatment at AIIMS, New Delhi was repudiated by the insurer's letter dated 2024-09-28, citing Clause 30 of Family Health Optima (Dental Treatment Exclusion).\n\nThe same clause provides an exception, which reads: \"Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) - Code Excl 32.\". The Discharge summary from AIIMS, New Delhi dated 2024-08-27 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 30 without considering this exception, I request the Insurance Ombudsman to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-09-28; Discharge summary from AIIMS, New Delhi dated 2024-08-27; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nAmit Verma"
-  },
-  {
-    "case_id": "G6-007",
-    "case_facts": {
-      "claim_id": "CLM-2023-1684",
-      "patient": "Geeta Pillai",
-      "hospital": "Yashoda Hospital, Hyderabad",
-      "insurer": "ICICI Lombard",
-      "product": "Elevate Health",
-      "clause": "12",
-      "clause_id": "ELEVAT-WAI-1835",
-      "topic": "Portability",
-      "exception_text": "Moratorium Period After completion of 60 continuous months of coverage (including portability and migration) under the Policy, no Policy and claim shall be contestable by Us except on grounds of established fraud.",
-      "admission_date": "2023-10-17",
-      "denial_date": "2023-11-01"
-    },
-    "mandatory_citations": [
-      "Clause 12 of Elevate Health",
-      "Repudiation letter dated 2023-11-01",
-      "Discharge summary from Yashoda Hospital, Hyderabad dated 2023-10-17",
-      "Certificate of the treating doctor, Dr. Sen"
-    ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2023-1684 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Geeta Pillai, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2023-1684 for treatment at Yashoda Hospital, Hyderabad was repudiated by the insurer's letter dated 2023-11-01, citing Clause 12 of Elevate Health (Portability).\n\nThe same clause provides an exception, which reads: \"Moratorium Period After completion of 60 continuous months of coverage (including portability and migration) under the Policy, no Policy and claim shall be contestable by Us except on grounds of established fraud.\". The Discharge summary from Yashoda Hospital, Hyderabad dated 2023-10-17 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 12 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-11-01; Discharge summary from Yashoda Hospital, Hyderabad dated 2023-10-17; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nGeeta Pillai"
-  },
-  {
-    "case_id": "G6-008",
-    "case_facts": {
-      "claim_id": "CLM-2025-9970",
-      "patient": "Ramesh Kumar",
-      "hospital": "SRM Institute, Chennai",
-      "insurer": "ICICI Lombard",
-      "product": "Elevate Health",
-      "clause": "34",
-      "clause_id": "ELEVAT-WAI-1770",
-      "topic": "Initial 30-Day Waiting Period",
-      "exception_text": "A 30-day initial Waiting Period applies on Diagnostic credits and Elevate HER GynaeCare Visit- OPD Consultations unless renewed continuously.",
-      "admission_date": "2025-03-18",
-      "denial_date": "2025-04-16"
-    },
-    "mandatory_citations": [
-      "Clause 34 of Elevate Health",
-      "Repudiation letter dated 2025-04-16",
-      "Discharge summary from SRM Institute, Chennai dated 2025-03-18",
-      "Certificate of the treating doctor, Dr. Menon"
-    ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2025-9970 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Ramesh Kumar, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2025-9970 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2025-04-16, citing Clause 34 of Elevate Health (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"A 30-day initial Waiting Period applies on Diagnostic credits and Elevate HER GynaeCare Visit- OPD Consultations unless renewed continuously.\". The Discharge summary from SRM Institute, Chennai dated 2025-03-18 and the Certificate of the treating doctor, Dr. Menon show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 34 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-04-16; Discharge summary from SRM Institute, Chennai dated 2025-03-18; Certificate of the treating doctor, Dr. Menon.\n\nYours faithfully,\nRamesh Kumar"
-  },
-  {
-    "case_id": "G6-009",
-    "case_facts": {
-      "claim_id": "CLM-2024-7760",
-      "patient": "Meera Reddy",
-      "hospital": "CMC Vellore",
-      "insurer": "Star Health",
-      "product": "Star Comprehensive",
-      "clause": "30",
-      "clause_id": "STARCO-EXC-2624",
-      "topic": "Dental Treatment Exclusion",
-      "exception_text": "Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) (except to the extent covered under Section II.",
-      "admission_date": "2024-12-05",
-      "denial_date": "2024-12-23"
-    },
-    "mandatory_citations": [
-      "Clause 30 of Star Comprehensive",
-      "Repudiation letter dated 2024-12-23",
-      "Discharge summary from CMC Vellore dated 2024-12-05",
-      "Certificate of the treating doctor, Dr. Sharma"
-    ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2024-7760 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Meera Reddy, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2024-7760 for treatment at CMC Vellore was repudiated by the insurer's letter dated 2024-12-23, citing Clause 30 of Star Comprehensive (Dental Treatment Exclusion).\n\nThe same clause provides an exception, which reads: \"Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) (except to the extent covered under Section II.\". The Discharge summary from CMC Vellore dated 2024-12-05 and the Certificate of the treating doctor, Dr. Sharma show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 30 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-12-23; Discharge summary from CMC Vellore dated 2024-12-05; Certificate of the treating doctor, Dr. Sharma.\n\nYours faithfully,\nMeera Reddy"
-  },
-  {
-    "case_id": "G6-010",
-    "case_facts": {
-      "claim_id": "CLM-2023-4617",
-      "patient": "Saroja Nambiar",
-      "hospital": "Global Hospitals, Hyderabad",
-      "insurer": "ICICI Lombard",
-      "product": "Max Protect",
-      "clause": "4",
-      "clause_id": "MAXPRO-EXC-2373",
-      "topic": "Unproven or Experimental Treatment Exclusion",
-      "exception_text": "Specific waiting period/ Specific Diseases/ Procedure waiting period means a period up to 24 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.",
-      "admission_date": "2023-11-26",
-      "denial_date": "2023-12-13"
-    },
-    "mandatory_citations": [
-      "Clause 4 of Max Protect",
-      "Repudiation letter dated 2023-12-13",
-      "Discharge summary from Global Hospitals, Hyderabad dated 2023-11-26",
-      "Certificate of the treating doctor, Dr. Iyer"
-    ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2023-4617 under Max Protect\n\nRespected Sir/Madam,\n\nI, Saroja Nambiar, hold the Max Protect policy issued by ICICI Lombard. My claim CLM-2023-4617 for treatment at Global Hospitals, Hyderabad was repudiated by the insurer's letter dated 2023-12-13, citing Clause 4 of Max Protect (Unproven or Experimental Treatment Exclusion).\n\nThe same clause provides an exception, which reads: \"Specific waiting period/ Specific Diseases/ Procedure waiting period means a period up to 24 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.\". The Discharge summary from Global Hospitals, Hyderabad dated 2023-11-26 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 4 without considering this exception, I request the Insurance Ombudsman to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-12-13; Discharge summary from Global Hospitals, Hyderabad dated 2023-11-26; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nSaroja Nambiar"
-  },
-  {
-    "case_id": "G6-011",
-    "case_facts": {
-      "claim_id": "CLM-2023-1891",
-      "patient": "Indira Rajan",
-      "hospital": "Tata Memorial Hospital, Mumbai",
-      "insurer": "ICICI Lombard",
-      "product": "Health AdvantEdge",
-      "clause": "23",
-      "clause_id": "HEALTH-EXC-2033",
-      "topic": "Cosmetic or Plastic Surgery Exclusion",
-      "exception_text": "Any expenses incurred on prosthesis, corrective devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively.",
-      "admission_date": "2023-08-23",
-      "denial_date": "2023-09-09"
-    },
-    "mandatory_citations": [
-      "Clause 23 of Health AdvantEdge",
-      "Repudiation letter dated 2023-09-09",
-      "Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-08-23",
-      "Certificate of the treating doctor, Dr. Sharma"
-    ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2023-1891 under Health AdvantEdge\n\nRespected Sir/Madam,\n\nI, Indira Rajan, hold the Health AdvantEdge policy issued by ICICI Lombard. My claim CLM-2023-1891 for treatment at Tata Memorial Hospital, Mumbai was repudiated by the insurer's letter dated 2023-09-09, citing Clause 23 of Health AdvantEdge (Cosmetic or Plastic Surgery Exclusion).\n\nThe same clause provides an exception, which reads: \"Any expenses incurred on prosthesis, corrective devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively.\". The Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-08-23 and the Certificate of the treating doctor, Dr. Sharma show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 23 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-09-09; Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-08-23; Certificate of the treating doctor, Dr. Sharma.\n\nYours faithfully,\nIndira Rajan"
-  },
-  {
-    "case_id": "G6-012",
-    "case_facts": {
-      "claim_id": "CLM-2023-2103",
-      "patient": "Girish Kaul",
-      "hospital": "Amrita Hospital, Kochi",
-      "insurer": "ICICI Lombard",
-      "product": "Elevate Health",
-      "clause": "19",
-      "clause_id": "ELEVAT-EXC-1814",
-      "topic": "Maternity Expenses Exclusion",
-      "exception_text": "Treatment traceable to childbirth (including complicated deliveries and caesarean sections incurred during Hospitalization) except ectopic pregnancy.",
-      "admission_date": "2023-05-30",
-      "denial_date": "2023-06-20"
-    },
-    "mandatory_citations": [
-      "Clause 19 of Elevate Health",
-      "Repudiation letter dated 2023-06-20",
-      "Discharge summary from Amrita Hospital, Kochi dated 2023-05-30",
-      "Certificate of the treating doctor, Dr. Nair"
-    ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-2103 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Girish Kaul, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2023-2103 for treatment at Amrita Hospital, Kochi was repudiated by the insurer's letter dated 2023-06-20, citing Clause 19 of Elevate Health (Maternity Expenses Exclusion).\n\nThe same clause provides an exception, which reads: \"Treatment traceable to childbirth (including complicated deliveries and caesarean sections incurred during Hospitalization) except ectopic pregnancy.\". The Discharge summary from Amrita Hospital, Kochi dated 2023-05-30 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 19 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-06-20; Discharge summary from Amrita Hospital, Kochi dated 2023-05-30; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nGirish Kaul"
-  },
-  {
-    "case_id": "G6-013",
-    "case_facts": {
-      "claim_id": "CLM-2025-6851",
-      "patient": "Ravi Menon",
-      "hospital": "Manipal Hospital, Bangalore",
-      "insurer": "ICICI Lombard",
-      "product": "Complete Health Insurance",
-      "clause": "4",
-      "clause_id": "COMPLE-EXC-1510",
-      "topic": "Initial 30-Day Waiting Period",
-      "exception_text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
-      "admission_date": "2025-09-24",
-      "denial_date": "2025-10-16"
-    },
-    "mandatory_citations": [
-      "Clause 4 of Complete Health Insurance",
-      "Repudiation letter dated 2025-10-16",
-      "Discharge summary from Manipal Hospital, Bangalore dated 2025-09-24",
-      "Certificate of the treating doctor, Dr. Sharma"
-    ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2025-6851 under Complete Health Insurance\n\nRespected Sir/Madam,\n\nI, Ravi Menon, hold the Complete Health Insurance policy issued by ICICI Lombard. My claim CLM-2025-6851 for treatment at Manipal Hospital, Bangalore was repudiated by the insurer's letter dated 2025-10-16, citing Clause 4 of Complete Health Insurance (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.\". The Discharge summary from Manipal Hospital, Bangalore dated 2025-09-24 and the Certificate of the treating doctor, Dr. Sharma show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 4 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-10-16; Discharge summary from Manipal Hospital, Bangalore dated 2025-09-24; Certificate of the treating doctor, Dr. Sharma.\n\nYours faithfully,\nRavi Menon"
-  },
-  {
-    "case_id": "G6-014",
-    "case_facts": {
-      "claim_id": "CLM-2024-2143",
-      "patient": "Arun Nair",
-      "hospital": "Narayana Health, Bangalore",
-      "insurer": "Star Health",
-      "product": "Star Comprehensive",
-      "clause": "2",
-      "clause_id": "STARCO-EXC-2599",
-      "topic": "Initial 30-Day Waiting Period",
-      "exception_text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered B.",
-      "admission_date": "2024-08-06",
-      "denial_date": "2024-09-06"
-    },
-    "mandatory_citations": [
-      "Clause 2 of Star Comprehensive",
-      "Repudiation letter dated 2024-09-06",
-      "Discharge summary from Narayana Health, Bangalore dated 2024-08-06",
-      "Certificate of the treating doctor, Dr. Mehta"
-    ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2024-2143 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Arun Nair, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2024-2143 for treatment at Narayana Health, Bangalore was repudiated by the insurer's letter dated 2024-09-06, citing Clause 2 of Star Comprehensive (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered B.\". The Discharge summary from Narayana Health, Bangalore dated 2024-08-06 and the Certificate of the treating doctor, Dr. Mehta show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 2 without considering this exception, I request the Insurance Ombudsman to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-09-06; Discharge summary from Narayana Health, Bangalore dated 2024-08-06; Certificate of the treating doctor, Dr. Mehta.\n\nYours faithfully,\nArun Nair"
-  },
-  {
-    "case_id": "G6-015",
-    "case_facts": {
-      "claim_id": "CLM-2025-6008",
-      "patient": "Sanjay Desai",
-      "hospital": "KIMS, Hyderabad",
-      "insurer": "ICICI Lombard",
-      "product": "Health AdvantEdge",
-      "clause": "6",
-      "clause_id": "HEALTH-WAI-2040",
-      "topic": "Initial 30-Day Waiting Period",
-      "exception_text": "Every insured of new individual health insurance policies, except for those policies with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to review the terms and conditions of such policy.",
-      "admission_date": "2025-07-11",
-      "denial_date": "2025-08-02"
-    },
-    "mandatory_citations": [
-      "Clause 6 of Health AdvantEdge",
-      "Repudiation letter dated 2025-08-02",
-      "Discharge summary from KIMS, Hyderabad dated 2025-07-11",
-      "Certificate of the treating doctor, Dr. Nair"
-    ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2025-6008 under Health AdvantEdge\n\nRespected Sir/Madam,\n\nI, Sanjay Desai, hold the Health AdvantEdge policy issued by ICICI Lombard. My claim CLM-2025-6008 for treatment at KIMS, Hyderabad was repudiated by the insurer's letter dated 2025-08-02, citing Clause 6 of Health AdvantEdge (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Every insured of new individual health insurance policies, except for those policies with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to review the terms and conditions of such policy.\". The Discharge summary from KIMS, Hyderabad dated 2025-07-11 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 6 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-08-02; Discharge summary from KIMS, Hyderabad dated 2025-07-11; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nSanjay Desai"
-  },
-  {
-    "case_id": "G6-016",
-    "case_facts": {
-      "claim_id": "CLM-2025-6182",
-      "patient": "Tarun Bhatt",
-      "hospital": "SRM Institute, Chennai",
-      "insurer": "ICICI Lombard",
-      "product": "Max Protect",
-      "clause": "20",
-      "clause_id": "MAXPRO-EXC-2422",
-      "topic": "Specified Disease Waiting Period",
-      "exception_text": "30-day waiting period Code- Excl03 a) Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising covered without any break as defined under the applicable norms on portability stipulated by IRDAI, then waiting period for the same would be reduced to the extent of prior coverage.",
-      "admission_date": "2025-01-16",
-      "denial_date": "2025-02-22"
-    },
-    "mandatory_citations": [
-      "Clause 20 of Max Protect",
-      "Repudiation letter dated 2025-02-22",
-      "Discharge summary from SRM Institute, Chennai dated 2025-01-16",
-      "Certificate of the treating doctor, Dr. Iyer"
-    ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2025-6182 under Max Protect\n\nRespected Sir/Madam,\n\nI, Tarun Bhatt, hold the Max Protect policy issued by ICICI Lombard. My claim CLM-2025-6182 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2025-02-22, citing Clause 20 of Max Protect (Specified Disease Waiting Period).\n\nThe same clause provides an exception, which reads: \"30-day waiting period Code- Excl03 a) Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising covered without any break as defined under the applicable norms on portability stipulated by IRDAI, then waiting period for the same would be reduced to the extent of prior coverage.\". The Discharge summary from SRM Institute, Chennai dated 2025-01-16 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 20 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-22; Discharge summary from SRM Institute, Chennai dated 2025-01-16; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nTarun Bhatt"
-  },
-  {
-    "case_id": "G6-017",
-    "case_facts": {
-      "claim_id": "CLM-2024-4629",
-      "patient": "Savita Hegde",
-      "hospital": "Medanta, Gurgaon",
-      "insurer": "ICICI Lombard",
-      "product": "Elevate Health",
-      "clause": "34",
-      "clause_id": "ELEVAT-WAI-1762",
-      "topic": "Specified Disease Waiting Period",
-      "exception_text": "24 months for maternity, 36 months for ART, and 30 days for Diagnostic credits and Elevate HER GynaeCare-OPD ConsultationVisit unless renewed continuously.",
-      "admission_date": "2024-10-03",
-      "denial_date": "2024-10-22"
-    },
-    "mandatory_citations": [
-      "Clause 34 of Elevate Health",
-      "Repudiation letter dated 2024-10-22",
-      "Discharge summary from Medanta, Gurgaon dated 2024-10-03",
-      "Certificate of the treating doctor, Dr. Sen"
-    ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2024-4629 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Savita Hegde, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2024-4629 for treatment at Medanta, Gurgaon was repudiated by the insurer's letter dated 2024-10-22, citing Clause 34 of Elevate Health (Specified Disease Waiting Period).\n\nThe same clause provides an exception, which reads: \"24 months for maternity, 36 months for ART, and 30 days for Diagnostic credits and Elevate HER GynaeCare-OPD ConsultationVisit unless renewed continuously.\". The Discharge summary from Medanta, Gurgaon dated 2024-10-03 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 34 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-10-22; Discharge summary from Medanta, Gurgaon dated 2024-10-03; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nSavita Hegde"
-  },
-  {
-    "case_id": "G6-018",
-    "case_facts": {
-      "claim_id": "CLM-2025-6432",
-      "patient": "Leela Krishnan",
-      "hospital": "Ruby Hall Clinic, Pune",
+      "claim_id": "CLM-2023-4602",
+      "patient": "Rajeev Bansal",
+      "hospital": "Apollo Hospitals, Hyderabad",
       "insurer": "HDFC ERGO",
       "product": "my:Optima Secure",
       "clause": "1.8",
       "clause_id": "MYOPTI-WAI-1131",
       "topic": "Moratorium Period",
       "exception_text": "A health insurance policy shall be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause of this schedule.",
-      "admission_date": "2025-01-06",
-      "denial_date": "2025-01-22"
+      "admission_date": "2023-11-17",
+      "denial_date": "2023-12-16"
     },
     "mandatory_citations": [
       "Clause 1.8 of my:Optima Secure",
-      "Repudiation letter dated 2025-01-22",
-      "Discharge summary from Ruby Hall Clinic, Pune dated 2025-01-06",
-      "Certificate of the treating doctor, Dr. Reddy"
-    ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2025-6432 under my:Optima Secure\n\nRespected Sir/Madam,\n\nI, Leela Krishnan, hold the my:Optima Secure policy issued by HDFC ERGO. My claim CLM-2025-6432 for treatment at Ruby Hall Clinic, Pune was repudiated by the insurer's letter dated 2025-01-22, citing Clause 1.8 of my:Optima Secure (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"A health insurance policy shall be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause of this schedule.\". The Discharge summary from Ruby Hall Clinic, Pune dated 2025-01-06 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1.8 without considering this exception, I request the Insurance Ombudsman to direct HDFC ERGO to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-01-22; Discharge summary from Ruby Hall Clinic, Pune dated 2025-01-06; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nLeela Krishnan"
-  },
-  {
-    "case_id": "G6-019",
-    "case_facts": {
-      "claim_id": "CLM-2025-6004",
-      "patient": "Naresh Biswas",
-      "hospital": "Artemis Hospital, Gurgaon",
-      "insurer": "Star Health",
-      "product": "Family Health Optima",
-      "clause": "8",
-      "clause_id": "FAMILY-EXC-2820",
-      "topic": "Cosmetic or Plastic Surgery Exclusion",
-      "exception_text": "Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
-      "admission_date": "2025-01-04",
-      "denial_date": "2025-02-09"
-    },
-    "mandatory_citations": [
-      "Clause 8 of Family Health Optima",
-      "Repudiation letter dated 2025-02-09",
-      "Discharge summary from Artemis Hospital, Gurgaon dated 2025-01-04",
+      "Repudiation letter dated 2023-12-16",
+      "Discharge summary from Apollo Hospitals, Hyderabad dated 2023-11-17",
       "Certificate of the treating doctor, Dr. Nair"
     ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2025-6004 under Family Health Optima\n\nRespected Sir/Madam,\n\nI, Naresh Biswas, hold the Family Health Optima policy issued by Star Health. My claim CLM-2025-6004 for treatment at Artemis Hospital, Gurgaon was repudiated by the insurer's letter dated 2025-02-09, citing Clause 8 of Family Health Optima (Cosmetic or Plastic Surgery Exclusion).\n\nThe same clause provides an exception, which reads: \"Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.\". The Discharge summary from Artemis Hospital, Gurgaon dated 2025-01-04 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 8 without considering this exception, I request the IRDAI Bima Bharosa portal to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-09; Discharge summary from Artemis Hospital, Gurgaon dated 2025-01-04; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nNaresh Biswas"
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2023-4602 under my:Optima Secure\n\nRespected Sir/Madam,\n\nI, Rajeev Bansal, hold the my:Optima Secure policy issued by HDFC ERGO. My claim CLM-2023-4602 for treatment at Apollo Hospitals, Hyderabad was repudiated by the insurer's letter dated 2023-12-16, citing Clause 1.8 of my:Optima Secure (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"A health insurance policy shall be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause of this schedule.\". The Discharge summary from Apollo Hospitals, Hyderabad dated 2023-11-17 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1.8 without considering this exception, I request the Insurance Ombudsman to direct HDFC ERGO to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-12-16; Discharge summary from Apollo Hospitals, Hyderabad dated 2023-11-17; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nRajeev Bansal"
   },
   {
-    "case_id": "G6-020",
+    "case_id": "G6-003",
     "case_facts": {
-      "claim_id": "CLM-2023-2343",
-      "patient": "Padma Srinivasan",
-      "hospital": "Amrita Hospital, Kochi",
+      "claim_id": "CLM-2024-3360",
+      "patient": "Arun Nair",
+      "hospital": "Lilavati Hospital, Mumbai",
+      "insurer": "ICICI Lombard",
+      "product": "Health Shield 360",
+      "clause": "9",
+      "clause_id": "HEALTH-WAI-2309",
+      "topic": "Moratorium Period",
+      "exception_text": "Renewal of Policy The policy shall ordinarily be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured person provided the policy is not withdrawn and also subject to moratorium conditions.",
+      "admission_date": "2024-08-27",
+      "denial_date": "2024-09-28"
+    },
+    "mandatory_citations": [
+      "Clause 9 of Health Shield 360",
+      "Repudiation letter dated 2024-09-28",
+      "Discharge summary from Lilavati Hospital, Mumbai dated 2024-08-27",
+      "Certificate of the treating doctor, Dr. Rao"
+    ],
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2024-3360 under Health Shield 360\n\nRespected Sir/Madam,\n\nI, Arun Nair, hold the Health Shield 360 policy issued by ICICI Lombard. My claim CLM-2024-3360 for treatment at Lilavati Hospital, Mumbai was repudiated by the insurer's letter dated 2024-09-28, citing Clause 9 of Health Shield 360 (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"Renewal of Policy The policy shall ordinarily be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured person provided the policy is not withdrawn and also subject to moratorium conditions.\". The Discharge summary from Lilavati Hospital, Mumbai dated 2024-08-27 and the Certificate of the treating doctor, Dr. Rao show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 9 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-09-28; Discharge summary from Lilavati Hospital, Mumbai dated 2024-08-27; Certificate of the treating doctor, Dr. Rao.\n\nYours faithfully,\nArun Nair"
+  },
+  {
+    "case_id": "G6-004",
+    "case_facts": {
+      "claim_id": "CLM-2023-1684",
+      "patient": "Geeta Pillai",
+      "hospital": "Yashoda Hospital, Hyderabad",
+      "insurer": "ICICI Lombard",
+      "product": "Elevate Health",
+      "clause": "19",
+      "clause_id": "ELEVAT-EXC-1814",
+      "topic": "Maternity Expenses Exclusion",
+      "exception_text": "Treatment traceable to childbirth (including complicated deliveries and caesarean sections incurred during Hospitalization) except ectopic pregnancy.",
+      "admission_date": "2023-10-17",
+      "denial_date": "2023-11-01"
+    },
+    "mandatory_citations": [
+      "Clause 19 of Elevate Health",
+      "Repudiation letter dated 2023-11-01",
+      "Discharge summary from Yashoda Hospital, Hyderabad dated 2023-10-17",
+      "Certificate of the treating doctor, Dr. Sen"
+    ],
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-1684 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Geeta Pillai, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2023-1684 for treatment at Yashoda Hospital, Hyderabad was repudiated by the insurer's letter dated 2023-11-01, citing Clause 19 of Elevate Health (Maternity Expenses Exclusion).\n\nThe same clause provides an exception, which reads: \"Treatment traceable to childbirth (including complicated deliveries and caesarean sections incurred during Hospitalization) except ectopic pregnancy.\". The Discharge summary from Yashoda Hospital, Hyderabad dated 2023-10-17 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 19 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-11-01; Discharge summary from Yashoda Hospital, Hyderabad dated 2023-10-17; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nGeeta Pillai"
+  },
+  {
+    "case_id": "G6-005",
+    "case_facts": {
+      "claim_id": "CLM-2025-9970",
+      "patient": "Ramesh Kumar",
+      "hospital": "SRM Institute, Chennai",
+      "insurer": "Star Health",
+      "product": "Star Women Care",
+      "clause": "6",
+      "clause_id": "STARWO-EXC-2983",
+      "topic": "Obesity and Weight Control Exclusion",
+      "exception_text": "Obesity / Weight Control - Code Excl 06 (except to the extent covered under Coverage-21): Expenses related to the surgical treatment of obesity that does not fulfill all the below conditions;",
+      "admission_date": "2025-03-18",
+      "denial_date": "2025-04-16"
+    },
+    "mandatory_citations": [
+      "Clause 6 of Star Women Care",
+      "Repudiation letter dated 2025-04-16",
+      "Discharge summary from SRM Institute, Chennai dated 2025-03-18",
+      "Certificate of the treating doctor, Dr. Menon"
+    ],
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2025-9970 under Star Women Care\n\nRespected Sir/Madam,\n\nI, Ramesh Kumar, hold the Star Women Care policy issued by Star Health. My claim CLM-2025-9970 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2025-04-16, citing Clause 6 of Star Women Care (Obesity and Weight Control Exclusion).\n\nThe same clause provides an exception, which reads: \"Obesity / Weight Control - Code Excl 06 (except to the extent covered under Coverage-21): Expenses related to the surgical treatment of obesity that does not fulfill all the below conditions;\". The Discharge summary from SRM Institute, Chennai dated 2025-03-18 and the Certificate of the treating doctor, Dr. Menon show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 6 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-04-16; Discharge summary from SRM Institute, Chennai dated 2025-03-18; Certificate of the treating doctor, Dr. Menon.\n\nYours faithfully,\nRamesh Kumar"
+  },
+  {
+    "case_id": "G6-006",
+    "case_facts": {
+      "claim_id": "CLM-2024-7760",
+      "patient": "Meera Reddy",
+      "hospital": "CMC Vellore",
       "insurer": "ICICI Lombard",
       "product": "Health AdvantEdge",
       "clause": "8",
       "clause_id": "HEALTH-WAI-2043",
       "topic": "Moratorium Period",
       "exception_text": "The Policy shall ordinarily be renewable, except on grounds of established fraud, non-disclosure of material facts, or misrepresentation by You, provided the Policy is not withdrawn and also subject to moratorium conditions:efit.",
-      "admission_date": "2023-12-26",
-      "denial_date": "2024-01-27"
+      "admission_date": "2024-12-05",
+      "denial_date": "2024-12-23"
     },
     "mandatory_citations": [
       "Clause 8 of Health AdvantEdge",
-      "Repudiation letter dated 2024-01-27",
-      "Discharge summary from Amrita Hospital, Kochi dated 2023-12-26",
-      "Certificate of the treating doctor, Dr. Mehta"
-    ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-2343 under Health AdvantEdge\n\nRespected Sir/Madam,\n\nI, Padma Srinivasan, hold the Health AdvantEdge policy issued by ICICI Lombard. My claim CLM-2023-2343 for treatment at Amrita Hospital, Kochi was repudiated by the insurer's letter dated 2024-01-27, citing Clause 8 of Health AdvantEdge (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"The Policy shall ordinarily be renewable, except on grounds of established fraud, non-disclosure of material facts, or misrepresentation by You, provided the Policy is not withdrawn and also subject to moratorium conditions:efit.\". The Discharge summary from Amrita Hospital, Kochi dated 2023-12-26 and the Certificate of the treating doctor, Dr. Mehta show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 8 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-01-27; Discharge summary from Amrita Hospital, Kochi dated 2023-12-26; Certificate of the treating doctor, Dr. Mehta.\n\nYours faithfully,\nPadma Srinivasan"
-  },
-  {
-    "case_id": "G6-021",
-    "case_facts": {
-      "claim_id": "CLM-2024-2252",
-      "patient": "Neha Agarwal",
-      "hospital": "AIIMS, New Delhi",
-      "insurer": "Star Health",
-      "product": "Family Health Optima",
-      "clause": "14",
-      "clause_id": "FAMILY-EXC-2816",
-      "topic": "Initial 30-Day Waiting Period",
-      "exception_text": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered B.",
-      "admission_date": "2024-02-07",
-      "denial_date": "2024-02-27"
-    },
-    "mandatory_citations": [
-      "Clause 14 of Family Health Optima",
-      "Repudiation letter dated 2024-02-27",
-      "Discharge summary from AIIMS, New Delhi dated 2024-02-07",
-      "Certificate of the treating doctor, Dr. Rao"
-    ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2024-2252 under Family Health Optima\n\nRespected Sir/Madam,\n\nI, Neha Agarwal, hold the Family Health Optima policy issued by Star Health. My claim CLM-2024-2252 for treatment at AIIMS, New Delhi was repudiated by the insurer's letter dated 2024-02-27, citing Clause 14 of Family Health Optima (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered B.\". The Discharge summary from AIIMS, New Delhi dated 2024-02-07 and the Certificate of the treating doctor, Dr. Rao show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 14 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-02-27; Discharge summary from AIIMS, New Delhi dated 2024-02-07; Certificate of the treating doctor, Dr. Rao.\n\nYours faithfully,\nNeha Agarwal"
-  },
-  {
-    "case_id": "G6-022",
-    "case_facts": {
-      "claim_id": "CLM-2025-1511",
-      "patient": "Sunil Jha",
-      "hospital": "Max Super Speciality, Saket",
-      "insurer": "ICICI Lombard",
-      "product": "Health Booster",
-      "clause": "1",
-      "clause_id": "HEALTH-EXC-2135",
-      "topic": "Co-Payment Deduction",
-      "exception_text": "We are not liable for any payment unless the medical expenses exceed the deductible.",
-      "admission_date": "2025-11-04",
-      "denial_date": "2025-12-06"
-    },
-    "mandatory_citations": [
-      "Clause 1 of Health Booster",
-      "Repudiation letter dated 2025-12-06",
-      "Discharge summary from Max Super Speciality, Saket dated 2025-11-04",
-      "Certificate of the treating doctor, Dr. Sen"
+      "Repudiation letter dated 2024-12-23",
+      "Discharge summary from CMC Vellore dated 2024-12-05",
+      "Certificate of the treating doctor, Dr. Sharma"
     ],
     "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2025-1511 under Health Booster\n\nRespected Sir/Madam,\n\nI, Sunil Jha, hold the Health Booster policy issued by ICICI Lombard. My claim CLM-2025-1511 for treatment at Max Super Speciality, Saket was repudiated by the insurer's letter dated 2025-12-06, citing Clause 1 of Health Booster (Co-Payment Deduction).\n\nThe same clause provides an exception, which reads: \"We are not liable for any payment unless the medical expenses exceed the deductible.\". The Discharge summary from Max Super Speciality, Saket dated 2025-11-04 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1 without considering this exception, I request the Insurance Ombudsman to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-12-06; Discharge summary from Max Super Speciality, Saket dated 2025-11-04; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nSunil Jha"
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2024-7760 under Health AdvantEdge\n\nRespected Sir/Madam,\n\nI, Meera Reddy, hold the Health AdvantEdge policy issued by ICICI Lombard. My claim CLM-2024-7760 for treatment at CMC Vellore was repudiated by the insurer's letter dated 2024-12-23, citing Clause 8 of Health AdvantEdge (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"The Policy shall ordinarily be renewable, except on grounds of established fraud, non-disclosure of material facts, or misrepresentation by You, provided the Policy is not withdrawn and also subject to moratorium conditions:efit.\". The Discharge summary from CMC Vellore dated 2024-12-05 and the Certificate of the treating doctor, Dr. Sharma show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 8 without considering this exception, I request the Insurance Ombudsman to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-12-23; Discharge summary from CMC Vellore dated 2024-12-05; Certificate of the treating doctor, Dr. Sharma.\n\nYours faithfully,\nMeera Reddy"
   },
   {
-    "case_id": "G6-023",
+    "case_id": "G6-007",
     "case_facts": {
-      "claim_id": "CLM-2024-5269",
-      "patient": "Kamala Subramaniam",
-      "hospital": "SRM Institute, Chennai",
-      "insurer": "ICICI Lombard",
-      "product": "Elevate Health",
-      "clause": "4",
-      "clause_id": "ELEVAT-EXC-1599",
-      "topic": "Pre- and Post-Hospitalization Expenses",
-      "exception_text": "Pre- Hospitalization Medical Expenses We will cover the Pre-Hospitalization Medical Expenses incurred by You immediately 90 days before Your admission to Hospital provided that We have accepted the claim under Basic Cover - Inpatient Treatment or Basic Cover - Day Care Procedures/Treatment or Basic Cover- In-Patient AYUSH Hospitalization.",
-      "admission_date": "2024-03-11",
-      "denial_date": "2024-03-24"
-    },
-    "mandatory_citations": [
-      "Clause 4 of Elevate Health",
-      "Repudiation letter dated 2024-03-24",
-      "Discharge summary from SRM Institute, Chennai dated 2024-03-11",
-      "Certificate of the treating doctor, Dr. Patel"
-    ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2024-5269 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Kamala Subramaniam, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2024-5269 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2024-03-24, citing Clause 4 of Elevate Health (Pre- and Post-Hospitalization Expenses).\n\nThe same clause provides an exception, which reads: \"Pre- Hospitalization Medical Expenses We will cover the Pre-Hospitalization Medical Expenses incurred by You immediately 90 days before Your admission to Hospital provided that We have accepted the claim under Basic Cover - Inpatient Treatment or Basic Cover - Day Care Procedures/Treatment or Basic Cover- In-Patient AYUSH Hospitalization.\". The Discharge summary from SRM Institute, Chennai dated 2024-03-11 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 4 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-03-24; Discharge summary from SRM Institute, Chennai dated 2024-03-11; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nKamala Subramaniam"
-  },
-  {
-    "case_id": "G6-024",
-    "case_facts": {
-      "claim_id": "CLM-2023-7430",
-      "patient": "Mohan Das",
-      "hospital": "Amrita Hospital, Kochi",
-      "insurer": "Star Health",
-      "product": "Star Comprehensive",
-      "clause": "18",
-      "clause_id": "STARCO-EXC-2613",
-      "topic": "Maternity Expenses Exclusion",
-      "exception_text": "Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean Sections incurred during hospitalization) except ectopic pregnancy and to the extent covered under Section II.",
-      "admission_date": "2023-11-01",
-      "denial_date": "2023-11-24"
-    },
-    "mandatory_citations": [
-      "Clause 18 of Star Comprehensive",
-      "Repudiation letter dated 2023-11-24",
-      "Discharge summary from Amrita Hospital, Kochi dated 2023-11-01",
-      "Certificate of the treating doctor, Dr. Nair"
-    ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-7430 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Mohan Das, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2023-7430 for treatment at Amrita Hospital, Kochi was repudiated by the insurer's letter dated 2023-11-24, citing Clause 18 of Star Comprehensive (Maternity Expenses Exclusion).\n\nThe same clause provides an exception, which reads: \"Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean Sections incurred during hospitalization) except ectopic pregnancy and to the extent covered under Section II.\". The Discharge summary from Amrita Hospital, Kochi dated 2023-11-01 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 18 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-11-24; Discharge summary from Amrita Hospital, Kochi dated 2023-11-01; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nMohan Das"
-  },
-  {
-    "case_id": "G6-025",
-    "case_facts": {
-      "claim_id": "CLM-2023-9210",
-      "patient": "Amit Verma",
-      "hospital": "SRM Institute, Chennai",
-      "insurer": "ICICI Lombard",
-      "product": "Health Booster",
-      "clause": "15",
-      "clause_id": "HEALTH-WAI-2161",
-      "topic": "Moratorium Period",
-      "exception_text": "in health insurance policy, no policy and claim shall be contestable by the Company on grounds of non-disclosure, misrepresentation, except on grounds of established fraud.",
-      "admission_date": "2023-10-02",
-      "denial_date": "2023-10-28"
-    },
-    "mandatory_citations": [
-      "Clause 15 of Health Booster",
-      "Repudiation letter dated 2023-10-28",
-      "Discharge summary from SRM Institute, Chennai dated 2023-10-02",
-      "Certificate of the treating doctor, Dr. Reddy"
-    ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2023-9210 under Health Booster\n\nRespected Sir/Madam,\n\nI, Amit Verma, hold the Health Booster policy issued by ICICI Lombard. My claim CLM-2023-9210 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2023-10-28, citing Clause 15 of Health Booster (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"in health insurance policy, no policy and claim shall be contestable by the Company on grounds of non-disclosure, misrepresentation, except on grounds of established fraud.\". The Discharge summary from SRM Institute, Chennai dated 2023-10-02 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 15 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-10-28; Discharge summary from SRM Institute, Chennai dated 2023-10-02; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nAmit Verma"
-  },
-  {
-    "case_id": "G6-026",
-    "case_facts": {
-      "claim_id": "CLM-2025-1173",
-      "patient": "Alok Tripathi",
-      "hospital": "Max Super Speciality, Saket",
+      "claim_id": "CLM-2023-4617",
+      "patient": "Saroja Nambiar",
+      "hospital": "Global Hospitals, Hyderabad",
       "insurer": "ICICI Lombard",
       "product": "Arogya Sanjeevani",
       "clause": "10.16",
       "clause_id": "AROGYA-WAI-1339",
       "topic": "Moratorium Period",
       "exception_text": "Renewal of Policy The policy shall ordinarily be renewable except on ground of established fraud, misrepresentation, non disclosure by the insured person provided the policy is not withdrawn and also subject to Moratorium conditions.",
+      "admission_date": "2023-11-26",
+      "denial_date": "2023-12-13"
+    },
+    "mandatory_citations": [
+      "Clause 10.16 of Arogya Sanjeevani",
+      "Repudiation letter dated 2023-12-13",
+      "Discharge summary from Global Hospitals, Hyderabad dated 2023-11-26",
+      "Certificate of the treating doctor, Dr. Iyer"
+    ],
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2023-4617 under Arogya Sanjeevani\n\nRespected Sir/Madam,\n\nI, Saroja Nambiar, hold the Arogya Sanjeevani policy issued by ICICI Lombard. My claim CLM-2023-4617 for treatment at Global Hospitals, Hyderabad was repudiated by the insurer's letter dated 2023-12-13, citing Clause 10.16 of Arogya Sanjeevani (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"Renewal of Policy The policy shall ordinarily be renewable except on ground of established fraud, misrepresentation, non disclosure by the insured person provided the policy is not withdrawn and also subject to Moratorium conditions.\". The Discharge summary from Global Hospitals, Hyderabad dated 2023-11-26 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 10.16 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-12-13; Discharge summary from Global Hospitals, Hyderabad dated 2023-11-26; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nSaroja Nambiar"
+  },
+  {
+    "case_id": "G6-008",
+    "case_facts": {
+      "claim_id": "CLM-2023-1891",
+      "patient": "Indira Rajan",
+      "hospital": "Tata Memorial Hospital, Mumbai",
+      "insurer": "ICICI Lombard",
+      "product": "Elevate Health",
+      "clause": "4",
+      "clause_id": "ELEVAT-EXC-1599",
+      "topic": "Pre- and Post-Hospitalization Expenses",
+      "exception_text": "Pre- Hospitalization Medical Expenses We will cover the Pre-Hospitalization Medical Expenses incurred by You immediately 90 days before Your admission to Hospital provided that We have accepted the claim under Basic Cover - Inpatient Treatment or Basic Cover - Day Care Procedures/Treatment or Basic Cover- In-Patient AYUSH Hospitalization.",
+      "admission_date": "2023-08-23",
+      "denial_date": "2023-09-09"
+    },
+    "mandatory_citations": [
+      "Clause 4 of Elevate Health",
+      "Repudiation letter dated 2023-09-09",
+      "Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-08-23",
+      "Certificate of the treating doctor, Dr. Sharma"
+    ],
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-1891 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Indira Rajan, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2023-1891 for treatment at Tata Memorial Hospital, Mumbai was repudiated by the insurer's letter dated 2023-09-09, citing Clause 4 of Elevate Health (Pre- and Post-Hospitalization Expenses).\n\nThe same clause provides an exception, which reads: \"Pre- Hospitalization Medical Expenses We will cover the Pre-Hospitalization Medical Expenses incurred by You immediately 90 days before Your admission to Hospital provided that We have accepted the claim under Basic Cover - Inpatient Treatment or Basic Cover - Day Care Procedures/Treatment or Basic Cover- In-Patient AYUSH Hospitalization.\". The Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-08-23 and the Certificate of the treating doctor, Dr. Sharma show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 4 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-09-09; Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-08-23; Certificate of the treating doctor, Dr. Sharma.\n\nYours faithfully,\nIndira Rajan"
+  },
+  {
+    "case_id": "G6-009",
+    "case_facts": {
+      "claim_id": "CLM-2023-2103",
+      "patient": "Girish Kaul",
+      "hospital": "Amrita Hospital, Kochi",
+      "insurer": "Star Health",
+      "product": "Star Women Care",
+      "clause": "8",
+      "clause_id": "STARWO-EXC-2985",
+      "topic": "Cosmetic or Plastic Surgery Exclusion",
+      "exception_text": "Code-Excl 08 Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
+      "admission_date": "2023-05-30",
+      "denial_date": "2023-06-20"
+    },
+    "mandatory_citations": [
+      "Clause 8 of Star Women Care",
+      "Repudiation letter dated 2023-06-20",
+      "Discharge summary from Amrita Hospital, Kochi dated 2023-05-30",
+      "Certificate of the treating doctor, Dr. Nair"
+    ],
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2023-2103 under Star Women Care\n\nRespected Sir/Madam,\n\nI, Girish Kaul, hold the Star Women Care policy issued by Star Health. My claim CLM-2023-2103 for treatment at Amrita Hospital, Kochi was repudiated by the insurer's letter dated 2023-06-20, citing Clause 8 of Star Women Care (Cosmetic or Plastic Surgery Exclusion).\n\nThe same clause provides an exception, which reads: \"Code-Excl 08 Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.\". The Discharge summary from Amrita Hospital, Kochi dated 2023-05-30 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 8 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-06-20; Discharge summary from Amrita Hospital, Kochi dated 2023-05-30; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nGirish Kaul"
+  },
+  {
+    "case_id": "G6-010",
+    "case_facts": {
+      "claim_id": "CLM-2025-6851",
+      "patient": "Ravi Menon",
+      "hospital": "Manipal Hospital, Bangalore",
+      "insurer": "HDFC ERGO",
+      "product": "Optima Restore",
+      "clause": "1",
+      "clause_id": "OPTIMA-WAI-0790",
+      "topic": "Moratorium Period",
+      "exception_text": "Renewal of Policy A health insurance policy shall be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause.",
+      "admission_date": "2025-09-24",
+      "denial_date": "2025-10-16"
+    },
+    "mandatory_citations": [
+      "Clause 1 of Optima Restore",
+      "Repudiation letter dated 2025-10-16",
+      "Discharge summary from Manipal Hospital, Bangalore dated 2025-09-24",
+      "Certificate of the treating doctor, Dr. Sharma"
+    ],
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2025-6851 under Optima Restore\n\nRespected Sir/Madam,\n\nI, Ravi Menon, hold the Optima Restore policy issued by HDFC ERGO. My claim CLM-2025-6851 for treatment at Manipal Hospital, Bangalore was repudiated by the insurer's letter dated 2025-10-16, citing Clause 1 of Optima Restore (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"Renewal of Policy A health insurance policy shall be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause.\". The Discharge summary from Manipal Hospital, Bangalore dated 2025-09-24 and the Certificate of the treating doctor, Dr. Sharma show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1 without considering this exception, I request the Insurance Ombudsman to direct HDFC ERGO to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-10-16; Discharge summary from Manipal Hospital, Bangalore dated 2025-09-24; Certificate of the treating doctor, Dr. Sharma.\n\nYours faithfully,\nRavi Menon"
+  },
+  {
+    "case_id": "G6-011",
+    "case_facts": {
+      "claim_id": "CLM-2024-2143",
+      "patient": "Arun Nair",
+      "hospital": "Narayana Health, Bangalore",
+      "insurer": "ICICI Lombard",
+      "product": "Health Booster",
+      "clause": "15",
+      "clause_id": "HEALTH-WAI-2161",
+      "topic": "Moratorium Period",
+      "exception_text": "in health insurance policy, no policy and claim shall be contestable by the Company on grounds of non-disclosure, misrepresentation, except on grounds of established fraud.",
+      "admission_date": "2024-08-06",
+      "denial_date": "2024-09-06"
+    },
+    "mandatory_citations": [
+      "Clause 15 of Health Booster",
+      "Repudiation letter dated 2024-09-06",
+      "Discharge summary from Narayana Health, Bangalore dated 2024-08-06",
+      "Certificate of the treating doctor, Dr. Mehta"
+    ],
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2024-2143 under Health Booster\n\nRespected Sir/Madam,\n\nI, Arun Nair, hold the Health Booster policy issued by ICICI Lombard. My claim CLM-2024-2143 for treatment at Narayana Health, Bangalore was repudiated by the insurer's letter dated 2024-09-06, citing Clause 15 of Health Booster (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"in health insurance policy, no policy and claim shall be contestable by the Company on grounds of non-disclosure, misrepresentation, except on grounds of established fraud.\". The Discharge summary from Narayana Health, Bangalore dated 2024-08-06 and the Certificate of the treating doctor, Dr. Mehta show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 15 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-09-06; Discharge summary from Narayana Health, Bangalore dated 2024-08-06; Certificate of the treating doctor, Dr. Mehta.\n\nYours faithfully,\nArun Nair"
+  },
+  {
+    "case_id": "G6-012",
+    "case_facts": {
+      "claim_id": "CLM-2025-6008",
+      "patient": "Sanjay Desai",
+      "hospital": "KIMS, Hyderabad",
+      "insurer": "Star Health",
+      "product": "Star Comprehensive",
+      "clause": "30",
+      "clause_id": "STARCO-EXC-2624",
+      "topic": "Dental Treatment Exclusion",
+      "exception_text": "Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) (except to the extent covered under Section II.",
+      "admission_date": "2025-07-11",
+      "denial_date": "2025-08-02"
+    },
+    "mandatory_citations": [
+      "Clause 30 of Star Comprehensive",
+      "Repudiation letter dated 2025-08-02",
+      "Discharge summary from KIMS, Hyderabad dated 2025-07-11",
+      "Certificate of the treating doctor, Dr. Nair"
+    ],
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2025-6008 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Sanjay Desai, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2025-6008 for treatment at KIMS, Hyderabad was repudiated by the insurer's letter dated 2025-08-02, citing Clause 30 of Star Comprehensive (Dental Treatment Exclusion).\n\nThe same clause provides an exception, which reads: \"Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) (except to the extent covered under Section II.\". The Discharge summary from KIMS, Hyderabad dated 2025-07-11 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 30 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-08-02; Discharge summary from KIMS, Hyderabad dated 2025-07-11; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nSanjay Desai"
+  },
+  {
+    "case_id": "G6-013",
+    "case_facts": {
+      "claim_id": "CLM-2025-6182",
+      "patient": "Tarun Bhatt",
+      "hospital": "SRM Institute, Chennai",
+      "insurer": "Star Health",
+      "product": "Star Women Care",
+      "clause": "17",
+      "clause_id": "STARWO-EXC-2993",
+      "topic": "Infertility Treatment Exclusion",
+      "exception_text": "Sterility and Infertility-Code-Excl 17 (Except to the extent covered under Coverage -16 and 17): Expenses related to sterility and infertility.",
+      "admission_date": "2025-01-16",
+      "denial_date": "2025-02-22"
+    },
+    "mandatory_citations": [
+      "Clause 17 of Star Women Care",
+      "Repudiation letter dated 2025-02-22",
+      "Discharge summary from SRM Institute, Chennai dated 2025-01-16",
+      "Certificate of the treating doctor, Dr. Iyer"
+    ],
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2025-6182 under Star Women Care\n\nRespected Sir/Madam,\n\nI, Tarun Bhatt, hold the Star Women Care policy issued by Star Health. My claim CLM-2025-6182 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2025-02-22, citing Clause 17 of Star Women Care (Infertility Treatment Exclusion).\n\nThe same clause provides an exception, which reads: \"Sterility and Infertility-Code-Excl 17 (Except to the extent covered under Coverage -16 and 17): Expenses related to sterility and infertility.\". The Discharge summary from SRM Institute, Chennai dated 2025-01-16 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 17 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-22; Discharge summary from SRM Institute, Chennai dated 2025-01-16; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nTarun Bhatt"
+  },
+  {
+    "case_id": "G6-014",
+    "case_facts": {
+      "claim_id": "CLM-2024-4629",
+      "patient": "Savita Hegde",
+      "hospital": "Medanta, Gurgaon",
+      "insurer": "Star Health",
+      "product": "Family Health Optima",
+      "clause": "3",
+      "clause_id": "FAMILY-EXC-2816",
+      "topic": "Initial 30-Day Waiting Period",
+      "exception_text": "Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered B.",
+      "admission_date": "2024-10-03",
+      "denial_date": "2024-10-22"
+    },
+    "mandatory_citations": [
+      "Clause 3 of Family Health Optima",
+      "Repudiation letter dated 2024-10-22",
+      "Discharge summary from Medanta, Gurgaon dated 2024-10-03",
+      "Certificate of the treating doctor, Dr. Sen"
+    ],
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2024-4629 under Family Health Optima\n\nRespected Sir/Madam,\n\nI, Savita Hegde, hold the Family Health Optima policy issued by Star Health. My claim CLM-2024-4629 for treatment at Medanta, Gurgaon was repudiated by the insurer's letter dated 2024-10-22, citing Clause 3 of Family Health Optima (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the ﬁrst policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered B.\". The Discharge summary from Medanta, Gurgaon dated 2024-10-03 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 3 without considering this exception, I request the Insurance Ombudsman to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-10-22; Discharge summary from Medanta, Gurgaon dated 2024-10-03; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nSavita Hegde"
+  },
+  {
+    "case_id": "G6-015",
+    "case_facts": {
+      "claim_id": "CLM-2025-6432",
+      "patient": "Leela Krishnan",
+      "hospital": "Ruby Hall Clinic, Pune",
+      "insurer": "Star Health",
+      "product": "Star Comprehensive",
+      "clause": "8",
+      "clause_id": "STARCO-EXC-2603",
+      "topic": "Cosmetic or Plastic Surgery Exclusion",
+      "exception_text": "Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
+      "admission_date": "2025-01-06",
+      "denial_date": "2025-01-22"
+    },
+    "mandatory_citations": [
+      "Clause 8 of Star Comprehensive",
+      "Repudiation letter dated 2025-01-22",
+      "Discharge summary from Ruby Hall Clinic, Pune dated 2025-01-06",
+      "Certificate of the treating doctor, Dr. Reddy"
+    ],
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2025-6432 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Leela Krishnan, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2025-6432 for treatment at Ruby Hall Clinic, Pune was repudiated by the insurer's letter dated 2025-01-22, citing Clause 8 of Star Comprehensive (Cosmetic or Plastic Surgery Exclusion).\n\nThe same clause provides an exception, which reads: \"Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.\". The Discharge summary from Ruby Hall Clinic, Pune dated 2025-01-06 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 8 without considering this exception, I request the IRDAI Bima Bharosa portal to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-01-22; Discharge summary from Ruby Hall Clinic, Pune dated 2025-01-06; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nLeela Krishnan"
+  },
+  {
+    "case_id": "G6-016",
+    "case_facts": {
+      "claim_id": "CLM-2025-6004",
+      "patient": "Naresh Biswas",
+      "hospital": "Artemis Hospital, Gurgaon",
+      "insurer": "ICICI Lombard",
+      "product": "Complete Health Insurance",
+      "clause": "4",
+      "clause_id": "COMPLE-EXC-1510",
+      "topic": "Initial 30-Day Waiting Period",
+      "exception_text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
+      "admission_date": "2025-01-04",
+      "denial_date": "2025-02-09"
+    },
+    "mandatory_citations": [
+      "Clause 4 of Complete Health Insurance",
+      "Repudiation letter dated 2025-02-09",
+      "Discharge summary from Artemis Hospital, Gurgaon dated 2025-01-04",
+      "Certificate of the treating doctor, Dr. Nair"
+    ],
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2025-6004 under Complete Health Insurance\n\nRespected Sir/Madam,\n\nI, Naresh Biswas, hold the Complete Health Insurance policy issued by ICICI Lombard. My claim CLM-2025-6004 for treatment at Artemis Hospital, Gurgaon was repudiated by the insurer's letter dated 2025-02-09, citing Clause 4 of Complete Health Insurance (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.\". The Discharge summary from Artemis Hospital, Gurgaon dated 2025-01-04 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 4 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-09; Discharge summary from Artemis Hospital, Gurgaon dated 2025-01-04; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nNaresh Biswas"
+  },
+  {
+    "case_id": "G6-017",
+    "case_facts": {
+      "claim_id": "CLM-2023-2343",
+      "patient": "Padma Srinivasan",
+      "hospital": "Amrita Hospital, Kochi",
+      "insurer": "ICICI Lombard",
+      "product": "Elevate Health",
+      "clause": "4",
+      "clause_id": "ELEVAT-EXC-1808",
+      "topic": "Initial 30-Day Waiting Period",
+      "exception_text": "30-day Waiting Period- Code- Excl03 Treatment of any Illness within 30 days from the first Policy start date, except covered claims arising due to an Accident.",
+      "admission_date": "2023-12-26",
+      "denial_date": "2024-01-27"
+    },
+    "mandatory_citations": [
+      "Clause 4 of Elevate Health",
+      "Repudiation letter dated 2024-01-27",
+      "Discharge summary from Amrita Hospital, Kochi dated 2023-12-26",
+      "Certificate of the treating doctor, Dr. Mehta"
+    ],
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2023-2343 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Padma Srinivasan, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2023-2343 for treatment at Amrita Hospital, Kochi was repudiated by the insurer's letter dated 2024-01-27, citing Clause 4 of Elevate Health (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"30-day Waiting Period- Code- Excl03 Treatment of any Illness within 30 days from the first Policy start date, except covered claims arising due to an Accident.\". The Discharge summary from Amrita Hospital, Kochi dated 2023-12-26 and the Certificate of the treating doctor, Dr. Mehta show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 4 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-01-27; Discharge summary from Amrita Hospital, Kochi dated 2023-12-26; Certificate of the treating doctor, Dr. Mehta.\n\nYours faithfully,\nPadma Srinivasan"
+  },
+  {
+    "case_id": "G6-018",
+    "case_facts": {
+      "claim_id": "CLM-2024-2252",
+      "patient": "Neha Agarwal",
+      "hospital": "AIIMS, New Delhi",
+      "insurer": "Care Health",
+      "product": "Care Supreme",
+      "clause": "14",
+      "clause_id": "CARESU-EXC-0565",
+      "topic": "Initial 30-Day Waiting Period",
+      "exception_text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
+      "admission_date": "2024-02-07",
+      "denial_date": "2024-02-27"
+    },
+    "mandatory_citations": [
+      "Clause 14 of Care Supreme",
+      "Repudiation letter dated 2024-02-27",
+      "Discharge summary from AIIMS, New Delhi dated 2024-02-07",
+      "Certificate of the treating doctor, Dr. Rao"
+    ],
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2024-2252 under Care Supreme\n\nRespected Sir/Madam,\n\nI, Neha Agarwal, hold the Care Supreme policy issued by Care Health. My claim CLM-2024-2252 for treatment at AIIMS, New Delhi was repudiated by the insurer's letter dated 2024-02-27, citing Clause 14 of Care Supreme (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.\". The Discharge summary from AIIMS, New Delhi dated 2024-02-07 and the Certificate of the treating doctor, Dr. Rao show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 14 without considering this exception, I request the Insurance Ombudsman to direct Care Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-02-27; Discharge summary from AIIMS, New Delhi dated 2024-02-07; Certificate of the treating doctor, Dr. Rao.\n\nYours faithfully,\nNeha Agarwal"
+  },
+  {
+    "case_id": "G6-019",
+    "case_facts": {
+      "claim_id": "CLM-2025-1511",
+      "patient": "Sunil Jha",
+      "hospital": "Max Super Speciality, Saket",
+      "insurer": "ICICI Lombard",
+      "product": "Health Shield 360",
+      "clause": "5(i)",
+      "clause_id": "HEALTH-EXC-2210",
+      "topic": "Day Care Treatment",
+      "exception_text": "We will also consider Post-hospitalization Medical Expenses incurred on Physiotherapy provided that such Physiotherapy is advised in writing by the treating Medical Practitioner and is Medically Necessary Treatment.",
+      "admission_date": "2025-11-04",
+      "denial_date": "2025-12-06"
+    },
+    "mandatory_citations": [
+      "Clause 5(i) of Health Shield 360",
+      "Repudiation letter dated 2025-12-06",
+      "Discharge summary from Max Super Speciality, Saket dated 2025-11-04",
+      "Certificate of the treating doctor, Dr. Sen"
+    ],
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2025-1511 under Health Shield 360\n\nRespected Sir/Madam,\n\nI, Sunil Jha, hold the Health Shield 360 policy issued by ICICI Lombard. My claim CLM-2025-1511 for treatment at Max Super Speciality, Saket was repudiated by the insurer's letter dated 2025-12-06, citing Clause 5(i) of Health Shield 360 (Day Care Treatment).\n\nThe same clause provides an exception, which reads: \"We will also consider Post-hospitalization Medical Expenses incurred on Physiotherapy provided that such Physiotherapy is advised in writing by the treating Medical Practitioner and is Medically Necessary Treatment.\". The Discharge summary from Max Super Speciality, Saket dated 2025-11-04 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 5(i) without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-12-06; Discharge summary from Max Super Speciality, Saket dated 2025-11-04; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nSunil Jha"
+  },
+  {
+    "case_id": "G6-020",
+    "case_facts": {
+      "claim_id": "CLM-2024-5269",
+      "patient": "Kamala Subramaniam",
+      "hospital": "SRM Institute, Chennai",
+      "insurer": "ICICI Lombard",
+      "product": "Max Protect",
+      "clause": "20(i)",
+      "clause_id": "MAXPRO-EXC-2423",
+      "topic": "Rest Cure and Rehabilitation Exclusion",
+      "exception_text": "Myomectomy, Hysterectomy unless because of malignancy due to an accident, provided the same are covered.",
+      "admission_date": "2024-03-11",
+      "denial_date": "2024-03-24"
+    },
+    "mandatory_citations": [
+      "Clause 20(i) of Max Protect",
+      "Repudiation letter dated 2024-03-24",
+      "Discharge summary from SRM Institute, Chennai dated 2024-03-11",
+      "Certificate of the treating doctor, Dr. Patel"
+    ],
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2024-5269 under Max Protect\n\nRespected Sir/Madam,\n\nI, Kamala Subramaniam, hold the Max Protect policy issued by ICICI Lombard. My claim CLM-2024-5269 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2024-03-24, citing Clause 20(i) of Max Protect (Rest Cure and Rehabilitation Exclusion).\n\nThe same clause provides an exception, which reads: \"Myomectomy, Hysterectomy unless because of malignancy due to an accident, provided the same are covered.\". The Discharge summary from SRM Institute, Chennai dated 2024-03-11 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 20(i) without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-03-24; Discharge summary from SRM Institute, Chennai dated 2024-03-11; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nKamala Subramaniam"
+  },
+  {
+    "case_id": "G6-021",
+    "case_facts": {
+      "claim_id": "CLM-2023-7430",
+      "patient": "Mohan Das",
+      "hospital": "Amrita Hospital, Kochi",
+      "insurer": "ICICI Lombard",
+      "product": "Health Shield 360",
+      "clause": "1(i)",
+      "clause_id": "HEALTH-EXC-2296",
+      "topic": "Maternity Expenses Exclusion",
+      "exception_text": "Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean sections incurred during hospitalisation) except ectopic pregnancy.",
+      "admission_date": "2023-11-01",
+      "denial_date": "2023-11-24"
+    },
+    "mandatory_citations": [
+      "Clause 1(i) of Health Shield 360",
+      "Repudiation letter dated 2023-11-24",
+      "Discharge summary from Amrita Hospital, Kochi dated 2023-11-01",
+      "Certificate of the treating doctor, Dr. Nair"
+    ],
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2023-7430 under Health Shield 360\n\nRespected Sir/Madam,\n\nI, Mohan Das, hold the Health Shield 360 policy issued by ICICI Lombard. My claim CLM-2023-7430 for treatment at Amrita Hospital, Kochi was repudiated by the insurer's letter dated 2023-11-24, citing Clause 1(i) of Health Shield 360 (Maternity Expenses Exclusion).\n\nThe same clause provides an exception, which reads: \"Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean sections incurred during hospitalisation) except ectopic pregnancy.\". The Discharge summary from Amrita Hospital, Kochi dated 2023-11-01 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1(i) without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-11-24; Discharge summary from Amrita Hospital, Kochi dated 2023-11-01; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nMohan Das"
+  },
+  {
+    "case_id": "G6-022",
+    "case_facts": {
+      "claim_id": "CLM-2023-9210",
+      "patient": "Amit Verma",
+      "hospital": "SRM Institute, Chennai",
+      "insurer": "Star Health",
+      "product": "Star Comprehensive",
+      "clause": "3",
+      "clause_id": "STARCO-EXC-2599",
+      "topic": "Initial 30-Day Waiting Period",
+      "exception_text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered B.",
+      "admission_date": "2023-10-02",
+      "denial_date": "2023-10-28"
+    },
+    "mandatory_citations": [
+      "Clause 3 of Star Comprehensive",
+      "Repudiation letter dated 2023-10-28",
+      "Discharge summary from SRM Institute, Chennai dated 2023-10-02",
+      "Certificate of the treating doctor, Dr. Reddy"
+    ],
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2023-9210 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Amit Verma, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2023-9210 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2023-10-28, citing Clause 3 of Star Comprehensive (Initial 30-Day Waiting Period).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered B.\". The Discharge summary from SRM Institute, Chennai dated 2023-10-02 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 3 without considering this exception, I request the Insurance Ombudsman to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-10-28; Discharge summary from SRM Institute, Chennai dated 2023-10-02; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nAmit Verma"
+  },
+  {
+    "case_id": "G6-023",
+    "case_facts": {
+      "claim_id": "CLM-2025-1173",
+      "patient": "Alok Tripathi",
+      "hospital": "Max Super Speciality, Saket",
+      "insurer": "ICICI Lombard",
+      "product": "Health Booster",
+      "clause": "7(a)",
+      "clause_id": "HEALTH-EXC-2142",
+      "topic": "Investigation and Evaluation Exclusion",
+      "exception_text": "Dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalisation claim or day care procedure.",
       "admission_date": "2025-01-15",
       "denial_date": "2025-02-12"
     },
     "mandatory_citations": [
-      "Clause 10.16 of Arogya Sanjeevani",
+      "Clause 7(a) of Health Booster",
       "Repudiation letter dated 2025-02-12",
       "Discharge summary from Max Super Speciality, Saket dated 2025-01-15",
       "Certificate of the treating doctor, Dr. Patel"
     ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2025-1173 under Arogya Sanjeevani\n\nRespected Sir/Madam,\n\nI, Alok Tripathi, hold the Arogya Sanjeevani policy issued by ICICI Lombard. My claim CLM-2025-1173 for treatment at Max Super Speciality, Saket was repudiated by the insurer's letter dated 2025-02-12, citing Clause 10.16 of Arogya Sanjeevani (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"Renewal of Policy The policy shall ordinarily be renewable except on ground of established fraud, misrepresentation, non disclosure by the insured person provided the policy is not withdrawn and also subject to Moratorium conditions.\". The Discharge summary from Max Super Speciality, Saket dated 2025-01-15 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 10.16 without considering this exception, I request the Insurance Ombudsman to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-12; Discharge summary from Max Super Speciality, Saket dated 2025-01-15; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nAlok Tripathi"
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2025-1173 under Health Booster\n\nRespected Sir/Madam,\n\nI, Alok Tripathi, hold the Health Booster policy issued by ICICI Lombard. My claim CLM-2025-1173 for treatment at Max Super Speciality, Saket was repudiated by the insurer's letter dated 2025-02-12, citing Clause 7(a) of Health Booster (Investigation and Evaluation Exclusion).\n\nThe same clause provides an exception, which reads: \"Dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalisation claim or day care procedure.\". The Discharge summary from Max Super Speciality, Saket dated 2025-01-15 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 7(a) without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-12; Discharge summary from Max Super Speciality, Saket dated 2025-01-15; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nAlok Tripathi"
   },
   {
-    "case_id": "G6-027",
+    "case_id": "G6-024",
     "case_facts": {
       "claim_id": "CLM-2023-9423",
       "patient": "Rajeev Bansal",
       "hospital": "Narayana Health, Bangalore",
-      "insurer": "Star Health",
-      "product": "Star Comprehensive",
-      "clause": "20",
-      "clause_id": "STARCO-EXC-2615",
-      "topic": "Policy Exclusion",
-      "exception_text": "Congenital External Condition / Defects / Anomalies (except to the extent provided under Section II.",
+      "insurer": "ICICI Lombard",
+      "product": "Health Shield 360",
+      "clause": "9(III)",
+      "clause_id": "HEALTH-EXC-2311",
+      "topic": "Grace Period on Renewal",
+      "exception_text": "The Company shall not deny the renewal of a health insurance policy on the ground that the insured had made a claim or claims in the preceding policy years, except for benefit based policies where the policy terminates following payment of the benefit covered under the policy like critical illness policy.",
       "admission_date": "2023-12-06",
       "denial_date": "2024-01-11"
     },
     "mandatory_citations": [
-      "Clause 20 of Star Comprehensive",
+      "Clause 9(III) of Health Shield 360",
       "Repudiation letter dated 2024-01-11",
       "Discharge summary from Narayana Health, Bangalore dated 2023-12-06",
       "Certificate of the treating doctor, Dr. Menon"
     ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2023-9423 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Rajeev Bansal, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2023-9423 for treatment at Narayana Health, Bangalore was repudiated by the insurer's letter dated 2024-01-11, citing Clause 20 of Star Comprehensive (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Congenital External Condition / Defects / Anomalies (except to the extent provided under Section II.\". The Discharge summary from Narayana Health, Bangalore dated 2023-12-06 and the Certificate of the treating doctor, Dr. Menon show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 20 without considering this exception, I request the IRDAI Bima Bharosa portal to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-01-11; Discharge summary from Narayana Health, Bangalore dated 2023-12-06; Certificate of the treating doctor, Dr. Menon.\n\nYours faithfully,\nRajeev Bansal"
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-9423 under Health Shield 360\n\nRespected Sir/Madam,\n\nI, Rajeev Bansal, hold the Health Shield 360 policy issued by ICICI Lombard. My claim CLM-2023-9423 for treatment at Narayana Health, Bangalore was repudiated by the insurer's letter dated 2024-01-11, citing Clause 9(III) of Health Shield 360 (Grace Period on Renewal).\n\nThe same clause provides an exception, which reads: \"The Company shall not deny the renewal of a health insurance policy on the ground that the insured had made a claim or claims in the preceding policy years, except for benefit based policies where the policy terminates following payment of the benefit covered under the policy like critical illness policy.\". The Discharge summary from Narayana Health, Bangalore dated 2023-12-06 and the Certificate of the treating doctor, Dr. Menon show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 9(III) without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-01-11; Discharge summary from Narayana Health, Bangalore dated 2023-12-06; Certificate of the treating doctor, Dr. Menon.\n\nYours faithfully,\nRajeev Bansal"
   },
   {
-    "case_id": "G6-028",
+    "case_id": "G6-025",
     "case_facts": {
       "claim_id": "CLM-2024-3395",
       "patient": "Arun Nair",
       "hospital": "Artemis Hospital, Gurgaon",
-      "insurer": "ICICI Lombard",
-      "product": "Arogya Sanjeevani",
-      "clause": "1",
-      "clause_id": "AROGYA-EXC-1288",
-      "topic": "Policy Exclusion",
-      "exception_text": "In case of admission to a room/lCU/ICCU at rates exceeding the aforesaid limits, the reimbursement/payment of all other expenses incurred at the Hospital, except for cost of medicines, shall be affected in the same proportion as the admissible rate per day bears to the actual rate per day of Room Rent/lCU/lCCU charges.",
+      "insurer": "Care Health",
+      "product": "Care",
+      "clause": "2.1.48",
+      "clause_id": "CARE-EXC-0049",
+      "topic": "Specified Disease Waiting Period",
+      "exception_text": "Specific waiting period means a period up to 36 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.",
       "admission_date": "2024-01-02",
       "denial_date": "2024-02-01"
     },
     "mandatory_citations": [
-      "Clause 1 of Arogya Sanjeevani",
+      "Clause 2.1.48 of Care",
       "Repudiation letter dated 2024-02-01",
       "Discharge summary from Artemis Hospital, Gurgaon dated 2024-01-02",
       "Certificate of the treating doctor, Dr. Iyer"
     ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2024-3395 under Arogya Sanjeevani\n\nRespected Sir/Madam,\n\nI, Arun Nair, hold the Arogya Sanjeevani policy issued by ICICI Lombard. My claim CLM-2024-3395 for treatment at Artemis Hospital, Gurgaon was repudiated by the insurer's letter dated 2024-02-01, citing Clause 1 of Arogya Sanjeevani (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"In case of admission to a room/lCU/ICCU at rates exceeding the aforesaid limits, the reimbursement/payment of all other expenses incurred at the Hospital, except for cost of medicines, shall be affected in the same proportion as the admissible rate per day bears to the actual rate per day of Room Rent/lCU/lCCU charges.\". The Discharge summary from Artemis Hospital, Gurgaon dated 2024-01-02 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-02-01; Discharge summary from Artemis Hospital, Gurgaon dated 2024-01-02; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nArun Nair"
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2024-3395 under Care\n\nRespected Sir/Madam,\n\nI, Arun Nair, hold the Care policy issued by Care Health. My claim CLM-2024-3395 for treatment at Artemis Hospital, Gurgaon was repudiated by the insurer's letter dated 2024-02-01, citing Clause 2.1.48 of Care (Specified Disease Waiting Period).\n\nThe same clause provides an exception, which reads: \"Specific waiting period means a period up to 36 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.\". The Discharge summary from Artemis Hospital, Gurgaon dated 2024-01-02 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 2.1.48 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Care Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-02-01; Discharge summary from Artemis Hospital, Gurgaon dated 2024-01-02; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nArun Nair"
   },
   {
-    "case_id": "G6-029",
+    "case_id": "G6-026",
     "case_facts": {
       "claim_id": "CLM-2023-8989",
       "patient": "Rani Mukherjee",
       "hospital": "BLK-MAX, New Delhi",
-      "insurer": "Care Health",
-      "product": "Care Supreme",
-      "clause": "3.2.4",
-      "clause_id": "CARESU-WAI-0507",
-      "topic": "Waiting Period",
-      "exception_text": "1 (a) (ii) holds good for this benefit as well, except that the claims will be admissible for any Medical Expenses incurred for Hospitalization in respect of diagnosis/treatment of any Named ailment Disease after specific time period of continuous coverage has elapsed as mentioned in the Policy Schedule, since the inception of the first Policy with the Company.",
+      "insurer": "Star Health",
+      "product": "Family Health Optima",
+      "clause": "8",
+      "clause_id": "FAMILY-EXC-2820",
+      "topic": "Cosmetic or Plastic Surgery Exclusion",
+      "exception_text": "Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
       "admission_date": "2023-03-24",
       "denial_date": "2023-04-12"
     },
     "mandatory_citations": [
-      "Clause 3.2.4 of Care Supreme",
+      "Clause 8 of Family Health Optima",
       "Repudiation letter dated 2023-04-12",
       "Discharge summary from BLK-MAX, New Delhi dated 2023-03-24",
       "Certificate of the treating doctor, Dr. Gupta"
     ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2023-8989 under Care Supreme\n\nRespected Sir/Madam,\n\nI, Rani Mukherjee, hold the Care Supreme policy issued by Care Health. My claim CLM-2023-8989 for treatment at BLK-MAX, New Delhi was repudiated by the insurer's letter dated 2023-04-12, citing Clause 3.2.4 of Care Supreme (Waiting Period).\n\nThe same clause provides an exception, which reads: \"1 (a) (ii) holds good for this benefit as well, except that the claims will be admissible for any Medical Expenses incurred for Hospitalization in respect of diagnosis/treatment of any Named ailment Disease after specific time period of continuous coverage has elapsed as mentioned in the Policy Schedule, since the inception of the first Policy with the Company.\". The Discharge summary from BLK-MAX, New Delhi dated 2023-03-24 and the Certificate of the treating doctor, Dr. Gupta show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 3.2.4 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Care Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-04-12; Discharge summary from BLK-MAX, New Delhi dated 2023-03-24; Certificate of the treating doctor, Dr. Gupta.\n\nYours faithfully,\nRani Mukherjee"
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2023-8989 under Family Health Optima\n\nRespected Sir/Madam,\n\nI, Rani Mukherjee, hold the Family Health Optima policy issued by Star Health. My claim CLM-2023-8989 for treatment at BLK-MAX, New Delhi was repudiated by the insurer's letter dated 2023-04-12, citing Clause 8 of Family Health Optima (Cosmetic or Plastic Surgery Exclusion).\n\nThe same clause provides an exception, which reads: \"Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.\". The Discharge summary from BLK-MAX, New Delhi dated 2023-03-24 and the Certificate of the treating doctor, Dr. Gupta show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 8 without considering this exception, I request the Insurance Ombudsman to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-04-12; Discharge summary from BLK-MAX, New Delhi dated 2023-03-24; Certificate of the treating doctor, Dr. Gupta.\n\nYours faithfully,\nRani Mukherjee"
   },
   {
-    "case_id": "G6-030",
+    "case_id": "G6-027",
     "case_facts": {
       "claim_id": "CLM-2025-1701",
       "patient": "Amit Verma",
       "hospital": "Max Super Speciality, Saket",
-      "insurer": "Care Health",
-      "product": "Care Supreme",
-      "clause": "14",
-      "clause_id": "CARESU-EXC-0570",
-      "topic": "Policy Exclusion",
-      "exception_text": "Any Claim of an Insured Person arising due to any of the following shall not be admissible unless expressly stated to the contrary elsewhere in the Policy Terms and conditions.",
+      "insurer": "Star Health",
+      "product": "Star Women Care",
+      "clause": "30",
+      "clause_id": "STARWO-EXC-3004",
+      "topic": "Dental Treatment Exclusion",
+      "exception_text": "Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) – Code-Excl 32.",
       "admission_date": "2025-01-26",
       "denial_date": "2025-02-14"
     },
     "mandatory_citations": [
-      "Clause 14 of Care Supreme",
+      "Clause 30 of Star Women Care",
       "Repudiation letter dated 2025-02-14",
       "Discharge summary from Max Super Speciality, Saket dated 2025-01-26",
       "Certificate of the treating doctor, Dr. Reddy"
     ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2025-1701 under Care Supreme\n\nRespected Sir/Madam,\n\nI, Amit Verma, hold the Care Supreme policy issued by Care Health. My claim CLM-2025-1701 for treatment at Max Super Speciality, Saket was repudiated by the insurer's letter dated 2025-02-14, citing Clause 14 of Care Supreme (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Any Claim of an Insured Person arising due to any of the following shall not be admissible unless expressly stated to the contrary elsewhere in the Policy Terms and conditions.\". The Discharge summary from Max Super Speciality, Saket dated 2025-01-26 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 14 without considering this exception, I request the Insurance Ombudsman to direct Care Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-14; Discharge summary from Max Super Speciality, Saket dated 2025-01-26; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nAmit Verma"
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2025-1701 under Star Women Care\n\nRespected Sir/Madam,\n\nI, Amit Verma, hold the Star Women Care policy issued by Star Health. My claim CLM-2025-1701 for treatment at Max Super Speciality, Saket was repudiated by the insurer's letter dated 2025-02-14, citing Clause 30 of Star Women Care (Dental Treatment Exclusion).\n\nThe same clause provides an exception, which reads: \"Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) – Code-Excl 32.\". The Discharge summary from Max Super Speciality, Saket dated 2025-01-26 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 30 without considering this exception, I request the IRDAI Bima Bharosa portal to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-14; Discharge summary from Max Super Speciality, Saket dated 2025-01-26; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nAmit Verma"
   },
   {
-    "case_id": "G6-031",
+    "case_id": "G6-028",
     "case_facts": {
       "claim_id": "CLM-2025-8695",
       "patient": "Rajeev Bansal",
       "hospital": "Kokilaben Dhirubhai Ambani, Mumbai",
-      "insurer": "ICICI Lombard",
-      "product": "Max Protect",
-      "clause": "Code-Excl09",
-      "clause_id": "MAXPRO-EXC-2425",
-      "topic": "Policy Exclusion",
-      "exception_text": "Expenses related to the treatment of the below mentioned illness within 90 days from the first policy commencement date shall be excluded unless they are pre- existing and disclosed at the time of underwriting 2.",
+      "insurer": "Care Health",
+      "product": "Care Supreme",
+      "clause": "2.1.48",
+      "clause_id": "CARESU-EXC-0420",
+      "topic": "Specified Disease Waiting Period",
+      "exception_text": "Specific waiting period (Named Ailment Waiting Period) means a period up to 36 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.",
       "admission_date": "2025-01-09",
       "denial_date": "2025-02-02"
     },
     "mandatory_citations": [
-      "Code-Excl09 of Max Protect",
+      "Clause 2.1.48 of Care Supreme",
       "Repudiation letter dated 2025-02-02",
       "Discharge summary from Kokilaben Dhirubhai Ambani, Mumbai dated 2025-01-09",
       "Certificate of the treating doctor, Dr. Rao"
     ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2025-8695 under Max Protect\n\nRespected Sir/Madam,\n\nI, Rajeev Bansal, hold the Max Protect policy issued by ICICI Lombard. My claim CLM-2025-8695 for treatment at Kokilaben Dhirubhai Ambani, Mumbai was repudiated by the insurer's letter dated 2025-02-02, citing Code-Excl09 of Max Protect (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of the below mentioned illness within 90 days from the first policy commencement date shall be excluded unless they are pre- existing and disclosed at the time of underwriting 2.\". The Discharge summary from Kokilaben Dhirubhai Ambani, Mumbai dated 2025-01-09 and the Certificate of the treating doctor, Dr. Rao show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Code-Excl09 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-02; Discharge summary from Kokilaben Dhirubhai Ambani, Mumbai dated 2025-01-09; Certificate of the treating doctor, Dr. Rao.\n\nYours faithfully,\nRajeev Bansal"
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2025-8695 under Care Supreme\n\nRespected Sir/Madam,\n\nI, Rajeev Bansal, hold the Care Supreme policy issued by Care Health. My claim CLM-2025-8695 for treatment at Kokilaben Dhirubhai Ambani, Mumbai was repudiated by the insurer's letter dated 2025-02-02, citing Clause 2.1.48 of Care Supreme (Specified Disease Waiting Period).\n\nThe same clause provides an exception, which reads: \"Specific waiting period (Named Ailment Waiting Period) means a period up to 36 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.\". The Discharge summary from Kokilaben Dhirubhai Ambani, Mumbai dated 2025-01-09 and the Certificate of the treating doctor, Dr. Rao show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 2.1.48 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct Care Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-02-02; Discharge summary from Kokilaben Dhirubhai Ambani, Mumbai dated 2025-01-09; Certificate of the treating doctor, Dr. Rao.\n\nYours faithfully,\nRajeev Bansal"
   },
   {
-    "case_id": "G6-032",
+    "case_id": "G6-029",
     "case_facts": {
       "claim_id": "CLM-2024-9542",
       "patient": "Usha Chauhan",
       "hospital": "Fortis Hospital, Gurgaon",
-      "insurer": "ICICI Lombard",
-      "product": "Elevate Health",
-      "clause": "34",
-      "clause_id": "ELEVAT-EXC-1741",
-      "topic": "Policy Exclusion",
-      "exception_text": "A 30-day initial Waiting Period applies on Diagnostic credits and Elevate HER GynaeCare Visit- OPD Consultations unless renewed continuously.",
+      "insurer": "Star Health",
+      "product": "Star Comprehensive",
+      "clause": "18",
+      "clause_id": "STARCO-EXC-2613",
+      "topic": "Maternity Expenses Exclusion",
+      "exception_text": "Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean Sections incurred during hospitalization) except ectopic pregnancy and to the extent covered under Section II.",
       "admission_date": "2024-10-25",
       "denial_date": "2024-11-09"
     },
     "mandatory_citations": [
-      "Clause 34 of Elevate Health",
+      "Clause 18 of Star Comprehensive",
       "Repudiation letter dated 2024-11-09",
       "Discharge summary from Fortis Hospital, Gurgaon dated 2024-10-25",
       "Certificate of the treating doctor, Dr. Sen"
     ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2024-9542 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Usha Chauhan, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2024-9542 for treatment at Fortis Hospital, Gurgaon was repudiated by the insurer's letter dated 2024-11-09, citing Clause 34 of Elevate Health (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"A 30-day initial Waiting Period applies on Diagnostic credits and Elevate HER GynaeCare Visit- OPD Consultations unless renewed continuously.\". The Discharge summary from Fortis Hospital, Gurgaon dated 2024-10-25 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 34 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-11-09; Discharge summary from Fortis Hospital, Gurgaon dated 2024-10-25; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nUsha Chauhan"
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2024-9542 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Usha Chauhan, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2024-9542 for treatment at Fortis Hospital, Gurgaon was repudiated by the insurer's letter dated 2024-11-09, citing Clause 18 of Star Comprehensive (Maternity Expenses Exclusion).\n\nThe same clause provides an exception, which reads: \"Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean Sections incurred during hospitalization) except ectopic pregnancy and to the extent covered under Section II.\". The Discharge summary from Fortis Hospital, Gurgaon dated 2024-10-25 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 18 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-11-09; Discharge summary from Fortis Hospital, Gurgaon dated 2024-10-25; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nUsha Chauhan"
   },
   {
-    "case_id": "G6-033",
+    "case_id": "G6-030",
     "case_facts": {
       "claim_id": "CLM-2023-7201",
       "patient": "Ashok Malhotra",
       "hospital": "Tata Memorial Hospital, Mumbai",
-      "insurer": "Star Health",
-      "product": "Star Comprehensive",
-      "clause": "4",
-      "clause_id": "STARCO-EXC-2631",
-      "topic": "Policy Exclusion",
-      "exception_text": "Insured Person engaging in Air Travel unless he/she flies as a fare-paying passenger on an aircraft properly licensed to carry passengers.",
+      "insurer": "ICICI Lombard",
+      "product": "Max Protect",
+      "clause": "9",
+      "clause_id": "MAXPRO-EXC-2434",
+      "topic": "Moratorium Period",
+      "exception_text": "Renewal of Policy The policy shall ordinarily be renewable except on ground of established fraud or Non-disclosure or misrepresentation by the insured person.",
       "admission_date": "2023-12-23",
       "denial_date": "2024-01-16"
     },
     "mandatory_citations": [
-      "Clause 4 of Star Comprehensive",
+      "Clause 9 of Max Protect",
       "Repudiation letter dated 2024-01-16",
       "Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-12-23",
       "Certificate of the treating doctor, Dr. Reddy"
     ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2023-7201 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Ashok Malhotra, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2023-7201 for treatment at Tata Memorial Hospital, Mumbai was repudiated by the insurer's letter dated 2024-01-16, citing Clause 4 of Star Comprehensive (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Insured Person engaging in Air Travel unless he/she flies as a fare-paying passenger on an aircraft properly licensed to carry passengers.\". The Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-12-23 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 4 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-01-16; Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-12-23; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nAshok Malhotra"
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2023-7201 under Max Protect\n\nRespected Sir/Madam,\n\nI, Ashok Malhotra, hold the Max Protect policy issued by ICICI Lombard. My claim CLM-2023-7201 for treatment at Tata Memorial Hospital, Mumbai was repudiated by the insurer's letter dated 2024-01-16, citing Clause 9 of Max Protect (Moratorium Period).\n\nThe same clause provides an exception, which reads: \"Renewal of Policy The policy shall ordinarily be renewable except on ground of established fraud or Non-disclosure or misrepresentation by the insured person.\". The Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-12-23 and the Certificate of the treating doctor, Dr. Reddy show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 9 without considering this exception, I request the Insurance Ombudsman to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-01-16; Discharge summary from Tata Memorial Hospital, Mumbai dated 2023-12-23; Certificate of the treating doctor, Dr. Reddy.\n\nYours faithfully,\nAshok Malhotra"
   },
   {
-    "case_id": "G6-034",
+    "case_id": "G6-031",
     "case_facts": {
       "claim_id": "CLM-2025-7165",
       "patient": "Rekha Bhat",
       "hospital": "SRM Institute, Chennai",
+      "insurer": "ICICI Lombard",
+      "product": "Health AdvantEdge",
+      "clause": "23",
+      "clause_id": "HEALTH-EXC-2033",
+      "topic": "Cosmetic or Plastic Surgery Exclusion",
+      "exception_text": "Any expenses incurred on prosthesis, corrective devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively.",
+      "admission_date": "2025-11-24",
+      "denial_date": "2025-12-14"
+    },
+    "mandatory_citations": [
+      "Clause 23 of Health AdvantEdge",
+      "Repudiation letter dated 2025-12-14",
+      "Discharge summary from SRM Institute, Chennai dated 2025-11-24",
+      "Certificate of the treating doctor, Dr. Mehta"
+    ],
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2025-7165 under Health AdvantEdge\n\nRespected Sir/Madam,\n\nI, Rekha Bhat, hold the Health AdvantEdge policy issued by ICICI Lombard. My claim CLM-2025-7165 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2025-12-14, citing Clause 23 of Health AdvantEdge (Cosmetic or Plastic Surgery Exclusion).\n\nThe same clause provides an exception, which reads: \"Any expenses incurred on prosthesis, corrective devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively.\". The Discharge summary from SRM Institute, Chennai dated 2025-11-24 and the Certificate of the treating doctor, Dr. Mehta show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 23 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-12-14; Discharge summary from SRM Institute, Chennai dated 2025-11-24; Certificate of the treating doctor, Dr. Mehta.\n\nYours faithfully,\nRekha Bhat"
+  },
+  {
+    "case_id": "G6-032",
+    "case_facts": {
+      "claim_id": "CLM-2024-6653",
+      "patient": "Amit Verma",
+      "hospital": "Global Hospitals, Hyderabad",
+      "insurer": "Star Health",
+      "product": "Family Health Optima",
+      "clause": "30",
+      "clause_id": "FAMILY-EXC-2839",
+      "topic": "Dental Treatment Exclusion",
+      "exception_text": "Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) - Code Excl 32.",
+      "admission_date": "2024-12-23",
+      "denial_date": "2025-01-30"
+    },
+    "mandatory_citations": [
+      "Clause 30 of Family Health Optima",
+      "Repudiation letter dated 2025-01-30",
+      "Discharge summary from Global Hospitals, Hyderabad dated 2024-12-23",
+      "Certificate of the treating doctor, Dr. Patel"
+    ],
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2024-6653 under Family Health Optima\n\nRespected Sir/Madam,\n\nI, Amit Verma, hold the Family Health Optima policy issued by Star Health. My claim CLM-2024-6653 for treatment at Global Hospitals, Hyderabad was repudiated by the insurer's letter dated 2025-01-30, citing Clause 30 of Family Health Optima (Dental Treatment Exclusion).\n\nThe same clause provides an exception, which reads: \"Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) - Code Excl 32.\". The Discharge summary from Global Hospitals, Hyderabad dated 2024-12-23 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 30 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-01-30; Discharge summary from Global Hospitals, Hyderabad dated 2024-12-23; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nAmit Verma"
+  },
+  {
+    "case_id": "G6-033",
+    "case_facts": {
+      "claim_id": "CLM-2023-3276",
+      "patient": "Padma Srinivasan",
+      "hospital": "BLK-MAX, New Delhi",
+      "insurer": "ICICI Lombard",
+      "product": "Elevate Health",
+      "clause": "12",
+      "clause_id": "ELEVAT-WAI-1835",
+      "topic": "Portability",
+      "exception_text": "Moratorium Period After completion of 60 continuous months of coverage (including portability and migration) under the Policy, no Policy and claim shall be contestable by Us except on grounds of established fraud.",
+      "admission_date": "2023-01-14",
+      "denial_date": "2023-02-11"
+    },
+    "mandatory_citations": [
+      "Clause 12 of Elevate Health",
+      "Repudiation letter dated 2023-02-11",
+      "Discharge summary from BLK-MAX, New Delhi dated 2023-01-14",
+      "Certificate of the treating doctor, Dr. Menon"
+    ],
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2023-3276 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Padma Srinivasan, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2023-3276 for treatment at BLK-MAX, New Delhi was repudiated by the insurer's letter dated 2023-02-11, citing Clause 12 of Elevate Health (Portability).\n\nThe same clause provides an exception, which reads: \"Moratorium Period After completion of 60 continuous months of coverage (including portability and migration) under the Policy, no Policy and claim shall be contestable by Us except on grounds of established fraud.\". The Discharge summary from BLK-MAX, New Delhi dated 2023-01-14 and the Certificate of the treating doctor, Dr. Menon show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 12 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-02-11; Discharge summary from BLK-MAX, New Delhi dated 2023-01-14; Certificate of the treating doctor, Dr. Menon.\n\nYours faithfully,\nPadma Srinivasan"
+  },
+  {
+    "case_id": "G6-034",
+    "case_facts": {
+      "claim_id": "CLM-2023-5600",
+      "patient": "Gopal Mehta",
+      "hospital": "Medanta, Gurgaon",
+      "insurer": "Star Health",
+      "product": "Star Comprehensive",
+      "clause": "14",
+      "clause_id": "STARCO-EXC-2609",
+      "topic": "Policy Exclusion",
+      "exception_text": "Dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure – Code Excl 14.",
+      "admission_date": "2023-06-07",
+      "denial_date": "2023-07-05"
+    },
+    "mandatory_citations": [
+      "Clause 14 of Star Comprehensive",
+      "Repudiation letter dated 2023-07-05",
+      "Discharge summary from Medanta, Gurgaon dated 2023-06-07",
+      "Certificate of the treating doctor, Dr. Sharma"
+    ],
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2023-5600 under Star Comprehensive\n\nRespected Sir/Madam,\n\nI, Gopal Mehta, hold the Star Comprehensive policy issued by Star Health. My claim CLM-2023-5600 for treatment at Medanta, Gurgaon was repudiated by the insurer's letter dated 2023-07-05, citing Clause 14 of Star Comprehensive (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure – Code Excl 14.\". The Discharge summary from Medanta, Gurgaon dated 2023-06-07 and the Certificate of the treating doctor, Dr. Sharma show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 14 without considering this exception, I request the Insurance Ombudsman to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-07-05; Discharge summary from Medanta, Gurgaon dated 2023-06-07; Certificate of the treating doctor, Dr. Sharma.\n\nYours faithfully,\nGopal Mehta"
+  },
+  {
+    "case_id": "G6-035",
+    "case_facts": {
+      "claim_id": "CLM-2023-2938",
+      "patient": "Lakshmi Rao",
+      "hospital": "AIIMS, New Delhi",
       "insurer": "ICICI Lombard",
       "product": "Health Booster",
       "clause": "28",
       "clause_id": "HEALTH-EXC-2165",
       "topic": "Policy Exclusion",
       "exception_text": "No Claims shall be payable under this Policy unless the cause of action arises in India, unless otherwise specifically provided in Policy Schedule.",
-      "admission_date": "2025-11-24",
-      "denial_date": "2025-12-14"
-    },
-    "mandatory_citations": [
-      "Clause 28 of Health Booster",
-      "Repudiation letter dated 2025-12-14",
-      "Discharge summary from SRM Institute, Chennai dated 2025-11-24",
-      "Certificate of the treating doctor, Dr. Mehta"
-    ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2025-7165 under Health Booster\n\nRespected Sir/Madam,\n\nI, Rekha Bhat, hold the Health Booster policy issued by ICICI Lombard. My claim CLM-2025-7165 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2025-12-14, citing Clause 28 of Health Booster (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"No Claims shall be payable under this Policy unless the cause of action arises in India, unless otherwise specifically provided in Policy Schedule.\". The Discharge summary from SRM Institute, Chennai dated 2025-11-24 and the Certificate of the treating doctor, Dr. Mehta show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 28 without considering this exception, I request the Insurance Ombudsman to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-12-14; Discharge summary from SRM Institute, Chennai dated 2025-11-24; Certificate of the treating doctor, Dr. Mehta.\n\nYours faithfully,\nRekha Bhat"
-  },
-  {
-    "case_id": "G6-035",
-    "case_facts": {
-      "claim_id": "CLM-2024-6653",
-      "patient": "Amit Verma",
-      "hospital": "Global Hospitals, Hyderabad",
-      "insurer": "ICICI Lombard",
-      "product": "Arogya Sanjeevani",
-      "clause": "3.46",
-      "clause_id": "AROGYA-EXC-1280",
-      "topic": "Policy Exclusion",
-      "exception_text": "“Specific waiting period/ Specified Disease/Procedure waiting period/” means a period up to 24 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.",
-      "admission_date": "2024-12-23",
-      "denial_date": "2025-01-30"
-    },
-    "mandatory_citations": [
-      "Clause 3.46 of Arogya Sanjeevani",
-      "Repudiation letter dated 2025-01-30",
-      "Discharge summary from Global Hospitals, Hyderabad dated 2024-12-23",
-      "Certificate of the treating doctor, Dr. Patel"
-    ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2024-6653 under Arogya Sanjeevani\n\nRespected Sir/Madam,\n\nI, Amit Verma, hold the Arogya Sanjeevani policy issued by ICICI Lombard. My claim CLM-2024-6653 for treatment at Global Hospitals, Hyderabad was repudiated by the insurer's letter dated 2025-01-30, citing Clause 3.46 of Arogya Sanjeevani (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"“Specific waiting period/ Specified Disease/Procedure waiting period/” means a period up to 24 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.\". The Discharge summary from Global Hospitals, Hyderabad dated 2024-12-23 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 3.46 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2025-01-30; Discharge summary from Global Hospitals, Hyderabad dated 2024-12-23; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nAmit Verma"
-  },
-  {
-    "case_id": "G6-036",
-    "case_facts": {
-      "claim_id": "CLM-2023-3276",
-      "patient": "Padma Srinivasan",
-      "hospital": "BLK-MAX, New Delhi",
-      "insurer": "ICICI Lombard",
-      "product": "Max Protect",
-      "clause": "3",
-      "clause_id": "MAXPRO-WAI-2444",
-      "topic": "Waiting Period",
-      "exception_text": "This Policy cannot be modified by anyone (including an insurance agent or broker) except the company.",
-      "admission_date": "2023-01-14",
-      "denial_date": "2023-02-11"
-    },
-    "mandatory_citations": [
-      "Clause 3 of Max Protect",
-      "Repudiation letter dated 2023-02-11",
-      "Discharge summary from BLK-MAX, New Delhi dated 2023-01-14",
-      "Certificate of the treating doctor, Dr. Menon"
-    ],
-    "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-3276 under Max Protect\n\nRespected Sir/Madam,\n\nI, Padma Srinivasan, hold the Max Protect policy issued by ICICI Lombard. My claim CLM-2023-3276 for treatment at BLK-MAX, New Delhi was repudiated by the insurer's letter dated 2023-02-11, citing Clause 3 of Max Protect (Waiting Period).\n\nThe same clause provides an exception, which reads: \"This Policy cannot be modified by anyone (including an insurance agent or broker) except the company.\". The Discharge summary from BLK-MAX, New Delhi dated 2023-01-14 and the Certificate of the treating doctor, Dr. Menon show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 3 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-02-11; Discharge summary from BLK-MAX, New Delhi dated 2023-01-14; Certificate of the treating doctor, Dr. Menon.\n\nYours faithfully,\nPadma Srinivasan"
-  },
-  {
-    "case_id": "G6-037",
-    "case_facts": {
-      "claim_id": "CLM-2023-5600",
-      "patient": "Gopal Mehta",
-      "hospital": "Medanta, Gurgaon",
-      "insurer": "ICICI Lombard",
-      "product": "Health AdvantEdge",
-      "clause": "1",
-      "clause_id": "HEALTH-EXC-2022",
-      "topic": "Policy Exclusion",
-      "exception_text": "Expenses related to the treatment of the below mentioned illness within 90 days from the first policy commencement date shall be excluded unless they are pre-existing and disclosed at the time of underwriting i.",
-      "admission_date": "2023-06-07",
-      "denial_date": "2023-07-05"
-    },
-    "mandatory_citations": [
-      "Clause 1 of Health AdvantEdge",
-      "Repudiation letter dated 2023-07-05",
-      "Discharge summary from Medanta, Gurgaon dated 2023-06-07",
-      "Certificate of the treating doctor, Dr. Sharma"
-    ],
-    "target_forum": "Grievance Redressal Officer of the insurer",
-    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2023-5600 under Health AdvantEdge\n\nRespected Sir/Madam,\n\nI, Gopal Mehta, hold the Health AdvantEdge policy issued by ICICI Lombard. My claim CLM-2023-5600 for treatment at Medanta, Gurgaon was repudiated by the insurer's letter dated 2023-07-05, citing Clause 1 of Health AdvantEdge (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of the below mentioned illness within 90 days from the first policy commencement date shall be excluded unless they are pre-existing and disclosed at the time of underwriting i.\". The Discharge summary from Medanta, Gurgaon dated 2023-06-07 and the Certificate of the treating doctor, Dr. Sharma show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-07-05; Discharge summary from Medanta, Gurgaon dated 2023-06-07; Certificate of the treating doctor, Dr. Sharma.\n\nYours faithfully,\nGopal Mehta"
-  },
-  {
-    "case_id": "G6-038",
-    "case_facts": {
-      "claim_id": "CLM-2023-2938",
-      "patient": "Lakshmi Rao",
-      "hospital": "AIIMS, New Delhi",
-      "insurer": "Care Health",
-      "product": "Care",
-      "clause": "14",
-      "clause_id": "CARE-EXC-0281",
-      "topic": "Policy Exclusion",
-      "exception_text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
       "admission_date": "2023-11-19",
       "denial_date": "2023-12-12"
     },
     "mandatory_citations": [
-      "Clause 14 of Care",
+      "Clause 28 of Health Booster",
       "Repudiation letter dated 2023-12-12",
       "Discharge summary from AIIMS, New Delhi dated 2023-11-19",
       "Certificate of the treating doctor, Dr. Iyer"
     ],
-    "target_forum": "Insurance Ombudsman",
-    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2023-2938 under Care\n\nRespected Sir/Madam,\n\nI, Lakshmi Rao, hold the Care policy issued by Care Health. My claim CLM-2023-2938 for treatment at AIIMS, New Delhi was repudiated by the insurer's letter dated 2023-12-12, citing Clause 14 of Care (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.\". The Discharge summary from AIIMS, New Delhi dated 2023-11-19 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 14 without considering this exception, I request the Insurance Ombudsman to direct Care Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-12-12; Discharge summary from AIIMS, New Delhi dated 2023-11-19; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nLakshmi Rao"
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2023-2938 under Health Booster\n\nRespected Sir/Madam,\n\nI, Lakshmi Rao, hold the Health Booster policy issued by ICICI Lombard. My claim CLM-2023-2938 for treatment at AIIMS, New Delhi was repudiated by the insurer's letter dated 2023-12-12, citing Clause 28 of Health Booster (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"No Claims shall be payable under this Policy unless the cause of action arises in India, unless otherwise specifically provided in Policy Schedule.\". The Discharge summary from AIIMS, New Delhi dated 2023-11-19 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 28 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-12-12; Discharge summary from AIIMS, New Delhi dated 2023-11-19; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nLakshmi Rao"
   },
   {
-    "case_id": "G6-039",
+    "case_id": "G6-036",
     "case_facts": {
       "claim_id": "CLM-2024-2856",
       "patient": "Rajeev Bansal",
       "hospital": "Narayana Health, Bangalore",
       "insurer": "ICICI Lombard",
-      "product": "Health Shield 360",
-      "clause": "1",
-      "clause_id": "HEALTH-EXC-2298",
+      "product": "Elevate Health",
+      "clause": "6(i)",
+      "clause_id": "ELEVAT-EXC-1830",
       "topic": "Policy Exclusion",
-      "exception_text": "Any expenses incurred on prosthesis, corrective devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively.",
+      "exception_text": "Provided that where there is an improvement in the risk profile, the company may endeavor to recognize that for removal of loadings at the point of renewal.",
       "admission_date": "2024-11-07",
       "denial_date": "2024-12-12"
     },
     "mandatory_citations": [
-      "Clause 1 of Health Shield 360",
+      "Clause 6(i) of Elevate Health",
       "Repudiation letter dated 2024-12-12",
       "Discharge summary from Narayana Health, Bangalore dated 2024-11-07",
       "Certificate of the treating doctor, Dr. Patel"
     ],
-    "target_forum": "IRDAI Bima Bharosa portal",
-    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2024-2856 under Health Shield 360\n\nRespected Sir/Madam,\n\nI, Rajeev Bansal, hold the Health Shield 360 policy issued by ICICI Lombard. My claim CLM-2024-2856 for treatment at Narayana Health, Bangalore was repudiated by the insurer's letter dated 2024-12-12, citing Clause 1 of Health Shield 360 (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Any expenses incurred on prosthesis, corrective devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively.\". The Discharge summary from Narayana Health, Bangalore dated 2024-11-07 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 1 without considering this exception, I request the IRDAI Bima Bharosa portal to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-12-12; Discharge summary from Narayana Health, Bangalore dated 2024-11-07; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nRajeev Bansal"
+    "target_forum": "District Consumer Disputes Redressal Commission",
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2024-2856 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Rajeev Bansal, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2024-2856 for treatment at Narayana Health, Bangalore was repudiated by the insurer's letter dated 2024-12-12, citing Clause 6(i) of Elevate Health (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Provided that where there is an improvement in the risk profile, the company may endeavor to recognize that for removal of loadings at the point of renewal.\". The Discharge summary from Narayana Health, Bangalore dated 2024-11-07 and the Certificate of the treating doctor, Dr. Patel show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 6(i) without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-12-12; Discharge summary from Narayana Health, Bangalore dated 2024-11-07; Certificate of the treating doctor, Dr. Patel.\n\nYours faithfully,\nRajeev Bansal"
   },
   {
-    "case_id": "G6-040",
+    "case_id": "G6-037",
     "case_facts": {
       "claim_id": "CLM-2024-3641",
       "patient": "Naresh Biswas",
       "hospital": "BLK-MAX, New Delhi",
       "insurer": "ICICI Lombard",
       "product": "Elevate Health",
-      "clause": "2",
-      "clause_id": "ELEVAT-EXC-1808",
-      "topic": "Policy Exclusion",
-      "exception_text": "30-day Waiting Period- Code- Excl03 Treatment of any Illness within 30 days from the first Policy start date, except covered claims arising due to an Accident.",
+      "clause": "34",
+      "clause_id": "ELEVAT-WAI-1762",
+      "topic": "Waiting Period",
+      "exception_text": "24 months for maternity, 36 months for ART, and 30 days for Diagnostic credits and Elevate HER GynaeCare-OPD ConsultationVisit unless renewed continuously.",
       "admission_date": "2024-03-07",
       "denial_date": "2024-04-06"
     },
     "mandatory_citations": [
-      "Clause 2 of Elevate Health",
+      "Clause 34 of Elevate Health",
       "Repudiation letter dated 2024-04-06",
       "Discharge summary from BLK-MAX, New Delhi dated 2024-03-07",
       "Certificate of the treating doctor, Dr. Nair"
     ],
+    "target_forum": "Grievance Redressal Officer of the insurer",
+    "reference_appeal_text": "To: The Grievance Redressal Officer of the insurer\n\nSubject: Appeal against repudiation of Claim CLM-2024-3641 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Naresh Biswas, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2024-3641 for treatment at BLK-MAX, New Delhi was repudiated by the insurer's letter dated 2024-04-06, citing Clause 34 of Elevate Health (Waiting Period).\n\nThe same clause provides an exception, which reads: \"24 months for maternity, 36 months for ART, and 30 days for Diagnostic credits and Elevate HER GynaeCare-OPD ConsultationVisit unless renewed continuously.\". The Discharge summary from BLK-MAX, New Delhi dated 2024-03-07 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 34 without considering this exception, I request the Grievance Redressal Officer of the insurer to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-04-06; Discharge summary from BLK-MAX, New Delhi dated 2024-03-07; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nNaresh Biswas"
+  },
+  {
+    "case_id": "G6-038",
+    "case_facts": {
+      "claim_id": "CLM-2024-3095",
+      "patient": "Saroja Nambiar",
+      "hospital": "Ruby Hall Clinic, Pune",
+      "insurer": "ICICI Lombard",
+      "product": "Health AdvantEdge",
+      "clause": "8(i)",
+      "clause_id": "HEALTH-EXC-2044",
+      "topic": "Policy Exclusion",
+      "exception_text": "Provided that where there is an improvement in the risk profile, the company may endeavor to recognize that for removal of loadings at the point of renewal.",
+      "admission_date": "2024-05-14",
+      "denial_date": "2024-05-27"
+    },
+    "mandatory_citations": [
+      "Clause 8(i) of Health AdvantEdge",
+      "Repudiation letter dated 2024-05-27",
+      "Discharge summary from Ruby Hall Clinic, Pune dated 2024-05-14",
+      "Certificate of the treating doctor, Dr. Sen"
+    ],
+    "target_forum": "Insurance Ombudsman",
+    "reference_appeal_text": "To: The Insurance Ombudsman\n\nSubject: Appeal against repudiation of Claim CLM-2024-3095 under Health AdvantEdge\n\nRespected Sir/Madam,\n\nI, Saroja Nambiar, hold the Health AdvantEdge policy issued by ICICI Lombard. My claim CLM-2024-3095 for treatment at Ruby Hall Clinic, Pune was repudiated by the insurer's letter dated 2024-05-27, citing Clause 8(i) of Health AdvantEdge (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Provided that where there is an improvement in the risk profile, the company may endeavor to recognize that for removal of loadings at the point of renewal.\". The Discharge summary from Ruby Hall Clinic, Pune dated 2024-05-14 and the Certificate of the treating doctor, Dr. Sen show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 8(i) without considering this exception, I request the Insurance Ombudsman to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-05-27; Discharge summary from Ruby Hall Clinic, Pune dated 2024-05-14; Certificate of the treating doctor, Dr. Sen.\n\nYours faithfully,\nSaroja Nambiar"
+  },
+  {
+    "case_id": "G6-039",
+    "case_facts": {
+      "claim_id": "CLM-2023-9399",
+      "patient": "Pavan Kumar B",
+      "hospital": "SRM Institute, Chennai",
+      "insurer": "Star Health",
+      "product": "Star Women Care",
+      "clause": "19",
+      "clause_id": "STARWO-EXC-2995",
+      "topic": "Policy Exclusion",
+      "exception_text": "Circumcision (unless necessary for treatment of a disease not excluded under this policy or necessitated due to an accident), Preputioplasty, Frenuloplasty, Preputial Dilatation and Removal of SMEGMA - Code-Excl 19.",
+      "admission_date": "2023-10-03",
+      "denial_date": "2023-11-04"
+    },
+    "mandatory_citations": [
+      "Clause 19 of Star Women Care",
+      "Repudiation letter dated 2023-11-04",
+      "Discharge summary from SRM Institute, Chennai dated 2023-10-03",
+      "Certificate of the treating doctor, Dr. Iyer"
+    ],
+    "target_forum": "IRDAI Bima Bharosa portal",
+    "reference_appeal_text": "To: The IRDAI Bima Bharosa portal\n\nSubject: Appeal against repudiation of Claim CLM-2023-9399 under Star Women Care\n\nRespected Sir/Madam,\n\nI, Pavan Kumar B, hold the Star Women Care policy issued by Star Health. My claim CLM-2023-9399 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2023-11-04, citing Clause 19 of Star Women Care (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"Circumcision (unless necessary for treatment of a disease not excluded under this policy or necessitated due to an accident), Preputioplasty, Frenuloplasty, Preputial Dilatation and Removal of SMEGMA - Code-Excl 19.\". The Discharge summary from SRM Institute, Chennai dated 2023-10-03 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 19 without considering this exception, I request the IRDAI Bima Bharosa portal to direct Star Health to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-11-04; Discharge summary from SRM Institute, Chennai dated 2023-10-03; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nPavan Kumar B"
+  },
+  {
+    "case_id": "G6-040",
+    "case_facts": {
+      "claim_id": "CLM-2023-5231",
+      "patient": "Suresh Patel",
+      "hospital": "SRM Institute, Chennai",
+      "insurer": "ICICI Lombard",
+      "product": "Arogya Sanjeevani",
+      "clause": "3.46",
+      "clause_id": "AROGYA-EXC-1280",
+      "topic": "Policy Exclusion",
+      "exception_text": "“Specific waiting period/ Specified Disease/Procedure waiting period/” means a period up to 24 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.",
+      "admission_date": "2023-04-25",
+      "denial_date": "2023-05-12"
+    },
+    "mandatory_citations": [
+      "Clause 3.46 of Arogya Sanjeevani",
+      "Repudiation letter dated 2023-05-12",
+      "Discharge summary from SRM Institute, Chennai dated 2023-04-25",
+      "Certificate of the treating doctor, Dr. Iyer"
+    ],
     "target_forum": "District Consumer Disputes Redressal Commission",
-    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2024-3641 under Elevate Health\n\nRespected Sir/Madam,\n\nI, Naresh Biswas, hold the Elevate Health policy issued by ICICI Lombard. My claim CLM-2024-3641 for treatment at BLK-MAX, New Delhi was repudiated by the insurer's letter dated 2024-04-06, citing Clause 2 of Elevate Health (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"30-day Waiting Period- Code- Excl03 Treatment of any Illness within 30 days from the first Policy start date, except covered claims arising due to an Accident.\". The Discharge summary from BLK-MAX, New Delhi dated 2024-03-07 and the Certificate of the treating doctor, Dr. Nair show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 2 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2024-04-06; Discharge summary from BLK-MAX, New Delhi dated 2024-03-07; Certificate of the treating doctor, Dr. Nair.\n\nYours faithfully,\nNaresh Biswas"
+    "reference_appeal_text": "To: The District Consumer Disputes Redressal Commission\n\nSubject: Appeal against repudiation of Claim CLM-2023-5231 under Arogya Sanjeevani\n\nRespected Sir/Madam,\n\nI, Suresh Patel, hold the Arogya Sanjeevani policy issued by ICICI Lombard. My claim CLM-2023-5231 for treatment at SRM Institute, Chennai was repudiated by the insurer's letter dated 2023-05-12, citing Clause 3.46 of Arogya Sanjeevani (Policy Exclusion).\n\nThe same clause provides an exception, which reads: \"“Specific waiting period/ Specified Disease/Procedure waiting period/” means a period up to 24 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.\". The Discharge summary from SRM Institute, Chennai dated 2023-04-25 and the Certificate of the treating doctor, Dr. Iyer show that the circumstances described in this exception apply to my case. Copies are attached.\n\nBecause the insurer applied Clause 3.46 without considering this exception, I request the District Consumer Disputes Redressal Commission to direct ICICI Lombard to reconsider and settle my claim.\n\nEnclosures: Repudiation letter dated 2023-05-12; Discharge summary from SRM Institute, Chennai dated 2023-04-25; Certificate of the treating doctor, Dr. Iyer.\n\nYours faithfully,\nSuresh Patel"
   }
 ]

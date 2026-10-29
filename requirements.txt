@@ -1,0 +1,19 @@
+# Objective 02: intake, triage and web interface (versions tested on Python 3.11)
+pydantic==2.13.4
+numpy==2.4.6
+scikit-learn==1.9.0
+RapidFuzz==3.14.5
+pymupdf==1.28.0
+pillow==12.3.0
+rapidocr-onnxruntime==1.4.4
+langgraph==1.2.18
+fastapi==0.139.0
+uvicorn==0.51.0
+python-multipart==0.0.32
+
+# optional LLM voter
+openai==2.44.0
+
+# tests
+pytest==9.1.1
+httpx==0.28.1

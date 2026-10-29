@@ -1,0 +1,93 @@
+"""Phrase cues for the seven denial categories.
+
+The cues come from the sub-categories in denial_reasons.csv and from the wording
+Indian health policies use for waiting periods, exclusions, limits and claim
+procedure. Weight 3 marks a phrase that on its own names the category; weight 1
+marks a phrase that only leans towards it.
+"""
+
+CUES = {
+    "MEDICAL_NECESSITY": [
+        (r"not medically (?:necessary|required|justified)|medical necessity", 3),
+        (r"\bconservative(?:ly)?\b|managed (?:conservatively|medically)", 2),
+        (r"\b(?:out-?patient|opd|day ?care) basis\b|treated on an outpatient", 3),
+        (r"does not (?:justify|warrant|support)|not (?:justified|warranted)", 2),
+        (r"inpatient admission|hospitali[sz]ation was not required|active (?:inpatient )?(?:line of )?treatment", 2),
+        (r"\belective\b", 2),
+        (r"clinical guidelines|standard (?:of care|treatment protocol)", 2),
+        (r"\bobservation\b", 2),
+        (r"medical (?:panel|team|opinion|scrutiny)", 1),
+        (r"less invasive|alternative treatment", 2),
+        (r"stage of the illness|need for", 1),
+    ],
+    "PRE_EXISTING_WAITING_PERIOD": [
+        (r"pre-?existing|\bped\b", 3),
+        (r"waiting period", 3),
+        (r"before (?:the )?(?:policy )?(?:inception|commencement)|prior to (?:the )?(?:policy )?inception", 2),
+        (r"first (?:30|thirty) days|within 30 days of (?:the )?(?:policy|inception)|initial (?:30-day )?waiting", 3),
+        (r"\b(?:24|36|48)[- ]months?\b", 2),
+        (r"specific (?:disease )?waiting|listed (?:condition|illness)|specified disease", 2),
+        (r"not (?:been )?disclosed|non-?disclosure|did not disclose", 2),
+        (r"\bmoratorium\b|continuous (?:coverage|renewal)|portability", 1),
+        (r"\bcongenital internal\b", 1),
+    ],
+    "POLICY_EXCLUSION": [
+        (r"\bpermanent(?:ly)? exclu", 3),
+        (r"\bexclu(?:ded|sion)\b", 2),
+        (r"standard exclusions|general exclusions", 3),
+        (r"\bdental\b|\bcosmetic\b|plastic surgery|\bmaternity\b|pregnan|infertil|sterility|\bivf\b", 2),
+        (r"adventure sports?|hazardous|\bwar\b|nuclear|self-?inflicted|suicide", 2),
+        (r"alcohol|drug abuse|substance abuse|intoxicat", 2),
+        (r"obesity|bariatric|weight control|refractive error|spectacles|hearing aid", 2),
+        (r"external congenital|congenital anomal", 2),
+        (r"unproven|experimental|investigational", 2),
+        (r"evaluation and investigation|investigation (?:purpose|only)|diagnostic purposes? only", 2),
+        (r"rest cure|rehabilitation|change of gender", 2),
+        (r"does not cover|not covered", 1),
+    ],
+    "FINANCIAL_LIMIT": [
+        (r"sum insured (?:has been |is )?(?:exhausted|utili[sz]ed)|exhausted", 3),
+        (r"sub-?limit|\bcapped\b|\bcap(?:ping)? of\b|maximum (?:payable|limit)", 3),
+        (r"room rent|room category|\bicu\b charges", 3),
+        (r"co-?pay(?:ment)?", 3),
+        (r"\bdeductible\b", 3),
+        (r"proportionate(?:ly)? deduct|deduct(?:ed|ion)", 2),
+        (r"non-?medical|consumables|non-?payable items", 3),
+        (r"payable amount has been reduced|partially (?:settled|paid)|amount (?:payable|admissible) is limited", 2),
+        (r"(?<!time )\blimit\b|\bper cent of\b|\d+% of", 1),
+        (r"pre-? ?(?:and|/) ?post-? ?hospitali[sz]ation|domiciliary", 1),
+    ],
+    "DOCUMENTATION": [
+        (r"not (?:been )?(?:submitted|provided|received|furnished|attached|enclosed)", 3),
+        (r"\bmissing\b|incomplete|illegible|\bunsigned\b|not signed", 3),
+        (r"discharge summary|final bill|original bills?|investigation reports?|lab reports?|case papers?", 2),
+        (r"claim form|kyc|pan card|aadhaar|implant (?:invoice|sticker)|sticker|prescription|batch number", 2),
+        (r"documents? (?:called for|requested|required|sought)|despite (?:repeated )?reminders|query (?:was )?not (?:replied|answered)", 3),
+        (r"do not match|mismatch|discrepanc|inconsistent", 2),
+    ],
+    "ADMINISTRATIVE_PROCEDURAL": [
+        (r"intimat(?:ed|ion)", 3),
+        (r"late (?:submission|intimation)|delay(?:ed)? in (?:submission|intimation)|beyond the (?:stipulated|prescribed) (?:time|period)", 3),
+        (r"duplicate claim|already (?:been )?(?:settled|paid|processed)|another claim", 3),
+        (r"non-?network|network hospital|\btpa\b", 2),
+        (r"pre-?auth(?:ori[sz]ation)?|cashless (?:request )?(?:was )?(?:denied|rejected)", 2),
+        (r"de-?listed|black-?listed|excluded (?:provider|hospital)", 3),
+        (r"premium (?:was )?not (?:received|paid)|cheque (?:was )?dishonou?red|section 64vb", 3),
+        (r"other (?:policy|insurer|insurance)|contribution clause|not declared", 2),
+        (r"within (?:\d+|seven|fifteen|thirty) days of discharge|timeline|time limit|\bcashless\b", 1),
+    ],
+    "ELIGIBILITY_COVERAGE": [
+        (r"not (?:listed|covered|enrolled|included) as an? (?:insured|covered) (?:member|person)|not an insured member", 3),
+        (r"not (?:a )?(?:member|beneficiary)|policy schedule", 2),
+        (r"lapsed|expired|not in force|was not active|\bbreak in (?:the )?policy\b", 3),
+        (r"grace period", 2),
+        (r"\bcancel(?:led|lation)\b|rescind|void ab initio|terminated", 3),
+        (r"before the (?:policy )?(?:start|commencement) date|policy (?:had )?not (?:yet )?commenced", 2),
+        (r"dependent|added to the policy|endorsement", 2),
+        (r"\bage\b (?:limit|eligibility)|exceeded the (?:maximum )?(?:entry )?age|over the age", 3),
+        (r"outside india|territorial|geographical", 3),
+        (r"\bfraud|fabricated|misrepresent", 3),
+        (r"does not (?:qualify|meet the definition) (?:as|of) a hospital|not a (?:registered )?hospital", 3),
+        (r"non-?resident", 2),
+    ],
+}

@@ -1,0 +1,24 @@
+{
+  "note": "Made-up details in the layout of a real ICICI Lombard group-policy repudiation letter. The image is rendered by make_group_letter.py.",
+  "truth": {
+    "claim_id": "230315448812",
+    "letter_ref": "417",
+    "patient_name": "KAVITHA RAMAN",
+    "member_id": "IL30551234567",
+    "insurer": "ICICI Lombard",
+    "policy_type": "group",
+    "policy_number": "4016/245678901/02/000",
+    "policy_start": "2023-04-01",
+    "policy_end": "2024-03-31",
+    "admission_date": "2024-02-26",
+    "denial_date": "2024-03-14",
+    "denial_category_hint": "Sum Insured Exhausted",
+    "appeal_window_days": 56,
+    "hospital_name": null,
+    "procedure": null,
+    "claimed_amount": null,
+    "cited_clause_raw": null
+  },
+  "category": "FINANCIAL_LIMIT",
+  "reason_id": "FIN-001"
+}

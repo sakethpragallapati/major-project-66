@@ -1,0 +1,42 @@
+[
+  {
+    "id": "L-01",
+    "text": "STAR HEALTH AND ALLIED INSURANCE CO. LTD.\nClaims Department, Chennai\n\nLetter Ref: STAR/CLM/2024/889\nDated: 14th June 2024\n\nTo,\nShri Ramesh Iyer\n12, Gandhi Road, Coimbatore\n\nSub: Repudiation of claim no. CLM-2024-70215 under Star Comprehensive\n\nDear Sir,\nWe have received your claim for reimbursement of Rs. 3,40,500/- towards Laparoscopic Cholecystectomy undergone at PSG Hospitals, Coimbatore from 22/05/2024.\nOn scrutiny, the claim is not admissible under Clause 2 (Specified disease / procedure waiting period) since the policy commenced on 01/04/2023 and the 24-month waiting period for gall bladder surgery is not complete.\nIf you are not satisfied, you may approach our Grievance Redressal Officer within 15 days of this letter.",
+    "truth": {"claim_id": "CLM-2024-70215", "patient_name": "Ramesh Iyer", "insurer": "Star Health", "policy_product": "Star Comprehensive", "denial_date": "2024-06-14", "admission_date": "2024-05-22", "hospital_name": "PSG Hospitals, Coimbatore", "procedure": "Laparoscopic Cholecystectomy", "claimed_amount": 340500.0, "cited_clause_raw": "Clause 2", "category": "PRE_EXISTING_WAITING_PERIOD"}
+  },
+  {
+    "id": "L-02",
+    "text": "ICICI LOMBARD GENERAL INSURANCE COMPANY LIMITED\n\nDate: 03-02-2025\nClaim Number: CLM-2025-11872\nPolicy Number: 4128/HAE/2024/00911\nProduct: Health AdvantEdge\nPatient Name: Mrs. Sunita Rao\nDate of Admission: 18-01-2025\nHospital Name: Care Hospitals, Banjara Hills\nTreatment: Septoplasty\nAmount Claimed: INR 98,450\n\nReason for Repudiation: Clause 4 - The admission was for a planned procedure that could be done as day care, and inpatient stay was not medically necessary.\n\nYou may represent against this decision within 30 days.",
+    "truth": {"claim_id": "CLM-2025-11872", "patient_name": "Sunita Rao", "insurer": "ICICI Lombard", "policy_product": "Health AdvantEdge", "denial_date": "2025-02-03", "admission_date": "2025-01-18", "hospital_name": "Care Hospitals, Banjara Hills", "procedure": "Septoplasty", "claimed_amount": 98450.0, "cited_clause_raw": "Clause 4", "category": "MEDICAL_NECESSITY"}
+  },
+  {
+    "id": "L-03",
+    "text": "Care Health Insurance Limited\n\n7 October 2024\n\nDear Mr. Faisal Khan,\n\nRe: Claim CLM-2024-33410, policy Care Supreme\n\nThank you for submitting your claim of ₹1,12,000 for treatment of dengue fever at Max Hospital, Patparganj, where you were admitted on 19 September 2024.\nWe are unable to settle the claim as the original discharge summary and the platelet count reports requested on 25 September 2024 have not been received despite two reminders.\nThe claim will be reconsidered once these documents are submitted.",
+    "truth": {"claim_id": "CLM-2024-33410", "patient_name": "Faisal Khan", "insurer": "Care Health", "policy_product": "Care Supreme", "denial_date": "2024-10-07", "admission_date": "2024-09-19", "hospital_name": "Max Hospital, Patparganj", "claimed_amount": 112000.0, "category": "DOCUMENTATION"}
+  },
+  {
+    "id": "L-04",
+    "text": "HDFC ERGO GENERAL INSURANCE COMPANY LTD.\nClaim Settlement Letter\nDate: 2025-08-29\nClaim No.: CLM-2025-48821\nInsured Name: Deepa Menon\nPolicy: Optima Restore\nHospital: Aster Medcity, Kochi\nDate of Admission: 2025-08-10\nBilled Amount: Rs. 2,15,600\n\nYour claim has been partly settled. The insured stayed in a suite room at Rs 12,000 per day while the eligible room rent is Rs 6,000 per day, so associated charges were reduced proportionately as per Section 3.1. Non-medical items worth Rs 8,300 were also deducted.",
+    "truth": {"claim_id": "CLM-2025-48821", "patient_name": "Deepa Menon", "insurer": "HDFC ERGO", "policy_product": "Optima Restore", "denial_date": "2025-08-29", "admission_date": "2025-08-10", "hospital_name": "Aster Medcity, Kochi", "claimed_amount": 215600.0, "cited_clause_raw": "Section 3.1", "category": "FINANCIAL_LIMIT"}
+  },
+  {
+    "id": "L-05",
+    "text": "ICICI Lombard\nDated 11/11/2024\n\nClaim Reference: CLM-2024-90117\nDear Mr. Harish Patel,\nThis is with regard to your claim for Rs. 61,250 under Arogya Sanjeevani for hospitalisation at Sterling Hospital, Vadodara on 02/10/2024.\nThe hospitalisation was intimated to us on 28/10/2024, 26 days after admission, and the documents were submitted after the time allowed by the policy. No reason for the delay was given, so the claim is rejected.\nYou may write to the Insurance Ombudsman, Ahmedabad if you disagree.",
+    "truth": {"claim_id": "CLM-2024-90117", "patient_name": "Harish Patel", "insurer": "ICICI Lombard", "policy_product": "Arogya Sanjeevani", "denial_date": "2024-11-11", "admission_date": "2024-10-02", "hospital_name": "Sterling Hospital, Vadodara", "claimed_amount": 61250.0, "category": "ADMINISTRATIVE_PROCEDURAL"}
+  },
+  {
+    "id": "L-06",
+    "text": "Star Health\nDate: 21.03.2025\nClaim No: CLM-2025-20990\nPatient: Kavya Reddy\nPlan: Family Health Optima\n\nDear Madam,\nThe claim for Rs. 45,000 for root canal treatment and extraction at Apollo Dental, Hyderabad on 05.03.2025 is not payable. Dental treatment is excluded under Code Excl 08 unless it requires hospitalisation due to an accident.",
+    "truth": {"claim_id": "CLM-2025-20990", "patient_name": "Kavya Reddy", "insurer": "Star Health", "policy_product": "Family Health Optima", "denial_date": "2025-03-21", "admission_date": "2025-03-05", "hospital_name": "Apollo Dental, Hyderabad", "claimed_amount": 45000.0, "cited_clause_raw": "Code Excl 08", "category": "POLICY_EXCLUSION"}
+  },
+  {
+    "id": "L-07",
+    "text": "HDFC ERGO\n16 January 2025\n\nDear Ms. Anjali Verma,\n\nWe refer to claim CLM-2025-00342 for Rs. 1,75,000 for appendicectomy at Fortis Hospital, Noida, admitted on 02 January 2025, under my:Optima Secure.\nOur records show that the policy lapsed on 15 November 2024 and the renewal premium was received only on 05 January 2025, after the grace period. There was no cover in force on the date of admission, and the claim is therefore declined.",
+    "truth": {"claim_id": "CLM-2025-00342", "patient_name": "Anjali Verma", "insurer": "HDFC ERGO", "policy_product": "my:Optima Secure", "denial_date": "2025-01-16", "admission_date": "2025-01-02", "hospital_name": "Fortis Hospital, Noida", "claimed_amount": 175000.0, "category": "ELIGIBILITY_COVERAGE"}
+  },
+  {
+    "id": "L-08",
+    "text": "CARE HEALTH INSURANCE LTD\nRepudiation Letter\n\nDate: 09/07/2025\nClaim ID: CLM-2025-61204\nName of Insured: Mr. Joseph Mathew\nPolicy: Care\nDOA: 21/06/2025\nName of Hospital: Lisie Hospital, Ernakulam\nProcedure: Total Knee Replacement\nClaimed Amount: Rs 3,95,000\nDiagnosis code: M17.11\n\nThe insured has been a known case of osteoarthritis of both knees since 2021, before the policy inception on 10/02/2023. This pre-existing disease is covered only after 36 months of continuous coverage. Claim repudiated under Clause 4.1.",
+    "truth": {"claim_id": "CLM-2025-61204", "patient_name": "Joseph Mathew", "insurer": "Care Health", "policy_product": "Care", "denial_date": "2025-07-09", "admission_date": "2025-06-21", "hospital_name": "Lisie Hospital, Ernakulam", "procedure": "Total Knee Replacement", "claimed_amount": 395000.0, "icd10_code": "M17.11", "cited_clause_raw": "Clause 4.1", "category": "PRE_EXISTING_WAITING_PERIOD"}
+  }
+]

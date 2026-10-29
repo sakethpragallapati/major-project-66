@@ -1,7 +1,7 @@
 [
   {
     "case_id": "G1-001",
-    "raw_letter_text": "Care Health\nDate: 2024-08-13\nRef: CLM-2024-4657\n\nDear Ashok Malhotra,\nWith reference to your hospitalization on 2024-07-17 at Manipal Hospital, Bangalore for Cervical Spinal Fusion (ICD-10: M47.812), your claim for Rs 265,000 under Care has been repudiated under Clause 2 (Non-Medical Expenses). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "Care Health\nDate: 2024-08-13\nRef: CLM-2024-4657\n\nDear Ashok Malhotra,\nWith reference to your hospitalization on 2024-07-17 at Manipal Hospital, Bangalore for Cervical Spinal Fusion (ICD-10: M47.812), your claim for Rs 265,000 under Care has been repudiated under Clause 18 (Non-Medical Expenses). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-4657",
       "patient_name": "Ashok Malhotra",
@@ -13,8 +13,8 @@
       "procedure": "Cervical Spinal Fusion",
       "icd10_code": "M47.812",
       "claimed_amount": 265000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "CARE-COV-0227",
+      "cited_clause_raw": "Clause 18",
+      "cited_clause_id": "CARE-EXC-0352",
       "denial_category_hint": "Non-Medical Expenses"
     }
   },
@@ -39,7 +39,7 @@
   },
   {
     "case_id": "G1-003",
-    "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2024-12-08\n\nTo: Neha Agarwal\nPolicy: my:Optima Secure | Claim: CLM-2024-2519\nHospital: AIIMS, New Delhi\nDate of Hospitalization: 2024-11-20\nProcedure/Treatment: Aortic Valve Replacement [I35.0]\nBilled Amount: Rs. 253,000\n\nDenial Ground: Your claim has been denied under Clause 2.13, which pertains to Room Rent Limit, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2024-12-08\n\nTo: Neha Agarwal\nPolicy: my:Optima Secure | Claim: CLM-2024-2519\nHospital: AIIMS, New Delhi\nDate of Hospitalization: 2024-11-20\nProcedure/Treatment: Aortic Valve Replacement [I35.0]\nBilled Amount: Rs. 253,000\n\nDenial Ground: Your claim has been denied under Clause 1(i), which pertains to Room Rent Limit, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-2519",
       "patient_name": "Neha Agarwal",
@@ -51,14 +51,14 @@
       "procedure": "Aortic Valve Replacement",
       "icd10_code": "I35.0",
       "claimed_amount": 253000.0,
-      "cited_clause_raw": "Clause 2.13",
-      "cited_clause_id": "MYOPTI-COV-1056",
+      "cited_clause_raw": "Clause 1(i)",
+      "cited_clause_id": "MYOPTI-COV-1058",
       "denial_category_hint": "Room Rent Limit"
     }
   },
   {
     "case_id": "G1-004",
-    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2025-02-03\n\nTo: Meera Reddy\nPolicy: Arogya Sanjeevani | Claim: CLM-2025-2139\nHospital: Amrita Hospital, Kochi\nDate of Hospitalization: 2025-01-10\nProcedure/Treatment: Coronary Artery Bypass Graft [I25.10]\nBilled Amount: Rs. 1,437,000\n\nDenial Ground: Your claim has been denied under Clause 3.46, which pertains to Room Rent Limit, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2025-02-03\n\nTo: Meera Reddy\nPolicy: Arogya Sanjeevani | Claim: CLM-2025-2139\nHospital: Amrita Hospital, Kochi\nDate of Hospitalization: 2025-01-10\nProcedure/Treatment: Coronary Artery Bypass Graft [I25.10]\nBilled Amount: Rs. 1,437,000\n\nDenial Ground: Your claim has been denied under Clause 4.7, which pertains to Non-Medical Expenses, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-2139",
       "patient_name": "Meera Reddy",
@@ -70,14 +70,14 @@
       "procedure": "Coronary Artery Bypass Graft",
       "icd10_code": "I25.10",
       "claimed_amount": 1437000.0,
-      "cited_clause_raw": "Clause 3.46",
-      "cited_clause_id": "AROGYA-DEF-1279",
-      "denial_category_hint": "Room Rent Limit"
+      "cited_clause_raw": "Clause 4.7",
+      "cited_clause_id": "AROGYA-EXC-1294",
+      "denial_category_hint": "Non-Medical Expenses"
     }
   },
   {
     "case_id": "G1-005",
-    "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2025-03-03\n\nTo: Ashok Malhotra\nPolicy: Optima Restore | Claim: CLM-2025-4432\nHospital: Yashoda Hospital, Hyderabad\nDate of Hospitalization: 2025-01-28\nProcedure/Treatment: Cervical Spinal Fusion [M47.812]\nBilled Amount: Rs. 1,484,000\n\nDenial Ground: Your claim has been denied under Clause 3, which pertains to Investigation and Evaluation Exclusion, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2025-03-03\n\nTo: Ashok Malhotra\nPolicy: Optima Restore | Claim: CLM-2025-4432\nHospital: Yashoda Hospital, Hyderabad\nDate of Hospitalization: 2025-01-28\nProcedure/Treatment: Cervical Spinal Fusion [M47.812]\nBilled Amount: Rs. 1,484,000\n\nDenial Ground: Your claim has been denied under Clause 3, which pertains to Non-Medical Expenses, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-4432",
       "patient_name": "Ashok Malhotra",
@@ -90,13 +90,13 @@
       "icd10_code": "M47.812",
       "claimed_amount": 1484000.0,
       "cited_clause_raw": "Clause 3",
-      "cited_clause_id": "OPTIMA-EXC-0747",
-      "denial_category_hint": "Investigation and Evaluation Exclusion"
+      "cited_clause_id": "OPTIMA-COV-0835",
+      "denial_category_hint": "Non-Medical Expenses"
     }
   },
   {
     "case_id": "G1-006",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-04-26\nClaim Reference: CLM-2024-1916\nDear Kishore Sinha,\nThis is to inform you that your health insurance claim under Policy No. ILGI/4752/2024 (Max Protect) for treatment at Tata Memorial Hospital, Mumbai has been denied.\nProcedure: Liver Transplant\nDiagnosis Code: K74.60\nClaimed Amount: Rs. 117,000\nDenial Reason: Clause 4 - Room Rent Limit\nDate of Admission: 2024-03-25\nPlease contact your TPA for further details.",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-04-26\nClaim Reference: CLM-2024-1916\nDear Kishore Sinha,\nThis is to inform you that your health insurance claim under Policy No. ILGI/4752/2024 (Max Protect) for treatment at Tata Memorial Hospital, Mumbai has been denied.\nProcedure: Liver Transplant\nDiagnosis Code: K74.60\nClaimed Amount: Rs. 117,000\nDenial Reason: Clause 4(i) - Room Rent Limit\nDate of Admission: 2024-03-25\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-1916",
       "patient_name": "Kishore Sinha",
@@ -108,8 +108,8 @@
       "procedure": "Liver Transplant",
       "icd10_code": "K74.60",
       "claimed_amount": 117000.0,
-      "cited_clause_raw": "Clause 4",
-      "cited_clause_id": "MAXPRO-EXC-2377",
+      "cited_clause_raw": "Clause 4(i)",
+      "cited_clause_id": "MAXPRO-COV-2379",
       "denial_category_hint": "Room Rent Limit"
     }
   },
@@ -134,7 +134,7 @@
   },
   {
     "case_id": "G1-008",
-    "raw_letter_text": "ICICI Lombard\n2025-10-24\n\nDear Amit Verma,\n\nYour claim CLM-2025-1771 for Rs. 371,000/- towards Cervical Spinal Fusion performed on 2025-10-07 at AIIMS, New Delhi has been disallowed under your Health Booster policy.\n\nReason for Denial: Clause 1 - Co-Payment Deduction\nICD-10 Code: M47.812\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "raw_letter_text": "ICICI Lombard\n2025-10-24\n\nDear Amit Verma,\n\nYour claim CLM-2025-1771 for Rs. 371,000/- towards Cervical Spinal Fusion performed on 2025-10-07 at AIIMS, New Delhi has been disallowed under your Health Booster policy.\n\nReason for Denial: Clause 7(a) - Investigation and Evaluation Exclusion\nICD-10 Code: M47.812\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-1771",
       "patient_name": "Amit Verma",
@@ -146,336 +146,355 @@
       "procedure": "Cervical Spinal Fusion",
       "icd10_code": "M47.812",
       "claimed_amount": 371000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "HEALTH-EXC-2135",
-      "denial_category_hint": "Co-Payment Deduction"
+      "cited_clause_raw": "Clause 7(a)",
+      "cited_clause_id": "HEALTH-EXC-2142",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
     }
   },
   {
     "case_id": "G1-009",
-    "raw_letter_text": "Care Health\n2023-09-21\n\nDear Ravi Menon,\n\nYour claim CLM-2023-6573 for Rs. 666,000/- towards Laparoscopic Sleeve Gastrectomy performed on 2023-08-23 at Amrita Hospital, Kochi has been disallowed under your Care policy.\n\nReason for Denial: Clause 2.1.45 - Unproven or Experimental Treatment Exclusion\nICD-10 Code: E66.01\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-9797\nIssued by: Star Health\nDate: 2023-02-12\n\nDear Mr./Ms. Ravi Menon,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-9797 for Aortic Valve Replacement at Amrita Hospital, Kochi, admitted on 2023-01-24, has been repudiated.\n\nThe claim amount of Rs. 1,394,000 is not payable under Star Women Care due to Clause 4 (Investigation and Evaluation Exclusion). The diagnosis code I35.0 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2023-6573",
+      "claim_id": "CLM-2023-9797",
       "patient_name": "Ravi Menon",
-      "insurer": "Care Health",
-      "policy_product": "Care",
-      "admission_date": "2023-08-23",
-      "denial_date": "2023-09-21",
+      "insurer": "Star Health",
+      "policy_product": "Star Women Care",
+      "admission_date": "2023-01-24",
+      "denial_date": "2023-02-12",
       "hospital_name": "Amrita Hospital, Kochi",
-      "procedure": "Laparoscopic Sleeve Gastrectomy",
-      "icd10_code": "E66.01",
-      "claimed_amount": 666000.0,
-      "cited_clause_raw": "Clause 2.1.45",
-      "cited_clause_id": "CARE-DEF-0046",
-      "denial_category_hint": "Unproven or Experimental Treatment Exclusion"
+      "procedure": "Aortic Valve Replacement",
+      "icd10_code": "I35.0",
+      "claimed_amount": 1394000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "STARWO-EXC-2982",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
     }
   },
   {
     "case_id": "G1-010",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-3504\nIssued by: ICICI Lombard\nDate: 2025-11-29\n\nDear Mr./Ms. Rajesh Gupta,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-3504 for IMRT Radiation Therapy at CMC Vellore, admitted on 2025-11-05, has been repudiated.\n\nThe claim amount of Rs. 389,000 is not payable under Max Protect due to Clause 4 (Non-Medical Expenses). The diagnosis code C34.90 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "raw_letter_text": "ICICI Lombard\nDate: 2023-09-06\nRef: CLM-2023-9317\n\nDear Alok Tripathi,\nWith reference to your hospitalization on 2023-08-06 at Medanta, Gurgaon for Aortic Valve Replacement (ICD-10: I35.0), your claim for Rs 371,000 under Health Booster has been repudiated under Clause 7(a) (Investigation and Evaluation Exclusion). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-3504",
-      "patient_name": "Rajesh Gupta",
+      "claim_id": "CLM-2023-9317",
+      "patient_name": "Alok Tripathi",
       "insurer": "ICICI Lombard",
-      "policy_product": "Max Protect",
-      "admission_date": "2025-11-05",
-      "denial_date": "2025-11-29",
-      "hospital_name": "CMC Vellore",
-      "procedure": "IMRT Radiation Therapy",
-      "icd10_code": "C34.90",
-      "claimed_amount": 389000.0,
-      "cited_clause_raw": "Clause 4",
-      "cited_clause_id": "MAXPRO-EXC-2377",
-      "denial_category_hint": "Non-Medical Expenses"
+      "policy_product": "Health Booster",
+      "admission_date": "2023-08-06",
+      "denial_date": "2023-09-06",
+      "hospital_name": "Medanta, Gurgaon",
+      "procedure": "Aortic Valve Replacement",
+      "icd10_code": "I35.0",
+      "claimed_amount": 371000.0,
+      "cited_clause_raw": "Clause 7(a)",
+      "cited_clause_id": "HEALTH-EXC-2142",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
     }
   },
   {
     "case_id": "G1-011",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-2403\nIssued by: Care Health\nDate: 2024-05-25\n\nDear Mr./Ms. Geeta Pillai,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-2403 for Liver Transplant at Narayana Health, Bangalore, admitted on 2024-05-08, has been repudiated.\n\nThe claim amount of Rs. 195,000 is not payable under Care due to Clause 2 (Non-Medical Expenses). The diagnosis code K74.60 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "raw_letter_text": "REPUDIATION NOTICE\nStar Health\nDate of letter: 2024-10-18\n\nTo: Sunita Mishra\nPolicy: Star Women Care | Claim: CLM-2024-1949\nHospital: Yashoda Hospital, Hyderabad\nDate of Hospitalization: 2024-09-21\nProcedure/Treatment: Total Hip Replacement [M16.11]\nBilled Amount: Rs. 1,240,000\n\nDenial Ground: Your claim has been denied under Clause 4, which pertains to Investigation and Evaluation Exclusion, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-2403",
-      "patient_name": "Geeta Pillai",
-      "insurer": "Care Health",
-      "policy_product": "Care",
-      "admission_date": "2024-05-08",
-      "denial_date": "2024-05-25",
-      "hospital_name": "Narayana Health, Bangalore",
-      "procedure": "Liver Transplant",
-      "icd10_code": "K74.60",
-      "claimed_amount": 195000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "CARE-COV-0227",
-      "denial_category_hint": "Non-Medical Expenses"
+      "claim_id": "CLM-2024-1949",
+      "patient_name": "Sunita Mishra",
+      "insurer": "Star Health",
+      "policy_product": "Star Women Care",
+      "admission_date": "2024-09-21",
+      "denial_date": "2024-10-18",
+      "hospital_name": "Yashoda Hospital, Hyderabad",
+      "procedure": "Total Hip Replacement",
+      "icd10_code": "M16.11",
+      "claimed_amount": 1240000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "STARWO-EXC-2982",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
     }
   },
   {
     "case_id": "G1-012",
-    "raw_letter_text": "ICICI Lombard\nDate: 2024-04-02\nRef: CLM-2024-6107\n\nDear Jaya Kamath,\nWith reference to your hospitalization on 2024-03-09 at Aster MIMS, Kozhikode for Cervical Spinal Fusion (ICD-10: M47.812), your claim for Rs 1,459,000 under Elevate Health has been repudiated under Clause 15 (Room Rent Limit). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "ICICI Lombard\n2025-12-31\n\nDear Swati Ghosh,\n\nYour claim CLM-2025-4470 for Rs. 1,497,000/- towards Coronary Artery Bypass Graft performed on 2025-11-22 at Medanta, Gurgaon has been disallowed under your Arogya Sanjeevani policy.\n\nReason for Denial: Clause 9.2 - Co-Payment Deduction\nICD-10 Code: I25.10\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-6107",
-      "patient_name": "Jaya Kamath",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Elevate Health",
-      "admission_date": "2024-03-09",
-      "denial_date": "2024-04-02",
-      "hospital_name": "Aster MIMS, Kozhikode",
-      "procedure": "Cervical Spinal Fusion",
-      "icd10_code": "M47.812",
-      "claimed_amount": 1459000.0,
-      "cited_clause_raw": "Clause 15",
-      "cited_clause_id": "ELEVAT-EXC-1729",
-      "denial_category_hint": "Room Rent Limit"
-    }
-  },
-  {
-    "case_id": "G1-013",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-1117\nIssued by: ICICI Lombard\nDate: 2024-05-12\n\nDear Mr./Ms. Asha Tiwari,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-1117 for Total Knee Replacement at Apollo Hospitals, Hyderabad, admitted on 2024-04-16, has been repudiated.\n\nThe claim amount of Rs. 1,374,000 is not payable under Health Shield 360 due to Clause 5 (Investigation and Evaluation Exclusion). The diagnosis code M17.11 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-1117",
-      "patient_name": "Asha Tiwari",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Health Shield 360",
-      "admission_date": "2024-04-16",
-      "denial_date": "2024-05-12",
-      "hospital_name": "Apollo Hospitals, Hyderabad",
-      "procedure": "Total Knee Replacement",
-      "icd10_code": "M17.11",
-      "claimed_amount": 1374000.0,
-      "cited_clause_raw": "Clause 5",
-      "cited_clause_id": "HEALTH-EXC-2293",
-      "denial_category_hint": "Investigation and Evaluation Exclusion"
-    }
-  },
-  {
-    "case_id": "G1-014",
-    "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2023-11-09\n\nTo: Rajeev Bansal\nPolicy: my:Optima Secure | Claim: CLM-2023-4981\nHospital: BLK-MAX, New Delhi\nDate of Hospitalization: 2023-09-28\nProcedure/Treatment: Coronary Artery Bypass Graft [I25.10]\nBilled Amount: Rs. 904,000\n\nDenial Ground: Your claim has been denied under Clause 11, which pertains to Investigation and Evaluation Exclusion, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-4981",
-      "patient_name": "Rajeev Bansal",
-      "insurer": "HDFC ERGO",
-      "policy_product": "my:Optima Secure",
-      "admission_date": "2023-09-28",
-      "denial_date": "2023-11-09",
-      "hospital_name": "BLK-MAX, New Delhi",
-      "procedure": "Coronary Artery Bypass Graft",
-      "icd10_code": "I25.10",
-      "claimed_amount": 904000.0,
-      "cited_clause_raw": "Clause 11",
-      "cited_clause_id": "MYOPTI-COV-1177",
-      "denial_category_hint": "Investigation and Evaluation Exclusion"
-    }
-  },
-  {
-    "case_id": "G1-015",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-7596\nIssued by: ICICI Lombard\nDate: 2023-08-05\n\nDear Mr./Ms. Sunil Jha,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-7596 for Coronary Artery Bypass Graft at Fortis Hospital, Gurgaon, admitted on 2023-07-21, has been repudiated.\n\nThe claim amount of Rs. 279,000 is not payable under Max Protect due to Clause 4 (Unproven or Experimental Treatment Exclusion). The diagnosis code I25.10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-7596",
-      "patient_name": "Sunil Jha",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Max Protect",
-      "admission_date": "2023-07-21",
-      "denial_date": "2023-08-05",
-      "hospital_name": "Fortis Hospital, Gurgaon",
-      "procedure": "Coronary Artery Bypass Graft",
-      "icd10_code": "I25.10",
-      "claimed_amount": 279000.0,
-      "cited_clause_raw": "Clause 4",
-      "cited_clause_id": "MAXPRO-EXC-2373",
-      "denial_category_hint": "Unproven or Experimental Treatment Exclusion"
-    }
-  },
-  {
-    "case_id": "G1-016",
-    "raw_letter_text": "REPUDIATION NOTICE\nCare Health\nDate of letter: 2025-07-14\n\nTo: Usha Chauhan\nPolicy: Care Supreme | Claim: CLM-2025-1828\nHospital: Narayana Health, Bangalore\nDate of Hospitalization: 2025-06-26\nProcedure/Treatment: Total Hip Replacement [M16.11]\nBilled Amount: Rs. 81,000\n\nDenial Ground: Your claim has been denied under Clause 2.1.45, which pertains to Unproven or Experimental Treatment Exclusion, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-1828",
-      "patient_name": "Usha Chauhan",
-      "insurer": "Care Health",
-      "policy_product": "Care Supreme",
-      "admission_date": "2025-06-26",
-      "denial_date": "2025-07-14",
-      "hospital_name": "Narayana Health, Bangalore",
-      "procedure": "Total Hip Replacement",
-      "icd10_code": "M16.11",
-      "claimed_amount": 81000.0,
-      "cited_clause_raw": "Clause 2.1.45",
-      "cited_clause_id": "CARESU-DEF-0417",
-      "denial_category_hint": "Unproven or Experimental Treatment Exclusion"
-    }
-  },
-  {
-    "case_id": "G1-017",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2023-02-10\nClaim Reference: CLM-2023-5345\nDear Anita Devi,\nThis is to inform you that your health insurance claim under Policy No. ILGI/8454/2023 (Elevate Health) for treatment at Medanta, Gurgaon has been denied.\nProcedure: Laparoscopic Sleeve Gastrectomy\nDiagnosis Code: E66.01\nClaimed Amount: Rs. 648,000\nDenial Reason: Clause 2 - Non-Medical Expenses\nDate of Admission: 2023-01-05\nPlease contact your TPA for further details.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-5345",
-      "patient_name": "Anita Devi",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Elevate Health",
-      "admission_date": "2023-01-05",
-      "denial_date": "2023-02-10",
-      "hospital_name": "Medanta, Gurgaon",
-      "procedure": "Laparoscopic Sleeve Gastrectomy",
-      "icd10_code": "E66.01",
-      "claimed_amount": 648000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "ELEVAT-COV-1850",
-      "denial_category_hint": "Non-Medical Expenses"
-    }
-  },
-  {
-    "case_id": "G1-018",
-    "raw_letter_text": "Star Health\nDate: 2023-06-06\nRef: CLM-2023-1936\n\nDear Anita Devi,\nWith reference to your hospitalization on 2023-05-05 at SRM Institute, Chennai for Mastectomy (Breast Cancer) (ICD-10: C50.911), your claim for Rs 1,275,000 under Star Comprehensive has been repudiated under Clause 4 (Modern Treatment Methods). You may file an appeal within 30 days of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-1936",
-      "patient_name": "Anita Devi",
-      "insurer": "Star Health",
-      "policy_product": "Star Comprehensive",
-      "admission_date": "2023-05-05",
-      "denial_date": "2023-06-06",
-      "hospital_name": "SRM Institute, Chennai",
-      "procedure": "Mastectomy (Breast Cancer)",
-      "icd10_code": "C50.911",
-      "claimed_amount": 1275000.0,
-      "cited_clause_raw": "Clause 4",
-      "cited_clause_id": "STARCO-COV-2527",
-      "denial_category_hint": "Modern Treatment Methods"
-    }
-  },
-  {
-    "case_id": "G1-019",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-06-02\nClaim Reference: CLM-2024-2964\nDear Vijay Khanna,\nThis is to inform you that your health insurance claim under Policy No. ILGI/5033/2024 (Max Protect) for treatment at Max Super Speciality, Saket has been denied.\nProcedure: Craniotomy for Tumor\nDiagnosis Code: C71.9\nClaimed Amount: Rs. 1,264,000\nDenial Reason: Clause 1 - Investigation and Evaluation Exclusion\nDate of Admission: 2024-04-26\nPlease contact your TPA for further details.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-2964",
-      "patient_name": "Vijay Khanna",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Max Protect",
-      "admission_date": "2024-04-26",
-      "denial_date": "2024-06-02",
-      "hospital_name": "Max Super Speciality, Saket",
-      "procedure": "Craniotomy for Tumor",
-      "icd10_code": "C71.9",
-      "claimed_amount": 1264000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "MAXPRO-EXC-2451",
-      "denial_category_hint": "Investigation and Evaluation Exclusion"
-    }
-  },
-  {
-    "case_id": "G1-020",
-    "raw_letter_text": "HDFC ERGO\n2024-08-03\n\nDear Rajeev Bansal,\n\nYour claim CLM-2024-3144 for Rs. 1,009,000/- towards Aortic Valve Replacement performed on 2024-06-27 at KIMS, Hyderabad has been disallowed under your my:Optima Secure policy.\n\nReason for Denial: Clause 11 - Investigation and Evaluation Exclusion\nICD-10 Code: I35.0\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-3144",
-      "patient_name": "Rajeev Bansal",
-      "insurer": "HDFC ERGO",
-      "policy_product": "my:Optima Secure",
-      "admission_date": "2024-06-27",
-      "denial_date": "2024-08-03",
-      "hospital_name": "KIMS, Hyderabad",
-      "procedure": "Aortic Valve Replacement",
-      "icd10_code": "I35.0",
-      "claimed_amount": 1009000.0,
-      "cited_clause_raw": "Clause 11",
-      "cited_clause_id": "MYOPTI-COV-1177",
-      "denial_category_hint": "Investigation and Evaluation Exclusion"
-    }
-  },
-  {
-    "case_id": "G1-021",
-    "raw_letter_text": "ICICI Lombard\nDate: 2023-11-02\nRef: CLM-2023-2127\n\nDear Lakshmi Rao,\nWith reference to your hospitalization on 2023-09-29 at Global Hospitals, Hyderabad for Percutaneous Coronary Stent (ICD-10: I25.110), your claim for Rs 825,000 under Arogya Sanjeevani has been repudiated under Clause 9.2 (Co-Payment Deduction). You may file an appeal within 30 days of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-2127",
-      "patient_name": "Lakshmi Rao",
+      "claim_id": "CLM-2025-4470",
+      "patient_name": "Swati Ghosh",
       "insurer": "ICICI Lombard",
       "policy_product": "Arogya Sanjeevani",
-      "admission_date": "2023-09-29",
-      "denial_date": "2023-11-02",
-      "hospital_name": "Global Hospitals, Hyderabad",
-      "procedure": "Percutaneous Coronary Stent",
-      "icd10_code": "I25.110",
-      "claimed_amount": 825000.0,
+      "admission_date": "2025-11-22",
+      "denial_date": "2025-12-31",
+      "hospital_name": "Medanta, Gurgaon",
+      "procedure": "Coronary Artery Bypass Graft",
+      "icd10_code": "I25.10",
+      "claimed_amount": 1497000.0,
       "cited_clause_raw": "Clause 9.2",
       "cited_clause_id": "AROGYA-COV-1321",
       "denial_category_hint": "Co-Payment Deduction"
     }
   },
   {
-    "case_id": "G1-022",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-5462\nIssued by: Care Health\nDate: 2023-08-29\n\nDear Mr./Ms. Arun Nair,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-5462 for Coronary Artery Bypass Graft at Tata Memorial Hospital, Mumbai, admitted on 2023-08-08, has been repudiated.\n\nThe claim amount of Rs. 1,318,000 is not payable under Care Supreme due to Clause 2.1.42 (Room Rent Limit). The diagnosis code I25.10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "case_id": "G1-013",
+    "raw_letter_text": "HDFC ERGO | Claim Repudiation Letter\nLetter date: 2024-04-21\nClaim Reference: CLM-2024-6539\nDear Gopal Mehta,\nThis is to inform you that your health insurance claim under Policy No. HDFC/1344/2024 (my:Optima Secure) for treatment at Manipal Hospital, Bangalore has been denied.\nProcedure: IMRT Radiation Therapy\nDiagnosis Code: C34.90\nClaimed Amount: Rs. 1,284,000\nDenial Reason: Clause 2 - Non-Medical Expenses\nDate of Admission: 2024-04-05\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2023-5462",
-      "patient_name": "Arun Nair",
-      "insurer": "Care Health",
-      "policy_product": "Care Supreme",
-      "admission_date": "2023-08-08",
-      "denial_date": "2023-08-29",
-      "hospital_name": "Tata Memorial Hospital, Mumbai",
-      "procedure": "Coronary Artery Bypass Graft",
-      "icd10_code": "I25.10",
-      "claimed_amount": 1318000.0,
-      "cited_clause_raw": "Clause 2.1.42",
-      "cited_clause_id": "CARESU-DEF-0414",
-      "denial_category_hint": "Room Rent Limit"
+      "claim_id": "CLM-2024-6539",
+      "patient_name": "Gopal Mehta",
+      "insurer": "HDFC ERGO",
+      "policy_product": "my:Optima Secure",
+      "admission_date": "2024-04-05",
+      "denial_date": "2024-04-21",
+      "hospital_name": "Manipal Hospital, Bangalore",
+      "procedure": "IMRT Radiation Therapy",
+      "icd10_code": "C34.90",
+      "claimed_amount": 1284000.0,
+      "cited_clause_raw": "Clause 2",
+      "cited_clause_id": "MYOPTI-COV-1171",
+      "denial_category_hint": "Non-Medical Expenses"
     }
   },
   {
-    "case_id": "G1-023",
-    "raw_letter_text": "ICICI Lombard\n2025-06-15\n\nDear Anita Devi,\n\nYour claim CLM-2025-1722 for Rs. 750,000/- towards Liver Transplant performed on 2025-05-17 at Max Super Speciality, Saket has been disallowed under your Max Protect policy.\n\nReason for Denial: Clause 4 - Unproven or Experimental Treatment Exclusion\nICD-10 Code: K74.60\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "case_id": "G1-014",
+    "raw_letter_text": "REPUDIATION NOTICE\nStar Health\nDate of letter: 2024-11-23\n\nTo: Vikram Singh\nPolicy: Star Women Care | Claim: CLM-2024-9423\nHospital: Fortis Hospital, Gurgaon\nDate of Hospitalization: 2024-11-07\nProcedure/Treatment: Cervical Spinal Fusion [M47.812]\nBilled Amount: Rs. 634,000\n\nDenial Ground: Your claim has been denied under Clause 16, which pertains to Unproven or Experimental Treatment Exclusion, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-1722",
-      "patient_name": "Anita Devi",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Max Protect",
-      "admission_date": "2025-05-17",
-      "denial_date": "2025-06-15",
-      "hospital_name": "Max Super Speciality, Saket",
-      "procedure": "Liver Transplant",
-      "icd10_code": "K74.60",
-      "claimed_amount": 750000.0,
-      "cited_clause_raw": "Clause 4",
-      "cited_clause_id": "MAXPRO-EXC-2373",
+      "claim_id": "CLM-2024-9423",
+      "patient_name": "Vikram Singh",
+      "insurer": "Star Health",
+      "policy_product": "Star Women Care",
+      "admission_date": "2024-11-07",
+      "denial_date": "2024-11-23",
+      "hospital_name": "Fortis Hospital, Gurgaon",
+      "procedure": "Cervical Spinal Fusion",
+      "icd10_code": "M47.812",
+      "claimed_amount": 634000.0,
+      "cited_clause_raw": "Clause 16",
+      "cited_clause_id": "STARWO-EXC-2992",
       "denial_category_hint": "Unproven or Experimental Treatment Exclusion"
     }
   },
   {
-    "case_id": "G1-024",
-    "raw_letter_text": "Care Health | Claim Repudiation Letter\nLetter date: 2023-11-16\nClaim Reference: CLM-2023-7049\nDear Ramesh Kumar,\nThis is to inform you that your health insurance claim under Policy No. CARE/3426/2023 (Care Supreme) for treatment at Manipal Hospital, Bangalore has been denied.\nProcedure: Lumbar Spinal Fusion\nDiagnosis Code: M47.816\nClaimed Amount: Rs. 951,000\nDenial Reason: Clause 2.1.42 - Room Rent Limit\nDate of Admission: 2023-11-02\nPlease contact your TPA for further details.",
+    "case_id": "G1-015",
+    "raw_letter_text": "Care Health\nDate: 2023-08-26\nRef: CLM-2023-6804\n\nDear Harish Pandey,\nWith reference to your hospitalization on 2023-07-18 at Kokilaben Dhirubhai Ambani, Mumbai for Mastectomy (Breast Cancer) (ICD-10: C50.911), your claim for Rs 912,000 under Care Supreme has been repudiated under Clause 3.2.7 (Co-Payment Deduction). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2023-7049",
-      "patient_name": "Ramesh Kumar",
+      "claim_id": "CLM-2023-6804",
+      "patient_name": "Harish Pandey",
       "insurer": "Care Health",
       "policy_product": "Care Supreme",
-      "admission_date": "2023-11-02",
-      "denial_date": "2023-11-16",
-      "hospital_name": "Manipal Hospital, Bangalore",
-      "procedure": "Lumbar Spinal Fusion",
-      "icd10_code": "M47.816",
-      "claimed_amount": 951000.0,
-      "cited_clause_raw": "Clause 2.1.42",
-      "cited_clause_id": "CARESU-DEF-0414",
-      "denial_category_hint": "Room Rent Limit"
-    }
-  },
-  {
-    "case_id": "G1-025",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2025-05-03\nClaim Reference: CLM-2025-4878\nDear Rajeev Bansal,\nThis is to inform you that your health insurance claim under Policy No. ILGI/3662/2025 (Complete Health Insurance) for treatment at Manipal Hospital, Bangalore has been denied.\nProcedure: Septoplasty\nDiagnosis Code: J34.2\nClaimed Amount: Rs. 421,000\nDenial Reason: Clause 17 - Co-Payment Deduction\nDate of Admission: 2025-04-12\nPlease contact your TPA for further details.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-4878",
-      "patient_name": "Rajeev Bansal",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Complete Health Insurance",
-      "admission_date": "2025-04-12",
-      "denial_date": "2025-05-03",
-      "hospital_name": "Manipal Hospital, Bangalore",
-      "procedure": "Septoplasty",
-      "icd10_code": "J34.2",
-      "claimed_amount": 421000.0,
-      "cited_clause_raw": "Clause 17",
-      "cited_clause_id": "COMPLE-COV-1448",
+      "admission_date": "2023-07-18",
+      "denial_date": "2023-08-26",
+      "hospital_name": "Kokilaben Dhirubhai Ambani, Mumbai",
+      "procedure": "Mastectomy (Breast Cancer)",
+      "icd10_code": "C50.911",
+      "claimed_amount": 912000.0,
+      "cited_clause_raw": "Clause 3.2.7",
+      "cited_clause_id": "CARESU-COV-0514",
       "denial_category_hint": "Co-Payment Deduction"
     }
   },
   {
+    "case_id": "G1-016",
+    "raw_letter_text": "HDFC ERGO\n2025-07-27\n\nDear Pooja Kapoor,\n\nYour claim CLM-2025-7912 for Rs. 634,000/- towards Mastectomy (Breast Cancer) performed on 2025-07-07 at Kokilaben Dhirubhai Ambani, Mumbai has been disallowed under your my:Optima Secure policy.\n\nReason for Denial: Clause 1(i) - Room Rent Limit\nICD-10 Code: C50.911\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-7912",
+      "patient_name": "Pooja Kapoor",
+      "insurer": "HDFC ERGO",
+      "policy_product": "my:Optima Secure",
+      "admission_date": "2025-07-07",
+      "denial_date": "2025-07-27",
+      "hospital_name": "Kokilaben Dhirubhai Ambani, Mumbai",
+      "procedure": "Mastectomy (Breast Cancer)",
+      "icd10_code": "C50.911",
+      "claimed_amount": 634000.0,
+      "cited_clause_raw": "Clause 1(i)",
+      "cited_clause_id": "MYOPTI-COV-1058",
+      "denial_category_hint": "Room Rent Limit"
+    }
+  },
+  {
+    "case_id": "G1-017",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-7658\nIssued by: Star Health\nDate: 2024-05-21\n\nDear Mr./Ms. Ramesh Kumar,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-7658 for Coronary Artery Bypass Graft at Max Super Speciality, Saket, admitted on 2024-04-29, has been repudiated.\n\nThe claim amount of Rs. 1,059,000 is not payable under Family Health Optima due to Clause 28 (Co-Payment Deduction). The diagnosis code I25.10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-7658",
+      "patient_name": "Ramesh Kumar",
+      "insurer": "Star Health",
+      "policy_product": "Family Health Optima",
+      "admission_date": "2024-04-29",
+      "denial_date": "2024-05-21",
+      "hospital_name": "Max Super Speciality, Saket",
+      "procedure": "Coronary Artery Bypass Graft",
+      "icd10_code": "I25.10",
+      "claimed_amount": 1059000.0,
+      "cited_clause_raw": "Clause 28",
+      "cited_clause_id": "FAMILY-COV-2805",
+      "denial_category_hint": "Co-Payment Deduction"
+    }
+  },
+  {
+    "case_id": "G1-018",
+    "raw_letter_text": "ICICI Lombard\nDate: 2025-10-14\nRef: CLM-2025-4111\n\nDear Usha Chauhan,\nWith reference to your hospitalization on 2025-09-23 at CMC Vellore for Total Knee Replacement (ICD-10: M17.11), your claim for Rs 507,000 under Elevate Health has been repudiated under Clause 2 (Non-Medical Expenses). You may file an appeal within 30 days of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-4111",
+      "patient_name": "Usha Chauhan",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Elevate Health",
+      "admission_date": "2025-09-23",
+      "denial_date": "2025-10-14",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Total Knee Replacement",
+      "icd10_code": "M17.11",
+      "claimed_amount": 507000.0,
+      "cited_clause_raw": "Clause 2",
+      "cited_clause_id": "ELEVAT-COV-1850",
+      "denial_category_hint": "Non-Medical Expenses"
+    }
+  },
+  {
+    "case_id": "G1-019",
+    "raw_letter_text": "ICICI Lombard\nDate: 2025-12-31\nRef: CLM-2025-1931\n\nDear Kamala Subramaniam,\nWith reference to your hospitalization on 2025-12-09 at BLK-MAX, New Delhi for Robotic Prostatectomy (ICD-10: C61), your claim for Rs 218,000 under Health Booster has been repudiated under Clause 7(a) (Investigation and Evaluation Exclusion). You may file an appeal within 30 days of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-1931",
+      "patient_name": "Kamala Subramaniam",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Health Booster",
+      "admission_date": "2025-12-09",
+      "denial_date": "2025-12-31",
+      "hospital_name": "BLK-MAX, New Delhi",
+      "procedure": "Robotic Prostatectomy",
+      "icd10_code": "C61",
+      "claimed_amount": 218000.0,
+      "cited_clause_raw": "Clause 7(a)",
+      "cited_clause_id": "HEALTH-EXC-2142",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
+    }
+  },
+  {
+    "case_id": "G1-020",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2023-04-09\nClaim Reference: CLM-2023-7868\nDear Pavan Kumar B,\nThis is to inform you that your health insurance claim under Policy No. ILGI/9565/2023 (Health Shield 360) for treatment at Narayana Health, Bangalore has been denied.\nProcedure: Septoplasty\nDiagnosis Code: J34.2\nClaimed Amount: Rs. 713,000\nDenial Reason: Clause 3 - Modern Treatment Methods\nDate of Admission: 2023-03-23\nPlease contact your TPA for further details.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-7868",
+      "patient_name": "Pavan Kumar B",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Health Shield 360",
+      "admission_date": "2023-03-23",
+      "denial_date": "2023-04-09",
+      "hospital_name": "Narayana Health, Bangalore",
+      "procedure": "Septoplasty",
+      "icd10_code": "J34.2",
+      "claimed_amount": 713000.0,
+      "cited_clause_raw": "Clause 3",
+      "cited_clause_id": "HEALTH-COV-2206",
+      "denial_category_hint": "Modern Treatment Methods"
+    }
+  },
+  {
+    "case_id": "G1-021",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-1152\nIssued by: ICICI Lombard\nDate: 2024-10-25\n\nDear Mr./Ms. Rajeev Bansal,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-1152 for Craniotomy for Tumor at CMC Vellore, admitted on 2024-10-09, has been repudiated.\n\nThe claim amount of Rs. 1,353,000 is not payable under Health AdvantEdge due to Clause 5 (Investigation and Evaluation Exclusion). The diagnosis code C71.9 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-1152",
+      "patient_name": "Rajeev Bansal",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Health AdvantEdge",
+      "admission_date": "2024-10-09",
+      "denial_date": "2024-10-25",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Craniotomy for Tumor",
+      "icd10_code": "C71.9",
+      "claimed_amount": 1353000.0,
+      "cited_clause_raw": "Clause 5",
+      "cited_clause_id": "HEALTH-EXC-2023",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
+    }
+  },
+  {
+    "case_id": "G1-022",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-08-28\nClaim Reference: CLM-2024-8179\nDear Vikram Singh,\nThis is to inform you that your health insurance claim under Policy No. ILGI/9900/2024 (Complete Health Insurance) for treatment at Narayana Health, Bangalore has been denied.\nProcedure: Craniotomy for Tumor\nDiagnosis Code: C71.9\nClaimed Amount: Rs. 684,000\nDenial Reason: Clause 11(iii) - Co-Payment Deduction\nDate of Admission: 2024-08-06\nPlease contact your TPA for further details.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-8179",
+      "patient_name": "Vikram Singh",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Complete Health Insurance",
+      "admission_date": "2024-08-06",
+      "denial_date": "2024-08-28",
+      "hospital_name": "Narayana Health, Bangalore",
+      "procedure": "Craniotomy for Tumor",
+      "icd10_code": "C71.9",
+      "claimed_amount": 684000.0,
+      "cited_clause_raw": "Clause 11(iii)",
+      "cited_clause_id": "COMPLE-COV-1499",
+      "denial_category_hint": "Co-Payment Deduction"
+    }
+  },
+  {
+    "case_id": "G1-023",
+    "raw_letter_text": "REPUDIATION NOTICE\nCare Health\nDate of letter: 2023-12-14\n\nTo: Ravi Menon\nPolicy: Care Supreme | Claim: CLM-2023-5616\nHospital: Manipal Hospital, Bangalore\nDate of Hospitalization: 2023-11-15\nProcedure/Treatment: Coronary Artery Bypass Graft [I25.10]\nBilled Amount: Rs. 769,000\n\nDenial Ground: Your claim has been denied under Clause 6.1.6(i), which pertains to Room Rent Limit, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-5616",
+      "patient_name": "Ravi Menon",
+      "insurer": "Care Health",
+      "policy_product": "Care Supreme",
+      "admission_date": "2023-11-15",
+      "denial_date": "2023-12-14",
+      "hospital_name": "Manipal Hospital, Bangalore",
+      "procedure": "Coronary Artery Bypass Graft",
+      "icd10_code": "I25.10",
+      "claimed_amount": 769000.0,
+      "cited_clause_raw": "Clause 6.1.6(i)",
+      "cited_clause_id": "CARESU-COV-0622",
+      "denial_category_hint": "Room Rent Limit"
+    }
+  },
+  {
+    "case_id": "G1-024",
+    "raw_letter_text": "Care Health\n2024-12-04\n\nDear Neha Agarwal,\n\nYour claim CLM-2024-5291 for Rs. 977,000/- towards IMRT Radiation Therapy performed on 2024-11-14 at Fortis Hospital, Gurgaon has been disallowed under your Care policy.\n\nReason for Denial: Clause 3.2.18 - Co-Payment Deduction\nICD-10 Code: C34.90\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-5291",
+      "patient_name": "Neha Agarwal",
+      "insurer": "Care Health",
+      "policy_product": "Care",
+      "admission_date": "2024-11-14",
+      "denial_date": "2024-12-04",
+      "hospital_name": "Fortis Hospital, Gurgaon",
+      "procedure": "IMRT Radiation Therapy",
+      "icd10_code": "C34.90",
+      "claimed_amount": 977000.0,
+      "cited_clause_raw": "Clause 3.2.18",
+      "cited_clause_id": "CARE-COV-0266",
+      "denial_category_hint": "Co-Payment Deduction"
+    }
+  },
+  {
+    "case_id": "G1-025",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-3088\nIssued by: ICICI Lombard\nDate: 2023-12-09\n\nDear Mr./Ms. Suresh Patel,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-3088 for Aortic Valve Replacement at Yashoda Hospital, Hyderabad, admitted on 2023-10-31, has been repudiated.\n\nThe claim amount of Rs. 696,000 is not payable under Health Shield 360 due to Clause 5(a) (Investigation and Evaluation Exclusion). The diagnosis code I35.0 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-3088",
+      "patient_name": "Suresh Patel",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Health Shield 360",
+      "admission_date": "2023-10-31",
+      "denial_date": "2023-12-09",
+      "hospital_name": "Yashoda Hospital, Hyderabad",
+      "procedure": "Aortic Valve Replacement",
+      "icd10_code": "I35.0",
+      "claimed_amount": 696000.0,
+      "cited_clause_raw": "Clause 5(a)",
+      "cited_clause_id": "HEALTH-EXC-2294",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
+    }
+  },
+  {
     "case_id": "G1-026",
+    "raw_letter_text": "Star Health | Claim Repudiation Letter\nLetter date: 2025-05-03\nClaim Reference: CLM-2025-4878\nDear Hema Sundaram,\nThis is to inform you that your health insurance claim under Policy No. STAR/3662/2025 (Star Women Care) for treatment at Amrita Hospital, Kochi has been denied.\nProcedure: Septoplasty\nDiagnosis Code: J34.2\nClaimed Amount: Rs. 421,000\nDenial Reason: Clause 4 - Investigation and Evaluation Exclusion\nDate of Admission: 2025-04-12\nPlease contact your TPA for further details.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-4878",
+      "patient_name": "Hema Sundaram",
+      "insurer": "Star Health",
+      "policy_product": "Star Women Care",
+      "admission_date": "2025-04-12",
+      "denial_date": "2025-05-03",
+      "hospital_name": "Amrita Hospital, Kochi",
+      "procedure": "Septoplasty",
+      "icd10_code": "J34.2",
+      "claimed_amount": 421000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "STARWO-EXC-2982",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
+    }
+  },
+  {
+    "case_id": "G1-027",
     "raw_letter_text": "Star Health | Claim Repudiation Letter\nLetter date: 2023-09-15\nClaim Reference: CLM-2023-1634\nDear Neha Agarwal,\nThis is to inform you that your health insurance claim under Policy No. STAR/8711/2023 (Family Health Optima) for treatment at Medanta, Gurgaon has been denied.\nProcedure: Coronary Artery Bypass Graft\nDiagnosis Code: I25.10\nClaimed Amount: Rs. 516,000\nDenial Reason: Clause 28 - Co-Payment Deduction\nDate of Admission: 2023-08-10\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2023-1634",
@@ -494,7 +513,7 @@
     }
   },
   {
-    "case_id": "G1-027",
+    "case_id": "G1-028",
     "raw_letter_text": "ICICI Lombard\n2023-06-21\n\nDear Madhavi Kulkarni,\n\nYour claim CLM-2023-6753 for Rs. 888,000/- towards Cervical Spinal Fusion performed on 2023-05-23 at KIMS, Hyderabad has been disallowed under your Arogya Sanjeevani policy.\n\nReason for Denial: Clause 4.7 - Non-Medical Expenses\nICD-10 Code: M47.812\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2023-6753",
@@ -513,7 +532,7 @@
     }
   },
   {
-    "case_id": "G1-028",
+    "case_id": "G1-029",
     "raw_letter_text": "Care Health\nDate: 2025-07-12\nRef: CLM-2025-6139\n\nDear Ravi Menon,\nWith reference to your hospitalization on 2025-06-08 at Fortis Hospital, Gurgaon for IMRT Radiation Therapy (ICD-10: C34.90), your claim for Rs 1,321,000 under Care Supreme has been repudiated under Clause 3.2.7 (Co-Payment Deduction). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-6139",
@@ -532,8 +551,8 @@
     }
   },
   {
-    "case_id": "G1-029",
-    "raw_letter_text": "ICICI Lombard\n2024-03-14\n\nDear Jaya Kamath,\n\nYour claim CLM-2024-8066 for Rs. 1,443,000/- towards Septoplasty performed on 2024-02-08 at Amrita Hospital, Kochi has been disallowed under your Max Protect policy.\n\nReason for Denial: Clause 4 - Room Rent Limit\nICD-10 Code: J34.2\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "case_id": "G1-030",
+    "raw_letter_text": "ICICI Lombard\n2024-03-14\n\nDear Jaya Kamath,\n\nYour claim CLM-2024-8066 for Rs. 1,443,000/- towards Septoplasty performed on 2024-02-08 at Amrita Hospital, Kochi has been disallowed under your Max Protect policy.\n\nReason for Denial: Clause 4(i) - Room Rent Limit\nICD-10 Code: J34.2\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-8066",
       "patient_name": "Jaya Kamath",
@@ -545,14 +564,14 @@
       "procedure": "Septoplasty",
       "icd10_code": "J34.2",
       "claimed_amount": 1443000.0,
-      "cited_clause_raw": "Clause 4",
-      "cited_clause_id": "MAXPRO-EXC-2377",
+      "cited_clause_raw": "Clause 4(i)",
+      "cited_clause_id": "MAXPRO-COV-2379",
       "denial_category_hint": "Room Rent Limit"
     }
   },
   {
-    "case_id": "G1-030",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-3085\nIssued by: ICICI Lombard\nDate: 2025-05-04\n\nDear Mr./Ms. Geeta Pillai,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-3085 for Cervical Spinal Fusion at Ruby Hall Clinic, Pune, admitted on 2025-04-04, has been repudiated.\n\nThe claim amount of Rs. 932,000 is not payable under Complete Health Insurance due to Clause 17 (Co-Payment Deduction). The diagnosis code M47.812 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "case_id": "G1-031",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-3085\nIssued by: ICICI Lombard\nDate: 2025-05-04\n\nDear Mr./Ms. Geeta Pillai,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-3085 for Cervical Spinal Fusion at Ruby Hall Clinic, Pune, admitted on 2025-04-04, has been repudiated.\n\nThe claim amount of Rs. 932,000 is not payable under Complete Health Insurance due to Clause 11(iii) (Co-Payment Deduction). The diagnosis code M47.812 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-3085",
       "patient_name": "Geeta Pillai",
@@ -564,13 +583,13 @@
       "procedure": "Cervical Spinal Fusion",
       "icd10_code": "M47.812",
       "claimed_amount": 932000.0,
-      "cited_clause_raw": "Clause 17",
-      "cited_clause_id": "COMPLE-COV-1448",
+      "cited_clause_raw": "Clause 11(iii)",
+      "cited_clause_id": "COMPLE-COV-1499",
       "denial_category_hint": "Co-Payment Deduction"
     }
   },
   {
-    "case_id": "G1-031",
+    "case_id": "G1-032",
     "raw_letter_text": "Star Health\n2024-12-01\n\nDear Lakshmi Rao,\n\nYour claim CLM-2024-8238 for Rs. 1,467,000/- towards Coronary Artery Bypass Graft performed on 2024-10-21 at Ruby Hall Clinic, Pune has been disallowed under your Family Health Optima policy.\n\nReason for Denial: Clause 28 - Co-Payment Deduction\nICD-10 Code: I25.10\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-8238",
@@ -589,8 +608,8 @@
     }
   },
   {
-    "case_id": "G1-032",
-    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2023-08-07\n\nTo: Rajeev Bansal\nPolicy: Complete Health Insurance | Claim: CLM-2023-6085\nHospital: Aster MIMS, Kozhikode\nDate of Hospitalization: 2023-07-11\nProcedure/Treatment: Lumbar Spinal Fusion [M47.816]\nBilled Amount: Rs. 468,000\n\nDenial Ground: Your claim has been denied under Clause 17, which pertains to Co-Payment Deduction, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "case_id": "G1-033",
+    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2023-08-07\n\nTo: Rajeev Bansal\nPolicy: Complete Health Insurance | Claim: CLM-2023-6085\nHospital: Aster MIMS, Kozhikode\nDate of Hospitalization: 2023-07-11\nProcedure/Treatment: Lumbar Spinal Fusion [M47.816]\nBilled Amount: Rs. 468,000\n\nDenial Ground: Your claim has been denied under Clause 11(iii), which pertains to Co-Payment Deduction, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2023-6085",
       "patient_name": "Rajeev Bansal",
@@ -602,14 +621,14 @@
       "procedure": "Lumbar Spinal Fusion",
       "icd10_code": "M47.816",
       "claimed_amount": 468000.0,
-      "cited_clause_raw": "Clause 17",
-      "cited_clause_id": "COMPLE-COV-1448",
+      "cited_clause_raw": "Clause 11(iii)",
+      "cited_clause_id": "COMPLE-COV-1499",
       "denial_category_hint": "Co-Payment Deduction"
     }
   },
   {
-    "case_id": "G1-033",
-    "raw_letter_text": "HDFC ERGO\n2025-04-09\n\nDear Ashok Malhotra,\n\nYour claim CLM-2025-7547 for Rs. 359,000/- towards Cervical Spinal Fusion performed on 2025-02-25 at SRM Institute, Chennai has been disallowed under your my:Optima Secure policy.\n\nReason for Denial: Clause 11 - Investigation and Evaluation Exclusion\nICD-10 Code: M47.812\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "case_id": "G1-034",
+    "raw_letter_text": "HDFC ERGO\n2025-04-09\n\nDear Ashok Malhotra,\n\nYour claim CLM-2025-7547 for Rs. 359,000/- towards Cervical Spinal Fusion performed on 2025-02-25 at SRM Institute, Chennai has been disallowed under your my:Optima Secure policy.\n\nReason for Denial: Clause 2 - Non-Medical Expenses\nICD-10 Code: M47.812\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-7547",
       "patient_name": "Ashok Malhotra",
@@ -621,14 +640,14 @@
       "procedure": "Cervical Spinal Fusion",
       "icd10_code": "M47.812",
       "claimed_amount": 359000.0,
-      "cited_clause_raw": "Clause 11",
-      "cited_clause_id": "MYOPTI-COV-1177",
-      "denial_category_hint": "Investigation and Evaluation Exclusion"
+      "cited_clause_raw": "Clause 2",
+      "cited_clause_id": "MYOPTI-COV-1171",
+      "denial_category_hint": "Non-Medical Expenses"
     }
   },
   {
-    "case_id": "G1-034",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-06-13\nClaim Reference: CLM-2024-8478\nDear Usha Chauhan,\nThis is to inform you that your health insurance claim under Policy No. ILGI/3184/2024 (Health Booster) for treatment at Fortis Hospital, Gurgaon has been denied.\nProcedure: Cervical Spinal Fusion\nDiagnosis Code: M47.812\nClaimed Amount: Rs. 1,024,000\nDenial Reason: Clause 1 - Co-Payment Deduction\nDate of Admission: 2024-05-25\nPlease contact your TPA for further details.",
+    "case_id": "G1-035",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-06-13\nClaim Reference: CLM-2024-8478\nDear Usha Chauhan,\nThis is to inform you that your health insurance claim under Policy No. ILGI/3184/2024 (Health Booster) for treatment at Fortis Hospital, Gurgaon has been denied.\nProcedure: Cervical Spinal Fusion\nDiagnosis Code: M47.812\nClaimed Amount: Rs. 1,024,000\nDenial Reason: Clause 7(a) - Investigation and Evaluation Exclusion\nDate of Admission: 2024-05-25\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-8478",
       "patient_name": "Usha Chauhan",
@@ -640,13 +659,13 @@
       "procedure": "Cervical Spinal Fusion",
       "icd10_code": "M47.812",
       "claimed_amount": 1024000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "HEALTH-EXC-2135",
-      "denial_category_hint": "Co-Payment Deduction"
+      "cited_clause_raw": "Clause 7(a)",
+      "cited_clause_id": "HEALTH-EXC-2142",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
     }
   },
   {
-    "case_id": "G1-035",
+    "case_id": "G1-036",
     "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-5543\nIssued by: ICICI Lombard\nDate: 2024-07-11\n\nDear Mr./Ms. Rani Mukherjee,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-5543 for Cervical Spinal Fusion at BLK-MAX, New Delhi, admitted on 2024-06-14, has been repudiated.\n\nThe claim amount of Rs. 1,066,000 is not payable under Health AdvantEdge due to Clause 15 (Room Rent Limit). The diagnosis code M47.812 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-5543",
@@ -660,13 +679,13 @@
       "icd10_code": "M47.812",
       "claimed_amount": 1066000.0,
       "cited_clause_raw": "Clause 15",
-      "cited_clause_id": "HEALTH-COV-2017",
+      "cited_clause_id": "HEALTH-EXC-2018",
       "denial_category_hint": "Room Rent Limit"
     }
   },
   {
-    "case_id": "G1-036",
-    "raw_letter_text": "ICICI Lombard\n2023-07-05\n\nDear Asha Tiwari,\n\nYour claim CLM-2023-3471 for Rs. 853,000/- towards Renal Transplant performed on 2023-06-15 at KIMS, Hyderabad has been disallowed under your Health Booster policy.\n\nReason for Denial: Clause 3 - Investigation and Evaluation Exclusion\nICD-10 Code: N18.6\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "case_id": "G1-037",
+    "raw_letter_text": "ICICI Lombard\n2023-07-05\n\nDear Asha Tiwari,\n\nYour claim CLM-2023-3471 for Rs. 853,000/- towards Renal Transplant performed on 2023-06-15 at KIMS, Hyderabad has been disallowed under your Health Booster policy.\n\nReason for Denial: Clause 7(a) - Investigation and Evaluation Exclusion\nICD-10 Code: N18.6\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2023-3471",
       "patient_name": "Asha Tiwari",
@@ -678,13 +697,13 @@
       "procedure": "Renal Transplant",
       "icd10_code": "N18.6",
       "claimed_amount": 853000.0,
-      "cited_clause_raw": "Clause 3",
-      "cited_clause_id": "HEALTH-COV-2116",
+      "cited_clause_raw": "Clause 7(a)",
+      "cited_clause_id": "HEALTH-EXC-2142",
       "denial_category_hint": "Investigation and Evaluation Exclusion"
     }
   },
   {
-    "case_id": "G1-037",
+    "case_id": "G1-038",
     "raw_letter_text": "Care Health\n2024-04-06\n\nDear Usha Chauhan,\n\nYour claim CLM-2024-7381 for Rs. 1,257,000/- towards Laparoscopic Sleeve Gastrectomy performed on 2024-02-28 at Ruby Hall Clinic, Pune has been disallowed under your Care policy.\n\nReason for Denial: Clause 3.2.18 - Co-Payment Deduction\nICD-10 Code: E66.01\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-7381",
@@ -703,7 +722,7 @@
     }
   },
   {
-    "case_id": "G1-038",
+    "case_id": "G1-039",
     "raw_letter_text": "REPUDIATION NOTICE\nStar Health\nDate of letter: 2024-05-09\n\nTo: Rani Mukherjee\nPolicy: Family Health Optima | Claim: CLM-2024-4595\nHospital: Amrita Hospital, Kochi\nDate of Hospitalization: 2024-03-27\nProcedure/Treatment: Mastectomy (Breast Cancer) [C50.911]\nBilled Amount: Rs. 964,000\n\nDenial Ground: Your claim has been denied under Clause 4, which pertains to Investigation and Evaluation Exclusion, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-4595",
@@ -722,8 +741,8 @@
     }
   },
   {
-    "case_id": "G1-039",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-1444\nIssued by: ICICI Lombard\nDate: 2023-04-03\n\nDear Mr./Ms. Arun Nair,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-1444 for Laparoscopic Sleeve Gastrectomy at Aster MIMS, Kozhikode, admitted on 2023-02-25, has been repudiated.\n\nThe claim amount of Rs. 1,398,000 is not payable under Health Booster due to Clause 1 (Co-Payment Deduction). The diagnosis code E66.01 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "case_id": "G1-040",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-1444\nIssued by: ICICI Lombard\nDate: 2023-04-03\n\nDear Mr./Ms. Arun Nair,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-1444 for Laparoscopic Sleeve Gastrectomy at Aster MIMS, Kozhikode, admitted on 2023-02-25, has been repudiated.\n\nThe claim amount of Rs. 1,398,000 is not payable under Health Booster due to Clause 7(a) (Investigation and Evaluation Exclusion). The diagnosis code E66.01 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2023-1444",
       "patient_name": "Arun Nair",
@@ -735,14 +754,14 @@
       "procedure": "Laparoscopic Sleeve Gastrectomy",
       "icd10_code": "E66.01",
       "claimed_amount": 1398000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "HEALTH-EXC-2135",
-      "denial_category_hint": "Co-Payment Deduction"
+      "cited_clause_raw": "Clause 7(a)",
+      "cited_clause_id": "HEALTH-EXC-2142",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
     }
   },
   {
-    "case_id": "G1-040",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-12-28\nClaim Reference: CLM-2024-5558\nDear Lakshmi Rao,\nThis is to inform you that your health insurance claim under Policy No. ILGI/7906/2024 (Complete Health Insurance) for treatment at Artemis Hospital, Gurgaon has been denied.\nProcedure: Robotic Prostatectomy\nDiagnosis Code: C61\nClaimed Amount: Rs. 579,000\nDenial Reason: Clause 17 - Co-Payment Deduction\nDate of Admission: 2024-11-22\nPlease contact your TPA for further details.",
+    "case_id": "G1-041",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-12-28\nClaim Reference: CLM-2024-5558\nDear Lakshmi Rao,\nThis is to inform you that your health insurance claim under Policy No. ILGI/7906/2024 (Complete Health Insurance) for treatment at Artemis Hospital, Gurgaon has been denied.\nProcedure: Robotic Prostatectomy\nDiagnosis Code: C61\nClaimed Amount: Rs. 579,000\nDenial Reason: Clause 11(iii) - Co-Payment Deduction\nDate of Admission: 2024-11-22\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-5558",
       "patient_name": "Lakshmi Rao",
@@ -754,13 +773,13 @@
       "procedure": "Robotic Prostatectomy",
       "icd10_code": "C61",
       "claimed_amount": 579000.0,
-      "cited_clause_raw": "Clause 17",
-      "cited_clause_id": "COMPLE-COV-1448",
+      "cited_clause_raw": "Clause 11(iii)",
+      "cited_clause_id": "COMPLE-COV-1499",
       "denial_category_hint": "Co-Payment Deduction"
     }
   },
   {
-    "case_id": "G1-041",
+    "case_id": "G1-042",
     "raw_letter_text": "REPUDIATION NOTICE\nStar Health\nDate of letter: 2023-04-06\n\nTo: Saroja Nambiar\nPolicy: Family Health Optima | Claim: CLM-2023-5051\nHospital: Max Super Speciality, Saket\nDate of Hospitalization: 2023-03-24\nProcedure/Treatment: Craniotomy for Tumor [C71.9]\nBilled Amount: Rs. 93,000\n\nDenial Ground: Your claim has been denied under Clause 5, which pertains to Modern Treatment Methods, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2023-5051",
@@ -779,7 +798,7 @@
     }
   },
   {
-    "case_id": "G1-042",
+    "case_id": "G1-043",
     "raw_letter_text": "Star Health | Claim Repudiation Letter\nLetter date: 2025-02-16\nClaim Reference: CLM-2025-2876\nDear Tarun Bhatt,\nThis is to inform you that your health insurance claim under Policy No. STAR/3683/2025 (Family Health Optima) for treatment at Tata Memorial Hospital, Mumbai has been denied.\nProcedure: Total Hip Replacement\nDiagnosis Code: M16.11\nClaimed Amount: Rs. 702,000\nDenial Reason: Clause 4 - Investigation and Evaluation Exclusion\nDate of Admission: 2025-01-25\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-2876",
@@ -798,7 +817,7 @@
     }
   },
   {
-    "case_id": "G1-043",
+    "case_id": "G1-044",
     "raw_letter_text": "Star Health\n2024-05-30\n\nDear Vikram Singh,\n\nYour claim CLM-2024-5941 for Rs. 1,237,000/- towards Liver Transplant performed on 2024-05-12 at SRM Institute, Chennai has been disallowed under your Star Comprehensive policy.\n\nReason for Denial: Clause 4 - Investigation and Evaluation Exclusion\nICD-10 Code: K74.60\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-5941",
@@ -817,7 +836,7 @@
     }
   },
   {
-    "case_id": "G1-044",
+    "case_id": "G1-045",
     "raw_letter_text": "REPUDIATION NOTICE\nCare Health\nDate of letter: 2025-06-22\n\nTo: Saroja Nambiar\nPolicy: Care | Claim: CLM-2025-2729\nHospital: KIMS, Hyderabad\nDate of Hospitalization: 2025-05-10\nProcedure/Treatment: Cervical Spinal Fusion [M47.812]\nBilled Amount: Rs. 810,000\n\nDenial Ground: Your claim has been denied under Clause 3.2.18, which pertains to Co-Payment Deduction, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-2729",
@@ -836,7 +855,7 @@
     }
   },
   {
-    "case_id": "G1-045",
+    "case_id": "G1-046",
     "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-2419\nIssued by: ICICI Lombard\nDate: 2024-11-18\n\nDear Mr./Ms. Savita Hegde,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-2419 for Coronary Artery Bypass Graft at SRM Institute, Chennai, admitted on 2024-10-22, has been repudiated.\n\nThe claim amount of Rs. 995,000 is not payable under Arogya Sanjeevani due to Clause 9.2 (Co-Payment Deduction). The diagnosis code I25.10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-2419",
@@ -855,8 +874,8 @@
     }
   },
   {
-    "case_id": "G1-046",
-    "raw_letter_text": "HDFC ERGO | Claim Repudiation Letter\nLetter date: 2025-01-24\nClaim Reference: CLM-2024-6576\nDear Deepa Iyer,\nThis is to inform you that your health insurance claim under Policy No. HDFC/5581/2024 (my:Optima Secure) for treatment at BLK-MAX, New Delhi has been denied.\nProcedure: Renal Transplant\nDiagnosis Code: N18.6\nClaimed Amount: Rs. 1,300,000\nDenial Reason: Clause 2.13 - Room Rent Limit\nDate of Admission: 2024-12-27\nPlease contact your TPA for further details.",
+    "case_id": "G1-047",
+    "raw_letter_text": "HDFC ERGO | Claim Repudiation Letter\nLetter date: 2025-01-24\nClaim Reference: CLM-2024-6576\nDear Deepa Iyer,\nThis is to inform you that your health insurance claim under Policy No. HDFC/5581/2024 (my:Optima Secure) for treatment at BLK-MAX, New Delhi has been denied.\nProcedure: Renal Transplant\nDiagnosis Code: N18.6\nClaimed Amount: Rs. 1,300,000\nDenial Reason: Clause 1(i) - Room Rent Limit\nDate of Admission: 2024-12-27\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-6576",
       "patient_name": "Deepa Iyer",
@@ -868,13 +887,13 @@
       "procedure": "Renal Transplant",
       "icd10_code": "N18.6",
       "claimed_amount": 1300000.0,
-      "cited_clause_raw": "Clause 2.13",
-      "cited_clause_id": "MYOPTI-COV-1056",
+      "cited_clause_raw": "Clause 1(i)",
+      "cited_clause_id": "MYOPTI-COV-1058",
       "denial_category_hint": "Room Rent Limit"
     }
   },
   {
-    "case_id": "G1-047",
+    "case_id": "G1-048",
     "raw_letter_text": "ICICI Lombard\n2024-06-18\n\nDear Sunil Jha,\n\nYour claim CLM-2024-9041 for Rs. 86,000/- towards Total Hip Replacement performed on 2024-05-07 at Ruby Hall Clinic, Pune has been disallowed under your Health AdvantEdge policy.\n\nReason for Denial: Clause 15 - Room Rent Limit\nICD-10 Code: M16.11\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-9041",
@@ -888,13 +907,13 @@
       "icd10_code": "M16.11",
       "claimed_amount": 86000.0,
       "cited_clause_raw": "Clause 15",
-      "cited_clause_id": "HEALTH-COV-2017",
+      "cited_clause_id": "HEALTH-EXC-2018",
       "denial_category_hint": "Room Rent Limit"
     }
   },
   {
-    "case_id": "G1-048",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2025-12-31\nClaim Reference: CLM-2025-7971\nDear Rekha Bhat,\nThis is to inform you that your health insurance claim under Policy No. ILGI/6419/2025 (Health Booster) for treatment at BLK-MAX, New Delhi has been denied.\nProcedure: Renal Transplant\nDiagnosis Code: N18.6\nClaimed Amount: Rs. 788,000\nDenial Reason: Clause 1 - Co-Payment Deduction\nDate of Admission: 2025-11-27\nPlease contact your TPA for further details.",
+    "case_id": "G1-049",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2025-12-31\nClaim Reference: CLM-2025-7971\nDear Rekha Bhat,\nThis is to inform you that your health insurance claim under Policy No. ILGI/6419/2025 (Health Booster) for treatment at BLK-MAX, New Delhi has been denied.\nProcedure: Renal Transplant\nDiagnosis Code: N18.6\nClaimed Amount: Rs. 788,000\nDenial Reason: Clause 7(a) - Investigation and Evaluation Exclusion\nDate of Admission: 2025-11-27\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-7971",
       "patient_name": "Rekha Bhat",
@@ -906,13 +925,13 @@
       "procedure": "Renal Transplant",
       "icd10_code": "N18.6",
       "claimed_amount": 788000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "HEALTH-EXC-2135",
-      "denial_category_hint": "Co-Payment Deduction"
+      "cited_clause_raw": "Clause 7(a)",
+      "cited_clause_id": "HEALTH-EXC-2142",
+      "denial_category_hint": "Investigation and Evaluation Exclusion"
     }
   },
   {
-    "case_id": "G1-049",
+    "case_id": "G1-050",
     "raw_letter_text": "Star Health | Claim Repudiation Letter\nLetter date: 2024-02-08\nClaim Reference: CLM-2024-4545\nDear Venkatesh Murthy,\nThis is to inform you that your health insurance claim under Policy No. STAR/8933/2024 (Star Comprehensive) for treatment at Manipal Hospital, Bangalore has been denied.\nProcedure: Renal Transplant\nDiagnosis Code: N18.6\nClaimed Amount: Rs. 630,000\nDenial Reason: Clause 4 - Modern Treatment Methods\nDate of Admission: 2024-01-15\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-4545",
@@ -931,8 +950,8 @@
     }
   },
   {
-    "case_id": "G1-050",
-    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2023-02-18\n\nTo: Rekha Bhat\nPolicy: Arogya Sanjeevani | Claim: CLM-2023-5494\nHospital: Medanta, Gurgaon\nDate of Hospitalization: 2023-01-29\nProcedure/Treatment: IMRT Radiation Therapy [C34.90]\nBilled Amount: Rs. 164,000\n\nDenial Ground: Your claim has been denied under Clause 3.46, which pertains to Room Rent Limit, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "case_id": "G1-051",
+    "raw_letter_text": "ICICI Lombard\nDate: 2023-02-18\nRef: CLM-2023-5494\n\nDear Rekha Bhat,\nWith reference to your hospitalization on 2023-01-29 at Medanta, Gurgaon for Treatment for Osteoarthritis (Bilateral Knee) (ICD-10: M17.0), your claim for Rs 164,000 under Arogya Sanjeevani has been repudiated under Clause 6.3 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2023-5494",
       "patient_name": "Rekha Bhat",
@@ -941,278 +960,259 @@
       "admission_date": "2023-01-29",
       "denial_date": "2023-02-18",
       "hospital_name": "Medanta, Gurgaon",
-      "procedure": "IMRT Radiation Therapy",
-      "icd10_code": "C34.90",
-      "claimed_amount": 164000.0,
-      "cited_clause_raw": "Clause 3.46",
-      "cited_clause_id": "AROGYA-DEF-1279",
-      "denial_category_hint": "Room Rent Limit"
-    }
-  },
-  {
-    "case_id": "G1-051",
-    "raw_letter_text": "ICICI Lombard\nDate: 2024-01-28\nRef: CLM-2024-5136\n\nDear Naresh Biswas,\nWith reference to your hospitalization on 2024-01-13 at Artemis Hospital, Gurgaon for Treatment for Heart Failure (ICD-10: I50.9), your claim for Rs 289,000 under Complete Health Insurance has been repudiated under Clause 4 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-5136",
-      "patient_name": "Naresh Biswas",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Complete Health Insurance",
-      "admission_date": "2024-01-13",
-      "denial_date": "2024-01-28",
-      "hospital_name": "Artemis Hospital, Gurgaon",
-      "procedure": "Treatment for Heart Failure",
-      "icd10_code": "I50.9",
-      "claimed_amount": 289000.0,
-      "cited_clause_raw": "Clause 4",
-      "cited_clause_id": "COMPLE-EXC-1510",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-052",
-    "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2023-12-03\n\nTo: Pavan Kumar B\nPolicy: Optima Restore | Claim: CLM-2023-2395\nHospital: Fortis Hospital, Gurgaon\nDate of Hospitalization: 2023-11-02\nProcedure/Treatment: Treatment for Osteoarthritis (Bilateral Knee) [M17.0]\nBilled Amount: Rs. 298,000\n\nDenial Ground: Your claim has been denied under Clause 1, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-2395",
-      "patient_name": "Pavan Kumar B",
-      "insurer": "HDFC ERGO",
-      "policy_product": "Optima Restore",
-      "admission_date": "2023-11-02",
-      "denial_date": "2023-12-03",
-      "hospital_name": "Fortis Hospital, Gurgaon",
       "procedure": "Treatment for Osteoarthritis (Bilateral Knee)",
       "icd10_code": "M17.0",
-      "claimed_amount": 298000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "OPTIMA-WAI-0794",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-053",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2025-06-28\nClaim Reference: CLM-2025-1986\nDear Gopal Mehta,\nThis is to inform you that your health insurance claim under Policy No. ILGI/2625/2025 (Health Shield 360) for treatment at CMC Vellore has been denied.\nProcedure: Treatment for Atrial Fibrillation\nDiagnosis Code: I48.91\nClaimed Amount: Rs. 486,000\nDenial Reason: Clause 8 - Pre-Existing Disease Waiting Period\nDate of Admission: 2025-05-28\nPlease contact your TPA for further details.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-1986",
-      "patient_name": "Gopal Mehta",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Health Shield 360",
-      "admission_date": "2025-05-28",
-      "denial_date": "2025-06-28",
-      "hospital_name": "CMC Vellore",
-      "procedure": "Treatment for Atrial Fibrillation",
-      "icd10_code": "I48.91",
-      "claimed_amount": 486000.0,
-      "cited_clause_raw": "Clause 8",
-      "cited_clause_id": "HEALTH-WAI-2307",
-      "denial_category_hint": "Pre-Existing Disease Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-054",
-    "raw_letter_text": "ICICI Lombard\nDate: 2023-06-25\nRef: CLM-2023-1043\n\nDear Pooja Kapoor,\nWith reference to your hospitalization on 2023-06-03 at Medanta, Gurgaon for Treatment for Epilepsy (ICD-10: G40.909), your claim for Rs 995,000 under Health Booster has been repudiated under Clause 13 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-1043",
-      "patient_name": "Pooja Kapoor",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Health Booster",
-      "admission_date": "2023-06-03",
-      "denial_date": "2023-06-25",
-      "hospital_name": "Medanta, Gurgaon",
-      "procedure": "Treatment for Epilepsy",
-      "icd10_code": "G40.909",
-      "claimed_amount": 995000.0,
-      "cited_clause_raw": "Clause 13",
-      "cited_clause_id": "HEALTH-WAI-2157",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-055",
-    "raw_letter_text": "Star Health\nDate: 2024-09-12\nRef: CLM-2024-2166\n\nDear Amit Verma,\nWith reference to your hospitalization on 2024-08-02 at CMC Vellore for Treatment for Hyperlipidemia (ICD-10: E78.5), your claim for Rs 605,000 under Star Comprehensive has been repudiated under Clause 2 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-2166",
-      "patient_name": "Amit Verma",
-      "insurer": "Star Health",
-      "policy_product": "Star Comprehensive",
-      "admission_date": "2024-08-02",
-      "denial_date": "2024-09-12",
-      "hospital_name": "CMC Vellore",
-      "procedure": "Treatment for Hyperlipidemia",
-      "icd10_code": "E78.5",
-      "claimed_amount": 605000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "STARCO-EXC-2599",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-056",
-    "raw_letter_text": "ICICI Lombard\nDate: 2023-12-01\nRef: CLM-2023-3330\n\nDear Mohan Das,\nWith reference to your hospitalization on 2023-11-02 at Narayana Health, Bangalore for Treatment for Hypothyroidism (ICD-10: E03.9), your claim for Rs 175,000 under Max Protect has been repudiated under Clause 20 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-3330",
-      "patient_name": "Mohan Das",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Max Protect",
-      "admission_date": "2023-11-02",
-      "denial_date": "2023-12-01",
-      "hospital_name": "Narayana Health, Bangalore",
-      "procedure": "Treatment for Hypothyroidism",
-      "icd10_code": "E03.9",
-      "claimed_amount": 175000.0,
-      "cited_clause_raw": "Clause 20",
-      "cited_clause_id": "MAXPRO-EXC-2422",
-      "denial_category_hint": "Specified Disease Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-057",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-9199\nIssued by: Star Health\nDate: 2025-05-03\n\nDear Mr./Ms. Usha Chauhan,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-9199 for Treatment for COPD at CMC Vellore, admitted on 2025-04-04, has been repudiated.\n\nThe claim amount of Rs. 1,086,000 is not payable under Star Comprehensive due to Clause 25 (Pre-Existing Disease Waiting Period). The diagnosis code J44.1 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-9199",
-      "patient_name": "Usha Chauhan",
-      "insurer": "Star Health",
-      "policy_product": "Star Comprehensive",
-      "admission_date": "2025-04-04",
-      "denial_date": "2025-05-03",
-      "hospital_name": "CMC Vellore",
-      "procedure": "Treatment for COPD",
-      "icd10_code": "J44.1",
-      "claimed_amount": 1086000.0,
-      "cited_clause_raw": "Clause 25",
-      "cited_clause_id": "STARCO-WAI-2588",
-      "denial_category_hint": "Pre-Existing Disease Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-058",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-1339\nIssued by: Care Health\nDate: 2023-08-02\n\nDear Mr./Ms. Vijay Khanna,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-1339 for Treatment for Essential Hypertension at Tata Memorial Hospital, Mumbai, admitted on 2023-07-07, has been repudiated.\n\nThe claim amount of Rs. 1,258,000 is not payable under Care due to Clause 3.2.12 (Pre-Existing Disease Waiting Period). The diagnosis code I10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2023-1339",
-      "patient_name": "Vijay Khanna",
-      "insurer": "Care Health",
-      "policy_product": "Care",
-      "admission_date": "2023-07-07",
-      "denial_date": "2023-08-02",
-      "hospital_name": "Tata Memorial Hospital, Mumbai",
-      "procedure": "Treatment for Essential Hypertension",
-      "icd10_code": "I10",
-      "claimed_amount": 1258000.0,
-      "cited_clause_raw": "Clause 3.2.12",
-      "cited_clause_id": "CARE-WAI-0249",
-      "denial_category_hint": "Pre-Existing Disease Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-059",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-8700\nIssued by: ICICI Lombard\nDate: 2025-10-21\n\nDear Mr./Ms. Deepa Iyer,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-8700 for Treatment for Hypertensive Nephropathy at SRM Institute, Chennai, admitted on 2025-10-04, has been repudiated.\n\nThe claim amount of Rs. 906,000 is not payable under Elevate Health due to Clause 34 (Specified Disease Waiting Period). The diagnosis code I12.0 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-8700",
-      "patient_name": "Deepa Iyer",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Elevate Health",
-      "admission_date": "2025-10-04",
-      "denial_date": "2025-10-21",
-      "hospital_name": "SRM Institute, Chennai",
-      "procedure": "Treatment for Hypertensive Nephropathy",
-      "icd10_code": "I12.0",
-      "claimed_amount": 906000.0,
-      "cited_clause_raw": "Clause 34",
-      "cited_clause_id": "ELEVAT-WAI-1762",
-      "denial_category_hint": "Specified Disease Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-060",
-    "raw_letter_text": "ICICI Lombard\n2025-04-14\n\nDear Harish Pandey,\n\nYour claim CLM-2025-8451 for Rs. 710,000/- towards Treatment for Coronary Artery Disease performed on 2025-03-31 at BLK-MAX, New Delhi has been disallowed under your Arogya Sanjeevani policy.\n\nReason for Denial: Clause 6.3 - Specified Disease Waiting Period\nICD-10 Code: I25.10\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-8451",
-      "patient_name": "Harish Pandey",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Arogya Sanjeevani",
-      "admission_date": "2025-03-31",
-      "denial_date": "2025-04-14",
-      "hospital_name": "BLK-MAX, New Delhi",
-      "procedure": "Treatment for Coronary Artery Disease",
-      "icd10_code": "I25.10",
-      "claimed_amount": 710000.0,
+      "claimed_amount": 164000.0,
       "cited_clause_raw": "Clause 6.3",
       "cited_clause_id": "AROGYA-WAI-1305",
       "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
-    "case_id": "G1-061",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2025-05-11\nClaim Reference: CLM-2025-4073\nDear Ramesh Kumar,\nThis is to inform you that your health insurance claim under Policy No. ILGI/9494/2025 (Health AdvantEdge) for treatment at Amrita Hospital, Kochi has been denied.\nProcedure: Treatment for Benign Prostatic Hyperplasia\nDiagnosis Code: N40.0\nClaimed Amount: Rs. 809,000\nDenial Reason: Clause 2 - Specified Disease Waiting Period\nDate of Admission: 2025-04-26\nPlease contact your TPA for further details.",
+    "case_id": "G1-052",
+    "raw_letter_text": "ICICI Lombard\nDate: 2025-09-30\nRef: CLM-2025-8216\n\nDear Ramesh Kumar,\nWith reference to your hospitalization on 2025-08-19 at SRM Institute, Chennai for Treatment for Essential Hypertension (ICD-10: I10), your claim for Rs 437,000 under Arogya Sanjeevani has been repudiated under Clause 6.3 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-4073",
+      "claim_id": "CLM-2025-8216",
       "patient_name": "Ramesh Kumar",
       "insurer": "ICICI Lombard",
+      "policy_product": "Arogya Sanjeevani",
+      "admission_date": "2025-08-19",
+      "denial_date": "2025-09-30",
+      "hospital_name": "SRM Institute, Chennai",
+      "procedure": "Treatment for Essential Hypertension",
+      "icd10_code": "I10",
+      "claimed_amount": 437000.0,
+      "cited_clause_raw": "Clause 6.3",
+      "cited_clause_id": "AROGYA-WAI-1305",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-053",
+    "raw_letter_text": "Care Health\n2023-05-11\n\nDear Madhavi Kulkarni,\n\nYour claim CLM-2023-3444 for Rs. 229,000/- towards Treatment for Chronic Kidney Disease performed on 2023-04-20 at BLK-MAX, New Delhi has been disallowed under your Care Supreme policy.\n\nReason for Denial: Clause 2.1.48 - Specified Disease Waiting Period\nICD-10 Code: N18.30\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-3444",
+      "patient_name": "Madhavi Kulkarni",
+      "insurer": "Care Health",
+      "policy_product": "Care Supreme",
+      "admission_date": "2023-04-20",
+      "denial_date": "2023-05-11",
+      "hospital_name": "BLK-MAX, New Delhi",
+      "procedure": "Treatment for Chronic Kidney Disease",
+      "icd10_code": "N18.30",
+      "claimed_amount": 229000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARESU-EXC-0420",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-054",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-6003\nIssued by: ICICI Lombard\nDate: 2024-10-09\n\nDear Mr./Ms. Kishore Sinha,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-6003 for Treatment for Epilepsy at Artemis Hospital, Gurgaon, admitted on 2024-08-31, has been repudiated.\n\nThe claim amount of Rs. 1,328,000 is not payable under Health AdvantEdge due to Clause 2 (Specified Disease Waiting Period). The diagnosis code G40.909 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-6003",
+      "patient_name": "Kishore Sinha",
+      "insurer": "ICICI Lombard",
       "policy_product": "Health AdvantEdge",
-      "admission_date": "2025-04-26",
-      "denial_date": "2025-05-11",
-      "hospital_name": "Amrita Hospital, Kochi",
-      "procedure": "Treatment for Benign Prostatic Hyperplasia",
-      "icd10_code": "N40.0",
-      "claimed_amount": 809000.0,
+      "admission_date": "2024-08-31",
+      "denial_date": "2024-10-09",
+      "hospital_name": "Artemis Hospital, Gurgaon",
+      "procedure": "Treatment for Epilepsy",
+      "icd10_code": "G40.909",
+      "claimed_amount": 1328000.0,
       "cited_clause_raw": "Clause 2",
       "cited_clause_id": "HEALTH-EXC-2020",
       "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
-    "case_id": "G1-062",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-8941\nIssued by: HDFC ERGO\nDate: 2024-09-21\n\nDear Mr./Ms. Neha Agarwal,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-8941 for Treatment for Atrial Fibrillation at Amrita Hospital, Kochi, admitted on 2024-08-12, has been repudiated.\n\nThe claim amount of Rs. 111,000 is not payable under Optima Restore due to Clause 1 (Initial 30-Day Waiting Period). The diagnosis code I48.91 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "case_id": "G1-055",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-2229\nIssued by: Care Health\nDate: 2024-05-29\n\nDear Mr./Ms. Rajeev Bansal,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-2229 for Treatment for Diabetic Retinopathy at Max Super Speciality, Saket, admitted on 2024-05-06, has been repudiated.\n\nThe claim amount of Rs. 56,000 is not payable under Care due to Clause 2.1.48 (Specified Disease Waiting Period). The diagnosis code E11.311 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-8941",
-      "patient_name": "Neha Agarwal",
-      "insurer": "HDFC ERGO",
-      "policy_product": "Optima Restore",
-      "admission_date": "2024-08-12",
-      "denial_date": "2024-09-21",
-      "hospital_name": "Amrita Hospital, Kochi",
+      "claim_id": "CLM-2024-2229",
+      "patient_name": "Rajeev Bansal",
+      "insurer": "Care Health",
+      "policy_product": "Care",
+      "admission_date": "2024-05-06",
+      "denial_date": "2024-05-29",
+      "hospital_name": "Max Super Speciality, Saket",
+      "procedure": "Treatment for Diabetic Retinopathy",
+      "icd10_code": "E11.311",
+      "claimed_amount": 56000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARE-EXC-0049",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-056",
+    "raw_letter_text": "Star Health\nDate: 2025-08-03\nRef: CLM-2025-4824\n\nDear Leela Krishnan,\nWith reference to your hospitalization on 2025-07-18 at CMC Vellore for Treatment for Benign Prostatic Hyperplasia (ICD-10: N40.0), your claim for Rs 1,361,000 under Star Comprehensive has been repudiated under Clause 3 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-4824",
+      "patient_name": "Leela Krishnan",
+      "insurer": "Star Health",
+      "policy_product": "Star Comprehensive",
+      "admission_date": "2025-07-18",
+      "denial_date": "2025-08-03",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Treatment for Benign Prostatic Hyperplasia",
+      "icd10_code": "N40.0",
+      "claimed_amount": 1361000.0,
+      "cited_clause_raw": "Clause 3",
+      "cited_clause_id": "STARCO-EXC-2599",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-057",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-3330\nIssued by: Care Health\nDate: 2023-12-01\n\nDear Mr./Ms. Mohan Das,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-3330 for Treatment for Hypothyroidism at Narayana Health, Bangalore, admitted on 2023-11-02, has been repudiated.\n\nThe claim amount of Rs. 175,000 is not payable under Care Supreme due to Clause 2.1.48 (Specified Disease Waiting Period). The diagnosis code E03.9 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-3330",
+      "patient_name": "Mohan Das",
+      "insurer": "Care Health",
+      "policy_product": "Care Supreme",
+      "admission_date": "2023-11-02",
+      "denial_date": "2023-12-01",
+      "hospital_name": "Narayana Health, Bangalore",
+      "procedure": "Treatment for Hypothyroidism",
+      "icd10_code": "E03.9",
+      "claimed_amount": 175000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARESU-EXC-0420",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-058",
+    "raw_letter_text": "ICICI Lombard\nDate: 2025-12-03\nRef: CLM-2025-8172\n\nDear Tarun Bhatt,\nWith reference to your hospitalization on 2025-10-21 at Lilavati Hospital, Mumbai for Treatment for Essential Hypertension (ICD-10: I10), your claim for Rs 1,304,000 under Arogya Sanjeevani has been repudiated under Clause 6.3 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-8172",
+      "patient_name": "Tarun Bhatt",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Arogya Sanjeevani",
+      "admission_date": "2025-10-21",
+      "denial_date": "2025-12-03",
+      "hospital_name": "Lilavati Hospital, Mumbai",
+      "procedure": "Treatment for Essential Hypertension",
+      "icd10_code": "I10",
+      "claimed_amount": 1304000.0,
+      "cited_clause_raw": "Clause 6.3",
+      "cited_clause_id": "AROGYA-WAI-1305",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-059",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-1659\nIssued by: Care Health\nDate: 2023-03-13\n\nDear Mr./Ms. Meera Reddy,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-1659 for Treatment for Osteoarthritis (Bilateral Knee) at Narayana Health, Bangalore, admitted on 2023-02-12, has been repudiated.\n\nThe claim amount of Rs. 1,037,000 is not payable under Care Supreme due to Clause 14 (Initial 30-Day Waiting Period). The diagnosis code M17.0 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-1659",
+      "patient_name": "Meera Reddy",
+      "insurer": "Care Health",
+      "policy_product": "Care Supreme",
+      "admission_date": "2023-02-12",
+      "denial_date": "2023-03-13",
+      "hospital_name": "Narayana Health, Bangalore",
+      "procedure": "Treatment for Osteoarthritis (Bilateral Knee)",
+      "icd10_code": "M17.0",
+      "claimed_amount": 1037000.0,
+      "cited_clause_raw": "Clause 14",
+      "cited_clause_id": "CARESU-EXC-0565",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-060",
+    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2023-08-25\n\nTo: Harish Pandey\nPolicy: Complete Health Insurance | Claim: CLM-2023-6403\nHospital: KIMS, Hyderabad\nDate of Hospitalization: 2023-08-03\nProcedure/Treatment: Treatment for Coronary Artery Disease [I25.10]\nBilled Amount: Rs. 1,089,000\n\nDenial Ground: Your claim has been denied under Clause 4, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-6403",
+      "patient_name": "Harish Pandey",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Complete Health Insurance",
+      "admission_date": "2023-08-03",
+      "denial_date": "2023-08-25",
+      "hospital_name": "KIMS, Hyderabad",
+      "procedure": "Treatment for Coronary Artery Disease",
+      "icd10_code": "I25.10",
+      "claimed_amount": 1089000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "COMPLE-EXC-1510",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-061",
+    "raw_letter_text": "ICICI Lombard\nDate: 2024-11-12\nRef: CLM-2024-7622\n\nDear Meera Reddy,\nWith reference to your hospitalization on 2024-10-24 at KIMS, Hyderabad for Treatment for Atrial Fibrillation (ICD-10: I48.91), your claim for Rs 52,000 under Arogya Sanjeevani has been repudiated under Clause 6.3 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-7622",
+      "patient_name": "Meera Reddy",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Arogya Sanjeevani",
+      "admission_date": "2024-10-24",
+      "denial_date": "2024-11-12",
+      "hospital_name": "KIMS, Hyderabad",
       "procedure": "Treatment for Atrial Fibrillation",
       "icd10_code": "I48.91",
-      "claimed_amount": 111000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "OPTIMA-WAI-0794",
+      "claimed_amount": 52000.0,
+      "cited_clause_raw": "Clause 6.3",
+      "cited_clause_id": "AROGYA-WAI-1305",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-062",
+    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2025-11-26\n\nTo: Sanjay Desai\nPolicy: Complete Health Insurance | Claim: CLM-2025-1845\nHospital: Global Hospitals, Hyderabad\nDate of Hospitalization: 2025-10-17\nProcedure/Treatment: Treatment for Osteoarthritis (Bilateral Knee) [M17.0]\nBilled Amount: Rs. 610,000\n\nDenial Ground: Your claim has been denied under Clause 4, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-1845",
+      "patient_name": "Sanjay Desai",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Complete Health Insurance",
+      "admission_date": "2025-10-17",
+      "denial_date": "2025-11-26",
+      "hospital_name": "Global Hospitals, Hyderabad",
+      "procedure": "Treatment for Osteoarthritis (Bilateral Knee)",
+      "icd10_code": "M17.0",
+      "claimed_amount": 610000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "COMPLE-EXC-1510",
       "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
     "case_id": "G1-063",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-4681\nIssued by: ICICI Lombard\nDate: 2025-05-02\n\nDear Mr./Ms. Swati Ghosh,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-4681 for Treatment for Type 2 Diabetes Mellitus at Apollo Hospitals, Hyderabad, admitted on 2025-04-15, has been repudiated.\n\nThe claim amount of Rs. 1,018,000 is not payable under Health Booster due to Clause 13 (Initial 30-Day Waiting Period). The diagnosis code E11.9 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-05-27\nClaim Reference: CLM-2024-6091\nDear Sunita Mishra,\nThis is to inform you that your health insurance claim under Policy No. ILGI/2924/2024 (Health AdvantEdge) for treatment at Apollo Hospitals, Hyderabad has been denied.\nProcedure: Treatment for Diabetic Retinopathy\nDiagnosis Code: E11.311\nClaimed Amount: Rs. 1,208,000\nDenial Reason: Clause 2 - Specified Disease Waiting Period\nDate of Admission: 2024-05-05\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-4681",
-      "patient_name": "Swati Ghosh",
+      "claim_id": "CLM-2024-6091",
+      "patient_name": "Sunita Mishra",
       "insurer": "ICICI Lombard",
-      "policy_product": "Health Booster",
-      "admission_date": "2025-04-15",
-      "denial_date": "2025-05-02",
+      "policy_product": "Health AdvantEdge",
+      "admission_date": "2024-05-05",
+      "denial_date": "2024-05-27",
       "hospital_name": "Apollo Hospitals, Hyderabad",
-      "procedure": "Treatment for Type 2 Diabetes Mellitus",
-      "icd10_code": "E11.9",
-      "claimed_amount": 1018000.0,
-      "cited_clause_raw": "Clause 13",
-      "cited_clause_id": "HEALTH-WAI-2157",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
+      "procedure": "Treatment for Diabetic Retinopathy",
+      "icd10_code": "E11.311",
+      "claimed_amount": 1208000.0,
+      "cited_clause_raw": "Clause 2",
+      "cited_clause_id": "HEALTH-EXC-2020",
+      "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
     "case_id": "G1-064",
-    "raw_letter_text": "ICICI Lombard\nDate: 2025-10-27\nRef: CLM-2025-4993\n\nDear Alok Tripathi,\nWith reference to your hospitalization on 2025-09-15 at Tata Memorial Hospital, Mumbai for Treatment for Hypothyroidism (ICD-10: E03.9), your claim for Rs 1,206,000 under Elevate Health has been repudiated under Clause 34 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "Star Health\nDate: 2024-08-20\nRef: CLM-2024-8905\n\nDear Padma Srinivasan,\nWith reference to your hospitalization on 2024-07-13 at CMC Vellore for Treatment for COPD (ICD-10: J44.1), your claim for Rs 561,000 under Star Comprehensive has been repudiated under Clause 3 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-4993",
-      "patient_name": "Alok Tripathi",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Elevate Health",
-      "admission_date": "2025-09-15",
-      "denial_date": "2025-10-27",
-      "hospital_name": "Tata Memorial Hospital, Mumbai",
-      "procedure": "Treatment for Hypothyroidism",
-      "icd10_code": "E03.9",
-      "claimed_amount": 1206000.0,
-      "cited_clause_raw": "Clause 34",
-      "cited_clause_id": "ELEVAT-WAI-1762",
-      "denial_category_hint": "Specified Disease Waiting Period"
+      "claim_id": "CLM-2024-8905",
+      "patient_name": "Padma Srinivasan",
+      "insurer": "Star Health",
+      "policy_product": "Star Comprehensive",
+      "admission_date": "2024-07-13",
+      "denial_date": "2024-08-20",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Treatment for COPD",
+      "icd10_code": "J44.1",
+      "claimed_amount": 561000.0,
+      "cited_clause_raw": "Clause 3",
+      "cited_clause_id": "STARCO-EXC-2599",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
@@ -1255,7 +1255,7 @@
   },
   {
     "case_id": "G1-067",
-    "raw_letter_text": "REPUDIATION NOTICE\nStar Health\nDate of letter: 2025-10-01\n\nTo: Suresh Patel\nPolicy: Star Comprehensive | Claim: CLM-2025-7325\nHospital: KIMS, Hyderabad\nDate of Hospitalization: 2025-08-26\nProcedure/Treatment: Treatment for Essential Hypertension [I10]\nBilled Amount: Rs. 1,089,000\n\nDenial Ground: Your claim has been denied under Clause 25, which pertains to Pre-Existing Disease Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "raw_letter_text": "REPUDIATION NOTICE\nStar Health\nDate of letter: 2025-10-01\n\nTo: Suresh Patel\nPolicy: Star Comprehensive | Claim: CLM-2025-7325\nHospital: KIMS, Hyderabad\nDate of Hospitalization: 2025-08-26\nProcedure/Treatment: Treatment for Essential Hypertension [I10]\nBilled Amount: Rs. 1,089,000\n\nDenial Ground: Your claim has been denied under Clause 1, which pertains to Pre-Existing Disease Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
       "claim_id": "CLM-2025-7325",
       "patient_name": "Suresh Patel",
@@ -1267,8 +1267,8 @@
       "procedure": "Treatment for Essential Hypertension",
       "icd10_code": "I10",
       "claimed_amount": 1089000.0,
-      "cited_clause_raw": "Clause 25",
-      "cited_clause_id": "STARCO-WAI-2588",
+      "cited_clause_raw": "Clause 1",
+      "cited_clause_id": "STARCO-EXC-2590",
       "denial_category_hint": "Pre-Existing Disease Waiting Period"
     }
   },
@@ -1293,7 +1293,7 @@
   },
   {
     "case_id": "G1-069",
-    "raw_letter_text": "ICICI Lombard\nDate: 2024-11-22\nRef: CLM-2024-9864\n\nDear Asha Tiwari,\nWith reference to your hospitalization on 2024-10-10 at Amrita Hospital, Kochi for Treatment for Type 2 Diabetes Mellitus (ICD-10: E11.9), your claim for Rs 1,345,000 under Elevate Health has been repudiated under Clause 2 (Pre-Existing Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "ICICI Lombard\nDate: 2024-11-22\nRef: CLM-2024-9864\n\nDear Asha Tiwari,\nWith reference to your hospitalization on 2024-10-10 at Amrita Hospital, Kochi for Treatment for Type 2 Diabetes Mellitus (ICD-10: E11.9), your claim for Rs 1,345,000 under Elevate Health has been repudiated under Clause 4 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-9864",
       "patient_name": "Asha Tiwari",
@@ -1305,14 +1305,14 @@
       "procedure": "Treatment for Type 2 Diabetes Mellitus",
       "icd10_code": "E11.9",
       "claimed_amount": 1345000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "ELEVAT-WAI-1806",
-      "denial_category_hint": "Pre-Existing Disease Waiting Period"
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "ELEVAT-EXC-1808",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
     "case_id": "G1-070",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-3725\nIssued by: Star Health\nDate: 2023-09-03\n\nDear Mr./Ms. Savita Hegde,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-3725 for Treatment for Essential Hypertension at Manipal Hospital, Bangalore, admitted on 2023-07-25, has been repudiated.\n\nThe claim amount of Rs. 111,000 is not payable under Family Health Optima due to Clause 2 (Specified Disease Waiting Period). The diagnosis code I10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-3725\nIssued by: Star Health\nDate: 2023-09-03\n\nDear Mr./Ms. Savita Hegde,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-3725 for Treatment for Essential Hypertension at Manipal Hospital, Bangalore, admitted on 2023-07-25, has been repudiated.\n\nThe claim amount of Rs. 111,000 is not payable under Family Health Optima due to Clause 3 (Initial 30-Day Waiting Period). The diagnosis code I10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
       "claim_id": "CLM-2023-3725",
       "patient_name": "Savita Hegde",
@@ -1324,62 +1324,176 @@
       "procedure": "Treatment for Essential Hypertension",
       "icd10_code": "I10",
       "claimed_amount": 111000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "FAMILY-EXC-2814",
-      "denial_category_hint": "Specified Disease Waiting Period"
+      "cited_clause_raw": "Clause 3",
+      "cited_clause_id": "FAMILY-EXC-2816",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
     "case_id": "G1-071",
-    "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2024-06-29\n\nTo: Rekha Bhat\nPolicy: Optima Restore | Claim: CLM-2024-7751\nHospital: Ruby Hall Clinic, Pune\nDate of Hospitalization: 2024-05-15\nProcedure/Treatment: Treatment for Hypothyroidism [E03.9]\nBilled Amount: Rs. 406,000\n\nDenial Ground: Your claim has been denied under Clause 1, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-06-29\nClaim Reference: CLM-2024-7751\nDear Rekha Bhat,\nThis is to inform you that your health insurance claim under Policy No. ILGI/3344/2024 (Health AdvantEdge) for treatment at Ruby Hall Clinic, Pune has been denied.\nProcedure: Treatment for Hypothyroidism\nDiagnosis Code: E03.9\nClaimed Amount: Rs. 406,000\nDenial Reason: Clause 2 - Specified Disease Waiting Period\nDate of Admission: 2024-05-15\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
       "claim_id": "CLM-2024-7751",
       "patient_name": "Rekha Bhat",
-      "insurer": "HDFC ERGO",
-      "policy_product": "Optima Restore",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Health AdvantEdge",
       "admission_date": "2024-05-15",
       "denial_date": "2024-06-29",
       "hospital_name": "Ruby Hall Clinic, Pune",
       "procedure": "Treatment for Hypothyroidism",
       "icd10_code": "E03.9",
       "claimed_amount": 406000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "OPTIMA-WAI-0794",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
+      "cited_clause_raw": "Clause 2",
+      "cited_clause_id": "HEALTH-EXC-2020",
+      "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
     "case_id": "G1-072",
-    "raw_letter_text": "HDFC ERGO\nDate: 2025-08-30\nRef: CLM-2025-8529\n\nDear Kamala Subramaniam,\nWith reference to your hospitalization on 2025-08-02 at AIIMS, New Delhi for Treatment for Essential Hypertension (ICD-10: I10), your claim for Rs 1,448,000 under my:Optima Secure has been repudiated under Clause 1.13 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-8622\nIssued by: ICICI Lombard\nDate: 2024-06-18\n\nDear Mr./Ms. Usha Chauhan,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-8622 for Treatment for Osteoarthritis (Bilateral Knee) at Tata Memorial Hospital, Mumbai, admitted on 2024-06-06, has been repudiated.\n\nThe claim amount of Rs. 1,471,000 is not payable under Health AdvantEdge due to Clause 2 (Specified Disease Waiting Period). The diagnosis code M17.0 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-8529",
-      "patient_name": "Kamala Subramaniam",
-      "insurer": "HDFC ERGO",
-      "policy_product": "my:Optima Secure",
-      "admission_date": "2025-08-02",
-      "denial_date": "2025-08-30",
-      "hospital_name": "AIIMS, New Delhi",
-      "procedure": "Treatment for Essential Hypertension",
-      "icd10_code": "I10",
-      "claimed_amount": 1448000.0,
-      "cited_clause_raw": "Clause 1.13",
-      "cited_clause_id": "MYOPTI-WAI-1138",
+      "claim_id": "CLM-2024-8622",
+      "patient_name": "Usha Chauhan",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Health AdvantEdge",
+      "admission_date": "2024-06-06",
+      "denial_date": "2024-06-18",
+      "hospital_name": "Tata Memorial Hospital, Mumbai",
+      "procedure": "Treatment for Osteoarthritis (Bilateral Knee)",
+      "icd10_code": "M17.0",
+      "claimed_amount": 1471000.0,
+      "cited_clause_raw": "Clause 2",
+      "cited_clause_id": "HEALTH-EXC-2020",
       "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
     "case_id": "G1-073",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-10-13\nClaim Reference: CLM-2024-5097\nDear Gopal Mehta,\nThis is to inform you that your health insurance claim under Policy No. ILGI/8484/2024 (Health Shield 360) for treatment at Yashoda Hospital, Hyderabad has been denied.\nProcedure: Treatment for Chronic Kidney Disease\nDiagnosis Code: N18.30\nClaimed Amount: Rs. 684,000\nDenial Reason: Clause 2 - Specified Disease Waiting Period\nDate of Admission: 2024-09-04\nPlease contact your TPA for further details.",
+    "raw_letter_text": "ICICI Lombard\n2025-06-15\n\nDear Kamala Subramaniam,\n\nYour claim CLM-2025-8484 for Rs. 468,000/- towards Treatment for Diabetic Retinopathy performed on 2025-05-18 at CMC Vellore has been disallowed under your Elevate Health policy.\n\nReason for Denial: Clause 4 - Initial 30-Day Waiting Period\nICD-10 Code: E11.311\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-5097",
-      "patient_name": "Gopal Mehta",
+      "claim_id": "CLM-2025-8484",
+      "patient_name": "Kamala Subramaniam",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Elevate Health",
+      "admission_date": "2025-05-18",
+      "denial_date": "2025-06-15",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Treatment for Diabetic Retinopathy",
+      "icd10_code": "E11.311",
+      "claimed_amount": 468000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "ELEVAT-EXC-1808",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-074",
+    "raw_letter_text": "Care Health\n2025-04-19\n\nDear Prakash Choudhury,\n\nYour claim CLM-2025-1132 for Rs. 1,322,000/- towards Treatment for Epilepsy performed on 2025-03-21 at CMC Vellore has been disallowed under your Care policy.\n\nReason for Denial: Clause 2.1.48 - Specified Disease Waiting Period\nICD-10 Code: G40.909\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-1132",
+      "patient_name": "Prakash Choudhury",
+      "insurer": "Care Health",
+      "policy_product": "Care",
+      "admission_date": "2025-03-21",
+      "denial_date": "2025-04-19",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Treatment for Epilepsy",
+      "icd10_code": "G40.909",
+      "claimed_amount": 1322000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARE-EXC-0049",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-075",
+    "raw_letter_text": "Care Health | Claim Repudiation Letter\nLetter date: 2024-02-22\nClaim Reference: CLM-2024-3240\nDear Dinesh Saxena,\nThis is to inform you that your health insurance claim under Policy No. CARE/6977/2024 (Care) for treatment at Narayana Health, Bangalore has been denied.\nProcedure: Treatment for Atrial Fibrillation\nDiagnosis Code: I48.91\nClaimed Amount: Rs. 1,366,000\nDenial Reason: Clause 2.1.48 - Specified Disease Waiting Period\nDate of Admission: 2024-01-25\nPlease contact your TPA for further details.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-3240",
+      "patient_name": "Dinesh Saxena",
+      "insurer": "Care Health",
+      "policy_product": "Care",
+      "admission_date": "2024-01-25",
+      "denial_date": "2024-02-22",
+      "hospital_name": "Narayana Health, Bangalore",
+      "procedure": "Treatment for Atrial Fibrillation",
+      "icd10_code": "I48.91",
+      "claimed_amount": 1366000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARE-EXC-0049",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-076",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-4289\nIssued by: ICICI Lombard\nDate: 2025-05-23\n\nDear Mr./Ms. Meera Reddy,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-4289 for Treatment for Calculus of Kidney at CMC Vellore, admitted on 2025-04-30, has been repudiated.\n\nThe claim amount of Rs. 1,181,000 is not payable under Complete Health Insurance due to Clause 4 (Initial 30-Day Waiting Period). The diagnosis code N20.0 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2025-4289",
+      "patient_name": "Meera Reddy",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Complete Health Insurance",
+      "admission_date": "2025-04-30",
+      "denial_date": "2025-05-23",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Treatment for Calculus of Kidney",
+      "icd10_code": "N20.0",
+      "claimed_amount": 1181000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "COMPLE-EXC-1510",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-077",
+    "raw_letter_text": "Star Health\nDate: 2024-12-13\nRef: CLM-2024-8673\n\nDear Naresh Biswas,\nWith reference to your hospitalization on 2024-11-24 at CMC Vellore for Treatment for Hyperlipidemia (ICD-10: E78.5), your claim for Rs 345,000 under Star Comprehensive has been repudiated under Clause 1 (Pre-Existing Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-8673",
+      "patient_name": "Naresh Biswas",
+      "insurer": "Star Health",
+      "policy_product": "Star Comprehensive",
+      "admission_date": "2024-11-24",
+      "denial_date": "2024-12-13",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Treatment for Hyperlipidemia",
+      "icd10_code": "E78.5",
+      "claimed_amount": 345000.0,
+      "cited_clause_raw": "Clause 1",
+      "cited_clause_id": "STARCO-EXC-2590",
+      "denial_category_hint": "Pre-Existing Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-078",
+    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2023-10-22\nClaim Reference: CLM-2023-7038\nDear Madhavi Kulkarni,\nThis is to inform you that your health insurance claim under Policy No. ILGI/5295/2023 (Arogya Sanjeevani) for treatment at Apollo Hospitals, Hyderabad has been denied.\nProcedure: Treatment for Diabetic Retinopathy\nDiagnosis Code: E11.311\nClaimed Amount: Rs. 1,276,000\nDenial Reason: Clause 6.3 - Specified Disease Waiting Period\nDate of Admission: 2023-09-11\nPlease contact your TPA for further details.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-7038",
+      "patient_name": "Madhavi Kulkarni",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Arogya Sanjeevani",
+      "admission_date": "2023-09-11",
+      "denial_date": "2023-10-22",
+      "hospital_name": "Apollo Hospitals, Hyderabad",
+      "procedure": "Treatment for Diabetic Retinopathy",
+      "icd10_code": "E11.311",
+      "claimed_amount": 1276000.0,
+      "cited_clause_raw": "Clause 6.3",
+      "cited_clause_id": "AROGYA-WAI-1305",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-079",
+    "raw_letter_text": "ICICI Lombard\nDate: 2024-11-28\nRef: CLM-2024-2035\n\nDear Naresh Biswas,\nWith reference to your hospitalization on 2024-11-02 at Apollo Hospitals, Hyderabad for Treatment for Atrial Fibrillation (ICD-10: I48.91), your claim for Rs 684,000 under Health Shield 360 has been repudiated under Clause 2 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-2035",
+      "patient_name": "Naresh Biswas",
       "insurer": "ICICI Lombard",
       "policy_product": "Health Shield 360",
-      "admission_date": "2024-09-04",
-      "denial_date": "2024-10-13",
-      "hospital_name": "Yashoda Hospital, Hyderabad",
-      "procedure": "Treatment for Chronic Kidney Disease",
-      "icd10_code": "N18.30",
+      "admission_date": "2024-11-02",
+      "denial_date": "2024-11-28",
+      "hospital_name": "Apollo Hospitals, Hyderabad",
+      "procedure": "Treatment for Atrial Fibrillation",
+      "icd10_code": "I48.91",
       "claimed_amount": 684000.0,
       "cited_clause_raw": "Clause 2",
       "cited_clause_id": "HEALTH-EXC-2289",
@@ -1387,190 +1501,76 @@
     }
   },
   {
-    "case_id": "G1-074",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-1359\nIssued by: ICICI Lombard\nDate: 2024-09-27\n\nDear Mr./Ms. Kishore Sinha,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-1359 for Treatment for Essential Hypertension at SRM Institute, Chennai, admitted on 2024-08-28, has been repudiated.\n\nThe claim amount of Rs. 626,000 is not payable under Complete Health Insurance due to Clause 4 (Initial 30-Day Waiting Period). The diagnosis code I10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-1359",
-      "patient_name": "Kishore Sinha",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Complete Health Insurance",
-      "admission_date": "2024-08-28",
-      "denial_date": "2024-09-27",
-      "hospital_name": "SRM Institute, Chennai",
-      "procedure": "Treatment for Essential Hypertension",
-      "icd10_code": "I10",
-      "claimed_amount": 626000.0,
-      "cited_clause_raw": "Clause 4",
-      "cited_clause_id": "COMPLE-EXC-1510",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-075",
-    "raw_letter_text": "ICICI Lombard\nDate: 2025-01-17\nRef: CLM-2024-4115\n\nDear Hema Sundaram,\nWith reference to your hospitalization on 2024-12-22 at Narayana Health, Bangalore for Treatment for Hyperlipidemia (ICD-10: E78.5), your claim for Rs 1,471,000 under Health Shield 360 has been repudiated under Clause 3 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-4115",
-      "patient_name": "Hema Sundaram",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Health Shield 360",
-      "admission_date": "2024-12-22",
-      "denial_date": "2025-01-17",
-      "hospital_name": "Narayana Health, Bangalore",
-      "procedure": "Treatment for Hyperlipidemia",
-      "icd10_code": "E78.5",
-      "claimed_amount": 1471000.0,
-      "cited_clause_raw": "Clause 3",
-      "cited_clause_id": "HEALTH-EXC-2248",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-076",
-    "raw_letter_text": "Care Health | Claim Repudiation Letter\nLetter date: 2025-02-06\nClaim Reference: CLM-2025-2476\nDear Geeta Pillai,\nThis is to inform you that your health insurance claim under Policy No. CARE/5835/2025 (Care) for treatment at Artemis Hospital, Gurgaon has been denied.\nProcedure: Treatment for Epilepsy\nDiagnosis Code: G40.909\nClaimed Amount: Rs. 735,000\nDenial Reason: Clause 3 - Specified Disease Waiting Period\nDate of Admission: 2025-01-17\nPlease contact your TPA for further details.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-2476",
-      "patient_name": "Geeta Pillai",
-      "insurer": "Care Health",
-      "policy_product": "Care",
-      "admission_date": "2025-01-17",
-      "denial_date": "2025-02-06",
-      "hospital_name": "Artemis Hospital, Gurgaon",
-      "procedure": "Treatment for Epilepsy",
-      "icd10_code": "G40.909",
-      "claimed_amount": 735000.0,
-      "cited_clause_raw": "Clause 3",
-      "cited_clause_id": "CARE-WAI-0321",
-      "denial_category_hint": "Specified Disease Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-077",
-    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2025-11-22\n\nTo: Mohan Das\nPolicy: Health Booster | Claim: CLM-2025-3695\nHospital: Yashoda Hospital, Hyderabad\nDate of Hospitalization: 2025-10-24\nProcedure/Treatment: Treatment for Hyperlipidemia [E78.5]\nBilled Amount: Rs. 1,061,000\n\nDenial Ground: Your claim has been denied under Clause 13, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-3695",
-      "patient_name": "Mohan Das",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Health Booster",
-      "admission_date": "2025-10-24",
-      "denial_date": "2025-11-22",
-      "hospital_name": "Yashoda Hospital, Hyderabad",
-      "procedure": "Treatment for Hyperlipidemia",
-      "icd10_code": "E78.5",
-      "claimed_amount": 1061000.0,
-      "cited_clause_raw": "Clause 13",
-      "cited_clause_id": "HEALTH-WAI-2157",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-078",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-6992\nIssued by: Star Health\nDate: 2024-05-14\n\nDear Mr./Ms. Vikram Singh,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-6992 for Treatment for Essential Hypertension at AIIMS, New Delhi, admitted on 2024-04-07, has been repudiated.\n\nThe claim amount of Rs. 877,000 is not payable under Family Health Optima due to Clause 2 (Specified Disease Waiting Period). The diagnosis code I10 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-6992",
-      "patient_name": "Vikram Singh",
-      "insurer": "Star Health",
-      "policy_product": "Family Health Optima",
-      "admission_date": "2024-04-07",
-      "denial_date": "2024-05-14",
-      "hospital_name": "AIIMS, New Delhi",
-      "procedure": "Treatment for Essential Hypertension",
-      "icd10_code": "I10",
-      "claimed_amount": 877000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "FAMILY-EXC-2814",
-      "denial_category_hint": "Specified Disease Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-079",
-    "raw_letter_text": "ICICI Lombard\nDate: 2025-03-26\nRef: CLM-2025-2775\n\nDear Vanaja Kurian,\nWith reference to your hospitalization on 2025-02-19 at Tata Memorial Hospital, Mumbai for Treatment for Essential Hypertension (ICD-10: I10), your claim for Rs 1,039,000 under Health Shield 360 has been repudiated under Clause 3 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-2775",
-      "patient_name": "Vanaja Kurian",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Health Shield 360",
-      "admission_date": "2025-02-19",
-      "denial_date": "2025-03-26",
-      "hospital_name": "Tata Memorial Hospital, Mumbai",
-      "procedure": "Treatment for Essential Hypertension",
-      "icd10_code": "I10",
-      "claimed_amount": 1039000.0,
-      "cited_clause_raw": "Clause 3",
-      "cited_clause_id": "HEALTH-EXC-2248",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
     "case_id": "G1-080",
-    "raw_letter_text": "Star Health\nDate: 2024-10-18\nRef: CLM-2024-2911\n\nDear Ashok Malhotra,\nWith reference to your hospitalization on 2024-09-10 at Artemis Hospital, Gurgaon for Treatment for Essential Hypertension (ICD-10: I10), your claim for Rs 145,000 under Star Comprehensive has been repudiated under Clause 2 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "ICICI Lombard\n2023-09-13\n\nDear Suresh Patel,\n\nYour claim CLM-2023-4846 for Rs. 335,000/- towards Treatment for Diabetic Retinopathy performed on 2023-08-26 at CMC Vellore has been disallowed under your Health AdvantEdge policy.\n\nReason for Denial: Clause 2 - Specified Disease Waiting Period\nICD-10 Code: E11.311\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-2911",
-      "patient_name": "Ashok Malhotra",
-      "insurer": "Star Health",
-      "policy_product": "Star Comprehensive",
-      "admission_date": "2024-09-10",
-      "denial_date": "2024-10-18",
-      "hospital_name": "Artemis Hospital, Gurgaon",
-      "procedure": "Treatment for Essential Hypertension",
-      "icd10_code": "I10",
-      "claimed_amount": 145000.0,
+      "claim_id": "CLM-2023-4846",
+      "patient_name": "Suresh Patel",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Health AdvantEdge",
+      "admission_date": "2023-08-26",
+      "denial_date": "2023-09-13",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Treatment for Diabetic Retinopathy",
+      "icd10_code": "E11.311",
+      "claimed_amount": 335000.0,
       "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "STARCO-EXC-2591",
+      "cited_clause_id": "HEALTH-EXC-2020",
       "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
     "case_id": "G1-081",
-    "raw_letter_text": "HDFC ERGO\nDate: 2025-04-16\nRef: CLM-2025-7078\n\nDear Pooja Kapoor,\nWith reference to your hospitalization on 2025-03-06 at Amrita Hospital, Kochi for Treatment for Benign Prostatic Hyperplasia (ICD-10: N40.0), your claim for Rs 929,000 under Optima Restore has been repudiated under Clause 1 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2023-09-03\n\nTo: Rani Mukherjee\nPolicy: Elevate Health | Claim: CLM-2023-7686\nHospital: AIIMS, New Delhi\nDate of Hospitalization: 2023-07-22\nProcedure/Treatment: Treatment for Epilepsy [G40.909]\nBilled Amount: Rs. 119,000\n\nDenial Ground: Your claim has been denied under Clause 4, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-7078",
-      "patient_name": "Pooja Kapoor",
-      "insurer": "HDFC ERGO",
-      "policy_product": "Optima Restore",
-      "admission_date": "2025-03-06",
-      "denial_date": "2025-04-16",
-      "hospital_name": "Amrita Hospital, Kochi",
-      "procedure": "Treatment for Benign Prostatic Hyperplasia",
-      "icd10_code": "N40.0",
-      "claimed_amount": 929000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "OPTIMA-WAI-0794",
+      "claim_id": "CLM-2023-7686",
+      "patient_name": "Rani Mukherjee",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Elevate Health",
+      "admission_date": "2023-07-22",
+      "denial_date": "2023-09-03",
+      "hospital_name": "AIIMS, New Delhi",
+      "procedure": "Treatment for Epilepsy",
+      "icd10_code": "G40.909",
+      "claimed_amount": 119000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "ELEVAT-EXC-1808",
       "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
     "case_id": "G1-082",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-7070\nIssued by: ICICI Lombard\nDate: 2024-08-09\n\nDear Mr./Ms. Padma Srinivasan,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-7070 for Treatment for COPD at Aster MIMS, Kozhikode, admitted on 2024-07-26, has been repudiated.\n\nThe claim amount of Rs. 980,000 is not payable under Elevate Health due to Clause 2 (Pre-Existing Disease Waiting Period). The diagnosis code J44.1 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "raw_letter_text": "Care Health | Claim Repudiation Letter\nLetter date: 2025-02-25\nClaim Reference: CLM-2025-1992\nDear Pooja Kapoor,\nThis is to inform you that your health insurance claim under Policy No. CARE/7523/2025 (Care Supreme) for treatment at Yashoda Hospital, Hyderabad has been denied.\nProcedure: Treatment for Chronic Kidney Disease\nDiagnosis Code: N18.30\nClaimed Amount: Rs. 629,000\nDenial Reason: Clause 2.1.48 - Specified Disease Waiting Period\nDate of Admission: 2025-01-22\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-7070",
-      "patient_name": "Padma Srinivasan",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Elevate Health",
-      "admission_date": "2024-07-26",
-      "denial_date": "2024-08-09",
-      "hospital_name": "Aster MIMS, Kozhikode",
-      "procedure": "Treatment for COPD",
-      "icd10_code": "J44.1",
-      "claimed_amount": 980000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "ELEVAT-WAI-1806",
-      "denial_category_hint": "Pre-Existing Disease Waiting Period"
+      "claim_id": "CLM-2025-1992",
+      "patient_name": "Pooja Kapoor",
+      "insurer": "Care Health",
+      "policy_product": "Care Supreme",
+      "admission_date": "2025-01-22",
+      "denial_date": "2025-02-25",
+      "hospital_name": "Yashoda Hospital, Hyderabad",
+      "procedure": "Treatment for Chronic Kidney Disease",
+      "icd10_code": "N18.30",
+      "claimed_amount": 629000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARESU-EXC-0420",
+      "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
     "case_id": "G1-083",
-    "raw_letter_text": "Care Health\nDate: 2025-04-24\nRef: CLM-2025-4109\n\nDear Mohan Das,\nWith reference to your hospitalization on 2025-03-26 at Yashoda Hospital, Hyderabad for Treatment for Type 2 Diabetes Mellitus (ICD-10: E11.9), your claim for Rs 1,004,000 under Care has been repudiated under Clause 14 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "Care Health | Claim Repudiation Letter\nLetter date: 2023-05-17\nClaim Reference: CLM-2023-4990\nDear Saroja Nambiar,\nThis is to inform you that your health insurance claim under Policy No. CARE/3063/2023 (Care) for treatment at Aster MIMS, Kozhikode has been denied.\nProcedure: Treatment for Chronic Kidney Disease\nDiagnosis Code: N18.30\nClaimed Amount: Rs. 1,234,000\nDenial Reason: Clause 14 - Initial 30-Day Waiting Period\nDate of Admission: 2023-04-14\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-4109",
-      "patient_name": "Mohan Das",
+      "claim_id": "CLM-2023-4990",
+      "patient_name": "Saroja Nambiar",
       "insurer": "Care Health",
       "policy_product": "Care",
-      "admission_date": "2025-03-26",
-      "denial_date": "2025-04-24",
-      "hospital_name": "Yashoda Hospital, Hyderabad",
-      "procedure": "Treatment for Type 2 Diabetes Mellitus",
-      "icd10_code": "E11.9",
-      "claimed_amount": 1004000.0,
+      "admission_date": "2023-04-14",
+      "denial_date": "2023-05-17",
+      "hospital_name": "Aster MIMS, Kozhikode",
+      "procedure": "Treatment for Chronic Kidney Disease",
+      "icd10_code": "N18.30",
+      "claimed_amount": 1234000.0,
       "cited_clause_raw": "Clause 14",
       "cited_clause_id": "CARE-WAI-0280",
       "denial_category_hint": "Initial 30-Day Waiting Period"
@@ -1578,94 +1578,94 @@
   },
   {
     "case_id": "G1-084",
-    "raw_letter_text": "HDFC ERGO | Claim Repudiation Letter\nLetter date: 2024-03-12\nClaim Reference: CLM-2024-4394\nDear Asha Tiwari,\nThis is to inform you that your health insurance claim under Policy No. HDFC/4538/2024 (Optima Restore) for treatment at Narayana Health, Bangalore has been denied.\nProcedure: Treatment for Hypertensive Nephropathy\nDiagnosis Code: I12.0\nClaimed Amount: Rs. 539,000\nDenial Reason: Clause 1 - Initial 30-Day Waiting Period\nDate of Admission: 2024-02-25\nPlease contact your TPA for further details.",
+    "raw_letter_text": "Star Health | Claim Repudiation Letter\nLetter date: 2023-02-04\nClaim Reference: CLM-2023-3370\nDear Asha Tiwari,\nThis is to inform you that your health insurance claim under Policy No. STAR/3129/2023 (Family Health Optima) for treatment at AIIMS, New Delhi has been denied.\nProcedure: Treatment for Coronary Artery Disease\nDiagnosis Code: I25.10\nClaimed Amount: Rs. 1,183,000\nDenial Reason: Clause 3 - Initial 30-Day Waiting Period\nDate of Admission: 2023-01-06\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-4394",
+      "claim_id": "CLM-2023-3370",
       "patient_name": "Asha Tiwari",
-      "insurer": "HDFC ERGO",
-      "policy_product": "Optima Restore",
-      "admission_date": "2024-02-25",
-      "denial_date": "2024-03-12",
-      "hospital_name": "Narayana Health, Bangalore",
-      "procedure": "Treatment for Hypertensive Nephropathy",
-      "icd10_code": "I12.0",
-      "claimed_amount": 539000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "OPTIMA-WAI-0794",
+      "insurer": "Star Health",
+      "policy_product": "Family Health Optima",
+      "admission_date": "2023-01-06",
+      "denial_date": "2023-02-04",
+      "hospital_name": "AIIMS, New Delhi",
+      "procedure": "Treatment for Coronary Artery Disease",
+      "icd10_code": "I25.10",
+      "claimed_amount": 1183000.0,
+      "cited_clause_raw": "Clause 3",
+      "cited_clause_id": "FAMILY-EXC-2816",
       "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
     "case_id": "G1-085",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2024-01-12\nClaim Reference: CLM-2023-1422\nDear Arun Nair,\nThis is to inform you that your health insurance claim under Policy No. ILGI/3159/2023 (Arogya Sanjeevani) for treatment at Amrita Hospital, Kochi has been denied.\nProcedure: Treatment for Hypertensive Nephropathy\nDiagnosis Code: I12.0\nClaimed Amount: Rs. 81,000\nDenial Reason: Clause 3.37 - Pre-Existing Disease Waiting Period\nDate of Admission: 2023-12-24\nPlease contact your TPA for further details.",
+    "raw_letter_text": "Star Health\nDate: 2024-06-03\nRef: CLM-2024-1258\n\nDear Ramesh Kumar,\nWith reference to your hospitalization on 2024-05-02 at Yashoda Hospital, Hyderabad for Treatment for Essential Hypertension (ICD-10: I10), your claim for Rs 607,000 under Family Health Optima has been repudiated under Clause 3 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2023-1422",
-      "patient_name": "Arun Nair",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Arogya Sanjeevani",
-      "admission_date": "2023-12-24",
-      "denial_date": "2024-01-12",
-      "hospital_name": "Amrita Hospital, Kochi",
-      "procedure": "Treatment for Hypertensive Nephropathy",
-      "icd10_code": "I12.0",
-      "claimed_amount": 81000.0,
-      "cited_clause_raw": "Clause 3.37",
-      "cited_clause_id": "AROGYA-WAI-1267",
-      "denial_category_hint": "Pre-Existing Disease Waiting Period"
+      "claim_id": "CLM-2024-1258",
+      "patient_name": "Ramesh Kumar",
+      "insurer": "Star Health",
+      "policy_product": "Family Health Optima",
+      "admission_date": "2024-05-02",
+      "denial_date": "2024-06-03",
+      "hospital_name": "Yashoda Hospital, Hyderabad",
+      "procedure": "Treatment for Essential Hypertension",
+      "icd10_code": "I10",
+      "claimed_amount": 607000.0,
+      "cited_clause_raw": "Clause 3",
+      "cited_clause_id": "FAMILY-EXC-2816",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
     "case_id": "G1-086",
-    "raw_letter_text": "HDFC ERGO\n2025-06-26\n\nDear Ravi Menon,\n\nYour claim CLM-2025-2862 for Rs. 1,049,000/- towards Treatment for COPD performed on 2025-05-12 at Fortis Hospital, Gurgaon has been disallowed under your Optima Restore policy.\n\nReason for Denial: Clause 1 - Initial 30-Day Waiting Period\nICD-10 Code: J44.1\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "raw_letter_text": "REPUDIATION NOTICE\nStar Health\nDate of letter: 2025-02-24\n\nTo: Naresh Biswas\nPolicy: Family Health Optima | Claim: CLM-2025-2786\nHospital: Artemis Hospital, Gurgaon\nDate of Hospitalization: 2025-01-11\nProcedure/Treatment: Treatment for Chronic Kidney Disease [N18.30]\nBilled Amount: Rs. 1,107,000\n\nDenial Ground: Your claim has been denied under Clause 3, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-2862",
-      "patient_name": "Ravi Menon",
-      "insurer": "HDFC ERGO",
-      "policy_product": "Optima Restore",
-      "admission_date": "2025-05-12",
-      "denial_date": "2025-06-26",
-      "hospital_name": "Fortis Hospital, Gurgaon",
-      "procedure": "Treatment for COPD",
-      "icd10_code": "J44.1",
-      "claimed_amount": 1049000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "OPTIMA-WAI-0794",
+      "claim_id": "CLM-2025-2786",
+      "patient_name": "Naresh Biswas",
+      "insurer": "Star Health",
+      "policy_product": "Family Health Optima",
+      "admission_date": "2025-01-11",
+      "denial_date": "2025-02-24",
+      "hospital_name": "Artemis Hospital, Gurgaon",
+      "procedure": "Treatment for Chronic Kidney Disease",
+      "icd10_code": "N18.30",
+      "claimed_amount": 1107000.0,
+      "cited_clause_raw": "Clause 3",
+      "cited_clause_id": "FAMILY-EXC-2816",
       "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
     "case_id": "G1-087",
-    "raw_letter_text": "REPUDIATION NOTICE\nCare Health\nDate of letter: 2025-12-31\n\nTo: Amit Verma\nPolicy: Care | Claim: CLM-2025-8504\nHospital: Aster MIMS, Kozhikode\nDate of Hospitalization: 2025-11-30\nProcedure/Treatment: Treatment for COPD [J44.1]\nBilled Amount: Rs. 178,000\n\nDenial Ground: Your claim has been denied under Clause 3, which pertains to Specified Disease Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-7984\nIssued by: Care Health\nDate: 2025-10-14\n\nDear Mr./Ms. Saroja Nambiar,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-7984 for Treatment for Epilepsy at Apollo Hospitals, Hyderabad, admitted on 2025-09-07, has been repudiated.\n\nThe claim amount of Rs. 1,078,000 is not payable under Care due to Clause 2.1.48 (Specified Disease Waiting Period). The diagnosis code G40.909 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-8504",
-      "patient_name": "Amit Verma",
+      "claim_id": "CLM-2025-7984",
+      "patient_name": "Saroja Nambiar",
       "insurer": "Care Health",
       "policy_product": "Care",
-      "admission_date": "2025-11-30",
-      "denial_date": "2025-12-31",
-      "hospital_name": "Aster MIMS, Kozhikode",
-      "procedure": "Treatment for COPD",
-      "icd10_code": "J44.1",
-      "claimed_amount": 178000.0,
-      "cited_clause_raw": "Clause 3",
-      "cited_clause_id": "CARE-WAI-0321",
+      "admission_date": "2025-09-07",
+      "denial_date": "2025-10-14",
+      "hospital_name": "Apollo Hospitals, Hyderabad",
+      "procedure": "Treatment for Epilepsy",
+      "icd10_code": "G40.909",
+      "claimed_amount": 1078000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARE-EXC-0049",
       "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
     "case_id": "G1-088",
-    "raw_letter_text": "Care Health\n2023-07-17\n\nDear Leela Krishnan,\n\nYour claim CLM-2023-3430 for Rs. 315,000/- towards Treatment for Coronary Artery Disease performed on 2023-06-15 at Artemis Hospital, Gurgaon has been disallowed under your Care Supreme policy.\n\nReason for Denial: Clause 14 - Initial 30-Day Waiting Period\nICD-10 Code: I25.10\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "raw_letter_text": "Care Health\n2023-10-15\n\nDear Vijay Khanna,\n\nYour claim CLM-2023-9984 for Rs. 849,000/- towards Treatment for Benign Prostatic Hyperplasia performed on 2023-09-16 at AIIMS, New Delhi has been disallowed under your Care Supreme policy.\n\nReason for Denial: Clause 14 - Initial 30-Day Waiting Period\nICD-10 Code: N40.0\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2023-3430",
-      "patient_name": "Leela Krishnan",
+      "claim_id": "CLM-2023-9984",
+      "patient_name": "Vijay Khanna",
       "insurer": "Care Health",
       "policy_product": "Care Supreme",
-      "admission_date": "2023-06-15",
-      "denial_date": "2023-07-17",
-      "hospital_name": "Artemis Hospital, Gurgaon",
-      "procedure": "Treatment for Coronary Artery Disease",
-      "icd10_code": "I25.10",
-      "claimed_amount": 315000.0,
+      "admission_date": "2023-09-16",
+      "denial_date": "2023-10-15",
+      "hospital_name": "AIIMS, New Delhi",
+      "procedure": "Treatment for Benign Prostatic Hyperplasia",
+      "icd10_code": "N40.0",
+      "claimed_amount": 849000.0,
       "cited_clause_raw": "Clause 14",
       "cited_clause_id": "CARESU-EXC-0565",
       "denial_category_hint": "Initial 30-Day Waiting Period"
@@ -1673,37 +1673,37 @@
   },
   {
     "case_id": "G1-089",
-    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2025-12-10\n\nTo: Jaya Kamath\nPolicy: Health AdvantEdge | Claim: CLM-2025-2624\nHospital: CMC Vellore\nDate of Hospitalization: 2025-11-01\nProcedure/Treatment: Treatment for Atrial Fibrillation [I48.91]\nBilled Amount: Rs. 1,423,000\n\nDenial Ground: Your claim has been denied under Clause 6, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "raw_letter_text": "REPUDIATION NOTICE\nCare Health\nDate of letter: 2023-09-17\n\nTo: Vijay Khanna\nPolicy: Care Supreme | Claim: CLM-2023-8046\nHospital: Ruby Hall Clinic, Pune\nDate of Hospitalization: 2023-08-23\nProcedure/Treatment: Treatment for Diabetic Retinopathy [E11.311]\nBilled Amount: Rs. 529,000\n\nDenial Ground: Your claim has been denied under Clause 2.1.48, which pertains to Specified Disease Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-2624",
-      "patient_name": "Jaya Kamath",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Health AdvantEdge",
-      "admission_date": "2025-11-01",
-      "denial_date": "2025-12-10",
-      "hospital_name": "CMC Vellore",
-      "procedure": "Treatment for Atrial Fibrillation",
-      "icd10_code": "I48.91",
-      "claimed_amount": 1423000.0,
-      "cited_clause_raw": "Clause 6",
-      "cited_clause_id": "HEALTH-WAI-2040",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
+      "claim_id": "CLM-2023-8046",
+      "patient_name": "Vijay Khanna",
+      "insurer": "Care Health",
+      "policy_product": "Care Supreme",
+      "admission_date": "2023-08-23",
+      "denial_date": "2023-09-17",
+      "hospital_name": "Ruby Hall Clinic, Pune",
+      "procedure": "Treatment for Diabetic Retinopathy",
+      "icd10_code": "E11.311",
+      "claimed_amount": 529000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARESU-EXC-0420",
+      "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
     "case_id": "G1-090",
-    "raw_letter_text": "ICICI Lombard | Claim Repudiation Letter\nLetter date: 2025-08-23\nClaim Reference: CLM-2025-7815\nDear Amit Verma,\nThis is to inform you that your health insurance claim under Policy No. ILGI/2557/2025 (Complete Health Insurance) for treatment at Ruby Hall Clinic, Pune has been denied.\nProcedure: Treatment for Diabetic Retinopathy\nDiagnosis Code: E11.311\nClaimed Amount: Rs. 705,000\nDenial Reason: Clause 4 - Initial 30-Day Waiting Period\nDate of Admission: 2025-07-17\nPlease contact your TPA for further details.",
+    "raw_letter_text": "ICICI Lombard\nDate: 2025-06-25\nRef: CLM-2025-5176\n\nDear Sunil Jha,\nWith reference to your hospitalization on 2025-05-24 at Manipal Hospital, Bangalore for Treatment for Atrial Fibrillation (ICD-10: I48.91), your claim for Rs 370,000 under Complete Health Insurance has been repudiated under Clause 4 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-7815",
-      "patient_name": "Amit Verma",
+      "claim_id": "CLM-2025-5176",
+      "patient_name": "Sunil Jha",
       "insurer": "ICICI Lombard",
       "policy_product": "Complete Health Insurance",
-      "admission_date": "2025-07-17",
-      "denial_date": "2025-08-23",
-      "hospital_name": "Ruby Hall Clinic, Pune",
-      "procedure": "Treatment for Diabetic Retinopathy",
-      "icd10_code": "E11.311",
-      "claimed_amount": 705000.0,
+      "admission_date": "2025-05-24",
+      "denial_date": "2025-06-25",
+      "hospital_name": "Manipal Hospital, Bangalore",
+      "procedure": "Treatment for Atrial Fibrillation",
+      "icd10_code": "I48.91",
+      "claimed_amount": 370000.0,
       "cited_clause_raw": "Clause 4",
       "cited_clause_id": "COMPLE-EXC-1510",
       "denial_category_hint": "Initial 30-Day Waiting Period"
@@ -1711,191 +1711,191 @@
   },
   {
     "case_id": "G1-091",
-    "raw_letter_text": "Care Health\n2023-07-23\n\nDear Vanaja Kurian,\n\nYour claim CLM-2023-2527 for Rs. 253,000/- towards Treatment for Epilepsy performed on 2023-07-06 at BLK-MAX, New Delhi has been disallowed under your Care Supreme policy.\n\nReason for Denial: Clause 14 - Initial 30-Day Waiting Period\nICD-10 Code: G40.909\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "raw_letter_text": "Care Health\nDate: 2025-02-22\nRef: CLM-2025-1982\n\nDear Meera Reddy,\nWith reference to your hospitalization on 2025-02-02 at Ruby Hall Clinic, Pune for Treatment for Type 2 Diabetes Mellitus (ICD-10: E11.9), your claim for Rs 1,455,000 under Care Supreme has been repudiated under Clause 2.1.48 (Specified Disease Waiting Period). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2023-2527",
-      "patient_name": "Vanaja Kurian",
+      "claim_id": "CLM-2025-1982",
+      "patient_name": "Meera Reddy",
       "insurer": "Care Health",
       "policy_product": "Care Supreme",
-      "admission_date": "2023-07-06",
-      "denial_date": "2023-07-23",
-      "hospital_name": "BLK-MAX, New Delhi",
-      "procedure": "Treatment for Epilepsy",
-      "icd10_code": "G40.909",
-      "claimed_amount": 253000.0,
+      "admission_date": "2025-02-02",
+      "denial_date": "2025-02-22",
+      "hospital_name": "Ruby Hall Clinic, Pune",
+      "procedure": "Treatment for Type 2 Diabetes Mellitus",
+      "icd10_code": "E11.9",
+      "claimed_amount": 1455000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARESU-EXC-0420",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-092",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-9313\nIssued by: ICICI Lombard\nDate: 2025-01-08\n\nDear Mr./Ms. Prakash Choudhury,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-9313 for Treatment for Atrial Fibrillation at Aster MIMS, Kozhikode, admitted on 2024-12-21, has been repudiated.\n\nThe claim amount of Rs. 374,000 is not payable under Arogya Sanjeevani due to Clause 6.3 (Specified Disease Waiting Period). The diagnosis code I48.91 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-9313",
+      "patient_name": "Prakash Choudhury",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Arogya Sanjeevani",
+      "admission_date": "2024-12-21",
+      "denial_date": "2025-01-08",
+      "hospital_name": "Aster MIMS, Kozhikode",
+      "procedure": "Treatment for Atrial Fibrillation",
+      "icd10_code": "I48.91",
+      "claimed_amount": 374000.0,
+      "cited_clause_raw": "Clause 6.3",
+      "cited_clause_id": "AROGYA-WAI-1305",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-093",
+    "raw_letter_text": "Care Health | Claim Repudiation Letter\nLetter date: 2024-08-19\nClaim Reference: CLM-2024-8030\nDear Swati Ghosh,\nThis is to inform you that your health insurance claim under Policy No. CARE/1430/2024 (Care Supreme) for treatment at Yashoda Hospital, Hyderabad has been denied.\nProcedure: Treatment for Calculus of Kidney\nDiagnosis Code: N20.0\nClaimed Amount: Rs. 1,327,000\nDenial Reason: Clause 14 - Initial 30-Day Waiting Period\nDate of Admission: 2024-07-24\nPlease contact your TPA for further details.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-8030",
+      "patient_name": "Swati Ghosh",
+      "insurer": "Care Health",
+      "policy_product": "Care Supreme",
+      "admission_date": "2024-07-24",
+      "denial_date": "2024-08-19",
+      "hospital_name": "Yashoda Hospital, Hyderabad",
+      "procedure": "Treatment for Calculus of Kidney",
+      "icd10_code": "N20.0",
+      "claimed_amount": 1327000.0,
       "cited_clause_raw": "Clause 14",
       "cited_clause_id": "CARESU-EXC-0565",
       "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
-    "case_id": "G1-092",
-    "raw_letter_text": "ICICI Lombard\n2024-11-25\n\nDear Anita Devi,\n\nYour claim CLM-2024-7730 for Rs. 1,445,000/- towards Treatment for Hyperlipidemia performed on 2024-11-06 at SRM Institute, Chennai has been disallowed under your Health Booster policy.\n\nReason for Denial: Clause 13 - Initial 30-Day Waiting Period\nICD-10 Code: E78.5\n\nAs per IRDAI guidelines, you may approach the Insurance Ombudsman if you are dissatisfied with this decision.",
+    "case_id": "G1-094",
+    "raw_letter_text": "ICICI Lombard\nDate: 2024-12-31\nRef: CLM-2024-3972\n\nDear Neha Agarwal,\nWith reference to your hospitalization on 2024-12-19 at CMC Vellore for Treatment for Atrial Fibrillation (ICD-10: I48.91), your claim for Rs 1,238,000 under Complete Health Insurance has been repudiated under Clause 4 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-7730",
-      "patient_name": "Anita Devi",
+      "claim_id": "CLM-2024-3972",
+      "patient_name": "Neha Agarwal",
       "insurer": "ICICI Lombard",
-      "policy_product": "Health Booster",
-      "admission_date": "2024-11-06",
-      "denial_date": "2024-11-25",
-      "hospital_name": "SRM Institute, Chennai",
-      "procedure": "Treatment for Hyperlipidemia",
-      "icd10_code": "E78.5",
-      "claimed_amount": 1445000.0,
-      "cited_clause_raw": "Clause 13",
-      "cited_clause_id": "HEALTH-WAI-2157",
+      "policy_product": "Complete Health Insurance",
+      "admission_date": "2024-12-19",
+      "denial_date": "2024-12-31",
+      "hospital_name": "CMC Vellore",
+      "procedure": "Treatment for Atrial Fibrillation",
+      "icd10_code": "I48.91",
+      "claimed_amount": 1238000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "COMPLE-EXC-1510",
       "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   },
   {
-    "case_id": "G1-093",
-    "raw_letter_text": "Care Health\nDate: 2025-11-30\nRef: CLM-2025-3535\n\nDear Geeta Pillai,\nWith reference to your hospitalization on 2025-11-05 at Yashoda Hospital, Hyderabad for Treatment for Heart Failure (ICD-10: I50.9), your claim for Rs 520,000 under Care Supreme has been repudiated under Clause 2.1.36 (Pre-Existing Disease Waiting Period). You may file an appeal within 30 days of this letter.",
+    "case_id": "G1-095",
+    "raw_letter_text": "Care Health | Claim Repudiation Letter\nLetter date: 2025-03-19\nClaim Reference: CLM-2025-8432\nDear Meera Reddy,\nThis is to inform you that your health insurance claim under Policy No. CARE/3549/2025 (Care) for treatment at Global Hospitals, Hyderabad has been denied.\nProcedure: Treatment for Hypertensive Nephropathy\nDiagnosis Code: I12.0\nClaimed Amount: Rs. 380,000\nDenial Reason: Clause 2.1.48 - Specified Disease Waiting Period\nDate of Admission: 2025-02-09\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-3535",
-      "patient_name": "Geeta Pillai",
+      "claim_id": "CLM-2025-8432",
+      "patient_name": "Meera Reddy",
       "insurer": "Care Health",
-      "policy_product": "Care Supreme",
-      "admission_date": "2025-11-05",
-      "denial_date": "2025-11-30",
-      "hospital_name": "Yashoda Hospital, Hyderabad",
-      "procedure": "Treatment for Heart Failure",
-      "icd10_code": "I50.9",
-      "claimed_amount": 520000.0,
-      "cited_clause_raw": "Clause 2.1.36",
-      "cited_clause_id": "CARESU-WAI-0407",
-      "denial_category_hint": "Pre-Existing Disease Waiting Period"
+      "policy_product": "Care",
+      "admission_date": "2025-02-09",
+      "denial_date": "2025-03-19",
+      "hospital_name": "Global Hospitals, Hyderabad",
+      "procedure": "Treatment for Hypertensive Nephropathy",
+      "icd10_code": "I12.0",
+      "claimed_amount": 380000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARE-EXC-0049",
+      "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
-    "case_id": "G1-094",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2024-1430\nIssued by: ICICI Lombard\nDate: 2024-05-17\n\nDear Mr./Ms. Girish Kaul,\n\nWe regret to inform you that your claim bearing reference number CLM-2024-1430 for Treatment for Hypothyroidism at Tata Memorial Hospital, Mumbai, admitted on 2024-04-08, has been repudiated.\n\nThe claim amount of Rs. 111,000 is not payable under Health Shield 360 due to Clause 2 (Specified Disease Waiting Period). The diagnosis code E03.9 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "case_id": "G1-096",
+    "raw_letter_text": "Care Health | Claim Repudiation Letter\nLetter date: 2023-07-16\nClaim Reference: CLM-2023-8259\nDear Girish Kaul,\nThis is to inform you that your health insurance claim under Policy No. CARE/7947/2023 (Care) for treatment at Aster MIMS, Kozhikode has been denied.\nProcedure: Treatment for Benign Prostatic Hyperplasia\nDiagnosis Code: N40.0\nClaimed Amount: Rs. 1,069,000\nDenial Reason: Clause 2.1.48 - Specified Disease Waiting Period\nDate of Admission: 2023-06-17\nPlease contact your TPA for further details.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-1430",
+      "claim_id": "CLM-2023-8259",
       "patient_name": "Girish Kaul",
+      "insurer": "Care Health",
+      "policy_product": "Care",
+      "admission_date": "2023-06-17",
+      "denial_date": "2023-07-16",
+      "hospital_name": "Aster MIMS, Kozhikode",
+      "procedure": "Treatment for Benign Prostatic Hyperplasia",
+      "icd10_code": "N40.0",
+      "claimed_amount": 1069000.0,
+      "cited_clause_raw": "Clause 2.1.48",
+      "cited_clause_id": "CARE-EXC-0049",
+      "denial_category_hint": "Specified Disease Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-097",
+    "raw_letter_text": "Care Health\nDate: 2025-01-15\nRef: CLM-2024-2816\n\nDear Girish Kaul,\nWith reference to your hospitalization on 2024-12-07 at Global Hospitals, Hyderabad for Treatment for Atrial Fibrillation (ICD-10: I48.91), your claim for Rs 1,472,000 under Care Supreme has been repudiated under Clause 14 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2024-2816",
+      "patient_name": "Girish Kaul",
+      "insurer": "Care Health",
+      "policy_product": "Care Supreme",
+      "admission_date": "2024-12-07",
+      "denial_date": "2025-01-15",
+      "hospital_name": "Global Hospitals, Hyderabad",
+      "procedure": "Treatment for Atrial Fibrillation",
+      "icd10_code": "I48.91",
+      "claimed_amount": 1472000.0,
+      "cited_clause_raw": "Clause 14",
+      "cited_clause_id": "CARESU-EXC-0565",
+      "denial_category_hint": "Initial 30-Day Waiting Period"
+    }
+  },
+  {
+    "case_id": "G1-098",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-4349\nIssued by: ICICI Lombard\nDate: 2023-05-05\n\nDear Mr./Ms. Amit Verma,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-4349 for Treatment for Hyperlipidemia at Lilavati Hospital, Mumbai, admitted on 2023-04-23, has been repudiated.\n\nThe claim amount of Rs. 493,000 is not payable under Health Shield 360 due to Clause 2 (Specified Disease Waiting Period). The diagnosis code E78.5 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
+    "ground_truth_entities": {
+      "claim_id": "CLM-2023-4349",
+      "patient_name": "Amit Verma",
       "insurer": "ICICI Lombard",
       "policy_product": "Health Shield 360",
-      "admission_date": "2024-04-08",
-      "denial_date": "2024-05-17",
-      "hospital_name": "Tata Memorial Hospital, Mumbai",
-      "procedure": "Treatment for Hypothyroidism",
-      "icd10_code": "E03.9",
-      "claimed_amount": 111000.0,
+      "admission_date": "2023-04-23",
+      "denial_date": "2023-05-05",
+      "hospital_name": "Lilavati Hospital, Mumbai",
+      "procedure": "Treatment for Hyperlipidemia",
+      "icd10_code": "E78.5",
+      "claimed_amount": 493000.0,
       "cited_clause_raw": "Clause 2",
       "cited_clause_id": "HEALTH-EXC-2289",
       "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
-    "case_id": "G1-095",
-    "raw_letter_text": "REPUDIATION NOTICE\nHDFC ERGO\nDate of letter: 2025-04-16\n\nTo: Ramesh Kumar\nPolicy: Optima Restore | Claim: CLM-2025-3324\nHospital: Medanta, Gurgaon\nDate of Hospitalization: 2025-03-31\nProcedure/Treatment: Treatment for Epilepsy [G40.909]\nBilled Amount: Rs. 242,000\n\nDenial Ground: Your claim has been denied under Clause 1, which pertains to Initial 30-Day Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
+    "case_id": "G1-099",
+    "raw_letter_text": "REPUDIATION NOTICE\nICICI Lombard\nDate of letter: 2025-06-23\n\nTo: Sunita Mishra\nPolicy: Health AdvantEdge | Claim: CLM-2025-3116\nHospital: Apollo Hospitals, Hyderabad\nDate of Hospitalization: 2025-05-31\nProcedure/Treatment: Treatment for Epilepsy [G40.909]\nBilled Amount: Rs. 1,167,000\n\nDenial Ground: Your claim has been denied under Clause 2, which pertains to Specified Disease Waiting Period, as per the policy terms and conditions.\n\nYou have the right to appeal this decision.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2025-3324",
-      "patient_name": "Ramesh Kumar",
-      "insurer": "HDFC ERGO",
-      "policy_product": "Optima Restore",
-      "admission_date": "2025-03-31",
-      "denial_date": "2025-04-16",
-      "hospital_name": "Medanta, Gurgaon",
-      "procedure": "Treatment for Epilepsy",
-      "icd10_code": "G40.909",
-      "claimed_amount": 242000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "OPTIMA-WAI-0794",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-096",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-6314\nIssued by: HDFC ERGO\nDate: 2025-02-27\n\nDear Mr./Ms. Usha Chauhan,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-6314 for Treatment for Hypothyroidism at KIMS, Hyderabad, admitted on 2025-01-27, has been repudiated.\n\nThe claim amount of Rs. 160,000 is not payable under Optima Restore due to Clause 1 (Initial 30-Day Waiting Period). The diagnosis code E03.9 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-6314",
-      "patient_name": "Usha Chauhan",
-      "insurer": "HDFC ERGO",
-      "policy_product": "Optima Restore",
-      "admission_date": "2025-01-27",
-      "denial_date": "2025-02-27",
-      "hospital_name": "KIMS, Hyderabad",
-      "procedure": "Treatment for Hypothyroidism",
-      "icd10_code": "E03.9",
-      "claimed_amount": 160000.0,
-      "cited_clause_raw": "Clause 1",
-      "cited_clause_id": "OPTIMA-WAI-0794",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-097",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-5475\nIssued by: ICICI Lombard\nDate: 2025-08-01\n\nDear Mr./Ms. Gopal Mehta,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-5475 for Treatment for Type 2 Diabetes Mellitus at Ruby Hall Clinic, Pune, admitted on 2025-06-24, has been repudiated.\n\nThe claim amount of Rs. 1,124,000 is not payable under Health AdvantEdge due to Clause 2 (Specified Disease Waiting Period). The diagnosis code E11.9 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-5475",
-      "patient_name": "Gopal Mehta",
+      "claim_id": "CLM-2025-3116",
+      "patient_name": "Sunita Mishra",
       "insurer": "ICICI Lombard",
       "policy_product": "Health AdvantEdge",
-      "admission_date": "2025-06-24",
-      "denial_date": "2025-08-01",
-      "hospital_name": "Ruby Hall Clinic, Pune",
-      "procedure": "Treatment for Type 2 Diabetes Mellitus",
-      "icd10_code": "E11.9",
-      "claimed_amount": 1124000.0,
+      "admission_date": "2025-05-31",
+      "denial_date": "2025-06-23",
+      "hospital_name": "Apollo Hospitals, Hyderabad",
+      "procedure": "Treatment for Epilepsy",
+      "icd10_code": "G40.909",
+      "claimed_amount": 1167000.0,
       "cited_clause_raw": "Clause 2",
       "cited_clause_id": "HEALTH-EXC-2020",
       "denial_category_hint": "Specified Disease Waiting Period"
     }
   },
   {
-    "case_id": "G1-098",
-    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2025-1744\nIssued by: ICICI Lombard\nDate: 2025-12-31\n\nDear Mr./Ms. Vanaja Kurian,\n\nWe regret to inform you that your claim bearing reference number CLM-2025-1744 for Treatment for Benign Prostatic Hyperplasia at SRM Institute, Chennai, admitted on 2025-11-30, has been repudiated.\n\nThe claim amount of Rs. 879,000 is not payable under Health AdvantEdge due to Clause 2 (Pre-Existing Disease Waiting Period). The diagnosis code N40.0 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2025-1744",
-      "patient_name": "Vanaja Kurian",
-      "insurer": "ICICI Lombard",
-      "policy_product": "Health AdvantEdge",
-      "admission_date": "2025-11-30",
-      "denial_date": "2025-12-31",
-      "hospital_name": "SRM Institute, Chennai",
-      "procedure": "Treatment for Benign Prostatic Hyperplasia",
-      "icd10_code": "N40.0",
-      "claimed_amount": 879000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "HEALTH-EXC-2021",
-      "denial_category_hint": "Pre-Existing Disease Waiting Period"
-    }
-  },
-  {
-    "case_id": "G1-099",
-    "raw_letter_text": "Star Health | Claim Repudiation Letter\nLetter date: 2024-07-07\nClaim Reference: CLM-2024-6375\nDear Lakshmi Rao,\nThis is to inform you that your health insurance claim under Policy No. STAR/2965/2024 (Family Health Optima) for treatment at AIIMS, New Delhi has been denied.\nProcedure: Treatment for COPD\nDiagnosis Code: J44.1\nClaimed Amount: Rs. 66,000\nDenial Reason: Clause 14 - Initial 30-Day Waiting Period\nDate of Admission: 2024-06-07\nPlease contact your TPA for further details.",
-    "ground_truth_entities": {
-      "claim_id": "CLM-2024-6375",
-      "patient_name": "Lakshmi Rao",
-      "insurer": "Star Health",
-      "policy_product": "Family Health Optima",
-      "admission_date": "2024-06-07",
-      "denial_date": "2024-07-07",
-      "hospital_name": "AIIMS, New Delhi",
-      "procedure": "Treatment for COPD",
-      "icd10_code": "J44.1",
-      "claimed_amount": 66000.0,
-      "cited_clause_raw": "Clause 14",
-      "cited_clause_id": "FAMILY-EXC-2816",
-      "denial_category_hint": "Initial 30-Day Waiting Period"
-    }
-  },
-  {
     "case_id": "G1-100",
-    "raw_letter_text": "Star Health\nDate: 2024-05-30\nRef: CLM-2024-6802\n\nDear Kishore Sinha,\nWith reference to your hospitalization on 2024-04-16 at Amrita Hospital, Kochi for Treatment for Heart Failure (ICD-10: I50.9), your claim for Rs 883,000 under Star Comprehensive has been repudiated under Clause 2 (Initial 30-Day Waiting Period). You may file an appeal within 30 days of this letter.",
+    "raw_letter_text": "Subject: Claim Repudiation Notice - CLM-2023-2275\nIssued by: ICICI Lombard\nDate: 2023-03-21\n\nDear Mr./Ms. Rani Mukherjee,\n\nWe regret to inform you that your claim bearing reference number CLM-2023-2275 for Treatment for Diabetic Retinopathy at Fortis Hospital, Gurgaon, admitted on 2023-02-08, has been repudiated.\n\nThe claim amount of Rs. 1,257,000 is not payable under Elevate Health due to Clause 4 (Initial 30-Day Waiting Period). The diagnosis code E11.311 has been reviewed by our medical team.\n\nAppeal window: 30 days from the date of this letter.",
     "ground_truth_entities": {
-      "claim_id": "CLM-2024-6802",
-      "patient_name": "Kishore Sinha",
-      "insurer": "Star Health",
-      "policy_product": "Star Comprehensive",
-      "admission_date": "2024-04-16",
-      "denial_date": "2024-05-30",
-      "hospital_name": "Amrita Hospital, Kochi",
-      "procedure": "Treatment for Heart Failure",
-      "icd10_code": "I50.9",
-      "claimed_amount": 883000.0,
-      "cited_clause_raw": "Clause 2",
-      "cited_clause_id": "STARCO-EXC-2599",
+      "claim_id": "CLM-2023-2275",
+      "patient_name": "Rani Mukherjee",
+      "insurer": "ICICI Lombard",
+      "policy_product": "Elevate Health",
+      "admission_date": "2023-02-08",
+      "denial_date": "2023-03-21",
+      "hospital_name": "Fortis Hospital, Gurgaon",
+      "procedure": "Treatment for Diabetic Retinopathy",
+      "icd10_code": "E11.311",
+      "claimed_amount": 1257000.0,
+      "cited_clause_raw": "Clause 4",
+      "cited_clause_id": "ELEVAT-EXC-1808",
       "denial_category_hint": "Initial 30-Day Waiting Period"
     }
   }
