@@ -1,1302 +1,1702 @@
 [
   {
     "query_id": "G2-001",
-    "user_query": "Is Robotic Prostatectomy covered if conservative medical treatment failed under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0001",
-    "expected_subclause": "4.3.2",
+    "user_query": "Is cosmetic or plastic surgery covered under Family Health Optima, and are there any exceptions?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "cosmetic",
+    "expected_clause_id": "FAMILY-EXC-2820",
+    "expected_subclause": "8",
+    "clause_type": "EXCLUSION",
     "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause 4.3.2: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "exception_text": "Cosmetic or plastic Surgery - Code Excl 08: Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
+    "ground_truth_context_snippet": "Cosmetic or plastic Surgery - Code Excl 08: Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured. For this to be considered a medical necessity, it must be certiﬁed by the attending",
     "distractor_clauses": [
-      "HS360-EXC-001",
-      "HS360-COV-012"
+      "FAMILY-EXC-2817",
+      "FAMILY-EXC-2831"
     ]
   },
   {
     "query_id": "G2-002",
-    "user_query": "What is the waiting period for Essential Hypertension under Complete Health Insurance?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0002",
-    "expected_subclause": "5.3.1",
+    "user_query": "Will Elevate Health pay for bariatric surgery for morbid obesity?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "obesity",
+    "expected_clause_id": "ELEVAT-EXC-1641",
+    "expected_subclause": "5",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.3.1: Any Pre-Existing Disease shall be covered only after the Insured Person has been continuously covered for a period of 48 months from the date of inception of the first policy, subject to continuous renewal without break.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Obesity where Obesity means abnormal or excessive fat accumulation that presents risk to the health (Body Mass Index i.e. BMI is less than or equal to 39.99. This BMI limit will be modified in case of co- morbidities.) 6. Coronary Artery Disease with PTCA done prior to 1 year: i. Coronary artery disease is the buildup of lipid-rich plaque in the arteries that supply oxygen-",
     "distractor_clauses": [
-      "COMPLE-WAI-001",
-      "COMPLE-DEF-005"
+      "ELEVAT-EXC-1765",
+      "ELEVAT-EXC-1789"
     ]
   },
   {
     "query_id": "G2-003",
-    "user_query": "Are cosmetic surgeries covered under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-EXC-0003",
-    "expected_subclause": "Excl04.3",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Exclusion Excl04.3: Cosmetic or plastic surgery is excluded unless required for reconstruction following an Accident, burn, or cancer, or as part of medically necessary treatment.",
+    "user_query": "Are maternity and childbirth expenses covered under Health Shield 360?",
+    "product_name": "Health Shield 360",
+    "insurer": "ICICI Lombard",
+    "topic": "maternity",
+    "expected_clause_id": "HEALTH-EXC-2267",
+    "expected_subclause": "7",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "provided You and Your spouse, both are covered under the same family floater Policy e. We will not cover ectopic pregnancy under this Cover (the same shall be covered under In-patient Treatment)",
     "distractor_clauses": [
-      "AROGYA-EXC-001",
-      "AROGYA-COV-008"
+      "HEALTH-EXC-2316",
+      "HEALTH-EXC-2325"
     ]
   },
   {
     "query_id": "G2-004",
-    "user_query": "What are the room rent limits under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0004",
-    "expected_subclause": "6.1.1",
+    "user_query": "Is dental treatment covered under Max Protect when it is not caused by an accident?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "dental",
+    "expected_clause_id": "MAXPRO-DEF-2348",
+    "expected_subclause": "4",
+    "clause_type": "DEFINITION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.1.1: Room and Boarding expenses shall be payable up to the Single Private AC Room category in the Network Hospital. In case of a non-network hospital, the amount shall be limited to 1% of the Sum Insured per day or actual charges, whichever is less.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Dental treatment means a treatment related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and surgery.",
     "distractor_clauses": [
-      "ELEVAT-COV-001",
-      "ELEVAT-EXC-015"
+      "MAXPRO-DEF-2361",
+      "MAXPRO-DEF-2349"
     ]
   },
   {
     "query_id": "G2-005",
-    "user_query": "Does Health AdvantEdge cover Laparoscopic Sleeve Gastrectomy if it's listed as a day care procedure?",
-    "product_name": "Health AdvantEdge",
-    "expected_clause_id": "HEALTH-COV-0005",
-    "expected_subclause": "2.4.1",
+    "user_query": "Does Star Comprehensive cover infertility or sterility treatment?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "infertility",
+    "expected_clause_id": "STARCO-EXC-2612",
+    "expected_subclause": "17",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 2.4.1: Day Care Treatment means medical treatment, and/or surgical procedure which requires less than 24 hours of hospitalization and is listed in the approved list of Day Care procedures as defined in the policy schedule.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Sterility and Infertility – Code Excl 17: Expenses related to sterility and infertility. This includes;",
     "distractor_clauses": [
-      "HEALTH-COV-001",
-      "HEALTH-EXC-020"
+      "STARCO-EXC-2611",
+      "STARCO-EXC-2671"
     ]
   },
   {
     "query_id": "G2-006",
-    "user_query": "What is the moratorium clause under Complete Health Insurance for pre-existing conditions?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0006",
-    "expected_subclause": "5.4.1",
+    "user_query": "Is an injury from an adventure sport covered under Star Comprehensive?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "adventure",
+    "expected_clause_id": "STARCO-EXC-2604",
+    "expected_subclause": "9",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.4.1 (Moratorium): After completion of 8 continuous years under the policy, no claim shall be contestable on the ground that a disease or condition was pre-existing at the time of inception, provided disclosure was made in good faith.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Hazardous or Adventure sports – Code Excl 09: Expenses related to any treatment necessitated due to participation as a professional in hazardous or adventure sports, including but not limited to, parajumping, rock climbing, mountaineering, rafting, motor racing, horse racing or scuba diving, hand gliding, sky diving, deep-sea diving.",
     "distractor_clauses": [
-      "COMPLE-WAI-003",
-      "COMPLE-DEF-010"
+      "STARCO-EXC-2619",
+      "STARCO-EXC-2624"
     ]
   },
   {
     "query_id": "G2-007",
-    "user_query": "Is Aortic Valve Replacement excluded as an experimental treatment under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0007",
-    "expected_subclause": "4.5.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 4.5.1: Experimental, investigational, or unproven treatment shall be excluded unless (a) the treatment is approved by CDSCO/DCGI, and (b) it has been performed at a recognized centre of excellence with published outcomes.",
+    "user_query": "Does Care pay for unproven or experimental treatment?",
+    "product_name": "Care",
+    "insurer": "Care Health",
+    "topic": "unproven",
+    "expected_clause_id": "CARE-DEF-0046",
+    "expected_subclause": "2.1.45",
+    "clause_type": "DEFINITION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Unproven/ Experimental Treatment means a treatment including drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven.",
     "distractor_clauses": [
-      "HS360-EXC-002",
-      "HS360-COV-005"
+      "CARE-DEF-0053",
+      "CARE-DEF-0068"
     ]
   },
   {
     "query_id": "G2-008",
-    "user_query": "What are the co-payment requirements for COPD treatment under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-COV-0008",
-    "expected_subclause": "6.4.1",
+    "user_query": "What is the waiting period for a pre-existing disease under Health AdvantEdge?",
+    "product_name": "Health AdvantEdge",
+    "insurer": "ICICI Lombard",
+    "topic": "ped_wait",
+    "expected_clause_id": "HEALTH-EXC-2021",
+    "expected_subclause": "2",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.4.1: A mandatory co-payment of 5% of the admissible claim amount shall be borne by the Insured Person for each and every claim. This co-payment is applicable over and above any deductible specified in the policy schedule.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "c. If any of the specified disease/procedure falls under the waiting period specified for pre-Existing diseases, then the longer of the two waiting periods shall apply. d. The waiting period for listed conditions shall apply even if contracted after the policy or declared and accepted without a specific exclusion. e. If the Insured Person is continuously covered without any",
     "distractor_clauses": [
-      "AROGYA-COV-002",
-      "AROGYA-EXC-011"
+      "HEALTH-EXC-2023",
+      "HEALTH-EXC-2018"
     ]
   },
   {
     "query_id": "G2-009",
-    "user_query": "Can I claim ambulance charges under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0009",
-    "expected_subclause": "2.7.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 2.7.1: Ambulance charges are covered up to Rs. 2,000 per hospitalization for emergency transportation to the nearest network hospital. Non-emergency ambulance charges are excluded.",
+    "user_query": "Which illnesses have a specific waiting period under Care, and how long is it?",
+    "product_name": "Care",
+    "insurer": "Care Health",
+    "topic": "specified_wait",
+    "expected_clause_id": "CARE-WAI-0321",
+    "expected_subclause": "3",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "The insured person will get the accrued continuity benefit in respect of the Waiting Periods, Specific Waiting Periods, Sum Insured, No Claim Bonus, Moratorium Period etc. in the event of payment of premium within the stipulated grace Period.",
     "distractor_clauses": [
-      "ELEVAT-COV-008",
-      "ELEVAT-EXC-025"
+      "CARE-WAI-0042",
+      "CARE-WAI-0054"
     ]
   },
   {
     "query_id": "G2-010",
-    "user_query": "What is the sub-limit for Liver Transplant implant costs under Max Protect?",
-    "product_name": "Max Protect",
-    "expected_clause_id": "MAXPRO-COV-0010",
-    "expected_subclause": "6.2.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 6.2.1: Implant costs shall be covered up to the limits specified in the policy schedule. Where the cost of implant exceeds the specified sub-limit, the excess shall be borne by the Insured Person. Implants must be from an approved manufacturer list.",
+    "user_query": "Is an illness in the first 30 days of my:Optima Secure covered?",
+    "product_name": "my:Optima Secure",
+    "insurer": "HDFC ERGO",
+    "topic": "initial_wait",
+    "expected_clause_id": "MYOPTI-WAI-1220",
+    "expected_subclause": "6",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "ABCD Chronic Care: Covers hospitalization expenses for Asthma, Blood pressure, Cholesterol and Diabetes just after 30 days of waiting period.",
     "distractor_clauses": [
-      "MAXPRO-COV-002",
-      "MAXPRO-EXC-009"
+      "MYOPTI-WAI-1222",
+      "MYOPTI-WAI-1054"
     ]
   },
   {
     "query_id": "G2-011",
-    "user_query": "Is robotic surgery or modern treatment covered under Care Supreme?",
-    "product_name": "Care Supreme",
-    "expected_clause_id": "CARESP-COV-0011",
-    "expected_subclause": "Modern-Treatments",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries, Deep Brain Stimulation, and Immunotherapy approved by IRDAI are payable up to the Sum Insured without sub-limits.",
+    "user_query": "What room rent limit applies under Family Health Optima, and what happens if I choose a higher room?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "room_rent",
+    "expected_clause_id": "FAMILY-COV-2744",
+    "expected_subclause": "1",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Note: Expenses relating to Associated medical expenses will be considered in proportion to the eligible room rent/room category stated in the policy schedule or actuals whichever is less. Proportionate deductions are not applied in respect of the hospitals which do not follow differential billing or for those expenses in respect of which differential billing is not adopted",
     "distractor_clauses": [
-      "CARESP-EXC-001",
-      "CARESP-DEF-004"
+      "FAMILY-COV-2766",
+      "FAMILY-COV-2749"
     ]
   },
   {
     "query_id": "G2-012",
-    "user_query": "What is the waiting period for pre-existing disease under Care?",
+    "user_query": "Which non-medical items or consumables are not payable under Care?",
     "product_name": "Care",
-    "expected_clause_id": "CARE-WAI-0012",
-    "expected_subclause": "Clause 3.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 3.1: Pre-existing Disease waiting period is 48 months of continuous coverage from the date of first inception of the policy.",
+    "insurer": "Care Health",
+    "topic": "nme",
+    "expected_clause_id": "CARE-COV-0227",
+    "expected_subclause": "2",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "Payable as SI is exhausted (ii) However, no such additional co-payment shall be applicable if treatment is availed in the hospitals listed in Annexure IV to the Policy Terms and Conditions.",
+    "ground_truth_context_snippet": "(ii) However, no such additional co-payment shall be applicable if treatment is availed in the hospitals listed in Annexure IV to the Policy Terms and Conditions.",
     "distractor_clauses": [
-      "CARE-WAI-002",
-      "CARE-DEF-001"
+      "CARE-COV-0332",
+      "CARE-COV-0251"
     ]
   },
   {
     "query_id": "G2-013",
-    "user_query": "How does the automatic restore benefit work under my:Optima Secure?",
-    "product_name": "my:Optima Secure",
-    "expected_clause_id": "MYOPTI-COV-0013",
-    "expected_subclause": "Restore Benefit",
+    "user_query": "Is a day care procedure needing less than 24 hours of hospitalization covered under Elevate Health?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "daycare",
+    "expected_clause_id": "ELEVAT-COV-1596",
+    "expected_subclause": "2",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Automatic Restore Benefit restores 100% of base Sum Insured upon partial or full exhaustion for any subsequent hospitalization within the policy period.",
+    "exception_text": "Day Care Procedures/Treatment We will cover the Medical Expenses incurred in respect of Your Day Care Treatment at a Day Care Centre, subject to the following:",
+    "ground_truth_context_snippet": "Day Care Procedures/Treatment We will cover the Medical Expenses incurred in respect of Your Day Care Treatment at a Day Care Centre, subject to the following:",
     "distractor_clauses": [
-      "MYOPTI-COV-005",
-      "MYOPTI-EXC-010"
+      "ELEVAT-COV-1740",
+      "ELEVAT-COV-1825"
     ]
   },
   {
     "query_id": "G2-014",
-    "user_query": "What is the waiting period for specific joint replacement under Optima Restore?",
-    "product_name": "Optima Restore",
-    "expected_clause_id": "OPTIMA-WAI-0014",
-    "expected_subclause": "Section 3.2",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Section 3.2: Specific illnesses including Joint Replacement, Cataract, and Hernia have a mandatory 24 months waiting period.",
+    "user_query": "Does Arogya Sanjeevani cover Ayurveda, Unani, Siddha or Homeopathy (AYUSH) treatment?",
+    "product_name": "Arogya Sanjeevani",
+    "insurer": "ICICI Lombard",
+    "topic": "ayush",
+    "expected_clause_id": "AROGYA-WAI-1354",
+    "expected_subclause": "1",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": true,
+    "exception_text": "AYUSH Pre Existing Disease Only PEDs declared in the Proposal Form and accepted for coverage by the com any shall be covered after a waiting period of 3 years Increase in the sum insured by 5% subject to a maximum of 50% of Sl.",
+    "ground_truth_context_snippet": "AYUSH Pre Existing Disease Only PEDs declared in the Proposal Form and accepted for coverage by the com any shall be covered after a waiting period of 3 years Increase in the sum insured by 5% subject to a maximum of 50% of Sl.",
     "distractor_clauses": [
-      "OPTIMA-WAI-001",
-      "OPTIMA-DEF-003"
+      "AROGYA-WAI-1246",
+      "AROGYA-WAI-1345"
     ]
   },
   {
     "query_id": "G2-015",
-    "user_query": "Are bariatric and metabolic surgeries covered under Star Comprehensive?",
-    "product_name": "Star Comprehensive",
-    "expected_clause_id": "STARCO-COV-0015",
-    "expected_subclause": "Bariatric Surgery Benefit",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Bariatric surgery is covered subject to prior approval, age above 18, BMI greater than 35 with severe co-morbidities, and failed medical management.",
+    "user_query": "Are robotic surgery and other modern treatments covered under Health Shield 360?",
+    "product_name": "Health Shield 360",
+    "insurer": "ICICI Lombard",
+    "topic": "modern",
+    "expected_clause_id": "HEALTH-COV-2206",
+    "expected_subclause": "3",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Sum Insured Sr. No Treatment/Procedure 1 Uterine Artery Embolization and HIFU (High intensity focused ultrasound) 2 Immunotherapy- Monoclonal Antibody to be given as injection 3 Vaporisation of the prostrate (Green laser treatment or holmium laser treatment) 4 Stem cell therapy: Hematopoietic stem cells for bone marrow transplant for haematological conditions 5 Balloon",
     "distractor_clauses": [
-      "STARCO-EXC-003",
-      "STARCO-COV-015"
+      "HEALTH-COV-2327",
+      "HEALTH-COV-2243"
     ]
   },
   {
     "query_id": "G2-016",
-    "user_query": "What is the waiting period for cataract surgery under Family Health Optima?",
-    "product_name": "Family Health Optima",
-    "expected_clause_id": "STARFH-WAI-0016",
-    "expected_subclause": "Specific Illness Waiting Period",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Expenses related to Cataract surgery are subject to a waiting period of 24 months from the first inception of the policy.",
+    "user_query": "After how many years can Health Booster no longer contest a claim for non-disclosure?",
+    "product_name": "Health Booster",
+    "insurer": "ICICI Lombard",
+    "topic": "moratorium",
+    "expected_clause_id": "HEALTH-WAI-2161",
+    "expected_subclause": "15",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": true,
+    "exception_text": "in health insurance policy, no policy and claim shall be contestable by the Company on grounds of non-disclosure, misrepresentation, except on grounds of established fraud.",
+    "ground_truth_context_snippet": "misrepresentation, except on grounds of established fraud. This period of sixty continuous months is called as moratorium period. The moratorium would be applicable for the sums insured of the first policy. Wherever, the sum insured is enhanced, completion of sixty continuous months would be applicable from the date of enhancement of sums insured only on the enhanced limits.",
     "distractor_clauses": [
-      "STARFH-WAI-002",
-      "STARFH-DEF-006"
+      "HEALTH-WAI-2157",
+      "HEALTH-WAI-2108"
     ]
   },
   {
     "query_id": "G2-017",
-    "user_query": "Is Cervical Spinal Fusion covered if conservative medical treatment failed under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-EXC-0017",
-    "expected_subclause": "Elective Surgery Exception",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause for Health Booster: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "user_query": "Is a hospital stay only for diagnostic investigation covered under Health Shield 360?",
+    "product_name": "Health Shield 360",
+    "insurer": "ICICI Lombard",
+    "topic": "investigation",
+    "expected_clause_id": "HEALTH-EXC-2293",
+    "expected_subclause": "5",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Permanent Exclusions i. Code- Excl04: Investigation & Evaluation.",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-COV-012"
+      "HEALTH-EXC-2316",
+      "HEALTH-EXC-2239"
     ]
   },
   {
     "query_id": "G2-018",
-    "user_query": "What is the waiting period for Chronic Kidney Disease under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-WAI-0018",
-    "expected_subclause": "Pre-Existing Waiting Period",
+    "user_query": "Does Star Comprehensive pay for rest cure or rehabilitation stays?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "rest_cure",
+    "expected_clause_id": "STARCO-EXC-2601",
+    "expected_subclause": "5",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause under Health Booster: Any Pre-Existing Disease shall be covered only after continuous coverage of 36 to 48 months from the date of first inception of the policy.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Rest Cure, rehabilitation and respite care – Code Excl 05: Expenses related to any admission primarily for enforced bed rest and not for receiving treatment.",
     "distractor_clauses": [
-      "ILGI-WAI-001",
-      "ILGI-DEF-005"
+      "STARCO-EXC-2606",
+      "STARCO-EXC-2619"
     ]
   },
   {
     "query_id": "G2-019",
-    "user_query": "Are robotic surgery or modern treatments covered under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-COV-0019",
-    "expected_subclause": "Modern Treatments",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries and Immunotherapy approved by IRDAI are payable up to the Sum Insured under Health Booster.",
+    "user_query": "Are injuries from war or nuclear events covered under Star Comprehensive?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "war",
+    "expected_clause_id": "STARCO-EXC-2618",
+    "expected_subclause": "24",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Injury or disease caused by or contributed to by nuclear weapons/materials - Code Excl 25.",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-DEF-004"
+      "STARCO-EXC-2629",
+      "STARCO-EXC-2596"
     ]
   },
   {
     "query_id": "G2-020",
-    "user_query": "Is Percutaneous Coronary Stent covered if conservative medical treatment failed under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0020",
-    "expected_subclause": "4.3.2",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause 4.3.2: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "user_query": "Is a hospitalization during the renewal grace period covered under Care Supreme?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "grace",
+    "expected_clause_id": "CARESU-COV-0599",
+    "expected_subclause": "2",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "During such grace period, coverage shall be available, if the premium is paid in instalments during the policy period.",
     "distractor_clauses": [
-      "HS360-EXC-001",
-      "HS360-COV-012"
+      "CARESU-COV-0640",
+      "CARESU-COV-0529"
     ]
   },
   {
     "query_id": "G2-021",
-    "user_query": "What is the waiting period for Osteoarthritis (Bilateral Knee) under Complete Health Insurance?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0021",
-    "expected_subclause": "5.3.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.3.1: Any Pre-Existing Disease shall be covered only after the Insured Person has been continuously covered for a period of 48 months from the date of inception of the first policy, subject to continuous renewal without break.",
+    "user_query": "If I port my policy to Family Health Optima, do I keep credit for waiting periods already served?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "portability",
+    "expected_clause_id": "FAMILY-EXC-2813",
+    "expected_subclause": "1",
+    "clause_type": "EXCLUSION",
+    "has_exception": true,
+    "exception_text": "Coverage under the policy after the expiry of 36 months for any pre-existing disease is subject to the same being declared at the time of application and accepted by Insurer.",
+    "ground_truth_context_snippet": "increase c. If the Insured Person is continuously covered without any break as deﬁned under the applicable norms on portability stipulated by IRDAI, then waiting period for the same would be reduced to the extent of prior coverage d. Coverage under the policy after the expiry of 36 months for any pre-existing disease is subject to the same being declared at the time of",
     "distractor_clauses": [
-      "COMPLE-WAI-001",
-      "COMPLE-DEF-005"
+      "FAMILY-EXC-2758",
+      "FAMILY-EXC-2819"
     ]
   },
   {
     "query_id": "G2-022",
-    "user_query": "Are cosmetic surgeries covered under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-EXC-0022",
-    "expected_subclause": "Excl04.3",
+    "user_query": "Is there a co-payment deduction on claims under Complete Health Insurance?",
+    "product_name": "Complete Health Insurance",
+    "insurer": "ICICI Lombard",
+    "topic": "co_pay",
+    "expected_clause_id": "COMPLE-COV-1448",
+    "expected_subclause": "17",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Exclusion Excl04.3: Cosmetic or plastic surgery is excluded unless required for reconstruction following an Accident, burn, or cancer, or as part of medically necessary treatment.",
+    "exception_text": "Optional Covers The Covers listed below shall be available to the Insured Person only if the additional premium has been received by Us(except Optional Cover 11.",
+    "ground_truth_context_snippet": "to the Insured Person only if the additional premium has been received by Us(except Optional Cover 11. Voluntary co-payment) and the Optional Cover is specified to be in force for that Insured Person in the Policy Schedule.",
     "distractor_clauses": [
-      "AROGYA-EXC-001",
-      "AROGYA-COV-008"
+      "COMPLE-COV-1481",
+      "COMPLE-COV-1469"
     ]
   },
   {
     "query_id": "G2-023",
-    "user_query": "What are the room rent limits under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0023",
-    "expected_subclause": "6.1.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.1.1: Room and Boarding expenses shall be payable up to the Single Private AC Room category in the Network Hospital. In case of a non-network hospital, the amount shall be limited to 1% of the Sum Insured per day or actual charges, whichever is less.",
+    "user_query": "How much does Health Booster pay for road ambulance charges?",
+    "product_name": "Health Booster",
+    "insurer": "ICICI Lombard",
+    "topic": "ambulance",
+    "expected_clause_id": "HEALTH-COV-2105",
+    "expected_subclause": "7",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "Domestic Road Emergency Ambulance Cover We will reimburse You up to 1% of Your Sum Insured, maximum upto 5,000 Rs. per Hospitalization, for the reasonable expenses incurred by You on availing ambulance services offered by a Hospital or by an ambulance service provider for Your necessary transportation to the nearest Hospital in case of a life threatening emergency condition, provided however that, a Claim under this extension shall be payable by Us only when:",
+    "ground_truth_context_snippet": "Domestic Road Emergency Ambulance Cover We will reimburse You up to 1% of Your Sum Insured, maximum upto 5,000 Rs. per Hospitalization, for the reasonable expenses incurred by You on availing ambulance services offered by a Hospital or by an ambulance service provider for Your necessary transportation to the nearest Hospital in case of a life threatening emergency condition,",
     "distractor_clauses": [
-      "ELEVAT-COV-001",
-      "ELEVAT-EXC-015"
+      "HEALTH-COV-2101",
+      "HEALTH-COV-2124"
     ]
   },
   {
     "query_id": "G2-024",
-    "user_query": "Does Health AdvantEdge cover Septoplasty if it's listed as a day care procedure?",
-    "product_name": "Health AdvantEdge",
-    "expected_clause_id": "HEALTH-COV-0024",
-    "expected_subclause": "2.4.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 2.4.1: Day Care Treatment means medical treatment, and/or surgical procedure which requires less than 24 hours of hospitalization and is listed in the approved list of Day Care procedures as defined in the policy schedule.",
+    "user_query": "For how many days before and after admission are expenses covered under Max Protect?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "pre_post",
+    "expected_clause_id": "MAXPRO-COV-2387",
+    "expected_subclause": "5",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "Post- Hospitalization Medical Expenses We will cover the Post-hospitalization Medical Expenses incurred in respect of the Insured Person immediately following the Insured Person’s discharge from Hospital up to the limits as specified in the Policy Schedule provided that:",
+    "ground_truth_context_snippet": "Post- Hospitalization Medical Expenses We will cover the Post-hospitalization Medical Expenses incurred in respect of the Insured Person immediately following the Insured Person’s discharge from Hospital up to the limits as specified in the Policy Schedule provided that:",
     "distractor_clauses": [
-      "HEALTH-COV-001",
-      "HEALTH-EXC-020"
+      "MAXPRO-COV-2347",
+      "MAXPRO-COV-2399"
     ]
   },
   {
     "query_id": "G2-025",
-    "user_query": "What is the moratorium clause under Complete Health Insurance for pre-existing conditions?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0025",
-    "expected_subclause": "5.4.1",
+    "user_query": "Are the organ donor's hospital expenses covered under Star Comprehensive?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "organ_donor",
+    "expected_clause_id": "STARCO-COV-2532",
+    "expected_subclause": "9",
+    "clause_type": "COVERAGE",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.4.1 (Moratorium): After completion of 8 continuous years under the policy, no claim shall be contestable on the ground that a disease or condition was pre-existing at the time of inception, provided disclosure was made in good faith.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Organ Donor Expenses: In-patient hospitalization expenses incurred for organ transplantation from the Donor to the Recipient Insured Person are payable provided the claim for transplantation is payable. In addition, the expenses incurred by the Donor (if any) for the complications that necessitate a Redo Surgery / ICU admission will be covered.",
     "distractor_clauses": [
-      "COMPLE-WAI-003",
-      "COMPLE-DEF-010"
+      "STARCO-COV-2632",
+      "STARCO-COV-2569"
     ]
   },
   {
     "query_id": "G2-026",
-    "user_query": "Is Cervical Spinal Fusion excluded as an experimental treatment under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0026",
-    "expected_subclause": "4.5.1",
+    "user_query": "Is treatment taken at home (domiciliary hospitalization) covered under Health Booster?",
+    "product_name": "Health Booster",
+    "insurer": "ICICI Lombard",
+    "topic": "domiciliary",
+    "expected_clause_id": "HEALTH-EXC-2100",
+    "expected_subclause": "2",
+    "clause_type": "EXCLUSION",
     "has_exception": true,
-    "ground_truth_context_snippet": "Clause 4.5.1: Experimental, investigational, or unproven treatment shall be excluded unless (a) the treatment is approved by CDSCO/DCGI, and (b) it has been performed at a recognized centre of excellence with published outcomes.",
+    "exception_text": "Subject however that Domiciliary Hospitalisation benefits under any circumstances shall not cover:",
+    "ground_truth_context_snippet": "Subject however that Domiciliary Hospitalisation benefits under any circumstances shall not cover:",
     "distractor_clauses": [
-      "HS360-EXC-002",
-      "HS360-COV-005"
+      "HEALTH-EXC-2110",
+      "HEALTH-EXC-2130"
     ]
   },
   {
     "query_id": "G2-027",
-    "user_query": "What are the co-payment requirements for COPD treatment under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-COV-0027",
-    "expected_subclause": "6.4.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.4.1: A mandatory co-payment of 5% of the admissible claim amount shall be borne by the Insured Person for each and every claim. This co-payment is applicable over and above any deductible specified in the policy schedule.",
+    "user_query": "Is cosmetic or plastic surgery covered under Health AdvantEdge, and are there any exceptions?",
+    "product_name": "Health AdvantEdge",
+    "insurer": "ICICI Lombard",
+    "topic": "cosmetic",
+    "expected_clause_id": "HEALTH-EXC-2033",
+    "expected_subclause": "23",
+    "clause_type": "EXCLUSION",
+    "has_exception": true,
+    "exception_text": "Any expenses incurred on prosthesis, corrective devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively. 24.",
+    "ground_truth_context_snippet": "by an Accident or required intra-operatively. 24. Treatment, procedures and preventive, diagnostic, restorative, cosmetic services related to disease, disorder and conditions related to natural teeth and gingiva except if required by an Insured Person while Hospitalized due to an Accident. 25. Treatment taken outside the geographical limits of India. This exclusion shall not",
     "distractor_clauses": [
-      "AROGYA-COV-002",
-      "AROGYA-EXC-011"
+      "HEALTH-EXC-1957",
+      "HEALTH-EXC-1998"
     ]
   },
   {
     "query_id": "G2-028",
-    "user_query": "Can I claim ambulance charges under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0028",
-    "expected_subclause": "2.7.1",
+    "user_query": "Will Health AdvantEdge pay for bariatric surgery for morbid obesity?",
+    "product_name": "Health AdvantEdge",
+    "insurer": "ICICI Lombard",
+    "topic": "obesity",
+    "expected_clause_id": "HEALTH-COV-1920",
+    "expected_subclause": "7",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Clause 2.7.1: Ambulance charges are covered up to Rs. 2,000 per hospitalization for emergency transportation to the nearest network hospital. Non-emergency ambulance charges are excluded.",
+    "exception_text": "Bariatric Surgery Cover We will cover medical expenses incurred in respect of Hospitalisation of the Insured Person for Surgical Procedure/treatment for Obesity, subject to below conditions and Eligibility criteria:",
+    "ground_truth_context_snippet": "Bariatric Surgery Cover We will cover medical expenses incurred in respect of Hospitalisation of the Insured Person for Surgical Procedure/treatment for Obesity, subject to below conditions and Eligibility criteria:",
     "distractor_clauses": [
-      "ELEVAT-COV-008",
-      "ELEVAT-EXC-025"
+      "HEALTH-COV-1952",
+      "HEALTH-COV-1913"
     ]
   },
   {
     "query_id": "G2-029",
-    "user_query": "What is the sub-limit for Percutaneous Coronary Stent implant costs under Max Protect?",
-    "product_name": "Max Protect",
-    "expected_clause_id": "MAXPRO-COV-0029",
-    "expected_subclause": "6.2.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 6.2.1: Implant costs shall be covered up to the limits specified in the policy schedule. Where the cost of implant exceeds the specified sub-limit, the excess shall be borne by the Insured Person. Implants must be from an approved manufacturer list.",
+    "user_query": "Are maternity and childbirth expenses covered under my:Optima Secure?",
+    "product_name": "my:Optima Secure",
+    "insurer": "HDFC ERGO",
+    "topic": "maternity",
+    "expected_clause_id": "MYOPTI-WAI-1222",
+    "expected_subclause": "8",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Parenthood: Covers Maternity Expenses, Embryo freezing costs and IVF treatments post waiting period of 2 years.",
     "distractor_clauses": [
-      "MAXPRO-COV-002",
-      "MAXPRO-EXC-009"
+      "MYOPTI-WAI-1139",
+      "MYOPTI-WAI-1166"
     ]
   },
   {
     "query_id": "G2-030",
-    "user_query": "Is robotic surgery or modern treatment covered under Care Supreme?",
-    "product_name": "Care Supreme",
-    "expected_clause_id": "CARESP-COV-0030",
-    "expected_subclause": "Modern-Treatments",
+    "user_query": "Is dental treatment covered under Star Comprehensive when it is not caused by an accident?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "dental",
+    "expected_clause_id": "STARCO-EXC-2624",
+    "expected_subclause": "30",
+    "clause_type": "EXCLUSION",
     "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries, Deep Brain Stimulation, and Immunotherapy approved by IRDAI are payable up to the Sum Insured without sub-limits.",
+    "exception_text": "Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) (except to the extent covered under Section II.17) - Code Excl 32.",
+    "ground_truth_context_snippet": "Dental treatment or surgery unless necessitated due to accidental injuries and requiring hospitalization (Dental implants are not payable) (except to the extent covered under Section II.17) - Code Excl 32.",
     "distractor_clauses": [
-      "CARESP-EXC-001",
-      "CARESP-DEF-004"
+      "STARCO-EXC-2593",
+      "STARCO-EXC-2609"
     ]
   },
   {
     "query_id": "G2-031",
-    "user_query": "What is the waiting period for pre-existing disease under Care?",
-    "product_name": "Care",
-    "expected_clause_id": "CARE-WAI-0031",
-    "expected_subclause": "Clause 3.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 3.1: Pre-existing Disease waiting period is 48 months of continuous coverage from the date of first inception of the policy.",
+    "user_query": "Does Elevate Health cover infertility or sterility treatment?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "infertility",
+    "expected_clause_id": "ELEVAT-COV-1811",
+    "expected_subclause": "18",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "Assisted reproduction services including artificial insemination and advanced reproductive technologies such as IVF, ZIFT, GIFT, ICSI (except where admissible under Basic Cover – In-Patient Hospitalization for Oocyte Donor). c.",
+    "ground_truth_context_snippet": "Sterility and lnfertility: Code- Excl 17 Expenses related to sterility and infertility. This includes: a. Any type of contraception or sterilization. b. Assisted reproduction services including artificial insemination and advanced reproductive technologies such as IVF, ZIFT, GIFT, ICSI (except where admissible under Basic Cover – In-Patient Hospitalization for Oocyte Donor).",
     "distractor_clauses": [
-      "CARE-WAI-002",
-      "CARE-DEF-001"
+      "ELEVAT-COV-1655",
+      "ELEVAT-COV-1639"
     ]
   },
   {
     "query_id": "G2-032",
-    "user_query": "How does the automatic restore benefit work under my:Optima Secure?",
-    "product_name": "my:Optima Secure",
-    "expected_clause_id": "MYOPTI-COV-0032",
-    "expected_subclause": "Restore Benefit",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Automatic Restore Benefit restores 100% of base Sum Insured upon partial or full exhaustion for any subsequent hospitalization within the policy period.",
+    "user_query": "Is an injury from an adventure sport covered under Care Supreme?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "adventure",
+    "expected_clause_id": "CARESU-DEF-0431",
+    "expected_subclause": "2.2.10",
+    "clause_type": "DEFINITION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Hazardous Activities (or Adventure sports) means any sport or activity, which is potentially dangerous to the Insured whether he is trained or not. Such sport/activity includes (but not limited to) stunt activities of any kind, adventure racing, base jumping, biathlon, big game hunting, black water rafting, BMX stunt/ obstacle riding, bobsleighing/ using skeletons, bouldering,",
     "distractor_clauses": [
-      "MYOPTI-COV-005",
-      "MYOPTI-EXC-010"
+      "CARESU-DEF-0380",
+      "CARESU-DEF-0421"
     ]
   },
   {
     "query_id": "G2-033",
-    "user_query": "What is the waiting period for specific joint replacement under Optima Restore?",
-    "product_name": "Optima Restore",
-    "expected_clause_id": "OPTIMA-WAI-0033",
-    "expected_subclause": "Section 3.2",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Section 3.2: Specific illnesses including Joint Replacement, Cataract, and Hernia have a mandatory 24 months waiting period.",
+    "user_query": "Does Max Protect pay for unproven or experimental treatment?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "unproven",
+    "expected_clause_id": "MAXPRO-EXC-2373",
+    "expected_subclause": "4",
+    "clause_type": "EXCLUSION",
+    "has_exception": true,
+    "exception_text": "Specific waiting period/ Specific Diseases/ Procedure waiting period means a period up to 24 months from the commencement of a health insurance policy during which period specified diseases/treatments (except due to an accident) are not covered.",
+    "ground_truth_context_snippet": "the period, diseases/treatments shall be covered provided the policy has been continuously renewed without any break Unproven/Experimental treatment means treatment including drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven. Specific Definitions (Definitions other than those mentioned under c.i. above)",
     "distractor_clauses": [
-      "OPTIMA-WAI-001",
-      "OPTIMA-DEF-003"
+      "MAXPRO-EXC-2451",
+      "MAXPRO-EXC-2422"
     ]
   },
   {
     "query_id": "G2-034",
-    "user_query": "Are bariatric and metabolic surgeries covered under Star Comprehensive?",
-    "product_name": "Star Comprehensive",
-    "expected_clause_id": "STARCO-COV-0034",
-    "expected_subclause": "Bariatric Surgery Benefit",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Bariatric surgery is covered subject to prior approval, age above 18, BMI greater than 35 with severe co-morbidities, and failed medical management.",
+    "user_query": "What is the waiting period for a pre-existing disease under Max Protect?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "ped_wait",
+    "expected_clause_id": "MAXPRO-WAI-2417",
+    "expected_subclause": "20",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "period reduction On payment of additional premium, waiting period for Medical Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be reduced to 24 months of continuous coverage after the date of inception of the first policy with insurer.",
     "distractor_clauses": [
-      "STARCO-EXC-003",
-      "STARCO-COV-015"
+      "MAXPRO-WAI-2405",
+      "MAXPRO-WAI-2435"
     ]
   },
   {
     "query_id": "G2-035",
-    "user_query": "What is the waiting period for cataract surgery under Family Health Optima?",
-    "product_name": "Family Health Optima",
-    "expected_clause_id": "STARFH-WAI-0035",
-    "expected_subclause": "Specific Illness Waiting Period",
+    "user_query": "Which illnesses have a specific waiting period under Health AdvantEdge, and how long is it?",
+    "product_name": "Health AdvantEdge",
+    "insurer": "ICICI Lombard",
+    "topic": "specified_wait",
+    "expected_clause_id": "HEALTH-EXC-2020",
+    "expected_subclause": "2",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Expenses related to Cataract surgery are subject to a waiting period of 24 months from the first inception of the policy.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Specified Disease/Procedure Waiting Period/Specific Waiting Period- Code- Excl02 a. Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 0 months/24months (depending on plan opted) of continuous coverage after the date of inception of the first policy with us. This exclusion shall not be applicable for claims",
     "distractor_clauses": [
-      "STARFH-WAI-002",
-      "STARFH-DEF-006"
+      "HEALTH-EXC-2025",
+      "HEALTH-EXC-2024"
     ]
   },
   {
     "query_id": "G2-036",
-    "user_query": "Is Septoplasty covered if conservative medical treatment failed under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-EXC-0036",
-    "expected_subclause": "Elective Surgery Exception",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause for Health Booster: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "user_query": "Is an illness in the first 30 days of Optima Restore covered?",
+    "product_name": "Optima Restore",
+    "insurer": "HDFC ERGO",
+    "topic": "initial_wait",
+    "expected_clause_id": "OPTIMA-WAI-0794",
+    "expected_subclause": "1",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "The Insured Person shall be allowed free look period of 30 days from date of receipt of the policy document to review the terms and conditions of the policy, and to return the same if not acceptable.",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-COV-012"
+      "OPTIMA-WAI-0855",
+      "OPTIMA-WAI-0745"
     ]
   },
   {
     "query_id": "G2-037",
-    "user_query": "What is the waiting period for Epilepsy under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-WAI-0037",
-    "expected_subclause": "Pre-Existing Waiting Period",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause under Health Booster: Any Pre-Existing Disease shall be covered only after continuous coverage of 36 to 48 months from the date of first inception of the policy.",
+    "user_query": "What room rent limit applies under Max Protect, and what happens if I choose a higher room?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "room_rent",
+    "expected_clause_id": "MAXPRO-EXC-2377",
+    "expected_subclause": "4",
+    "clause_type": "EXCLUSION",
+    "has_exception": true,
+    "exception_text": "Cost of investigative tests or prescribed diagnostic procedures directly related to the Injury/Illness for which the Insured Person is hospitalized We will consider a claim under this Cover, subject to the following:",
+    "ground_truth_context_snippet": "the Policy Period, up to the Annual Sum Insured specified in the Policy Schedule against this Inpatient care: a) Room Rent charges up to the limits as mentioned in the Policy Schedule b) Intensive Care Unit Charges; c) Qualified Nurse charges; d) Medical Practitioner’s Fees ; e) Anaesthesia, blood, oxygen, operation theatre charges, medicines, drugs and consumables (other than",
     "distractor_clauses": [
-      "ILGI-WAI-001",
-      "ILGI-DEF-005"
+      "MAXPRO-EXC-2373",
+      "MAXPRO-EXC-2342"
     ]
   },
   {
     "query_id": "G2-038",
-    "user_query": "Are robotic surgery or modern treatments covered under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-COV-0038",
-    "expected_subclause": "Modern Treatments",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries and Immunotherapy approved by IRDAI are payable up to the Sum Insured under Health Booster.",
+    "user_query": "Which non-medical items or consumables are not payable under my:Optima Secure?",
+    "product_name": "my:Optima Secure",
+    "insurer": "HDFC ERGO",
+    "topic": "nme",
+    "expected_clause_id": "MYOPTI-COV-1171",
+    "expected_subclause": "2",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Annexure B List I - Items for which Coverage is not available in the Policy (Non-Medical Expenses)",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-DEF-004"
+      "MYOPTI-COV-0997",
+      "MYOPTI-COV-0992"
     ]
   },
   {
     "query_id": "G2-039",
-    "user_query": "Is Robotic Prostatectomy covered if conservative medical treatment failed under Health Shield 360?",
+    "user_query": "Is a day care procedure needing less than 24 hours of hospitalization covered under Health Shield 360?",
     "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0039",
-    "expected_subclause": "4.3.2",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause 4.3.2: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "insurer": "ICICI Lombard",
+    "topic": "daycare",
+    "expected_clause_id": "HEALTH-EXC-2279",
+    "expected_subclause": "11",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "a. The expenses covered under this cover will be limited to Inpatient Hospitalization Expenses and Day Care Treatment/ Procedure Expenses. b. Expenses incurred for Pre and Post Hospitalization Medical Expenses, Out- patient Treatment or any other Basic Covers/Optional Covers under this Policy shall not be covered. iv. The payment of any claim will be based on the rate of",
     "distractor_clauses": [
-      "HS360-EXC-001",
-      "HS360-COV-012"
+      "HEALTH-EXC-2325",
+      "HEALTH-EXC-2239"
     ]
   },
   {
     "query_id": "G2-040",
-    "user_query": "What is the waiting period for Hyperlipidemia under Complete Health Insurance?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0040",
-    "expected_subclause": "5.3.1",
+    "user_query": "Does Family Health Optima cover Ayurveda, Unani, Siddha or Homeopathy (AYUSH) treatment?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "ayush",
+    "expected_clause_id": "FAMILY-COV-2746",
+    "expected_subclause": "4",
+    "clause_type": "COVERAGE",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.3.1: Any Pre-Existing Disease shall be covered only after the Insured Person has been continuously covered for a period of 48 months from the date of inception of the first policy, subject to continuous renewal without break.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "AYUSH Treatment: Inpatient Hospitalizations Expenses incurred on treatment under Ayurveda, Unani, Siddha and Homeopathy systems of medicines in a AYUSH Hospital is payable up to the Sum Insured.",
     "distractor_clauses": [
-      "COMPLE-WAI-001",
-      "COMPLE-DEF-005"
+      "FAMILY-COV-2850",
+      "FAMILY-COV-2857"
     ]
   },
   {
     "query_id": "G2-041",
-    "user_query": "Are cosmetic surgeries covered under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-EXC-0041",
-    "expected_subclause": "Excl04.3",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Exclusion Excl04.3: Cosmetic or plastic surgery is excluded unless required for reconstruction following an Accident, burn, or cancer, or as part of medically necessary treatment.",
+    "user_query": "Are robotic surgery and other modern treatments covered under Star Comprehensive?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "modern",
+    "expected_clause_id": "STARCO-COV-2527",
+    "expected_subclause": "4",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Coverage for Modern Treatments: The expenses payable during the entire Policy Period for the following treatment / procedure (either as a day care or as an in-patient exceeding 24hrs of admission in the hospital) is limited to the amount mentioned in table below;",
     "distractor_clauses": [
-      "AROGYA-EXC-001",
-      "AROGYA-COV-008"
+      "STARCO-COV-2636",
+      "STARCO-COV-2583"
     ]
   },
   {
     "query_id": "G2-042",
-    "user_query": "What are the room rent limits under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0042",
-    "expected_subclause": "6.1.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.1.1: Room and Boarding expenses shall be payable up to the Single Private AC Room category in the Network Hospital. In case of a non-network hospital, the amount shall be limited to 1% of the Sum Insured per day or actual charges, whichever is less.",
+    "user_query": "After how many years can Optima Restore no longer contest a claim for non-disclosure?",
+    "product_name": "Optima Restore",
+    "insurer": "HDFC ERGO",
+    "topic": "moratorium",
+    "expected_clause_id": "OPTIMA-WAI-0790",
+    "expected_subclause": "1",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": true,
+    "exception_text": "Renewal of Policy A health insurance policy shall be renewable except on grounds of established fraud or non- disclosure or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause.",
+    "ground_truth_context_snippet": "or misrepresentation by the insured, provided the policy is not withdrawn and also subject to conditions stated under Moratorium clause.",
     "distractor_clauses": [
-      "ELEVAT-COV-001",
-      "ELEVAT-EXC-015"
+      "OPTIMA-WAI-0794",
+      "OPTIMA-WAI-0801"
     ]
   },
   {
     "query_id": "G2-043",
-    "user_query": "Does Health AdvantEdge cover Septoplasty if it's listed as a day care procedure?",
-    "product_name": "Health AdvantEdge",
-    "expected_clause_id": "HEALTH-COV-0043",
-    "expected_subclause": "2.4.1",
+    "user_query": "Is a hospital stay only for diagnostic investigation covered under Family Health Optima?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "investigation",
+    "expected_clause_id": "FAMILY-EXC-2817",
+    "expected_subclause": "4",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 2.4.1: Day Care Treatment means medical treatment, and/or surgical procedure which requires less than 24 hours of hospitalization and is listed in the approved list of Day Care procedures as defined in the policy schedule.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Investigation & Evaluation - Code Excl 04 A. Expenses related to any admission primarily for diagnostics and evaluation purposes only are excluded B. Any diagnostic expenses which are not related or not incidental to the current diagnosis and treatment are excluded.",
     "distractor_clauses": [
-      "HEALTH-COV-001",
-      "HEALTH-EXC-020"
+      "FAMILY-EXC-2818",
+      "FAMILY-EXC-2820"
     ]
   },
   {
     "query_id": "G2-044",
-    "user_query": "What is the moratorium clause under Complete Health Insurance for pre-existing conditions?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0044",
-    "expected_subclause": "5.4.1",
+    "user_query": "Does Health Booster pay for rest cure or rehabilitation stays?",
+    "product_name": "Health Booster",
+    "insurer": "ICICI Lombard",
+    "topic": "rest_cure",
+    "expected_clause_id": "HEALTH-COV-2117",
+    "expected_subclause": "4",
+    "clause_type": "COVERAGE",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.4.1 (Moratorium): After completion of 8 continuous years under the policy, no claim shall be contestable on the ground that a disease or condition was pre-existing at the time of inception, provided disclosure was made in good faith.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Temporary Total Disablement (TTD) Rehabilitation Cover (resulting from Accident Extension) We, hereby agree to pay a sum as stated in the Policy Schedule against this extension, per week, on the occurrence of Temporary Total Disablement, which means such loss caused to the Insured Person provided:",
     "distractor_clauses": [
-      "COMPLE-WAI-003",
-      "COMPLE-DEF-010"
+      "HEALTH-COV-2105",
+      "HEALTH-COV-2101"
     ]
   },
   {
     "query_id": "G2-045",
-    "user_query": "Is Robotic Prostatectomy excluded as an experimental treatment under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0045",
-    "expected_subclause": "4.5.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 4.5.1: Experimental, investigational, or unproven treatment shall be excluded unless (a) the treatment is approved by CDSCO/DCGI, and (b) it has been performed at a recognized centre of excellence with published outcomes.",
+    "user_query": "Are injuries from war or nuclear events covered under Family Health Optima?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "war",
+    "expected_clause_id": "FAMILY-EXC-2833",
+    "expected_subclause": "24",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Injury or disease caused by or contributed to by nuclear weapons/ materials - Code Excl 25.",
     "distractor_clauses": [
-      "HS360-EXC-002",
-      "HS360-COV-005"
+      "FAMILY-EXC-2817",
+      "FAMILY-EXC-2823"
     ]
   },
   {
     "query_id": "G2-046",
-    "user_query": "What are the co-payment requirements for Epilepsy treatment under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-COV-0046",
-    "expected_subclause": "6.4.1",
+    "user_query": "Is a hospitalization during the renewal grace period covered under Care?",
+    "product_name": "Care",
+    "insurer": "Care Health",
+    "topic": "grace",
+    "expected_clause_id": "CARE-COV-0320",
+    "expected_subclause": "2",
+    "clause_type": "COVERAGE",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.4.1: A mandatory co-payment of 5% of the admissible claim amount shall be borne by the Insured Person for each and every claim. This co-payment is applicable over and above any deductible specified in the policy schedule.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "During such grace period, coverage shall be available if the premium is paid in instalments during the policy period.",
     "distractor_clauses": [
-      "AROGYA-COV-002",
-      "AROGYA-EXC-011"
+      "CARE-COV-0326",
+      "CARE-COV-0323"
     ]
   },
   {
     "query_id": "G2-047",
-    "user_query": "Can I claim ambulance charges under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0047",
-    "expected_subclause": "2.7.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 2.7.1: Ambulance charges are covered up to Rs. 2,000 per hospitalization for emergency transportation to the nearest network hospital. Non-emergency ambulance charges are excluded.",
+    "user_query": "If I port my policy to Health Booster, do I keep credit for waiting periods already served?",
+    "product_name": "Health Booster",
+    "insurer": "ICICI Lombard",
+    "topic": "portability",
+    "expected_clause_id": "HEALTH-WAI-2157",
+    "expected_subclause": "13",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "may underwrite the proposal in case of migration, if the insured is not continuously covered for 36 months. 14. Portability a. The insured has the choice to port his / her policies from one Insurer to another. An Insured desirous of porting his/her policy to another insurer shall apply to such insurer to port the entire policy along with all the members of the family, if any,",
     "distractor_clauses": [
-      "ELEVAT-COV-008",
-      "ELEVAT-EXC-025"
+      "HEALTH-WAI-2161",
+      "HEALTH-WAI-2108"
     ]
   },
   {
     "query_id": "G2-048",
-    "user_query": "What is the sub-limit for Craniotomy for Tumor implant costs under Max Protect?",
-    "product_name": "Max Protect",
-    "expected_clause_id": "MAXPRO-COV-0048",
-    "expected_subclause": "6.2.1",
+    "user_query": "Is there a co-payment deduction on claims under Health Booster?",
+    "product_name": "Health Booster",
+    "insurer": "ICICI Lombard",
+    "topic": "co_pay",
+    "expected_clause_id": "HEALTH-EXC-2135",
+    "expected_subclause": "1",
+    "clause_type": "EXCLUSION",
     "has_exception": true,
-    "ground_truth_context_snippet": "Clause 6.2.1: Implant costs shall be covered up to the limits specified in the policy schedule. Where the cost of implant exceeds the specified sub-limit, the excess shall be borne by the Insured Person. Implants must be from an approved manufacturer list.",
+    "exception_text": "We are not liable for any payment unless the medical expenses exceed the deductible.",
+    "ground_truth_context_snippet": "unless the medical expenses exceed the deductible. Deductible shall not be applicable for optional covers, if any. 2. Co-Payment: We are not liable to pay twenty percent (20%) of admissible claim amount above the Deductible applicable under the Policy, for insured(s) above 60 years of age. This does not apply if insured is 60 years of age or below. However, this condition will",
     "distractor_clauses": [
-      "MAXPRO-COV-002",
-      "MAXPRO-EXC-009"
+      "HEALTH-EXC-2100",
+      "HEALTH-EXC-2130"
     ]
   },
   {
     "query_id": "G2-049",
-    "user_query": "Is robotic surgery or modern treatment covered under Care Supreme?",
-    "product_name": "Care Supreme",
-    "expected_clause_id": "CARESP-COV-0049",
-    "expected_subclause": "Modern-Treatments",
+    "user_query": "How much does Care pay for road ambulance charges?",
+    "product_name": "Care",
+    "insurer": "Care Health",
+    "topic": "ambulance",
+    "expected_clause_id": "CARE-COV-0117",
+    "expected_subclause": "3.1.4",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries, Deep Brain Stimulation, and Immunotherapy approved by IRDAI are payable up to the Sum Insured without sub-limits.",
+    "exception_text": "Benefit 4: Ambulance Cover The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Base Sum Insured specified against this Benefit in the Policy Schedule, for the Reasonable and Customary Charges necessarily incurred on availing road Ambulance services offered by a Hospital or by an Ambulance service provider for the Insured Person's necessary transportation through road, provided that the necessity of such Ambulance transportation is certified by the treating Medical Practitioner and subject to the conditions specified below:",
+    "ground_truth_context_snippet": "Benefit 4: Ambulance Cover The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Base Sum Insured specified against this Benefit in the Policy Schedule, for the Reasonable and Customary Charges necessarily incurred on availing road Ambulance services offered by a Hospital or by an Ambulance service provider for the Insured",
     "distractor_clauses": [
-      "CARESP-EXC-001",
-      "CARESP-DEF-004"
+      "CARE-COV-0322",
+      "CARE-COV-0292"
     ]
   },
   {
     "query_id": "G2-050",
-    "user_query": "What is the waiting period for pre-existing disease under Care?",
-    "product_name": "Care",
-    "expected_clause_id": "CARE-WAI-0050",
-    "expected_subclause": "Clause 3.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 3.1: Pre-existing Disease waiting period is 48 months of continuous coverage from the date of first inception of the policy.",
+    "user_query": "For how many days before and after admission are expenses covered under Care Supreme?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "pre_post",
+    "expected_clause_id": "CARESU-DEF-0410",
+    "expected_subclause": "2.1.37",
+    "clause_type": "DEFINITION",
+    "has_exception": true,
+    "exception_text": "Pre-hospitalization Medical Expenses means Medical Expenses incurred during pre-defined number of days preceding the hospitalization of the Insured Person, provided that :",
+    "ground_truth_context_snippet": "Pre-hospitalization Medical Expenses means Medical Expenses incurred during pre-defined number of days preceding the hospitalization of the Insured Person, provided that :",
     "distractor_clauses": [
-      "CARE-WAI-002",
-      "CARE-DEF-001"
+      "CARESU-DEF-0377",
+      "CARESU-DEF-0582"
     ]
   },
   {
     "query_id": "G2-051",
-    "user_query": "How does the automatic restore benefit work under my:Optima Secure?",
-    "product_name": "my:Optima Secure",
-    "expected_clause_id": "MYOPTI-COV-0051",
-    "expected_subclause": "Restore Benefit",
+    "user_query": "Are the organ donor's hospital expenses covered under Max Protect?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "organ_donor",
+    "expected_clause_id": "MAXPRO-COV-2393",
+    "expected_subclause": "8",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Automatic Restore Benefit restores 100% of base Sum Insured upon partial or full exhaustion for any subsequent hospitalization within the policy period.",
+    "exception_text": "Donor Expenses We will cover the medical expenses incurred in respect of an organ donor’s Hospitalization during the Policy Period for harvesting of the organ donated to the Insured Person up to the Annual Sum Insured specified in the Policy Schedule provided that: a) The organ donation confirms to the Transportation of Human Organs Act 1994 as amended for time to time and the organ is used for the Insured Person b) We will cover only those Medical Expenses incurred in respect of an organ donor as an in-patient in the Hospital. c) We have accepted a claim under.",
+    "ground_truth_context_snippet": "Donor Expenses We will cover the medical expenses incurred in respect of an organ donor’s Hospitalization during the Policy Period for harvesting of the organ donated to the Insured Person up to the Annual Sum Insured specified in the Policy Schedule provided that: a) The organ donation confirms to the Transportation of Human Organs Act 1994 as amended for time to time and the",
     "distractor_clauses": [
-      "MYOPTI-COV-005",
-      "MYOPTI-EXC-010"
+      "MAXPRO-COV-2442",
+      "MAXPRO-COV-2387"
     ]
   },
   {
     "query_id": "G2-052",
-    "user_query": "What is the waiting period for specific joint replacement under Optima Restore?",
-    "product_name": "Optima Restore",
-    "expected_clause_id": "OPTIMA-WAI-0052",
-    "expected_subclause": "Section 3.2",
+    "user_query": "Is treatment taken at home (domiciliary hospitalization) covered under Care Supreme?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "domiciliary",
+    "expected_clause_id": "CARESU-DEF-0386",
+    "expected_subclause": "2.1.14",
+    "clause_type": "DEFINITION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Section 3.2: Specific illnesses including Joint Replacement, Cataract, and Hernia have a mandatory 24 months waiting period.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Domiciliary Hospitalization means medical treatment for an illness/disease/injury which in the normal course would require care and treatment at a Hospital but is actually taken while confined at home under any of the following circumstances:",
     "distractor_clauses": [
-      "OPTIMA-WAI-001",
-      "OPTIMA-DEF-003"
+      "CARESU-DEF-0401",
+      "CARESU-DEF-0422"
     ]
   },
   {
     "query_id": "G2-053",
-    "user_query": "Are bariatric and metabolic surgeries covered under Star Comprehensive?",
-    "product_name": "Star Comprehensive",
-    "expected_clause_id": "STARCO-COV-0053",
-    "expected_subclause": "Bariatric Surgery Benefit",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Bariatric surgery is covered subject to prior approval, age above 18, BMI greater than 35 with severe co-morbidities, and failed medical management.",
+    "user_query": "Is cosmetic or plastic surgery covered under Elevate Health, and are there any exceptions?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "cosmetic",
+    "expected_clause_id": "ELEVAT-WAI-1763",
+    "expected_subclause": "34",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "ART conducted at non-ICMR centres, elective abortions, expenses beyond financial limits, cosmetic care and claims arising within applicable Waiting Periods will not be covered.",
     "distractor_clauses": [
-      "STARCO-EXC-003",
-      "STARCO-COV-015"
+      "ELEVAT-WAI-1806",
+      "ELEVAT-WAI-1637"
     ]
   },
   {
     "query_id": "G2-054",
-    "user_query": "What is the waiting period for cataract surgery under Family Health Optima?",
-    "product_name": "Family Health Optima",
-    "expected_clause_id": "STARFH-WAI-0054",
-    "expected_subclause": "Specific Illness Waiting Period",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Expenses related to Cataract surgery are subject to a waiting period of 24 months from the first inception of the policy.",
+    "user_query": "Will Max Protect pay for bariatric surgery for morbid obesity?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "obesity",
+    "expected_clause_id": "MAXPRO-WAI-2405",
+    "expected_subclause": "14",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": true,
+    "exception_text": "There is no limit on the number of time this cover can be used in a policy year subject to the Annual Sum Insured of the cover as specified in policy schedule.",
+    "ground_truth_context_snippet": "Bariatric Surgery If the insured is hospitalized on the advice of a Doctor because of Conditions mentioned below which required insured to undergo Bariatric Surgery during the Policy year, then We will pay the insured, Reasonable and Customary Expenses related to Bariatric Surgery according to the policy schedule and waiting period mentioned in this document. There is no limit",
     "distractor_clauses": [
-      "STARFH-WAI-002",
-      "STARFH-DEF-006"
+      "MAXPRO-WAI-2433",
+      "MAXPRO-WAI-2363"
     ]
   },
   {
     "query_id": "G2-055",
-    "user_query": "Is Laparoscopic Sleeve Gastrectomy covered if conservative medical treatment failed under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-EXC-0055",
-    "expected_subclause": "Elective Surgery Exception",
+    "user_query": "Are maternity and childbirth expenses covered under Health AdvantEdge?",
+    "product_name": "Health AdvantEdge",
+    "insurer": "ICICI Lombard",
+    "topic": "maternity",
+    "expected_clause_id": "HEALTH-EXC-1966",
+    "expected_subclause": "1",
+    "clause_type": "EXCLUSION",
     "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause for Health Booster: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "exception_text": "This optional benefit covers the medical expenses up to 10% of the Annual Sum Insured; subject to a maximum limit of INR 1 Lakhs (Sum Insured) for the delivery of a baby and / or expenses related to medically recommended lawful termination of pregnancy but only in life threatening situation under the advice of Medical Practitioner, limited to maximum of three deliveries or terminations as said herein during the lifetime of an female Insured/Insured Person as the case may be between the ages of 18 years to 45 years in the Policy. ii.",
+    "ground_truth_context_snippet": "Maternity Cover a. Maternity Benefit_A i. This optional benefit covers the medical expenses up to 10% of the Annual Sum Insured; subject to a maximum limit of INR 1 Lakhs (Sum Insured) for the delivery of a baby and / or expenses related to medically recommended lawful termination of pregnancy but only in life threatening situation under the advice of Medical Practitioner,",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-COV-012"
+      "HEALTH-EXC-2025",
+      "HEALTH-EXC-2020"
     ]
   },
   {
     "query_id": "G2-056",
-    "user_query": "What is the waiting period for Hypertensive Nephropathy under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-WAI-0056",
-    "expected_subclause": "Pre-Existing Waiting Period",
+    "user_query": "Is dental treatment covered under Care when it is not caused by an accident?",
+    "product_name": "Care",
+    "insurer": "Care Health",
+    "topic": "dental",
+    "expected_clause_id": "CARE-COV-0164",
+    "expected_subclause": "3",
+    "clause_type": "COVERAGE",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause under Health Booster: Any Pre-Existing Disease shall be covered only after continuous coverage of 36 to 48 months from the date of first inception of the policy.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "as a part of Annual Health Check-up Physical Examination (Height, Weight and Body Mass Index (BMI)), Eye Examination, Dental Examination and Scoring, Growth Charting, Doctor Consultation, Urine Examination (Routine and Microscopic)",
     "distractor_clauses": [
-      "ILGI-WAI-001",
-      "ILGI-DEF-005"
+      "CARE-COV-0152",
+      "CARE-COV-0344"
     ]
   },
   {
     "query_id": "G2-057",
-    "user_query": "Are robotic surgery or modern treatments covered under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-COV-0057",
-    "expected_subclause": "Modern Treatments",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries and Immunotherapy approved by IRDAI are payable up to the Sum Insured under Health Booster.",
+    "user_query": "Is an injury from an adventure sport covered under Family Health Optima?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "adventure",
+    "expected_clause_id": "FAMILY-EXC-2821",
+    "expected_subclause": "9",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Hazardous or Adventure sports - Code Excl 09: Expenses related to any treatment necessitated due to participation as a professional in hazardous or adventure sports, including but not limited to, para-jumping, rock climbing, mountaineering, rafting, motor racing, horse racing or scuba diving, hand gliding, sky diving, deep-sea diving.",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-DEF-004"
+      "FAMILY-EXC-2841",
+      "FAMILY-EXC-2758"
     ]
   },
   {
     "query_id": "G2-058",
-    "user_query": "Is Renal Transplant covered if conservative medical treatment failed under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0058",
-    "expected_subclause": "4.3.2",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause 4.3.2: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "user_query": "Does Care Supreme pay for unproven or experimental treatment?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "unproven",
+    "expected_clause_id": "CARESU-DEF-0417",
+    "expected_subclause": "2.1.45",
+    "clause_type": "DEFINITION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Unproven/Experimental Treatment means a treatment including drug experimental therapy which is not based on established medical practice in India, is treatment experimental or unproven.",
     "distractor_clauses": [
-      "HS360-EXC-001",
-      "HS360-COV-012"
+      "CARESU-DEF-0434",
+      "CARESU-DEF-0382"
     ]
   },
   {
     "query_id": "G2-059",
-    "user_query": "What is the waiting period for Diabetic Retinopathy under Complete Health Insurance?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0059",
-    "expected_subclause": "5.3.1",
+    "user_query": "What is the waiting period for a pre-existing disease under Care Supreme?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "ped_wait",
+    "expected_clause_id": "CARESU-WAI-0407",
+    "expected_subclause": "2.1.36",
+    "clause_type": "WAITING_PERIOD",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.3.1: Any Pre-Existing Disease shall be covered only after the Insured Person has been continuously covered for a period of 48 months from the date of inception of the first policy, subject to continuous renewal without break.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Pre-existing Disease means any condition, ailment, injury or disease.",
     "distractor_clauses": [
-      "COMPLE-WAI-001",
-      "COMPLE-DEF-005"
+      "CARESU-WAI-0506",
+      "CARESU-WAI-0516"
     ]
   },
   {
     "query_id": "G2-060",
-    "user_query": "Are cosmetic surgeries covered under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-EXC-0060",
-    "expected_subclause": "Excl04.3",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Exclusion Excl04.3: Cosmetic or plastic surgery is excluded unless required for reconstruction following an Accident, burn, or cancer, or as part of medically necessary treatment.",
+    "user_query": "Which illnesses have a specific waiting period under my:Optima Secure, and how long is it?",
+    "product_name": "my:Optima Secure",
+    "insurer": "HDFC ERGO",
+    "topic": "specified_wait",
+    "expected_clause_id": "MYOPTI-WAI-1138",
+    "expected_subclause": "1.13",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "c. The Insured Person will get the accrued continuity benefit in respect of the “Waiting Periods”, “Specific Waiting Periods” in the event of payment of premium within the stipulated Grace Period d. No interest will be charged If the instalment premium is not paid on due date e. In case of instalment premium due not received within the Grace Period, the Policy will get",
     "distractor_clauses": [
-      "AROGYA-EXC-001",
-      "AROGYA-COV-008"
+      "MYOPTI-WAI-1220",
+      "MYOPTI-WAI-1135"
     ]
   },
   {
     "query_id": "G2-061",
-    "user_query": "What are the room rent limits under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0061",
-    "expected_subclause": "6.1.1",
+    "user_query": "Is an illness in the first 30 days of Care covered?",
+    "product_name": "Care",
+    "insurer": "Care Health",
+    "topic": "initial_wait",
+    "expected_clause_id": "CARE-WAI-0280",
+    "expected_subclause": "14",
+    "clause_type": "WAITING_PERIOD",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.1.1: Room and Boarding expenses shall be payable up to the Single Private AC Room category in the Network Hospital. In case of a non-network hospital, the amount shall be limited to 1% of the Sum Insured per day or actual charges, whichever is less.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Parkinson's or Alzheimer's disease or Dementia (iii) First 30-Day waiting Period: (Code – Excl03)",
     "distractor_clauses": [
-      "ELEVAT-COV-001",
-      "ELEVAT-EXC-015"
+      "CARE-WAI-0015",
+      "CARE-WAI-0249"
     ]
   },
   {
     "query_id": "G2-062",
-    "user_query": "Does Health AdvantEdge cover Total Knee Replacement if it's listed as a day care procedure?",
-    "product_name": "Health AdvantEdge",
-    "expected_clause_id": "HEALTH-COV-0062",
-    "expected_subclause": "2.4.1",
+    "user_query": "What room rent limit applies under Elevate Health, and what happens if I choose a higher room?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "room_rent",
+    "expected_clause_id": "ELEVAT-EXC-1729",
+    "expected_subclause": "15",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 2.4.1: Day Care Treatment means medical treatment, and/or surgical procedure which requires less than 24 hours of hospitalization and is listed in the approved list of Day Care procedures as defined in the policy schedule.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Hospitalization for 2 hours or more (minimum 24 hours for AYUSH Treatment in a AYUSH Hospital) for the following: i. Room Rent up to Single Private AC room; ii. Intensive Care Unit Charges; iii. Qualified Nurse charges; iv. Medical Practitioner’s fees; v. Anesthesia, blood, oxygen, operation theatre charges, medicines, drugs and consumables (other than those specified in the",
     "distractor_clauses": [
-      "HEALTH-COV-001",
-      "HEALTH-EXC-020"
+      "ELEVAT-EXC-1803",
+      "ELEVAT-EXC-1769"
     ]
   },
   {
     "query_id": "G2-063",
-    "user_query": "What is the moratorium clause under Complete Health Insurance for pre-existing conditions?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0063",
-    "expected_subclause": "5.4.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.4.1 (Moratorium): After completion of 8 continuous years under the policy, no claim shall be contestable on the ground that a disease or condition was pre-existing at the time of inception, provided disclosure was made in good faith.",
+    "user_query": "Which non-medical items or consumables are not payable under Health Shield 360?",
+    "product_name": "Health Shield 360",
+    "insurer": "ICICI Lombard",
+    "topic": "nme",
+    "expected_clause_id": "HEALTH-COV-2253",
+    "expected_subclause": "3",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "However, the said cost will have to be borne by the Insured Person in case the Sum Insured under the Pharmacy Cover has been exhausted or is out of scope of the Pharmacy Cover or in case the consumable is a non-payable item as per IRDAI list of non- payables.",
+    "ground_truth_context_snippet": "of plaster cast Laryngoscopy Minor wound management #This includes only the cost of administration. The actual cost of consumables shall be covered under the pharmacy cover. However, the said cost will have to be borne by the Insured Person in case the Sum Insured under the Pharmacy Cover has been exhausted or is out of scope of the Pharmacy Cover or in case the consumable is",
     "distractor_clauses": [
-      "COMPLE-WAI-003",
-      "COMPLE-DEF-010"
+      "HEALTH-COV-2209",
+      "HEALTH-COV-2274"
     ]
   },
   {
     "query_id": "G2-064",
-    "user_query": "Is Renal Transplant excluded as an experimental treatment under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0064",
-    "expected_subclause": "4.5.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 4.5.1: Experimental, investigational, or unproven treatment shall be excluded unless (a) the treatment is approved by CDSCO/DCGI, and (b) it has been performed at a recognized centre of excellence with published outcomes.",
+    "user_query": "Is a day care procedure needing less than 24 hours of hospitalization covered under Care Supreme?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "daycare",
+    "expected_clause_id": "CARESU-DEF-0381",
+    "expected_subclause": "2.1.9",
+    "clause_type": "DEFINITION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Day Care Centre means any institution established for day care treatment . of illness and/or injuries or a medical setup within a hospital and which has been registered with the local authorities, wherever applicable, and is under the supervision of a registered and qualified medical practitioner AND must comply with all minimum criteria as under- a. has qualified nursing",
     "distractor_clauses": [
-      "HS360-EXC-002",
-      "HS360-COV-005"
+      "CARESU-DEF-0447",
+      "CARESU-DEF-0386"
     ]
   },
   {
     "query_id": "G2-065",
-    "user_query": "What are the co-payment requirements for Diabetic Retinopathy treatment under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-COV-0065",
-    "expected_subclause": "6.4.1",
+    "user_query": "Does Care Supreme cover Ayurveda, Unani, Siddha or Homeopathy (AYUSH) treatment?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "ayush",
+    "expected_clause_id": "CARESU-DEF-0377",
+    "expected_subclause": "2.1.3",
+    "clause_type": "DEFINITION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.4.1: A mandatory co-payment of 5% of the admissible claim amount shall be borne by the Insured Person for each and every claim. This co-payment is applicable over and above any deductible specified in the policy schedule.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such center which is registered with the local authorities, wherever applicable, and having facilities for carrying out treatment procedures and medical or surgical/para-surgical interventions or both under the supervision of registered",
     "distractor_clauses": [
-      "AROGYA-COV-002",
-      "AROGYA-EXC-011"
+      "CARESU-DEF-0434",
+      "CARESU-DEF-0417"
     ]
   },
   {
     "query_id": "G2-066",
-    "user_query": "Can I claim ambulance charges under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0066",
-    "expected_subclause": "2.7.1",
+    "user_query": "Are robotic surgery and other modern treatments covered under Max Protect?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "modern",
+    "expected_clause_id": "MAXPRO-COV-2383",
+    "expected_subclause": "3",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Clause 2.7.1: Ambulance charges are covered up to Rs. 2,000 per hospitalization for emergency transportation to the nearest network hospital. Non-emergency ambulance charges are excluded.",
+    "exception_text": "Pre- Hospitalisation Medical Expenses We will cover the Pre-hospitalization Medical Expenses incurred in respect of the Insured Person immediately before the Insured Person’s Admission to Hospital up to the limits as specified in the Policy Schedule provided that:",
+    "ground_truth_context_snippet": "up to 1 Crore. Sr. No. Treatment/Procedure 1 Uterine Artery Embolization an HIFU (High intensity focuse ultrasound) 2 Immunotherapy- Monoclon Antibody to be given as injection 3 Vaporisation of the prostra (Green laser treatment o holmium laser treatment) 4 Stem cell therapy: Hematopoiet stem cells for bone marro transplant for haematologic conditions 5 Balloon Sinuplasty 6",
     "distractor_clauses": [
-      "ELEVAT-COV-008",
-      "ELEVAT-EXC-025"
+      "MAXPRO-COV-2454",
+      "MAXPRO-COV-2448"
     ]
   },
   {
     "query_id": "G2-067",
-    "user_query": "What is the sub-limit for Liver Transplant implant costs under Max Protect?",
-    "product_name": "Max Protect",
-    "expected_clause_id": "MAXPRO-COV-0067",
-    "expected_subclause": "6.2.1",
+    "user_query": "After how many years can Health AdvantEdge no longer contest a claim for non-disclosure?",
+    "product_name": "Health AdvantEdge",
+    "insurer": "ICICI Lombard",
+    "topic": "moratorium",
+    "expected_clause_id": "HEALTH-WAI-2043",
+    "expected_subclause": "8",
+    "clause_type": "WAITING_PERIOD",
     "has_exception": true,
-    "ground_truth_context_snippet": "Clause 6.2.1: Implant costs shall be covered up to the limits specified in the policy schedule. Where the cost of implant exceeds the specified sub-limit, the excess shall be borne by the Insured Person. Implants must be from an approved manufacturer list.",
+    "exception_text": "Renewal of Policy: The Policy shall ordinarily be renewable, except on grounds of established fraud, non-disclosure of material facts, or misrepresentation by You, provided the Policy is not withdrawn and also subject to moratorium conditions:efit.",
+    "ground_truth_context_snippet": "of material facts, or misrepresentation by You, provided the Policy is not withdrawn and also subject to moratorium conditions:efit.",
     "distractor_clauses": [
-      "MAXPRO-COV-002",
-      "MAXPRO-EXC-009"
+      "HEALTH-WAI-1944",
+      "HEALTH-WAI-2047"
     ]
   },
   {
     "query_id": "G2-068",
-    "user_query": "Is robotic surgery or modern treatment covered under Care Supreme?",
-    "product_name": "Care Supreme",
-    "expected_clause_id": "CARESP-COV-0068",
-    "expected_subclause": "Modern-Treatments",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries, Deep Brain Stimulation, and Immunotherapy approved by IRDAI are payable up to the Sum Insured without sub-limits.",
+    "user_query": "Is a hospital stay only for diagnostic investigation covered under Optima Restore?",
+    "product_name": "Optima Restore",
+    "insurer": "HDFC ERGO",
+    "topic": "investigation",
+    "expected_clause_id": "OPTIMA-EXC-0747",
+    "expected_subclause": "3",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "for general assessment of health status, it does not include any diagnostic or investigative medical tests for evaluation of illness or a disease.",
     "distractor_clauses": [
-      "CARESP-EXC-001",
-      "CARESP-DEF-004"
+      "OPTIMA-EXC-0812",
+      "OPTIMA-EXC-0816"
     ]
   },
   {
     "query_id": "G2-069",
-    "user_query": "What is the waiting period for pre-existing disease under Care?",
-    "product_name": "Care",
-    "expected_clause_id": "CARE-WAI-0069",
-    "expected_subclause": "Clause 3.1",
+    "user_query": "Does Care Supreme pay for rest cure or rehabilitation stays?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "rest_cure",
+    "expected_clause_id": "CARESU-COV-0543",
+    "expected_subclause": "3.2.16",
+    "clause_type": "COVERAGE",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 3.1: Pre-existing Disease waiting period is 48 months of continuous coverage from the date of first inception of the policy.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "up to the limit specified in the Policy Schedule, through cashless facility towards Consultation, Counseling and rehabilitation of the Insured Person, within the Policy Year for the following:",
     "distractor_clauses": [
-      "CARE-WAI-002",
-      "CARE-DEF-001"
+      "CARESU-COV-0633",
+      "CARESU-COV-0512"
     ]
   },
   {
     "query_id": "G2-070",
-    "user_query": "How does the automatic restore benefit work under my:Optima Secure?",
-    "product_name": "my:Optima Secure",
-    "expected_clause_id": "MYOPTI-COV-0070",
-    "expected_subclause": "Restore Benefit",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Automatic Restore Benefit restores 100% of base Sum Insured upon partial or full exhaustion for any subsequent hospitalization within the policy period.",
+    "user_query": "Is a hospitalization during the renewal grace period covered under Max Protect?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "grace",
+    "expected_clause_id": "MAXPRO-COV-2352",
+    "expected_subclause": "4",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Provided the insurers shall offer coverage during the grace period, if the premium is paid in instalments during the policy period Hospital means any institution established for in- patient care and day care treatment of illness and / or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishments (Registration and",
     "distractor_clauses": [
-      "MYOPTI-COV-005",
-      "MYOPTI-EXC-010"
+      "MAXPRO-COV-2378",
+      "MAXPRO-COV-2347"
     ]
   },
   {
     "query_id": "G2-071",
-    "user_query": "What is the waiting period for specific joint replacement under Optima Restore?",
-    "product_name": "Optima Restore",
-    "expected_clause_id": "OPTIMA-WAI-0071",
-    "expected_subclause": "Section 3.2",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Section 3.2: Specific illnesses including Joint Replacement, Cataract, and Hernia have a mandatory 24 months waiting period.",
+    "user_query": "If I port my policy to Max Protect, do I keep credit for waiting periods already served?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "portability",
+    "expected_clause_id": "MAXPRO-WAI-2433",
+    "expected_subclause": "8",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": true,
+    "exception_text": "The insured is entitled to transfer the credits gained to the extent of the sum insured and the benefits available in the previous policy, subject to the underwriting policy of the Company c.",
+    "ground_truth_context_snippet": "Portability a. The insured has the choice to port his / her policies from one Insurer to another. An Insured desirous of porting his/her policy to another insurer shall apply to such insurer to port the entire policy along with all the members of the family, if any, at least 30 days before, but not earlier than 60 days from the due date for renewal. b. The insured is entitled",
     "distractor_clauses": [
-      "OPTIMA-WAI-001",
-      "OPTIMA-DEF-003"
+      "MAXPRO-WAI-2405",
+      "MAXPRO-WAI-2417"
     ]
   },
   {
     "query_id": "G2-072",
-    "user_query": "Are bariatric and metabolic surgeries covered under Star Comprehensive?",
-    "product_name": "Star Comprehensive",
-    "expected_clause_id": "STARCO-COV-0072",
-    "expected_subclause": "Bariatric Surgery Benefit",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Bariatric surgery is covered subject to prior approval, age above 18, BMI greater than 35 with severe co-morbidities, and failed medical management.",
+    "user_query": "Is there a co-payment deduction on claims under Max Protect?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "co_pay",
+    "expected_clause_id": "MAXPRO-DEF-2343",
+    "expected_subclause": "4",
+    "clause_type": "DEFINITION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Co-Payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount. A co-payment does not reduce the Sum Insured. Loyalty Bonusmeans any increase or addition in the Sum Insured granted by the insurer without an associated increase in premium Day Care Centre",
     "distractor_clauses": [
-      "STARCO-EXC-003",
-      "STARCO-COV-015"
+      "MAXPRO-DEF-2353",
+      "MAXPRO-DEF-2348"
     ]
   },
   {
     "query_id": "G2-073",
-    "user_query": "What is the waiting period for cataract surgery under Family Health Optima?",
+    "user_query": "How much does Family Health Optima pay for road ambulance charges?",
     "product_name": "Family Health Optima",
-    "expected_clause_id": "STARFH-WAI-0073",
-    "expected_subclause": "Specific Illness Waiting Period",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Expenses related to Cataract surgery are subject to a waiting period of 24 months from the first inception of the policy.",
+    "insurer": "Star Health",
+    "topic": "ambulance",
+    "expected_clause_id": "FAMILY-COV-2749",
+    "expected_subclause": "8",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "Road ambulance: Subject to an admissible hospitalization claim, road ambulance expenses up to Rs.750/- per hospitalization and up to Rs.1,500/- per Policy Period shall be payable for the following:",
+    "ground_truth_context_snippet": "Road ambulance: Subject to an admissible hospitalization claim, road ambulance expenses up to Rs.750/- per hospitalization and up to Rs.1,500/- per Policy Period shall be payable for the following:",
     "distractor_clauses": [
-      "STARFH-WAI-002",
-      "STARFH-DEF-006"
+      "FAMILY-COV-2808",
+      "FAMILY-COV-2809"
     ]
   },
   {
     "query_id": "G2-074",
-    "user_query": "Is Mastectomy (Breast Cancer) covered if conservative medical treatment failed under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-EXC-0074",
-    "expected_subclause": "Elective Surgery Exception",
+    "user_query": "For how many days before and after admission are expenses covered under Arogya Sanjeevani?",
+    "product_name": "Arogya Sanjeevani",
+    "insurer": "ICICI Lombard",
+    "topic": "pre_post",
+    "expected_clause_id": "AROGYA-DEF-1270",
+    "expected_subclause": "3.37",
+    "clause_type": "DEFINITION",
     "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause for Health Booster: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "exception_text": "Pre-hospitalisation Medical Expenses means medical expenses incurred during the period of 30days preceding the hospitalisation of the Insured Person, provided that:",
+    "ground_truth_context_snippet": "Pre-hospitalisation Medical Expenses means medical expenses incurred during the period of 30days preceding the hospitalisation of the Insured Person, provided that:",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-COV-012"
+      "AROGYA-DEF-1243",
+      "AROGYA-DEF-1239"
     ]
   },
   {
     "query_id": "G2-075",
-    "user_query": "What is the waiting period for Calculus of Kidney under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-WAI-0075",
-    "expected_subclause": "Pre-Existing Waiting Period",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause under Health Booster: Any Pre-Existing Disease shall be covered only after continuous coverage of 36 to 48 months from the date of first inception of the policy.",
+    "user_query": "Are the organ donor's hospital expenses covered under Elevate Health?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "organ_donor",
+    "expected_clause_id": "ELEVAT-COV-1604",
+    "expected_subclause": "8",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "Donor Expenses We will cover the Medical Expenses incurred in respect of an organ donor’s Hospitalization for harvesting of the organ donated to You for the purpose of your own transplantation, subject to the following conditions::",
+    "ground_truth_context_snippet": "Donor Expenses We will cover the Medical Expenses incurred in respect of an organ donor’s Hospitalization for harvesting of the organ donated to You for the purpose of your own transplantation, subject to the following conditions::",
     "distractor_clauses": [
-      "ILGI-WAI-001",
-      "ILGI-DEF-005"
+      "ELEVAT-COV-1614",
+      "ELEVAT-COV-1756"
     ]
   },
   {
     "query_id": "G2-076",
-    "user_query": "Are robotic surgery or modern treatments covered under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-COV-0076",
-    "expected_subclause": "Modern Treatments",
+    "user_query": "Is treatment taken at home (domiciliary hospitalization) covered under Elevate Health?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "domiciliary",
+    "expected_clause_id": "ELEVAT-COV-1606",
+    "expected_subclause": "9",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries and Immunotherapy approved by IRDAI are payable up to the Sum Insured under Health Booster.",
+    "exception_text": "Domiciliary Hospitalization We will cover the Medical Expenses incurred in respect of Your Domiciliary Hospitalization , subject to the following conditions::",
+    "ground_truth_context_snippet": "Domiciliary Hospitalization We will cover the Medical Expenses incurred in respect of Your Domiciliary Hospitalization , subject to the following conditions::",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-DEF-004"
+      "ELEVAT-COV-1602",
+      "ELEVAT-COV-1709"
     ]
   },
   {
     "query_id": "G2-077",
-    "user_query": "Is Renal Transplant covered if conservative medical treatment failed under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0077",
-    "expected_subclause": "4.3.2",
+    "user_query": "Is cosmetic or plastic surgery covered under Star Comprehensive, and are there any exceptions?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "cosmetic",
+    "expected_clause_id": "STARCO-EXC-2603",
+    "expected_subclause": "8",
+    "clause_type": "EXCLUSION",
     "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause 4.3.2: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "exception_text": "Cosmetic or plastic Surgery – Code Excl 08: Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
+    "ground_truth_context_snippet": "Cosmetic or plastic Surgery – Code Excl 08: Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured. For this to be considered a medical necessity, it must be certified by the attending",
     "distractor_clauses": [
-      "HS360-EXC-001",
-      "HS360-COV-012"
+      "STARCO-EXC-2600",
+      "STARCO-EXC-2589"
     ]
   },
   {
     "query_id": "G2-078",
-    "user_query": "What is the waiting period for Heart Failure under Complete Health Insurance?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0078",
-    "expected_subclause": "5.3.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.3.1: Any Pre-Existing Disease shall be covered only after the Insured Person has been continuously covered for a period of 48 months from the date of inception of the first policy, subject to continuous renewal without break.",
+    "user_query": "Will Star Comprehensive pay for bariatric surgery for morbid obesity?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "obesity",
+    "expected_clause_id": "STARCO-COV-2550",
+    "expected_subclause": "15",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "Bariatric Surgery: Expenses incurred on hospitalization for bariatric surgical procedure and its complications thereof are payable subject to limits mentioned in the table given below, during the Policy Period.",
+    "ground_truth_context_snippet": "Bariatric Surgery: Expenses incurred on hospitalization for bariatric surgical procedure and its complications thereof are payable subject to limits mentioned in the table given below, during the Policy Period. This maximum limit of Rs.2,50,000/- and Rs.5,00,000/- are inclusive of pre-hospitalization and post-hospitalization expenses.",
     "distractor_clauses": [
-      "COMPLE-WAI-001",
-      "COMPLE-DEF-005"
+      "STARCO-COV-2539",
+      "STARCO-COV-2527"
     ]
   },
   {
     "query_id": "G2-079",
-    "user_query": "Are cosmetic surgeries covered under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-EXC-0079",
-    "expected_subclause": "Excl04.3",
+    "user_query": "Are maternity and childbirth expenses covered under Elevate Health?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "maternity",
+    "expected_clause_id": "ELEVAT-EXC-1814",
+    "expected_subclause": "19",
+    "clause_type": "EXCLUSION",
     "has_exception": true,
-    "ground_truth_context_snippet": "Exclusion Excl04.3: Cosmetic or plastic surgery is excluded unless required for reconstruction following an Accident, burn, or cancer, or as part of medically necessary treatment.",
+    "exception_text": "Treatment traceable to childbirth (including complicated deliveries and caesarean sections incurred during Hospitalization) except ectopic pregnancy. b.",
+    "ground_truth_context_snippet": "Maternity: Code Excl18 a. Treatment traceable to childbirth (including complicated deliveries and caesarean sections incurred during Hospitalization) except ectopic pregnancy. b. Expenses towards miscarriage (unless due to an Accident) and lawful medical termination of pregnancy during the policy period.",
     "distractor_clauses": [
-      "AROGYA-EXC-001",
-      "AROGYA-COV-008"
+      "ELEVAT-EXC-1741",
+      "ELEVAT-EXC-1828"
     ]
   },
   {
     "query_id": "G2-080",
-    "user_query": "What are the room rent limits under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0080",
-    "expected_subclause": "6.1.1",
+    "user_query": "Is dental treatment covered under Health Booster when it is not caused by an accident?",
+    "product_name": "Health Booster",
+    "insurer": "ICICI Lombard",
+    "topic": "dental",
+    "expected_clause_id": "HEALTH-EXC-2109",
+    "expected_subclause": "10",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.1.1: Room and Boarding expenses shall be payable up to the Single Private AC Room category in the Network Hospital. In case of a non-network hospital, the amount shall be limited to 1% of the Sum Insured per day or actual charges, whichever is less.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "wellness points against outpatient medical expenses like consultation charges, medicine & drugs, diagnostic expenses, dental expenses, wellness & preventive care and other miscellaneous charges not covered under any medical insurance, through our Network providers or service providers, the list of which will be updated on our website www.icicilombard.com from time to time. In",
     "distractor_clauses": [
-      "ELEVAT-COV-001",
-      "ELEVAT-EXC-015"
+      "HEALTH-EXC-2118",
+      "HEALTH-EXC-2135"
     ]
   },
   {
     "query_id": "G2-081",
-    "user_query": "Does Health AdvantEdge cover Liver Transplant if it's listed as a day care procedure?",
-    "product_name": "Health AdvantEdge",
-    "expected_clause_id": "HEALTH-COV-0081",
-    "expected_subclause": "2.4.1",
+    "user_query": "Does Star Comprehensive pay for unproven or experimental treatment?",
+    "product_name": "Star Comprehensive",
+    "insurer": "Star Health",
+    "topic": "unproven",
+    "expected_clause_id": "STARCO-EXC-2611",
+    "expected_subclause": "16",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 2.4.1: Day Care Treatment means medical treatment, and/or surgical procedure which requires less than 24 hours of hospitalization and is listed in the approved list of Day Care procedures as defined in the policy schedule.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Unproven Treatments – Code Excl 16: Expenses related to any unproven treatment, services and supplies for or in connection with any treatment. Unproven treatments are treatments, procedures or supplies that lack significant medical documentation to support their effectiveness.",
     "distractor_clauses": [
-      "HEALTH-COV-001",
-      "HEALTH-EXC-020"
+      "STARCO-EXC-2615",
+      "STARCO-EXC-2633"
     ]
   },
   {
     "query_id": "G2-082",
-    "user_query": "What is the moratorium clause under Complete Health Insurance for pre-existing conditions?",
-    "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0082",
-    "expected_subclause": "5.4.1",
+    "user_query": "What is the waiting period for a pre-existing disease under Arogya Sanjeevani?",
+    "product_name": "Arogya Sanjeevani",
+    "insurer": "ICICI Lombard",
+    "topic": "ped_wait",
+    "expected_clause_id": "AROGYA-WAI-1267",
+    "expected_subclause": "3.37",
+    "clause_type": "WAITING_PERIOD",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.4.1 (Moratorium): After completion of 8 continuous years under the policy, no claim shall be contestable on the ground that a disease or condition was pre-existing at the time of inception, provided disclosure was made in good faith.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Pre-Existing Disease (PED): Pre-existing disease means any condition, ailment, injury or disease.",
     "distractor_clauses": [
-      "COMPLE-WAI-003",
-      "COMPLE-DEF-010"
+      "AROGYA-WAI-1345",
+      "AROGYA-WAI-1339"
     ]
   },
   {
     "query_id": "G2-083",
-    "user_query": "Is Renal Transplant excluded as an experimental treatment under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0083",
-    "expected_subclause": "4.5.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 4.5.1: Experimental, investigational, or unproven treatment shall be excluded unless (a) the treatment is approved by CDSCO/DCGI, and (b) it has been performed at a recognized centre of excellence with published outcomes.",
+    "user_query": "Which illnesses have a specific waiting period under Family Health Optima, and how long is it?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "specified_wait",
+    "expected_clause_id": "FAMILY-EXC-2814",
+    "expected_subclause": "2",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "to the treatment of the following listed Conditions, surgeries/ treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the ﬁrst policy with us. This exclusion shall not be applicable for claims arising due to an accident b. In case of enhancement of Sum Insured the exclusion shall apply afresh to the extent of Sum",
     "distractor_clauses": [
-      "HS360-EXC-002",
-      "HS360-COV-005"
+      "FAMILY-EXC-2756",
+      "FAMILY-EXC-2845"
     ]
   },
   {
     "query_id": "G2-084",
-    "user_query": "What are the co-payment requirements for Type 2 Diabetes Mellitus treatment under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-COV-0084",
-    "expected_subclause": "6.4.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.4.1: A mandatory co-payment of 5% of the admissible claim amount shall be borne by the Insured Person for each and every claim. This co-payment is applicable over and above any deductible specified in the policy schedule.",
+    "user_query": "Is an illness in the first 30 days of Care Supreme covered?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "initial_wait",
+    "expected_clause_id": "CARESU-EXC-0565",
+    "expected_subclause": "14",
+    "clause_type": "EXCLUSION",
+    "has_exception": true,
+    "exception_text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
+    "ground_truth_context_snippet": "or Dementia (iii) 30-day waiting period- Code- Excl03 a. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
     "distractor_clauses": [
-      "AROGYA-COV-002",
-      "AROGYA-EXC-011"
+      "CARESU-EXC-0513",
+      "CARESU-EXC-0452"
     ]
   },
   {
     "query_id": "G2-085",
-    "user_query": "Can I claim ambulance charges under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0085",
-    "expected_subclause": "2.7.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 2.7.1: Ambulance charges are covered up to Rs. 2,000 per hospitalization for emergency transportation to the nearest network hospital. Non-emergency ambulance charges are excluded.",
+    "user_query": "What room rent limit applies under Care Supreme, and what happens if I choose a higher room?",
+    "product_name": "Care Supreme",
+    "insurer": "Care Health",
+    "topic": "room_rent",
+    "expected_clause_id": "CARESU-DEF-0414",
+    "expected_subclause": "2.1.42",
+    "clause_type": "DEFINITION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Room Rent Room Rent means the amount charged by a Hospital towards Room & Boarding expenses and shall include the associated medical expenses.",
     "distractor_clauses": [
-      "ELEVAT-COV-008",
-      "ELEVAT-EXC-025"
+      "CARESU-DEF-0404",
+      "CARESU-DEF-0445"
     ]
   },
   {
     "query_id": "G2-086",
-    "user_query": "What is the sub-limit for Robotic Prostatectomy implant costs under Max Protect?",
-    "product_name": "Max Protect",
-    "expected_clause_id": "MAXPRO-COV-0086",
-    "expected_subclause": "6.2.1",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Clause 6.2.1: Implant costs shall be covered up to the limits specified in the policy schedule. Where the cost of implant exceeds the specified sub-limit, the excess shall be borne by the Insured Person. Implants must be from an approved manufacturer list.",
+    "user_query": "Which non-medical items or consumables are not payable under Elevate Health?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "nme",
+    "expected_clause_id": "ELEVAT-COV-1850",
+    "expected_subclause": "2",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Annexure II List I- Items for which coverage is not available in the Policy S.No. Item 1 BABY FOOD 2 BABY UTILITIES CHARGES 3 BEAUTY SERVICES 4 BELTS/ BRACES 5 BUDS.",
     "distractor_clauses": [
-      "MAXPRO-COV-002",
-      "MAXPRO-EXC-009"
+      "ELEVAT-COV-1606",
+      "ELEVAT-COV-1727"
     ]
   },
   {
     "query_id": "G2-087",
-    "user_query": "Is robotic surgery or modern treatment covered under Care Supreme?",
-    "product_name": "Care Supreme",
-    "expected_clause_id": "CARESP-COV-0087",
-    "expected_subclause": "Modern-Treatments",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries, Deep Brain Stimulation, and Immunotherapy approved by IRDAI are payable up to the Sum Insured without sub-limits.",
+    "user_query": "Is a day care procedure needing less than 24 hours of hospitalization covered under Arogya Sanjeevani?",
+    "product_name": "Arogya Sanjeevani",
+    "insurer": "ICICI Lombard",
+    "topic": "daycare",
+    "expected_clause_id": "AROGYA-DEF-1238",
+    "expected_subclause": "3.11",
+    "clause_type": "DEFINITION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Day Care Centre means any institution established for day care treatment of disease/ injuries or a medical setup within a hospital and which has been registered with the local authorities, wherever applicable, and is under the supervision of a registered and qualified medical practitioner AND must comply with all minimum criteria as under:",
     "distractor_clauses": [
-      "CARESP-EXC-001",
-      "CARESP-DEF-004"
+      "AROGYA-DEF-1243",
+      "AROGYA-DEF-1233"
     ]
   },
   {
     "query_id": "G2-088",
-    "user_query": "What is the waiting period for pre-existing disease under Care?",
-    "product_name": "Care",
-    "expected_clause_id": "CARE-WAI-0088",
-    "expected_subclause": "Clause 3.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 3.1: Pre-existing Disease waiting period is 48 months of continuous coverage from the date of first inception of the policy.",
+    "user_query": "Does Max Protect cover Ayurveda, Unani, Siddha or Homeopathy (AYUSH) treatment?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "ayush",
+    "expected_clause_id": "MAXPRO-COV-2389",
+    "expected_subclause": "6",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "In-Patient Ayush Hospitalization This benefit provides reimbursement to the Insured/ Insured Person of Medical Expenses incurred for In-patient treatment taken under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems provided that:",
+    "ground_truth_context_snippet": "In-Patient Ayush Hospitalization This benefit provides reimbursement to the Insured/ Insured Person of Medical Expenses incurred for In-patient treatment taken under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems provided that:",
     "distractor_clauses": [
-      "CARE-WAI-002",
-      "CARE-DEF-001"
+      "MAXPRO-COV-2398",
+      "MAXPRO-COV-2401"
     ]
   },
   {
     "query_id": "G2-089",
-    "user_query": "How does the automatic restore benefit work under my:Optima Secure?",
-    "product_name": "my:Optima Secure",
-    "expected_clause_id": "MYOPTI-COV-0089",
-    "expected_subclause": "Restore Benefit",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Automatic Restore Benefit restores 100% of base Sum Insured upon partial or full exhaustion for any subsequent hospitalization within the policy period.",
+    "user_query": "Are robotic surgery and other modern treatments covered under Family Health Optima?",
+    "product_name": "Family Health Optima",
+    "insurer": "Star Health",
+    "topic": "modern",
+    "expected_clause_id": "FAMILY-COV-2748",
+    "expected_subclause": "5",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Coverage for Modern Treatments: The following expenses are payable during the Policy Period for the treatment/procedure (either as a day care or as an in-patient) is limited to the amount mentioned in table below. This benefit forms part of Sum Insured.",
     "distractor_clauses": [
-      "MYOPTI-COV-005",
-      "MYOPTI-EXC-010"
+      "FAMILY-COV-2799",
+      "FAMILY-COV-2809"
     ]
   },
   {
     "query_id": "G2-090",
-    "user_query": "What is the waiting period for specific joint replacement under Optima Restore?",
-    "product_name": "Optima Restore",
-    "expected_clause_id": "OPTIMA-WAI-0090",
-    "expected_subclause": "Section 3.2",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Section 3.2: Specific illnesses including Joint Replacement, Cataract, and Hernia have a mandatory 24 months waiting period.",
+    "user_query": "After how many years can Elevate Health no longer contest a claim for non-disclosure?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "moratorium",
+    "expected_clause_id": "ELEVAT-WAI-1835",
+    "expected_subclause": "12",
+    "clause_type": "WAITING_PERIOD",
+    "has_exception": true,
+    "exception_text": "Moratorium Period After completion of 60 continuous months of coverage (including portability and migration) under the Policy, no Policy and claim shall be contestable by Us except on grounds of established fraud.",
+    "ground_truth_context_snippet": "Moratorium Period After completion of 60 continuous months of coverage (including portability and migration) under the Policy, no Policy and claim shall be contestable by Us except on grounds of established fraud. The moratorium would be applicable for the Sums Insured of the first Policy. Wherever the Sum Insured is enhanced, completion of 60 continuous months would be",
     "distractor_clauses": [
-      "OPTIMA-WAI-001",
-      "OPTIMA-DEF-003"
+      "ELEVAT-WAI-1770",
+      "ELEVAT-WAI-1763"
     ]
   },
   {
     "query_id": "G2-091",
-    "user_query": "Are bariatric and metabolic surgeries covered under Star Comprehensive?",
-    "product_name": "Star Comprehensive",
-    "expected_clause_id": "STARCO-COV-0091",
-    "expected_subclause": "Bariatric Surgery Benefit",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Bariatric surgery is covered subject to prior approval, age above 18, BMI greater than 35 with severe co-morbidities, and failed medical management.",
+    "user_query": "Is a hospital stay only for diagnostic investigation covered under Arogya Sanjeevani?",
+    "product_name": "Arogya Sanjeevani",
+    "insurer": "ICICI Lombard",
+    "topic": "investigation",
+    "expected_clause_id": "AROGYA-COV-1357",
+    "expected_subclause": "4",
+    "clause_type": "COVERAGE",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Items that are to be subsumed into cost of treatment SI NO ITEM 1 ADMISSION/REGISTRATION CHARGES 2 HOSPITALISATION FOR EVALUATION/ DIAGNOSTIC PURPOSE 3 URINE CONTAINER 4 BLOOD RESERVATION CHARGES AND ANTE NATAL BOOKING CHARGES 5 BIPAP MACHINE 6 CPAP/ CAPD EQUIPMENTS 7 INFUSION PUMP- COST 8 HYDROGEN DISINFECTANTS ETC 9 NUTRITION PLANNING CHARGES - DIETICIAN CHARGES- DIET",
     "distractor_clauses": [
-      "STARCO-EXC-003",
-      "STARCO-COV-015"
+      "AROGYA-COV-1287",
+      "AROGYA-COV-1326"
     ]
   },
   {
     "query_id": "G2-092",
-    "user_query": "What is the waiting period for cataract surgery under Family Health Optima?",
+    "user_query": "Does Family Health Optima pay for rest cure or rehabilitation stays?",
     "product_name": "Family Health Optima",
-    "expected_clause_id": "STARFH-WAI-0092",
-    "expected_subclause": "Specific Illness Waiting Period",
+    "insurer": "Star Health",
+    "topic": "rest_cure",
+    "expected_clause_id": "FAMILY-EXC-2818",
+    "expected_subclause": "5",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Expenses related to Cataract surgery are subject to a waiting period of 24 months from the first inception of the policy.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Rest Cure, rehabilitation and respite care - Code Excl 05: Expenses related to any admission primarily for enforced bed rest and not for receiving treatment. This also includes:",
     "distractor_clauses": [
-      "STARFH-WAI-002",
-      "STARFH-DEF-006"
+      "FAMILY-EXC-2842",
+      "FAMILY-EXC-2826"
     ]
   },
   {
     "query_id": "G2-093",
-    "user_query": "Is Craniotomy for Tumor covered if conservative medical treatment failed under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-EXC-0093",
-    "expected_subclause": "Elective Surgery Exception",
-    "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause for Health Booster: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "user_query": "Is a hospitalization during the renewal grace period covered under Arogya Sanjeevani?",
+    "product_name": "Arogya Sanjeevani",
+    "insurer": "ICICI Lombard",
+    "topic": "grace",
+    "expected_clause_id": "AROGYA-EXC-1351",
+    "expected_subclause": "11",
+    "clause_type": "EXCLUSION",
+    "has_exception": false,
+    "exception_text": "",
+    "ground_truth_context_snippet": "Grace Period Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible Hospitalisation Expenses Time limit of 24 hrs shall not apply when the treatment is undergone in a Day Care Centre.",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-COV-012"
+      "AROGYA-EXC-1294",
+      "AROGYA-EXC-1312"
     ]
   },
   {
     "query_id": "G2-094",
-    "user_query": "What is the waiting period for Atrial Fibrillation under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-WAI-0094",
-    "expected_subclause": "Pre-Existing Waiting Period",
+    "user_query": "If I port my policy to my:Optima Secure, do I keep credit for waiting periods already served?",
+    "product_name": "my:Optima Secure",
+    "insurer": "HDFC ERGO",
+    "topic": "portability",
+    "expected_clause_id": "MYOPTI-WAI-1134",
+    "expected_subclause": "1.10",
+    "clause_type": "WAITING_PERIOD",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause under Health Booster: Any Pre-Existing Disease shall be covered only after continuous coverage of 36 to 48 months from the date of first inception of the policy.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Portability The Insured Person will have the option to port the Policy to other insurers by applying to such Insurer to port the entire policy along with all the members of the family, if any, at least 30 days before, but not earlier than 60 days from the policy renewal date as per IRDAI guidelines related to Portability. If such person is presently covered and has been",
     "distractor_clauses": [
-      "ILGI-WAI-001",
-      "ILGI-DEF-005"
+      "MYOPTI-WAI-1138",
+      "MYOPTI-WAI-1142"
     ]
   },
   {
     "query_id": "G2-095",
-    "user_query": "Are robotic surgery or modern treatments covered under Health Booster?",
-    "product_name": "Health Booster",
-    "expected_clause_id": "ILGI-COV-0095",
-    "expected_subclause": "Modern Treatments",
+    "user_query": "Is there a co-payment deduction on claims under Elevate Health?",
+    "product_name": "Elevate Health",
+    "insurer": "ICICI Lombard",
+    "topic": "co_pay",
+    "expected_clause_id": "ELEVAT-COV-1707",
+    "expected_subclause": "19",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Modern treatments including Robotic Surgeries and Immunotherapy approved by IRDAI are payable up to the Sum Insured under Health Booster.",
+    "exception_text": "Voluntary Co-Payment We will provide a corresponding discount on the premium payable under the Policy and You shall bear the Co-payment percentage of the admissible claim amount, as stated in the Policy Schedule, for each and every claim approved by Us, subject to the following conditions:",
+    "ground_truth_context_snippet": "Voluntary Co-Payment We will provide a corresponding discount on the premium payable under the Policy and You shall bear the Co-payment percentage of the admissible claim amount, as stated in the Policy Schedule, for each and every claim approved by Us, subject to the following conditions:",
     "distractor_clauses": [
-      "ILGI-EXC-001",
-      "ILGI-DEF-004"
+      "ELEVAT-COV-1617",
+      "ELEVAT-COV-1746"
     ]
   },
   {
     "query_id": "G2-096",
-    "user_query": "Is Percutaneous Coronary Stent covered if conservative medical treatment failed under Health Shield 360?",
-    "product_name": "Health Shield 360",
-    "expected_clause_id": "HS360-EXC-0096",
-    "expected_subclause": "4.3.2",
+    "user_query": "How much does Max Protect pay for road ambulance charges?",
+    "product_name": "Max Protect",
+    "insurer": "ICICI Lombard",
+    "topic": "ambulance",
+    "expected_clause_id": "MAXPRO-COV-2398",
+    "expected_subclause": "9",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Sub-clause 4.3.2: Elective procedures shall not include surgeries where conservative medical management has failed for a period exceeding six continuous months as certified by the attending specialist.",
+    "exception_text": "Domestic Road Ambulance: We will cover the expenses up to ₹10,000, incurred on road ambulance services which are offered by a healthcare or ambulance service provider and which have been used during the Policy Period to transfer the Insured Person to the nearest Hospital from the place of Accident/Illness with adequate emergency facilities for the provision of Emergency Care, provided that:  Our maximum liability under this Benefit for every claim arising during the Policy Year will be restricted to ₹10,000 per event of emergency hospitalisation in case the charges of road ambulance are being",
+    "ground_truth_context_snippet": "h) Diabetes mellitus and insipidus; i) Epilepsy; j) Hypertension; k) Pyrexia of any origin 10. Domestic Road Ambulance: We will cover the expenses up to ₹10,000, incurred on road ambulance services which are offered by a healthcare or ambulance service provider and which have been used during the Policy Period to transfer the Insured Person to the nearest Hospital from the",
     "distractor_clauses": [
-      "HS360-EXC-001",
-      "HS360-COV-012"
+      "MAXPRO-COV-2352",
+      "MAXPRO-COV-2399"
     ]
   },
   {
     "query_id": "G2-097",
-    "user_query": "What is the waiting period for Type 2 Diabetes Mellitus under Complete Health Insurance?",
+    "user_query": "For how many days before and after admission are expenses covered under Complete Health Insurance?",
     "product_name": "Complete Health Insurance",
-    "expected_clause_id": "COMPLE-WAI-0097",
-    "expected_subclause": "5.3.1",
+    "insurer": "ICICI Lombard",
+    "topic": "pre_post",
+    "expected_clause_id": "COMPLE-EXC-1496",
+    "expected_subclause": "9",
+    "clause_type": "EXCLUSION",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 5.3.1: Any Pre-Existing Disease shall be covered only after the Insured Person has been continuously covered for a period of 48 months from the date of inception of the first policy, subject to continuous renewal without break.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "b. Pre- and Post-Hospitalization expenses will not be covered under this Cover c. This Cover is available only under a family floater Policy d. This Cover is available for You or Your spouse provided You and Your spouse, both are covered under the same family floater Policy e. We will not cover ectopic pregnancy under this Cover (the same shall be covered under In-patient",
     "distractor_clauses": [
-      "COMPLE-WAI-001",
-      "COMPLE-DEF-005"
+      "COMPLE-EXC-1443",
+      "COMPLE-EXC-1523"
     ]
   },
   {
     "query_id": "G2-098",
-    "user_query": "Are cosmetic surgeries covered under Arogya Sanjeevani?",
-    "product_name": "Arogya Sanjeevani",
-    "expected_clause_id": "AROGYA-EXC-0098",
-    "expected_subclause": "Excl04.3",
+    "user_query": "Are the organ donor's hospital expenses covered under Care?",
+    "product_name": "Care",
+    "insurer": "Care Health",
+    "topic": "organ_donor",
+    "expected_clause_id": "CARE-COV-0118",
+    "expected_subclause": "3.1.5",
+    "clause_type": "COVERAGE",
     "has_exception": true,
-    "ground_truth_context_snippet": "Exclusion Excl04.3: Cosmetic or plastic surgery is excluded unless required for reconstruction following an Accident, burn, or cancer, or as part of medically necessary treatment.",
+    "exception_text": "Benefit 5: Organ Donor Cover The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the amount specified against this Benefit in the Policy Schedule, for the Medical Expenses incurred in respect of the donor, for any organ transplant surgery during the Policy Year, subject to the conditions specified below:",
+    "ground_truth_context_snippet": "Benefit 5: Organ Donor Cover The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the amount specified against this Benefit in the Policy Schedule, for the Medical Expenses incurred in respect of the donor, for any organ transplant surgery during the Policy Year, subject to the conditions specified below:",
     "distractor_clauses": [
-      "AROGYA-EXC-001",
-      "AROGYA-COV-008"
+      "CARE-COV-0198",
+      "CARE-COV-0212"
     ]
   },
   {
     "query_id": "G2-099",
-    "user_query": "What are the room rent limits under Elevate Health?",
-    "product_name": "Elevate Health",
-    "expected_clause_id": "ELEVAT-COV-0099",
-    "expected_subclause": "6.1.1",
-    "has_exception": false,
-    "ground_truth_context_snippet": "Clause 6.1.1: Room and Boarding expenses shall be payable up to the Single Private AC Room category in the Network Hospital. In case of a non-network hospital, the amount shall be limited to 1% of the Sum Insured per day or actual charges, whichever is less.",
+    "user_query": "Is treatment taken at home (domiciliary hospitalization) covered under my:Optima Secure?",
+    "product_name": "my:Optima Secure",
+    "insurer": "HDFC ERGO",
+    "topic": "domiciliary",
+    "expected_clause_id": "MYOPTI-COV-0950",
+    "expected_subclause": "1.3",
+    "clause_type": "COVERAGE",
+    "has_exception": true,
+    "exception_text": "Domiciliary Hospitalization The Company shall indemnify the Medical Expenses incurred during the Policy Year on Domiciliary Hospitalization of the Insured Person prescribed in writing by treating Medical Practitioner, provided that:",
+    "ground_truth_context_snippet": "Domiciliary Hospitalization The Company shall indemnify the Medical Expenses incurred during the Policy Year on Domiciliary Hospitalization of the Insured Person prescribed in writing by treating Medical Practitioner, provided that:",
     "distractor_clauses": [
-      "ELEVAT-COV-001",
-      "ELEVAT-EXC-015"
+      "MYOPTI-COV-0965",
+      "MYOPTI-COV-0962"
     ]
   },
   {
     "query_id": "G2-100",
-    "user_query": "Does Health AdvantEdge cover Renal Transplant if it's listed as a day care procedure?",
-    "product_name": "Health AdvantEdge",
-    "expected_clause_id": "HEALTH-COV-0100",
-    "expected_subclause": "2.4.1",
+    "user_query": "Are maternity and childbirth expenses covered under Complete Health Insurance?",
+    "product_name": "Complete Health Insurance",
+    "insurer": "ICICI Lombard",
+    "topic": "maternity",
+    "expected_clause_id": "COMPLE-COV-1494",
+    "expected_subclause": "9",
+    "clause_type": "COVERAGE",
     "has_exception": false,
-    "ground_truth_context_snippet": "Clause 2.4.1: Day Care Treatment means medical treatment, and/or surgical procedure which requires less than 24 hours of hospitalization and is listed in the approved list of Day Care procedures as defined in the policy schedule.",
+    "exception_text": "",
+    "ground_truth_context_snippet": "Maternity Cover We will cover the Medical Expenses incurred for delivery of a child, including a caesarian section, during Hospitalization or lawful medical termination of pregnancy during the Policy Year maximum up to the limits as specified in the Policy Schedule. Pre-natal and post- natal expenses shall be covered up to the limits as specified in the Policy Schedule.",
     "distractor_clauses": [
-      "HEALTH-COV-001",
-      "HEALTH-EXC-020"
+      "COMPLE-COV-1465",
+      "COMPLE-COV-1527"
     ]
   }
 ]

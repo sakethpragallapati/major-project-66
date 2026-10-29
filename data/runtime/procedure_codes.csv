@@ -1,73 +1,218 @@
-hcpcs_code,short_description,category
-27447,Total Knee Replacement (TKR),Orthopedic Surgery
-27130,Total Hip Replacement (THR),Orthopedic Surgery
-27446,Revision of Total Knee Arthroplasty,Orthopedic Surgery
-27236,Open Treatment of Femoral Fracture,Orthopedic Surgery
-22612,Lumbar Spinal Fusion,Orthopedic Surgery
-22551,"Cervical Spinal Fusion, Anterior",Orthopedic Surgery
-63030,Lumbar Laminectomy/Discectomy,Orthopedic Surgery
-29881,Arthroscopy Knee with Meniscectomy,Orthopedic Surgery
-23472,Total Shoulder Replacement,Orthopedic Surgery
-27245,ORIF Intertrochanteric Femoral Fracture,Orthopedic Surgery
-33533,Coronary Artery Bypass Graft (CABG) Single,Cardiovascular Surgery
-33534,Coronary Artery Bypass Graft (CABG) Two,Cardiovascular Surgery
-33535,Coronary Artery Bypass Graft (CABG) Three,Cardiovascular Surgery
-92928,Percutaneous Coronary Stent Placement,Cardiovascular Surgery
-92920,Percutaneous Transluminal Coronary Angioplasty (PTCA),Cardiovascular Surgery
-33405,Aortic Valve Replacement,Cardiovascular Surgery
-33430,Mitral Valve Replacement,Cardiovascular Surgery
-93458,Cardiac Catheterization Left Heart,Cardiovascular Diagnostics
-33249,ICD/Pacemaker Implantation,Cardiovascular Surgery
-34800,Endovascular Repair Infrarenal Aortic Aneurysm,Cardiovascular Surgery
-47562,Laparoscopic Cholecystectomy,General Surgery
-47563,Laparoscopic Cholecystectomy with Cholangiography,General Surgery
-44970,Laparoscopic Appendectomy,General Surgery
-49505,Inguinal Hernia Repair,General Surgery
-49650,Laparoscopic Inguinal Hernia Repair,General Surgery
-49560,Ventral/Incisional Hernia Repair,General Surgery
-43239,Upper GI Endoscopy with Biopsy,GI Diagnostics
-45378,Colonoscopy Diagnostic,GI Diagnostics
-45385,Colonoscopy with Polypectomy,GI Diagnostics
-43280,Laparoscopic Fundoplication (Anti-Reflux),General Surgery
-52601,TURP (Transurethral Resection of Prostate),Urology
-52353,Ureteroscopy with Lithotripsy,Urology
-50590,Extracorporeal Shock Wave Lithotripsy (ESWL),Urology
-50080,Percutaneous Nephrolithotomy (PCNL),Urology
-55866,Laparoscopic Radical Prostatectomy,Urology
-66984,Cataract Surgery with IOL Implantation,Ophthalmology
-65855,Trabeculoplasty by Laser,Ophthalmology
-67028,Intravitreal Injection,Ophthalmology
-65760,Keratomileusis (LASIK),Ophthalmology
-61510,Craniotomy for Tumor Removal,Neurosurgery
-61624,Transcatheter Embolization CNS,Neurosurgery
-63047,Laminectomy Lumbar with Decompression,Neurosurgery
-19301,"Mastectomy, Partial (Lumpectomy)",Oncology Surgery
-19303,"Mastectomy, Simple Complete",Oncology Surgery
-38720,Cervical Lymphadenectomy (Radical),Oncology Surgery
-77385,Intensity Modulated Radiation Therapy (IMRT),Radiation Oncology
-96413,Chemotherapy Administration IV Infusion,Medical Oncology
-43775,Laparoscopic Sleeve Gastrectomy,Bariatric Surgery
-43644,Laparoscopic Roux-en-Y Gastric Bypass,Bariatric Surgery
-42820,Tonsillectomy and Adenoidectomy,ENT Surgery
-31255,Nasal/Sinus Endoscopy with Ethmoidectomy,ENT Surgery
-30520,Septoplasty,ENT Surgery
-59510,Cesarean Delivery,Obstetrics
-59400,Routine Obstetric Care Including Vaginal Delivery,Obstetrics
-90935,"Hemodialysis, Single Session",Dialysis
-90945,"Dialysis, Other Than Hemodialysis",Dialysis
-36800,AV Fistula Creation for Hemodialysis,Dialysis Access
-97110,Therapeutic Exercise,Physical Therapy
-97140,Manual Therapy Techniques,Physical Therapy
-97530,Therapeutic Activities,Physical Therapy
-S2900,Robotic Surgical Assistance (Add-on),Robotic Surgery
-50360,"Renal Transplant, Allotransplant",Transplant Surgery
-47135,"Liver Transplant, Allotransplant",Transplant Surgery
-33945,Heart Transplant,Transplant Surgery
-D7140,"Extraction, Erupted Tooth or Exposed Root",Dental
-D7210,"Extraction, Surgical, Erupted Tooth",Dental
-70553,MRI Brain with and without Contrast,Diagnostic Imaging
-71260,CT Chest with Contrast,Diagnostic Imaging
-74177,CT Abdomen and Pelvis with Contrast,Diagnostic Imaging
-78816,PET-CT Scan,Nuclear Medicine
-76700,Ultrasound Abdomen Complete,Diagnostic Imaging
-93306,Transthoracic Echocardiography Complete,Cardiac Imaging
+hcpcs_code,short_description,long_description,category,cpt_category,denial_relevance,common_icd10_codes,primary_cms_policy
+27447,Total Knee Arthroplasty (TKR),"Arthroplasty, knee, condyle and plateau; medial and lateral compartments with or without patella resurfacing",Orthopedic Surgery,CPT-I,high,M17.0;M17.11,CMS-LCD-L36575
+27130,Total Hip Arthroplasty (THR),"Arthroplasty, acetabular and proximal femoral prosthetic replacement, with or without autograft or allograft",Orthopedic Surgery,CPT-I,high,M16.0;S72.001A,CMS-LCD-L36575
+27446,Unicompartmental Knee Arthroplasty,"Arthroplasty, knee, condyle and plateau; medial OR lateral compartment",Orthopedic Surgery,CPT-I,high,M17.0,CMS-LCD-L36575
+27236,Open Treatment Femoral Neck Fracture,"Open treatment of femoral fracture, proximal end, neck, internal fixation or prosthetic replacement",Orthopedic Surgery,CPT-I,medium,S72.001A,CMS-LCD-L36575
+27245,ORIF Intertrochanteric Femoral Fracture,"Treatment of intertrochanteric, peritrochanteric, or subtrochanteric femoral fracture with intramedullary implant",Orthopedic Surgery,CPT-I,medium,S72.141A,CMS-LCD-L36575
+22612,Lumbar Spinal Fusion Posterolateral,"Arthrodesis, posterior or posterolateral technique, single interspace; lumbar",Orthopedic Surgery,CPT-I,high,M47.816;M51.16,CMS-LCD-L36575
+22551,Anterior Cervical Discectomy and Fusion (ACDF),"Arthrodesis, anterior interbody, including disc space preparation, discectomy and decompression; cervical below C2",Orthopedic Surgery,CPT-I,high,M47.812;M50.20,CMS-LCD-L36575
+63030,Lumbar Microdiscectomy,"Laminotomy with decompression of nerve root(s), including partial facetectomy and excision of herniated intervertebral disc; 1 interspace, lumbar",Orthopedic Surgery,CPT-I,high,M51.16;M54.5,CMS-LCD-L36575
+29881,Knee Arthroscopy with Meniscectomy,"Arthroscopy, knee, surgical; with meniscectomy (medial or lateral, including shaving)",Orthopedic Surgery,CPT-I,high,M23.200,CMS-LCD-L36575
+29880,Knee Arthroscopy Meniscectomy Both Compartments,"Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral compartments)",Orthopedic Surgery,CPT-I,high,M23.300,CMS-LCD-L36575
+29888,Arthroscopic Anterior Cruciate Ligament (ACL) Reconstruction,Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction,Orthopedic Surgery,CPT-I,high,S83.519A,CMS-LCD-L36575
+23472,Total Shoulder Arthroplasty,"Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement)",Orthopedic Surgery,CPT-I,medium,M19.011;M75.100,CMS-LCD-L36575
+29827,Arthroscopic Rotator Cuff Repair,"Arthroscopy, shoulder, surgical; with rotator cuff repair",Orthopedic Surgery,CPT-I,high,M75.100;M75.110,CMS-LCD-L36575
+64721,Carpal Tunnel Release Open/Endoscopic,Neuroplasty and/or transposition; median nerve at carpal tunnel,Orthopedic Surgery,CPT-I,low,G56.00,CMS-LCD-L36575
+26055,Trigger Finger Tendon Sheath Incision,"Tendon sheath incision (e.g., for trigger finger / stenosing tenosynovitis)",Orthopedic Surgery,CPT-I,low,M65.30,CMS-LCD-L36575
+28296,Bunionectomy Hallux Valgus Correction,"Correction, hallux valgus (bunionectomy), with sesamoidectomy and distal metatarsal osteotomy",Orthopedic Surgery,CPT-I,high,M20.10,CMS-LCD-L36575
+27650,Achilles Tendon Repair Primary,"Repair, primary, open or percutaneous, ruptured Achilles tendon; without graft",Orthopedic Surgery,CPT-I,medium,S86.019A,CMS-LCD-L36575
+29898,Ankle Arthroscopy Surgical Debridement,"Arthroscopy, ankle, surgical; debridement, extensive",Orthopedic Surgery,CPT-I,medium,M19.071,CMS-LCD-L36575
+20610,Arthrocentesis Major Joint (Knee/Hip),"Arthrocentesis, aspiration and/or injection, major joint or bursa; without ultrasound guidance",Orthopedic Surgery,CPT-I,low,M17.0;M25.561,CMS-LCD-L36575
+20611,Arthrocentesis Major Joint with Ultrasound,"Aspiration and/or injection, major joint or bursa with ultrasound guidance, with permanent recording",Orthopedic Surgery,CPT-I,low,M17.0;M25.561,CMS-LCD-L36575
+27756,Tibial Shaft Fracture Intramedullary Fixation,Percutaneous skeletal fixation of tibial shaft fracture with intramedullary implant,Orthopedic Surgery,CPT-I,medium,S82.201A,CMS-LCD-L36575
+25607,Distal Radius Fracture Open Reduction (ORIF),Open treatment of distal radial extra-articular fracture with internal fixation,Orthopedic Surgery,CPT-I,medium,S52.501A,CMS-LCD-L36575
+22842,Posterior Segmental Spinal Instrumentation,"Posterior segmental instrumentation (e.g., pedicle screws, rods); 3 to 6 vertebral segments",Orthopedic Surgery,CPT-I,high,M47.816,CMS-LCD-L36575
+27440,Knee Arthroplasty Tibial Plateau,"Arthroplasty, knee, tibial plateau, with or without debridement",Orthopedic Surgery,CPT-I,medium,M17.0,CMS-LCD-L36575
+29877,Knee Arthroscopy Chondroplasty Debridement,"Arthroscopy, knee, surgical; debridement/shaving of articular cartilage (chondroplasty)",Orthopedic Surgery,CPT-I,high,M17.0,CMS-LCD-L36575
+33533,CABG Single Arterial Graft,"Coronary artery bypass, using arterial graft(s); single arterial graft",Cardiovascular Surgery,CPT-I,high,I25.10;I20.0,CMS-NCD-20.7
+33534,CABG Two Arterial Grafts,"Coronary artery bypass, using arterial graft(s); 2 coronary arterial grafts",Cardiovascular Surgery,CPT-I,high,I25.10,CMS-NCD-20.7
+33535,CABG Three Arterial Grafts,"Coronary artery bypass, using arterial graft(s); 3 coronary arterial grafts",Cardiovascular Surgery,CPT-I,high,I25.10,CMS-NCD-20.7
+33536,CABG Four or More Arterial Grafts,"Coronary artery bypass, using arterial graft(s); 4 or more coronary arterial grafts",Cardiovascular Surgery,CPT-I,high,I25.10,CMS-NCD-20.7
+92928,Percutaneous Coronary Stent Placement,"Percutaneous transcatheter placement of intracoronary stent(s), single major coronary artery or branch",Cardiovascular Surgery,CPT-I,high,I25.10;I21.0,CMS-NCD-20.7
+92920,Percutaneous Coronary Angioplasty (PTCA),Percutaneous transluminal coronary balloon angioplasty; single major coronary artery or branch,Cardiovascular Surgery,CPT-I,high,I25.10,CMS-NCD-20.7
+33405,Aortic Valve Replacement Surgical,"Replacement, aortic valve, open, with cardiopulmonary bypass; prosthetic valve",Cardiovascular Surgery,CPT-I,high,I35.0;I35.1,CMS-NCD-20.7
+33361,Transcatheter Aortic Valve Replacement (TAVR),Transcatheter aortic valve replacement (TAVR/TAVI) with prosthesis; percutaneous femoral artery approach,Cardiovascular Surgery,CPT-I,high,I35.0;I35.2,CMS-NCD-20.7
+33430,Mitral Valve Replacement Open,"Replacement, mitral valve, with cardiopulmonary bypass",Cardiovascular Surgery,CPT-I,high,I34.0;I05.0,CMS-NCD-20.7
+33425,Mitral Valve Valvuloplasty/Repair,"Valvuloplasty, mitral valve, with cardiopulmonary bypass",Cardiovascular Surgery,CPT-I,high,I34.0,CMS-NCD-20.7
+93458,Left Heart Cath with Coronary Angiogram,Left heart catheterization including intraprocedural injection(s) for coronary angiography,Cardiovascular Diagnostics,CPT-I,medium,I25.10;R07.9,CMS-NCD-20.17
+33249,ICD/Pacemaker System Implantation,"Insertion or replacement of pacemaker system or implantable defibrillator system, transvenous leads",Cardiovascular Surgery,CPT-I,high,I48.0;I49.01;I50.9,CMS-NCD-20.7
+33208,Dual Chamber Permanent Pacemaker Insertion,"Insertion of new or replacement of permanent pacemaker with transvenous leads, dual chamber",Cardiovascular Surgery,CPT-I,medium,I44.2;I48.91,CMS-NCD-20.7
+34800,Endovascular Abdominal Aortic Aneurysm Repair (EVAR),Endovascular repair of infrarenal abdominal aortic aneurysm using modular bifurcated prosthesis,Cardiovascular Surgery,CPT-I,high,I71.40,CMS-NCD-20.7
+33880,Thoracic Endovascular Aortic Repair (TEVAR),Endovascular repair of descending thoracic aorta; involving coverage of left subclavian artery origin,Cardiovascular Surgery,CPT-I,high,I71.20,CMS-NCD-20.7
+33340,Percutaneous Left Atrial Appendage Closure (Watchman),Percutaneous transcatheter closure of the left atrial appendage with implant,Cardiovascular Surgery,CPT-I,high,I48.0;I48.91,CMS-NCD-20.7
+93580,Percutaneous Atrial Septal Defect (ASD) Closure,"Percutaneous transcatheter closure of congenital interatrial communication (e.g., ASD, PFO)",Cardiovascular Surgery,CPT-I,high,Q21.10,CMS-NCD-20.7
+33016,Pericardiocentesis with Imaging Guidance,"Pericardiocentesis with imaging guidance (e.g., cardiac tamponade drainage)",Cardiovascular Surgery,CPT-I,low,I31.31,CMS-NCD-20.7
+93224,Holter Monitor 24-48 Hour Continuous ECG,External electrocardiographic recording up to 48 hours by continuous rhythm monitor,Cardiovascular Diagnostics,CPT-I,low,I48.91;R00.2,CMS-NCD-20.17
+93350,Stress Echocardiography with Pharmacological/Treadmill,"Echocardiography, transthoracic, real-time with image documentation, during rest and cardiovascular stress",Cardiovascular Diagnostics,CPT-I,medium,I25.10;R07.9,CMS-NCD-20.17
+47562,Laparoscopic Cholecystectomy,"Laparoscopy, surgical; cholecystectomy",General Surgery,CPT-I,medium,K80.00;K80.20,CMS-NCD-100.13
+47563,Lap Cholecystectomy with Cholangiography,"Laparoscopy, surgical; cholecystectomy with cholangiography",General Surgery,CPT-I,medium,K80.00,CMS-NCD-100.13
+44970,Laparoscopic Appendectomy,"Laparoscopy, surgical, appendectomy",General Surgery,CPT-I,low,K35.80;K35.200,CMS-NCD-100.13
+44950,Open Appendectomy,Appendectomy; open approach,General Surgery,CPT-I,low,K35.80,CMS-NCD-100.13
+49505,Inguinal Hernia Repair Open,"Repair initial inguinal hernia, age 5 years or older; reducible",General Surgery,CPT-I,medium,K40.90,CMS-NCD-100.13
+49650,Laparoscopic Inguinal Hernia Repair,"Laparoscopy, surgical; repair initial inguinal hernia",General Surgery,CPT-I,medium,K40.90,CMS-NCD-100.13
+49560,Ventral/Incisional Hernia Repair Open,Repair initial incisional or ventral hernia; reducible,General Surgery,CPT-I,medium,K43.2;K43.0,CMS-NCD-100.13
+49652,Laparoscopic Ventral Hernia Repair,"Laparoscopy, surgical, repair, ventral, umbilical, spigelian or incisional hernia",General Surgery,CPT-I,medium,K43.2,CMS-NCD-100.13
+43280,Laparoscopic Fundoplication (Nissen),"Laparoscopy, surgical, esophagogastric fundoplasty (e.g., Nissen, Toupet procedures)",General Surgery,CPT-I,high,K21.0;K44.9,CMS-NCD-100.13
+48150,Whipple Procedure (Pancreaticoduodenectomy),"Pancreatectomy, proximal subtotal with total duodenectomy, partial gastrectomy, choledochoenterostomy",General Surgery,CPT-I,high,C25.9,CMS-NCD-100.13
+47120,Partial Hepatectomy Liver Resection,"Hepatectomy, resection of liver; partial lobectomy",General Surgery,CPT-I,high,C22.0,CMS-NCD-100.13
+44140,Partial Colectomy with Anastomosis,"Colectomy, partial; with anastomosis",General Surgery,CPT-I,high,C18.9;K57.30,CMS-NCD-100.13
+45119,Laparoscopic Low Anterior Resection (LAR),"Laparoscopy, surgical; proctectomy, combined abdominoperineal pull-through with colonic reservoir",General Surgery,CPT-I,high,C20,CMS-NCD-100.13
+38120,Laparoscopic Splenectomy,"Laparoscopy, surgical, splenectomy",General Surgery,CPT-I,medium,D69.3,CMS-NCD-100.13
+60240,Total Thyroidectomy,"Thyroidectomy, total or complete",General Surgery,CPT-I,medium,C73;E05.90,CMS-NCD-100.13
+60500,Parathyroidectomy Parathyroid Exploration,Parathyroidectomy or exploration of parathyroid(s),General Surgery,CPT-I,medium,E21.0,CMS-NCD-100.13
+49000,Exploratory Laparotomy,"Exploratory laparotomy, exploratory celiotomy with or without biopsy(s)",General Surgery,CPT-I,medium,R10.9;K56.600,CMS-NCD-100.13
+46250,Hemorrhoidectomy Complete External and Internal,"Hemorrhoidectomy, external and internal, 2 or more columns/groups",General Surgery,CPT-I,medium,K64.9,CMS-NCD-100.13
+43239,Upper GI Endoscopy with Biopsy,"Esophagogastroduodenoscopy, flexible, transoral; with biopsy, single or multiple",GI Diagnostics,CPT-I,medium,K21.0;K29.00;K25.9,CMS-LCD-L37837
+45378,Diagnostic Colonoscopy,"Colonoscopy, flexible; diagnostic, including collection of specimen(s) by brushing or washing",GI Diagnostics,CPT-I,medium,K57.30;K50.90;R19.7,CMS-LCD-L37837
+45385,Colonoscopy with Snare Polypectomy,"Colonoscopy, flexible; with removal of tumor(s), polyp(s), or other lesion(s) by snare technique",GI Diagnostics,CPT-I,medium,D12.6;K63.5,CMS-LCD-L37837
+43235,Diagnostic Esophagogastroduodenoscopy (EGD),"Esophagogastroduodenoscopy, flexible, transoral; diagnostic, including collection of specimens",GI Diagnostics,CPT-I,low,K21.0;R10.9,CMS-LCD-L37837
+43260,Endoscopic Retrograde Cholangiopancreatography (ERCP),"Endoscopic retrograde cholangiopancreatography (ERCP); diagnostic, including specimen collection",GI Diagnostics,CPT-I,high,K80.00;K83.09,CMS-LCD-L37837
+43264,ERCP with Gallstone/Calculus Removal,Endoscopic retrograde cholangiopancreatography (ERCP); with removal of calculi/debris from biliary duct,GI Diagnostics,CPT-I,high,K80.00,CMS-LCD-L37837
+43242,Endoscopic Ultrasound (EUS) with Fine Needle Biopsy,"Esophagogastroduodenoscopy, flexible, transoral; with transendoscopic ultrasound-guided intramural or transmural fine needle aspiration/biopsy(s)",GI Diagnostics,CPT-I,high,C25.9;D37.9,CMS-LCD-L37837
+45330,Diagnostic Flexible Sigmoidoscopy,"Sigmoidoscopy, flexible; diagnostic, including collection of specimen(s) by brushing or washing",GI Diagnostics,CPT-I,low,K64.9;K57.30,CMS-LCD-L37837
+43246,Percutaneous Endoscopic Gastrostomy (PEG Tube),"Esophagogastroduodenoscopy, flexible, transoral; with directed placement of percutaneous gastrostomy tube",GI Diagnostics,CPT-I,medium,R13.10,CMS-LCD-L37837
+91035,Esophageal pH Monitoring Bravo Wireless Capsule,"Esophageal pH monitoring, telemetry capsule, including attachment, monitoring, recording, analysis",GI Diagnostics,CPT-I,high,K21.0,CMS-LCD-L37837
+52601,TURP Transurethral Prostate Resection,"Transurethral electrosurgical resection of prostate, including control of postoperative bleeding, complete",Urology,CPT-I,high,N40.0,CMS-LCD-L34028
+52353,Ureteroscopy with Laser Lithotripsy,"Cystourethroscopy, with ureteroscopy and/or pyeloscopy; with lithotripsy",Urology,CPT-I,medium,N20.0;N20.1,CMS-LCD-L34028
+50590,Extracorporeal Shock Wave Lithotripsy (ESWL),"Lithotripsy, extracorporeal shock wave (renal or ureteral calculus)",Urology,CPT-I,medium,N20.0;N20.1,CMS-LCD-L34028
+50080,Percutaneous Nephrolithotomy (PCNL),Percutaneous nephrostolithotomy or pyelostolithotomy; up to 2 cm,Urology,CPT-I,high,N20.0,CMS-LCD-L34028
+55866,Laparoscopic Radical Prostatectomy,"Laparoscopy, surgical prostatectomy, retropubic radical, nerve sparing, robotic assistance",Urology,CPT-I,high,C61,CMS-LCD-L34028
+50545,Laparoscopic Radical Nephrectomy,"Laparoscopy, surgical; radical nephrectomy (includes removal of Gerota's fascia and surrounding fatty tissue)",Urology,CPT-I,high,C64.9,CMS-LCD-L34028
+50543,Laparoscopic Partial Nephrectomy,"Laparoscopy, surgical; partial nephrectomy",Urology,CPT-I,high,C64.9;D41.00,CMS-LCD-L34028
+52234,TURBT Bladder Tumor Resection Small,"Cystourethroscopy, with fulguration and/or resection of; SMALL bladder tumor(s) (0.5 up to 2.0 cm)",Urology,CPT-I,medium,C67.9;D49.4,CMS-LCD-L34028
+52235,TURBT Bladder Tumor Resection Medium,"Cystourethroscopy, with fulguration and/or resection of; MEDIUM bladder tumor(s) (2.0 to 5.0 cm)",Urology,CPT-I,medium,C67.9,CMS-LCD-L34028
+52332,Cystourethroscopy with Ureteral Stent Insertion,"Cystourethroscopy, with insertion of indwelling ureteral stent (e.g., Gibbons or double-J type)",Urology,CPT-I,low,N20.1;N13.2,CMS-LCD-L34028
+53850,Transurethral Microwave Thermotherapy Prostate (TUMT),Transurethral destruction of prostate tissue; by microwave thermotherapy,Urology,CPT-I,high,N40.0,CMS-LCD-L34028
+52648,Laser Vaporization of Prostate (GreenLight Laser),"Laser vaporization of prostate, including control of postoperative bleeding, complete",Urology,CPT-I,high,N40.0,CMS-LCD-L34028
+54150,Circumcision Surgical Adult,"Circumcision, surgical excision other than clamp, device or dorsal slit; except newborn",Urology,CPT-I,high,N47.1,CMS-LCD-L34028
+55040,Excision of Hydrocele Tunica Vaginalis,Excision of hydrocele; unilateral,Urology,CPT-I,low,N43.3,CMS-LCD-L34028
+55530,Varicocelectomy Spermatic Vein Ligation,Excision of varicocele or ligation of spermatic veins for varicocele,Urology,CPT-I,high,I86.1,CMS-LCD-L34028
+66984,Cataract Surgery with Monofocal IOL,"Extracapsular cataract removal with insertion of intraocular lens prosthesis, manual or phacoemulsification",Ophthalmology,CPT-I,high,H25.9;H25.10,CMS-LCD-L35091
+66982,Complex Cataract Surgery with IOL,"Extracapsular cataract extraction with insertion of intraocular lens prosthesis, complex (e.g. iris expansion device, vitrectomy)",Ophthalmology,CPT-I,high,H25.9,CMS-LCD-L35091
+65855,Selective Laser Trabeculoplasty (SLT),"Trabeculoplasty by laser, 1 or more sessions (for glaucoma intraocular pressure reduction)",Ophthalmology,CPT-I,medium,H40.10X0;H40.10X1,CMS-LCD-L35091
+67028,Intravitreal Anti-VEGF Injection,"Intravitreal injection of a pharmacologic agent (e.g., aflibercept, ranibizumab, bevacizumab)",Ophthalmology,CPT-I,high,E11.311;H35.3110,CMS-LCD-L35091
+67108,Pars Plana Vitrectomy Retinal Detachment,"Repair of retinal detachment; with vitrectomy, air or gas tamponade, focal laser photocoagulation",Ophthalmology,CPT-I,medium,H33.001,CMS-LCD-L35091
+67041,Vitrectomy with Epiretinal Membrane Peeling,"Vitrectomy, mechanical, pars plana approach; with removal of preretinal cellular membrane",Ophthalmology,CPT-I,high,H35.371,CMS-LCD-L35091
+65730,Penetrating Keratoplasty (Corneal Transplant),Keratoplasty (corneal transplant); penetrating (except in aphakia or pseudophakia),Ophthalmology,CPT-I,high,H18.511;H17.9,CMS-LCD-L35091
+66170,Trabeculectomy ab Externo for Glaucoma,Fistulization of sclera for glaucoma; trabeculectomy ab externo in absence of previous surgery,Ophthalmology,CPT-I,high,H40.10X0,CMS-LCD-L35091
+65760,Laser In-Situ Keratomileusis (LASIK),"Keratomileusis; laser in situ refractive correction for myopia, astigmatism, or hyperopia",Ophthalmology,CPT-I,high,H52.10;H52.201,CMS-LCD-L35091
+66821,YAG Laser Posterior Capsulotomy,"Discission of secondary membranous cataract (after cataract); with laser surgery (e.g., YAG laser)",Ophthalmology,CPT-I,low,H26.491,CMS-LCD-L35091
+65426,Pterygium Excision with Conjunctival Autograft,Excision or transposition of pterygium; with conjunctival graft,Ophthalmology,CPT-I,medium,H11.001,CMS-LCD-L35091
+67904,Repair Ptosis Blepharoptosis Levator Resection,"Repair of blepharoptosis; (levator aponeurosis dehiscence or tuck, internal or external approach)",Ophthalmology,CPT-I,high,H02.401,CMS-LCD-L35091
+61510,Craniotomy for Supratentorial Brain Tumor,"Craniectomy, trephination, bone flap craniotomy; for excision of brain tumor, supratentorial",Neurosurgery,CPT-I,high,C71.9;D33.2,CMS-LCD-L34002
+61624,Transcatheter Brain Aneurysm Coiling / Embolization,"Transcatheter permanent occlusion or embolization; central nervous system (intracranial aneurysm, AVM)",Neurosurgery,CPT-I,high,I60.9;I67.1,CMS-LCD-L34002
+63047,Lumbar Laminectomy for Spinal Stenosis,"Laminectomy, facetectomy and foraminotomy with decompression of cauda equina and nerve root(s); lumbar",Neurosurgery,CPT-I,high,M48.061;M51.16,CMS-LCD-L34002
+62223,Ventriculoperitoneal (VP) Shunt Insertion,"Creation of shunt; ventriculo-peritoneal, -pleural, other terminus",Neurosurgery,CPT-I,medium,G91.2,CMS-LCD-L34002
+61154,Burr Hole Evacuation Subdural Hematoma,"Burr hole(s) with evacuation and/or drainage of hematoma, extradural or subdural",Neurosurgery,CPT-I,low,S06.5X0A,CMS-LCD-L34002
+61867,Deep Brain Stimulation (DBS) Lead Implantation,"Twist drill, burr hole, craniotomy, or craniectomy for stereotactic implantation of neurostimulator electrode array; first array",Neurosurgery,CPT-I,high,G20,CMS-LCD-L34002
+61458,Microvascular Decompression Trigeminal Nerve,"Craniotomy, suboccipital; for exploration or decompression of cranial nerves (e.g., trigeminal neuralgia)",Neurosurgery,CPT-I,high,G50.0,CMS-LCD-L34002
+62290,Lumbar Discography Injection,"Injection procedure for discography, each level; lumbar",Neurosurgery,CPT-I,high,M51.16,CMS-LCD-L34002
+22630,Posterior Lumbar Interbody Fusion (PLIF),"Arthrodesis, posterior interbody technique, including laminectomy and/or discectomy; lumbar, single interspace",Neurosurgery,CPT-I,high,M47.816;M51.16,CMS-LCD-L34002
+61548,Hypophysectomy Pituitary Tumor Transsphenoidal,"Hypophysectomy or excision of pituitary tumor, transnasal or transseptal approach, nonstereotactic",Neurosurgery,CPT-I,high,D35.2,CMS-LCD-L34002
+61781,Stereotactic Computer-Assisted Navigation Brain,"Stereotactic computer-assisted (navigational) procedure; cranial, intradural (add-on)",Neurosurgery,CPT-I,high,C71.9,CMS-LCD-L34002
+77372,Stereotactic Radiosurgery (Gamma Knife / CyberKnife),"Radiation treatment delivery, stereotactic radiosurgery (SRS), complete course of therapy in one session",Radiation Oncology,CPT-I,high,C71.9;D33.2,CMS-LCD-L34641
+19301,Partial Mastectomy (Lumpectomy),"Mastectomy, partial (e.g., lumpectomy, tylectomy, quadrantectomy, segmentectomy)",Oncology Surgery,CPT-I,medium,C50.911;D05.90,CMS-LCD-L38222
+19303,Total Mastectomy Simple,"Mastectomy, simple, complete; with or without axillary lymphadenectomy",Oncology Surgery,CPT-I,medium,C50.911,CMS-LCD-L38222
+38720,Cervical Radical Lymphadenectomy,Cervical lymphadenectomy (complete); unilateral or bilateral radical neck dissection,Oncology Surgery,CPT-I,medium,C73;C32.9,CMS-LCD-L38222
+38500,Biopsy or Excision of Lymph Node Superficial,"Biopsy or excision of lymph node(s); open, superficial",Oncology Surgery,CPT-I,low,R59.9,CMS-LCD-L38222
+38525,Axillary Sentinel Lymph Node Biopsy,"Biopsy or excision of lymph node(s); open, deep axillary node(s)",Oncology Surgery,CPT-I,medium,C50.911,CMS-LCD-L38222
+77385,Intensity Modulated Radiation Therapy (IMRT),"Intensity modulated radiation therapy (IMRT) delivery, includes guidance and tracking, per session",Radiation Oncology,CPT-I,high,C50.911;C61,CMS-LCD-L34641
+77301,IMRT Dosimetry and Treatment Planning,"Intensity modulated radiotherapy plan, including dose-volume histograms, reverse planning optimization",Radiation Oncology,CPT-I,medium,C50.911;C61,CMS-LCD-L34641
+96413,Chemotherapy IV Infusion Initial Hour,"Chemotherapy administration, intravenous infusion technique; up to 1 hour, single or initial drug",Medical Oncology,CPT-I,medium,C50.911;C34.90;Z51.11,CMS-LCD-L38222
+96415,Chemotherapy IV Infusion Additional Hour,"Chemotherapy administration, intravenous infusion technique; each additional hour (add-on code)",Medical Oncology,CPT-I,low,Z51.11,CMS-LCD-L38222
+36561,Insertion Chemotherapy Port-a-Cath Subclavian,"Insertion of tunneled centrally placed vascular access device, with subcutaneous port; age 5 years or older",Medical Oncology,CPT-I,medium,Z51.11;C50.911,CMS-LCD-L38222
+38222,Bone Marrow Biopsy and Aspiration,Diagnostic bone marrow; biopsy(ies) and aspiration(s),Hematology / Oncology,CPT-I,low,C91.00;D61.9,CMS-LCD-L38222
+38240,Allogeneic Hematopoietic Stem Cell Transplant (BMT),Hematopoietic progenitor cell (HPC); allogeneic transplantation per donor,Hematology / Oncology,CPT-I,high,C91.00;C92.00,CMS-LCD-L38222
+43775,Laparoscopic Sleeve Gastrectomy,"Laparoscopy, surgical, gastric restrictive procedure; longitudinal gastrectomy (sleeve gastrectomy)",Bariatric Surgery,CPT-I,high,E66.01;E11.9,CMS-NCD-100.1
+43644,Laparoscopic Roux-en-Y Gastric Bypass,"Laparoscopy, surgical, gastric restrictive procedure; with gastric bypass and Roux-en-Y gastroenterostomy",Bariatric Surgery,CPT-I,high,E66.01;E11.9,CMS-NCD-100.1
+43770,Laparoscopic Adjustable Gastric Banding,"Laparoscopy, surgical, gastric restrictive procedure; placement of adjustable gastric restrictive device",Bariatric Surgery,CPT-I,high,E66.01,CMS-NCD-100.1
+43848,Revision of Bariatric Gastric Restrictive Procedure,"Revision, with gastric bypass, for obesity; previous gastric restrictive procedure without bypass",Bariatric Surgery,CPT-I,high,E66.01,CMS-NCD-100.1
+43774,Removal of Adjustable Gastric Band,"Laparoscopy, surgical, gastric restrictive procedure; removal of adjustable gastric restrictive device component only",Bariatric Surgery,CPT-I,medium,T85.698A,CMS-NCD-100.1
+42820,Tonsillectomy and Adenoidectomy Child/Adult,Tonsillectomy and adenoidectomy; younger than age 12 or adult,ENT Surgery,CPT-I,medium,J35.01;J35.2,CMS-LCD-L34550
+42826,Tonsillectomy Primary Adult,"Tonsillectomy, primary or secondary; age 12 or over",ENT Surgery,CPT-I,medium,J35.01,CMS-LCD-L34550
+31255,FESS Sinus Endoscopy Total Ethmoidectomy,"Nasal/sinus endoscopy, surgical; with total ethmoidectomy",ENT Surgery,CPT-I,medium,J32.9;J33.9,CMS-LCD-L34550
+31256,FESS Endoscopic Maxillary Antrostomy,"Nasal/sinus endoscopy, surgical, with maxillary antrostomy",ENT Surgery,CPT-I,medium,J32.9,CMS-LCD-L34550
+30520,Septoplasty with Cartilage Scoring,"Septoplasty or submucous resection, with or without cartilage scoring or contouring",ENT Surgery,CPT-I,high,J34.2,CMS-LCD-L34550
+30140,Submucous Resection Inferior Turbinate,"Submucous resection inferior turbinate, partial or complete, any method",ENT Surgery,CPT-I,medium,J34.3,CMS-LCD-L34550
+69436,Tympanostomy with Ventilation Tube Insertion,"Tympanostomy (requiring insertion of ventilating tube), general anesthesia",ENT Surgery,CPT-I,low,H65.01,CMS-LCD-L34550
+69631,Tympanoplasty without Ossicular Reconstruction,Tympanoplasty without mastoidectomy; with ossicular chain reconstruction not performed,ENT Surgery,CPT-I,medium,H72.90,CMS-LCD-L34550
+69502,Mastoidectomy Complete Radical,Mastoidectomy; complete or modified radical,ENT Surgery,CPT-I,medium,H70.001,CMS-LCD-L34550
+42410,Superficial Parotidectomy Lateral Lobectomy,"Excision of parotid tumor or parotid gland; lateral lobe, without nerve dissection",ENT Surgery,CPT-I,medium,D11.0,CMS-LCD-L34550
+59510,Cesarean Delivery with Complete Antepartum/Postpartum,"Routine obstetric care including antepartum care, cesarean delivery, and postpartum care",Obstetrics & Gynecology,CPT-I,high,O82;O60.00,CMS-LCD-L34440
+59400,Vaginal Delivery with Antepartum/Postpartum,"Routine obstetric care including antepartum care, vaginal delivery (with or without episiotomy) and postpartum care",Obstetrics & Gynecology,CPT-I,high,O80,CMS-LCD-L34440
+58571,Laparoscopic Total Hysterectomy with Salpingo-Oophorectomy,"Laparoscopy, surgical, with total hysterectomy, for uterus 250 g or less; with removal of tube(s) and/or ovary(s)",Obstetrics & Gynecology,CPT-I,high,D25.9;N80.00,CMS-LCD-L34440
+58150,Total Abdominal Hysterectomy Open,"Total abdominal hysterectomy (corpus and cervix), with or without removal of tube(s) or ovary(s)",Obstetrics & Gynecology,CPT-I,high,D25.9,CMS-LCD-L34440
+58545,Laparoscopic Myomectomy Uterine Fibroids,"Laparoscopy, surgical, myomectomy, excision; 1 to 4 intramural myomas with total weight of 250 g or less",Obstetrics & Gynecology,CPT-I,high,D25.9,CMS-LCD-L34440
+58661,Laparoscopic Ovarian Cystectomy,"Laparoscopy, surgical; with removal of adnexal structures (partial or total oophorectomy and/or salpingectomy)",Obstetrics & Gynecology,CPT-I,medium,N83.201,CMS-LCD-L34440
+59121,Surgical Treatment of Tubal Ectopic Pregnancy,"Surgical treatment of ectopic pregnancy; tubal or ovarian, requiring salpingectomy and/or oophorectomy",Obstetrics & Gynecology,CPT-I,low,O00.101,CMS-LCD-L34440
+58120,Dilation and Curettage (D&C) Diagnostic/Therapeutic,"Dilation and curettage, diagnostic and/or therapeutic (nonobstetrical)",Obstetrics & Gynecology,CPT-I,medium,N93.9;N85.00,CMS-LCD-L34440
+58558,Hysteroscopy with Endometrial Biopsy/Polypectomy,"Hysteroscopy, surgical; with sampling (biopsy) of endometrium and/or polypectomy, with or without D&C",Obstetrics & Gynecology,CPT-I,medium,N84.0,CMS-LCD-L34440
+58563,Hysteroscopic Endometrial Ablation,"Hysteroscopy, surgical; with endometrial ablation (e.g., endometrial resection, electrosurgical ablation, thermoablation)",Obstetrics & Gynecology,CPT-I,high,N93.8,CMS-LCD-L34440
+57260,Anterior and Posterior Colporrhaphy (Cystocele/Rectocele),Combined anteroposterior colporrhaphy; with or without repair of enterocele,Obstetrics & Gynecology,CPT-I,medium,N81.10;N81.6,CMS-LCD-L34440
+59320,Cervical Cerclage Vaginal Approach,"Cerclage of cervix, during pregnancy; vaginal approach (McDonald or Shirodkar)",Obstetrics & Gynecology,CPT-I,low,O34.30,CMS-LCD-L34440
+99285,Emergency Department Visit High Severity (Level 5),Emergency department visit for evaluation and management requiring high complexity decision making,Emergency Medicine,CPT-I,high,R07.9;A41.9;I21.0,CMS-EM-STND
+99284,Emergency Department Visit Urgent (Level 4),Emergency department visit for evaluation and management requiring moderate complexity decision making,Emergency Medicine,CPT-I,medium,R10.9;J18.9,CMS-EM-STND
+99291,Critical Care First 30-74 Minutes,"Critical care, evaluation and management of the critically ill or critically injured patient; first 30-74 minutes",Emergency Medicine,CPT-I,high,A41.9;J96.00;R57.0,CMS-EM-STND
+99292,Critical Care Additional 30 Minutes,"Critical care, evaluation and management; each additional 30 minutes (add-on)",Emergency Medicine,CPT-I,medium,A41.9,CMS-EM-STND
+92950,Cardiopulmonary Resuscitation (CPR),"Cardiopulmonary resuscitation (e.g., in cardiac arrest)",Emergency Medicine,CPT-I,low,I46.9,CMS-EM-STND
+31500,Emergency Endotracheal Intubation,"Intubation, endotracheal, emergency procedure",Emergency Medicine,CPT-I,low,J96.00;R09.2,CMS-EM-STND
+36556,Central Venous Catheter Insertion Non-Tunneled,Insertion of non-tunneled centrally placed central venous catheter; age 5 years or older,Emergency Medicine,CPT-I,low,A41.9;R57.0,CMS-EM-STND
+32551,Tube Thoracostomy (Chest Tube Insertion),"Tube thoracostomy, includes water seal (e.g., for for pneumothorax, hemothorax, empyema)",Emergency Medicine,CPT-I,low,J93.9;J94.2,CMS-EM-STND
+11102,Tangential Biopsy Skin Lesion,"Tangential biopsy of skin (e.g., shave, scoop, saucerize, curette); single lesion",Dermatology,CPT-I,medium,L98.9;D23.9,CMS-LCD-L33640
+11400,Excision Benign Skin Lesion 0.5 cm or Less,"Excision, benign lesion including margins; trunk, arms or legs; excised diameter 0.5 cm or less",Dermatology,CPT-I,high,D23.9;L72.0,CMS-LCD-L33640
+11604,Excision Malignant Skin Lesion Trunk 3.1-4.0 cm,"Excision, malignant lesion including margins, trunk, arms, or legs; excised diameter 3.1 to 4.0 cm",Dermatology,CPT-I,medium,C43.9;C44.91,CMS-LCD-L33640
+17311,Mohs Micrographic Surgery Head/Neck Stage 1,"Mohs micrographic technique, removal of gross tumor, mapping, color coding, microscopic examination; first stage, up to 5 blocks",Dermatology,CPT-I,high,C44.91;C43.9,CMS-LCD-L33640
+15100,Split-Thickness Autograft Skin Trunk/Arms,"Split-thickness autograft, trunk, arms, legs; first 100 sq cm or less",Plastic Surgery,CPT-I,medium,T31.0;L97.909,CMS-LCD-L35090
+15260,Full-Thickness Skin Graft Nose/Ears/Eyelids,"Full thickness graft, free, including direct closure of donor site, nose, ears, eyelids, and/or lips; 20 sq cm or less",Plastic Surgery,CPT-I,high,C44.91,CMS-LCD-L35090
+15822,Blepharoplasty Upper Eyelid Functional,"Blepharoplasty, upper eyelid; with excessive skin weighing down lid / visual field defect",Plastic Surgery,CPT-I,high,H02.831,CMS-LCD-L35090
+15830,Panniculectomy Infraumbilical Abdominal,"Excision, excessive skin and subcutaneous tissue (includes lipectomy); abdomen, infraumbilical panniculectomy",Plastic Surgery,CPT-I,high,L98.7;E66.01,CMS-LCD-L35090
+11042,Surgical Debridement Subcutaneous Tissue,"Debridement, subcutaneous tissue (includes epidermis and dermis, if performed); first 20 sq cm or less",Plastic Surgery,CPT-I,medium,L97.909;E11.621,CMS-LCD-L35090
+19364,Breast Reconstruction with Free DIEP Flap,"Breast reconstruction with free flap (e.g., deep inferior epigastric perforator DIEP flap)",Plastic Surgery,CPT-I,high,C50.911;Z90.11,CMS-LCD-L35090
+31622,Diagnostic Flexible Bronchoscopy,"Bronchoscopy, rigid or flexible; diagnostic, with cell washing when performed",Pulmonology,CPT-I,medium,J18.9;C34.90,CMS-LCD-L33700
+31628,Transbronchial Lung Biopsy Single Lobe,"Bronchoscopy, rigid or flexible, including fluoroscopic guidance; with transbronchial lung biopsy(s), single lobe",Pulmonology,CPT-I,high,C34.90;J84.9,CMS-LCD-L33700
+31652,Endobronchial Ultrasound (EBUS) with Lymph Node Biopsy,"Bronchoscopy, flexible; with endobronchial ultrasound (EBUS) guided transbronchial needle aspiration, 1 or 2 node stations",Pulmonology,CPT-I,high,C34.90,CMS-LCD-L33700
+32555,Thoracentesis with Imaging Guidance,"Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",Pulmonology,CPT-I,low,J90,CMS-LCD-L33700
+32650,VATS Thoracoscopy with Chemical Pleurodesis,"Thoracoscopy, surgical; with pleurodesis (e.g., mechanical or chemical talc poudrage)",Pulmonology,CPT-I,medium,J90;J93.9,CMS-LCD-L33700
+32663,VATS Lobectomy Single Lobe,"Thoracoscopy, surgical; with lobectomy (single lobe)",Thoracic Surgery,CPT-I,high,C34.90,CMS-LCD-L33700
+31635,Bronchoscopy with Foreign Body Removal,"Bronchoscopy, rigid or flexible; with removal of foreign body",Pulmonology,CPT-I,low,T17.800A,CMS-LCD-L33700
+94010,Spirometry Pulmonary Function Test,"Spirometry, including graphic record, total and timed vital capacity, expiratory flow rate measurements",Pulmonology,CPT-I,low,J44.1;J45.20,CMS-LCD-L33700
+62322,Lumbar Epidural Steroid Injection,"Injection(s), interlaminar epidural or subarachnoid, lumbar or sacral (caudal); without imaging guidance",Pain Management,CPT-I,high,M54.5;M51.16,CMS-LCD-L34938
+62323,Lumbar Epidural Steroid Injection with Fluoroscopy,"Injection(s), interlaminar epidural, lumbar or sacral; with fluoroscopic or CT imaging guidance",Pain Management,CPT-I,high,M54.5;M51.16,CMS-LCD-L34938
+64493,Lumbar Facet Joint Nerve Block Single Level,"Injection(s), diagnostic or therapeutic agent, paravertebral facet joint with fluoroscopic/CT guidance; lumbar single level",Pain Management,CPT-I,high,M47.816;M54.5,CMS-LCD-L34938
+64635,Lumbar Facet Radiofrequency Neurotomy / Ablation,"Destruction by neurolytic agent, paravertebral facet joint nerve(s), with fluoroscopic/CT guidance; lumbar single level",Pain Management,CPT-I,high,M47.816,CMS-LCD-L34938
+27096,Sacroiliac (SI) Joint Arthrography / Injection,"Injection procedure for sacroiliac joint, arthrography and/or anesthetic/steroid; with imaging guidance",Pain Management,CPT-I,high,M53.3,CMS-LCD-L34938
+63650,Spinal Cord Stimulator Trial Percutaneous Lead,"Percutaneous implantation of neurostimulator electrode array, epidural (trial stimulation)",Pain Management,CPT-I,high,G89.4;M54.5,CMS-LCD-L34938
+35301,Carotid Endarterectomy (CEA),"Thromboendarterectomy, including patch graft, if performed; carotid, vertebral, subclavian, by neck incision",Vascular Surgery,CPT-I,high,I65.29;I63.9,CMS-LCD-L33560
+35556,Femoral-Popliteal Bypass Graft with Vein,"Bypass graft, with vein; femoral-popliteal",Vascular Surgery,CPT-I,high,I70.209,CMS-LCD-L33560
+36475,Endovenous Radiofrequency Ablation (RFA) Varicose Vein,"Endovenous ablation therapy of incompetent vein, extremity, inclusive of all imaging guidance, percutaneous; radiofrequency first vein",Vascular Surgery,CPT-I,high,I83.90;I83.009,CMS-LCD-L33560
+36478,Endovenous Laser Ablation (EVLA) Varicose Vein,"Endovenous ablation therapy of incompetent vein, extremity, percutaneous, laser; first vein treated",Vascular Surgery,CPT-I,high,I83.90,CMS-LCD-L33560
+37765,Stab Phlebectomy Varicose Vein 10-20 Incisions,"Stab phlebectomy of varicose veins, 1 extremity; 10-20 stab incisions",Vascular Surgery,CPT-I,high,I83.90,CMS-LCD-L33560
+37221,Iliac Artery Angioplasty with Stent Placement,"Revascularization, endovascular, open or percutaneous, iliac artery, unilateral; with transcatheter stent(s)",Vascular Surgery,CPT-I,medium,I70.209,CMS-LCD-L33560
+34401,Thrombectomy Venous Lower Extremity,"Thrombectomy, direct or with catheter; vena cava, iliac, or femoropopliteal vein, by leg incision",Vascular Surgery,CPT-I,medium,I82.409,CMS-LCD-L33560
+36830,Arteriovenous (AV) Graft Creation with Synthetic Conduit,Creation of arteriovenous fistula by other than direct arteriovenous anastomosis (separate procedure); nonautogenous graft,Vascular Surgery,CPT-I,medium,N18.6,CMS-LCD-L33560
+90935,Hemodialysis Single Physician Evaluation,Hemodialysis procedure with single evaluation by a physician or other qualified health care professional,Dialysis,CPT-I,medium,N18.6;N18.3,CMS-LCD-L33705
+90937,Hemodialysis Repeated Evaluation Complex,Hemodialysis procedure requiring repeated evaluations by a physician with or without substantial changes in dialysis prescription,Dialysis,CPT-I,high,N18.6,CMS-LCD-L33705
+90945,Peritoneal Dialysis Single Evaluation,"Dialysis procedure other than hemodialysis (e.g., peritoneal dialysis, hemofiltration, or other continuous renal replacement)",Dialysis,CPT-I,medium,N18.6,CMS-LCD-L33705
+36800,AV Fistula Creation for Hemodialysis,Insertion of temporary indwelling arteriovenous cannula/shunt or fistula creation for hemodialysis,Dialysis Access,CPT-I,medium,N18.6;N18.3,CMS-LCD-L33705
+50360,Renal Allotransplantation Implantation,"Renal allotransplantation, implantation of graft; without recipient nephrectomy",Transplant Surgery,CPT-I,high,N18.6;Z94.0,CMS-NCD-260.1
+50547,Laparoscopic Living Donor Nephrectomy,"Laparoscopy, surgical; donor nephrectomy from living donor (including cold preservation)",Transplant Surgery,CPT-I,high,Z52.4,CMS-NCD-260.1
+47135,Liver Allotransplantation Orthotopic,"Liver allotransplantation; orthotopic, partial or whole, from cadaver or living donor",Transplant Surgery,CPT-I,high,K72.90;K74.60,CMS-NCD-260.1
+33945,Heart Allotransplantation Orthotopic,"Heart allotransplantation, with or without recipient cardiectomy",Transplant Surgery,CPT-I,high,I50.9,CMS-NCD-260.1
+32851,Lung Allotransplantation Single,"Lung allotransplantation; single, without cardiopulmonary bypass",Transplant Surgery,CPT-I,high,J44.1,CMS-NCD-260.1
+D7140,Extraction of Erupted Tooth or Exposed Root,"Extraction, erupted tooth or exposed root (elevation and/or forceps removal)",Dental Surgery,HCPCS-II,high,K02.9;K04.7,CMS-DENT-01
+D7210,Surgical Extraction of Erupted Tooth,"Extraction, erupted tooth requiring removal of bone and/or sectioning of tooth, with elevation of mucoperiosteal flap",Dental Surgery,HCPCS-II,high,K01.1;K04.7,CMS-DENT-01
+D7240,Removal of Impacted Tooth Completely Bony,"Removal of impacted tooth - completely bony, with unusual surgical complications",Dental Surgery,HCPCS-II,high,K01.1,CMS-DENT-01
+D7960,Frenulectomy / Frenectomy Labial or Lingual,Frenulectomy - also known as frenectomy or frenotomy - separate procedure not incidental to other procedure,Dental Surgery,HCPCS-II,high,Q38.1,CMS-DENT-01
+70553,MRI Brain with and without Contrast,"Magnetic resonance imaging, brain; without contrast material, followed by contrast material(s)",Diagnostic Imaging,CPT-I,medium,I63.9;G40.909,CMS-NCD-220.1
+72148,MRI Lumbar Spine without Contrast,"Magnetic resonance imaging, spinal canal and contents, lumbar; without contrast material",Diagnostic Imaging,CPT-I,medium,M54.5;M51.16,CMS-NCD-220.1
+73721,MRI Knee Joint without Contrast,"Magnetic resonance imaging, any joint of lower extremity; without contrast material (knee)",Diagnostic Imaging,CPT-I,medium,M17.0;M23.200,CMS-NCD-220.1
+71260,CT Chest with Contrast,"Computed tomography, thorax; with contrast material(s)",Diagnostic Imaging,CPT-I,medium,J18.9;C34.90,CMS-NCD-220.1
+74177,CT Abdomen and Pelvis with Contrast,"Computed tomography, abdomen and pelvis; with contrast material(s)",Diagnostic Imaging,CPT-I,medium,K35.80;K80.00,CMS-NCD-220.1
+78816,PET-CT Scan Whole Body Oncology,Positron emission tomography (PET) with concurrently acquired computed tomography (CT); whole body,Nuclear Medicine,CPT-I,high,C50.911;C34.90,CMS-NCD-220.6
+76700,Ultrasound Abdomen Complete,"Ultrasound, abdominal, real time with image documentation; complete",Diagnostic Imaging,CPT-I,low,K80.20;N20.0,CMS-NCD-220.1
+93306,Transthoracic 2D Echocardiography Complete,"Echocardiography, transthoracic, real-time with image documentation (2D), complete with Doppler",Cardiac Imaging,CPT-I,medium,I50.9;I11.0,CMS-NCD-220.1
+97110,Therapeutic Exercise 15 Minutes,"Therapeutic procedure, 1 or more areas, each 15 minutes; therapeutic exercises for strength, range of motion",Physical Therapy,CPT-I,high,M17.0;M54.5;I63.9,CMS-LCD-L35036
+97140,Manual Therapy Techniques 15 Minutes,"Manual therapy techniques (e.g., mobilization, manipulation, lymphatic drainage, manual traction), each 15 min",Physical Therapy,CPT-I,high,M54.5;M47.816,CMS-LCD-L35036
+97530,Therapeutic Activities Dynamic Movement,"Therapeutic activities, direct (one-on-one) patient contact (use of dynamic activities to improve functional performance)",Physical Therapy,CPT-I,high,I63.9;M17.0,CMS-LCD-L35036
+97116,Gait Training Therapy 15 Minutes,"Therapeutic procedure, 1 or more areas, each 15 minutes; gait training (includes stair climbing)",Physical Therapy,CPT-I,high,I63.9;M16.0,CMS-LCD-L35036
+S2900,Robotic Surgical Assistance Add-On,Surgical techniques requiring use of robotic surgical system (list separately in addition to code for primary procedure),Robotic Surgery,HCPCS-II,high,C61;D25.9,CA-DMHC-IMR

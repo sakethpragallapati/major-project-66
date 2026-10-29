@@ -1,0 +1,333 @@
+hcpcs_code,icd10_code,relationship_type,medical_necessity_strength,source_policy_id,evidence_standard
+27447,M17.0,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination LCD L36575 / MAC Billing Article A57685
+27447,M17.11,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination LCD L36575 / MAC Billing Article A57685
+27130,M16.0,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination LCD L36575 / MAC Billing Article A57685
+27130,S72.001A,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination LCD L36575 / MAC Billing Article A57685
+27446,M17.0,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+27236,S72.001A,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+27245,S72.141A,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+22612,M47.816,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+22612,M51.16,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+22551,M47.812,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+22551,M50.20,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+63030,M51.16,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+63030,M54.5,secondary_indication,moderate,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+29881,M23.200,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+29880,M23.300,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+29888,S83.519A,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+23472,M19.011,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+23472,M75.100,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+29827,M75.100,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+29827,M75.110,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+64721,G56.00,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+26055,M65.30,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+28296,M20.10,primary_indication,moderate,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+27650,S86.019A,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+29898,M19.071,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+20610,M17.0,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+20610,M25.561,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+20611,M17.0,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+20611,M25.561,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+27756,S82.201A,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+25607,S52.501A,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+22842,M47.816,primary_indication,strong,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+27440,M17.0,primary_indication,moderate,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+29877,M17.0,primary_indication,moderate,CMS-LCD-L36575,CMS Local Coverage Determination for Major Joint & Orthopedic Surgeries (MAC Article A57685)
+33533,I25.10,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33533,I20.0,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33534,I25.10,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33535,I25.10,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33536,I25.10,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+92928,I25.10,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination NCD 20.7 for Percutaneous Transluminal Angioplasty
+92928,I21.0,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination NCD 20.7 for Percutaneous Transluminal Angioplasty
+92920,I25.10,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination NCD 20.7 for Percutaneous Transluminal Angioplasty
+33405,I35.0,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33405,I35.1,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33361,I35.0,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33361,I35.2,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33430,I34.0,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33430,I05.0,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33425,I34.0,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+93458,I25.10,primary_indication,strong,CMS-NCD-20.17,CMS National Coverage Determination for Diagnostic Cardiac Catheterization
+93458,R07.9,primary_indication,moderate,CMS-NCD-20.17,CMS National Coverage Determination for Diagnostic Cardiac Catheterization
+33249,I48.0,primary_indication,moderate,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33249,I49.01,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33249,I50.9,secondary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33208,I44.2,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33208,I48.91,secondary_indication,moderate,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+34800,I71.40,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33880,I71.20,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33340,I48.0,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33340,I48.91,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+93580,Q21.10,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+33016,I31.31,primary_indication,strong,CMS-NCD-20.7,CMS National Coverage Determination for Percutaneous Coronary Interventions & Cardiac Surgery
+93224,I48.91,primary_indication,strong,CMS-NCD-20.17,CMS National Coverage Determination for Diagnostic Cardiac Catheterization
+93224,R00.2,primary_indication,strong,CMS-NCD-20.17,CMS National Coverage Determination for Diagnostic Cardiac Catheterization
+93350,I25.10,primary_indication,strong,CMS-NCD-20.17,CMS National Coverage Determination for Diagnostic Cardiac Catheterization
+93350,R07.9,primary_indication,moderate,CMS-NCD-20.17,CMS National Coverage Determination for Diagnostic Cardiac Catheterization
+47562,K80.00,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination NCD 100.13 for Laparoscopic Cholecystectomy
+47562,K80.20,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination NCD 100.13 for Laparoscopic Cholecystectomy
+47563,K80.00,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination NCD 100.13 for Laparoscopic Cholecystectomy
+44970,K35.80,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+44970,K35.200,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+44950,K35.80,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+49505,K40.90,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+49650,K40.90,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+49560,K43.2,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+49560,K43.0,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+49652,K43.2,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+43280,K21.0,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+43280,K44.9,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+48150,C25.9,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+47120,C22.0,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+44140,C18.9,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+44140,K57.30,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+45119,C20,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+38120,D69.3,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+60240,C73,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+60240,E05.90,primary_indication,moderate,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+60500,E21.0,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+49000,R10.9,primary_indication,moderate,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+49000,K56.600,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+46250,K64.9,primary_indication,strong,CMS-NCD-100.13,CMS National Coverage Determination for Laparoscopic & Abdominal Surgeries
+43239,K21.0,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43239,K29.00,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43239,K25.9,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+45378,K57.30,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+45378,K50.90,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+45378,R19.7,primary_indication,moderate,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+45385,D12.6,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+45385,K63.5,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43235,K21.0,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43235,R10.9,primary_indication,moderate,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43260,K80.00,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43260,K83.09,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43264,K80.00,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43242,C25.9,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43242,D37.9,primary_indication,moderate,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+45330,K64.9,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+45330,K57.30,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+43246,R13.10,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+91035,K21.0,primary_indication,strong,CMS-LCD-L37837,CMS Local Coverage Determination for Upper & Lower GI Endoscopy / Colonoscopy
+52601,N40.0,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+52353,N20.0,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+52353,N20.1,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+50590,N20.0,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+50590,N20.1,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+50080,N20.0,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+55866,C61,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+50545,C64.9,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+50543,C64.9,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+50543,D41.00,primary_indication,moderate,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+52234,C67.9,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+52234,D49.4,primary_indication,moderate,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+52235,C67.9,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+52332,N20.1,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+52332,N13.2,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+53850,N40.0,primary_indication,moderate,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+52648,N40.0,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+54150,N47.1,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+55040,N43.3,primary_indication,strong,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+55530,I86.1,primary_indication,moderate,CMS-LCD-L34028,CMS Local Coverage Determination for Transurethral & Urological Procedures
+66984,H25.9,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination LCD L35091 for Cataract Extraction
+66984,H25.10,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination LCD L35091 for Cataract Extraction
+66982,H25.9,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination LCD L35091 for Cataract Extraction
+65855,H40.10X0,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+65855,H40.10X1,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+67028,E11.311,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+67028,H35.3110,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+67108,H33.001,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+67041,H35.371,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+65730,H18.511,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+65730,H17.9,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+66170,H40.10X0,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+65760,H52.10,primary_indication,weak,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+65760,H52.201,primary_indication,weak,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+66821,H26.491,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+65426,H11.001,primary_indication,strong,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+67904,H02.401,primary_indication,moderate,CMS-LCD-L35091,CMS Local Coverage Determination for Cataract Extraction & Ophthalmic Surgery
+61510,C71.9,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+61510,D33.2,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+61624,I60.9,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+61624,I67.1,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+63047,M48.061,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+63047,M51.16,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+62223,G91.2,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+61154,S06.5X0A,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+61867,G20,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+61458,G50.0,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+62290,M51.16,primary_indication,weak,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+22630,M47.816,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+22630,M51.16,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+61548,D35.2,primary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+61781,C71.9,secondary_indication,strong,CMS-LCD-L34002,CMS Local Coverage Determination for Spinal Surgery & Cranial Decompression
+77372,C71.9,primary_indication,strong,CMS-LCD-L34641,CMS Local Coverage Determination for Radiation Oncology (IMRT/SBRT)
+77372,D33.2,primary_indication,strong,CMS-LCD-L34641,CMS Local Coverage Determination for Radiation Oncology (IMRT/SBRT)
+19301,C50.911,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Surgical Oncology & Tumor Resection
+19301,D05.90,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Surgical Oncology & Tumor Resection
+19303,C50.911,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Surgical Oncology & Tumor Resection
+38720,C73,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Surgical Oncology & Tumor Resection
+38720,C32.9,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Surgical Oncology & Tumor Resection
+38500,R59.9,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Surgical Oncology & Tumor Resection
+38525,C50.911,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Surgical Oncology & Tumor Resection
+77385,C50.911,primary_indication,strong,CMS-LCD-L34641,CMS Local Coverage Determination for Radiation Oncology (IMRT/SBRT)
+77385,C61,primary_indication,strong,CMS-LCD-L34641,CMS Local Coverage Determination for Radiation Oncology (IMRT/SBRT)
+77301,C50.911,primary_indication,strong,CMS-LCD-L34641,CMS Local Coverage Determination for Radiation Oncology (IMRT/SBRT)
+77301,C61,primary_indication,strong,CMS-LCD-L34641,CMS Local Coverage Determination for Radiation Oncology (IMRT/SBRT)
+96413,C50.911,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Chemotherapy Administration
+96413,C34.90,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Chemotherapy Administration
+96413,Z51.11,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Chemotherapy Administration
+96415,Z51.11,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Chemotherapy Administration
+36561,Z51.11,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Chemotherapy Administration
+36561,C50.911,secondary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Chemotherapy Administration
+38222,C91.00,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Hematology & Bone Marrow Aspiration
+38222,D61.9,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Hematology & Bone Marrow Aspiration
+38240,C91.00,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Hematology & Bone Marrow Aspiration
+38240,C92.00,primary_indication,strong,CMS-LCD-L38222,CMS Local Coverage Determination for Hematology & Bone Marrow Aspiration
+43775,E66.01,primary_indication,strong,CMS-NCD-100.1,CMS National Coverage Determination NCD 100.1 for Bariatric Surgery
+43775,E11.9,secondary_indication,moderate,CMS-NCD-100.1,CMS National Coverage Determination NCD 100.1 for Bariatric Surgery
+43644,E66.01,primary_indication,strong,CMS-NCD-100.1,CMS National Coverage Determination NCD 100.1 for Bariatric Surgery
+43644,E11.9,secondary_indication,moderate,CMS-NCD-100.1,CMS National Coverage Determination NCD 100.1 for Bariatric Surgery
+43770,E66.01,primary_indication,moderate,CMS-NCD-100.1,CMS National Coverage Determination for Bariatric Surgery for Morbid Obesity (Article A53026)
+43848,E66.01,primary_indication,strong,CMS-NCD-100.1,CMS National Coverage Determination for Bariatric Surgery for Morbid Obesity (Article A53026)
+43774,T85.698A,primary_indication,strong,CMS-NCD-100.1,CMS National Coverage Determination for Bariatric Surgery for Morbid Obesity (Article A53026)
+42820,J35.01,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+42820,J35.2,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+42826,J35.01,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+31255,J32.9,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+31255,J33.9,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+31256,J32.9,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+30520,J34.2,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+30140,J34.3,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+69436,H65.01,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+69631,H72.90,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+69502,H70.001,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+42410,D11.0,primary_indication,strong,CMS-LCD-L34550,CMS Local Coverage Determination for Otolaryngologic Surgeries
+59510,O82,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+59510,O60.00,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+59400,O80,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58571,D25.9,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58571,N80.00,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58150,D25.9,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58545,D25.9,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58661,N83.201,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+59121,O00.101,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58120,N93.9,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58120,N85.00,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58558,N84.0,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+58563,N93.8,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+57260,N81.10,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+57260,N81.6,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+59320,O34.30,primary_indication,strong,CMS-LCD-L34440,CMS Local Coverage Determination & ACOG Standards for Gynecological Interventions
+99285,R07.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+99285,A41.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+99285,I21.0,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+99284,R10.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+99284,J18.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+99291,A41.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+99291,J96.00,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+99291,R57.0,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+99292,A41.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+92950,I46.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+31500,J96.00,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+31500,R09.2,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+36556,A41.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+36556,R57.0,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+32551,J93.9,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+32551,J94.2,primary_indication,strong,CMS-EM-STND,CMS Emergency Treatment & Active Labor Act (EMTALA) Clinical Coding Standard
+11102,L98.9,primary_indication,strong,CMS-LCD-L33640,CMS Local Coverage Determination for Excision of Cutaneous Lesions & Malignancies
+11102,D23.9,primary_indication,strong,CMS-LCD-L33640,CMS Local Coverage Determination for Excision of Cutaneous Lesions & Malignancies
+11400,D23.9,primary_indication,weak,CMS-LCD-L33640,CMS Local Coverage Determination for Excision of Cutaneous Lesions & Malignancies
+11400,L72.0,primary_indication,moderate,CMS-LCD-L33640,CMS Local Coverage Determination for Excision of Cutaneous Lesions & Malignancies
+11604,C43.9,primary_indication,strong,CMS-LCD-L33640,CMS Local Coverage Determination for Excision of Cutaneous Lesions & Malignancies
+11604,C44.91,primary_indication,strong,CMS-LCD-L33640,CMS Local Coverage Determination for Excision of Cutaneous Lesions & Malignancies
+17311,C44.91,primary_indication,strong,CMS-LCD-L33640,CMS Local Coverage Determination for Excision of Cutaneous Lesions & Malignancies
+17311,C43.9,primary_indication,strong,CMS-LCD-L33640,CMS Local Coverage Determination for Excision of Cutaneous Lesions & Malignancies
+15100,T31.0,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+15100,L97.909,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+15260,C44.91,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+15822,H02.831,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+15830,L98.7,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+15830,E66.01,secondary_indication,weak,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+11042,L97.909,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+11042,E11.621,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+19364,C50.911,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+19364,Z90.11,primary_indication,strong,CMS-LCD-L35090,CMS Local Coverage Determination for Reconstructive vs Cosmetic Plastic Surgery
+31622,J18.9,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+31622,C34.90,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+31628,C34.90,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+31628,J84.9,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+31652,C34.90,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+32555,J90,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+32650,J90,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+32650,J93.9,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+32663,C34.90,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Thoracotomy & Lung Resection
+31635,T17.800A,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+94010,J44.1,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+94010,J45.20,primary_indication,strong,CMS-LCD-L33700,CMS Local Coverage Determination for Diagnostic & Interventional Pulmonology
+62322,M54.5,primary_indication,strong,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+62322,M51.16,primary_indication,strong,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+62323,M54.5,primary_indication,strong,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+62323,M51.16,primary_indication,strong,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+64493,M47.816,primary_indication,strong,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+64493,M54.5,primary_indication,moderate,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+64635,M47.816,primary_indication,strong,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+27096,M53.3,primary_indication,strong,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+63650,G89.4,primary_indication,strong,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+63650,M54.5,secondary_indication,moderate,CMS-LCD-L34938,CMS Local Coverage Determination for Epidural & Facet Joint Injections
+35301,I65.29,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+35301,I63.9,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+35556,I70.209,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+36475,I83.90,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+36475,I83.009,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+36478,I83.90,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+37765,I83.90,primary_indication,moderate,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+37221,I70.209,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+34401,I82.409,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+36830,N18.6,primary_indication,strong,CMS-LCD-L33560,CMS Local Coverage Determination for Peripheral Vascular Interventions
+90935,N18.6,primary_indication,strong,CMS-LCD-L33705,CMS Local Coverage Determination LCD L33705 for ESRD Hemodialysis
+90935,N18.3,secondary_indication,moderate,CMS-LCD-L33705,CMS Local Coverage Determination LCD L33705 for ESRD Hemodialysis
+90937,N18.6,primary_indication,strong,CMS-LCD-L33705,CMS Local Coverage Determination LCD L33705 for ESRD Hemodialysis
+90945,N18.6,primary_indication,strong,CMS-LCD-L33705,CMS Local Coverage Determination for End-Stage Renal Disease & Hemodialysis
+36800,N18.6,primary_indication,strong,CMS-LCD-L33705,CMS Local Coverage Determination for Arteriovenous Fistula Creation
+36800,N18.3,primary_indication,strong,CMS-LCD-L33705,CMS Local Coverage Determination for Arteriovenous Fistula Creation
+50360,N18.6,primary_indication,strong,CMS-NCD-260.1,CMS National Coverage Determination for Organ Transplantation
+50360,Z94.0,primary_indication,strong,CMS-NCD-260.1,CMS National Coverage Determination for Organ Transplantation
+50547,Z52.4,primary_indication,strong,CMS-NCD-260.1,CMS National Coverage Determination for Organ Transplantation
+47135,K72.90,primary_indication,strong,CMS-NCD-260.1,CMS National Coverage Determination for Organ Transplantation
+47135,K74.60,primary_indication,strong,CMS-NCD-260.1,CMS National Coverage Determination for Organ Transplantation
+33945,I50.9,primary_indication,strong,CMS-NCD-260.1,CMS National Coverage Determination for Organ Transplantation
+32851,J44.1,primary_indication,strong,CMS-NCD-260.1,CMS National Coverage Determination for Organ Transplantation
+D7140,K02.9,primary_indication,weak,CMS-DENT-01,CMS Statutory Dental Services & Maxillofacial Coverage Guidelines
+D7140,K04.7,primary_indication,weak,CMS-DENT-01,CMS Statutory Dental Services & Maxillofacial Coverage Guidelines
+D7210,K01.1,primary_indication,weak,CMS-DENT-01,CMS Statutory Dental Services & Maxillofacial Coverage Guidelines
+D7210,K04.7,primary_indication,weak,CMS-DENT-01,CMS Statutory Dental Services & Maxillofacial Coverage Guidelines
+D7240,K01.1,primary_indication,weak,CMS-DENT-01,CMS Statutory Dental Services & Maxillofacial Coverage Guidelines
+D7960,Q38.1,primary_indication,weak,CMS-DENT-01,CMS Statutory Dental Services & Maxillofacial Coverage Guidelines
+70553,I63.9,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+70553,G40.909,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+72148,M54.5,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+72148,M51.16,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+73721,M17.0,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+73721,M23.200,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+71260,J18.9,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+71260,C34.90,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+74177,K35.80,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+74177,K80.00,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+78816,C50.911,primary_indication,strong,CMS-NCD-220.6,CMS National Coverage Determination for PET & SPECT Imaging
+78816,C34.90,primary_indication,strong,CMS-NCD-220.6,CMS National Coverage Determination for PET & SPECT Imaging
+76700,K80.20,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+76700,N20.0,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Diagnostic Radiology & MRI
+93306,I50.9,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Echocardiography & Cardiac Scans
+93306,I11.0,primary_indication,strong,CMS-NCD-220.1,CMS National Coverage Determination for Echocardiography & Cardiac Scans
+97110,M17.0,secondary_indication,strong,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+97110,M54.5,primary_indication,strong,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+97110,I63.9,primary_indication,strong,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+97140,M54.5,primary_indication,moderate,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+97140,M47.816,primary_indication,moderate,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+97530,I63.9,primary_indication,strong,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+97530,M17.0,secondary_indication,moderate,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+97116,I63.9,primary_indication,strong,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+97116,M16.0,secondary_indication,strong,CMS-LCD-L35036,CMS Local Coverage Determination for Physical Therapy & Rehabilitation
+S2900,C61,secondary_indication,strong,CA-DMHC-IMR,California DMHC Independent Medical Review Standards for Robotic-Assisted Surgery
+S2900,D25.9,secondary_indication,strong,CA-DMHC-IMR,California DMHC Independent Medical Review Standards for Robotic-Assisted Surgery

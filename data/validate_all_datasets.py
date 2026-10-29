@@ -65,12 +65,13 @@ def check_runtime_csvs(discovered_insurers):
     print("\n[3/4] Checking Active Runtime Knowledge-Base CSVs...")
     folder = BASE_DIR / "runtime"
     
-    # 1. Standard tables
+    # 1. Standard tables & mapping table
     expected = {
         "denial_reasons.csv": (50, 200),
-        "icd10_codes.csv": (50, 200),
+        "icd10_codes.csv": (500, 10000),
         "nme_exclusions.csv": (100, 300),
-        "procedure_codes.csv": (50, 200)
+        "procedure_codes.csv": (150, 1000),
+        "procedure_diagnosis_map.csv": (100, 2000)
     }
     for fname, (min_rows, max_rows) in expected.items():
         fpath = folder / fname
@@ -80,7 +81,19 @@ def check_runtime_csvs(discovered_insurers):
             headers = reader[0]
             rows = reader[1:]
             assert len(rows) >= min_rows, f"{fname} has only {len(rows)} rows (< {min_rows})"
-            print(f"  [OK] {fname:25s} -> {len(rows):4d} records | Columns ({len(headers)}): {', '.join(headers[:3])}...")
+            print(f"  [OK] {fname:30s} -> {len(rows):4d} records | Columns ({len(headers)}): {', '.join(headers[:4])}...")
+
+    # Cross-table referential integrity check (Issue X-1)
+    with open(folder / "icd10_codes.csv", encoding="utf-8") as f:
+        valid_icds = set(r["code"] for r in csv.DictReader(f))
+    with open(folder / "procedure_codes.csv", encoding="utf-8") as f:
+        valid_procs = set(r["hcpcs_code"] for r in csv.DictReader(f))
+    with open(folder / "procedure_diagnosis_map.csv", encoding="utf-8") as f:
+        map_rows = list(csv.DictReader(f))
+        for r in map_rows:
+            assert r["icd10_code"] in valid_icds, f"FK violation: {r['icd10_code']} not in icd10_codes.csv"
+            assert r["hcpcs_code"] in valid_procs, f"FK violation: {r['hcpcs_code']} not in procedure_codes.csv"
+    print(f"  [OK] {'Referential Integrity (FK Map)':30s} -> 100% of {len(map_rows)} linkages verified between HCPCS and ICD-10!")
 
     # 2. Dynamic policy_clauses.csv validation
     clauses_path = folder / "policy_clauses.csv"
@@ -88,15 +101,18 @@ def check_runtime_csvs(discovered_insurers):
     with open(clauses_path, encoding="utf-8") as f:
         reader = list(csv.DictReader(f))
         clause_count = len(reader)
-        assert clause_count >= 100, f"policy_clauses.csv has only {clause_count} clauses"
+        assert clause_count >= 1000, f"policy_clauses.csv has only {clause_count} clauses"
         
-        # Verify insurers present in extracted clauses
+        # Verify all discovered insurers present in extracted clauses
         csv_insurers = set(row["insurer"] for row in reader)
         missing_insurers = [ins for ins in discovered_insurers if ins not in csv_insurers]
-        if missing_insurers:
-            print(f"  [WARN] Insurers in policy_wordings not yet in clauses CSV: {missing_insurers}")
+        assert not missing_insurers, f"Insurers missing in clauses: {missing_insurers}"
         
-        print(f"  [OK] {'policy_clauses.csv':25s} -> {clause_count:4d} records | Covered {len(csv_insurers)} Insurers ({', '.join(sorted(csv_insurers))})")
+        # Verify 0 mid-sentence truncations
+        truncated = sum(1 for r in reader if not r["clause_text"].strip().endswith((".", ":", ";", ")", '"', "]")))
+        assert truncated == 0, f"Found {truncated} truncated clauses in policy_clauses.csv"
+        
+        print(f"  [OK] {'policy_clauses.csv':30s} -> {clause_count:4d} records | Covered {len(csv_insurers)} Insurers ({', '.join(sorted(csv_insurers))}) | 0 Truncations")
     
     return len(expected) + 1, clause_count
 
@@ -111,14 +127,16 @@ def check_golden_benchmarks():
         "G4_golden_chronology_ped.json": 60,
         "G5_golden_reasoning_toulmin.json": 80,
         "G6_golden_appeal_drafts.json": 40,
-        "G7_golden_pipeline_medical_necessity.json": 50,
-        "G8_golden_pipeline_waiting_period.json": 50,
-        "G9_golden_denial_router.json": 140,
-        "G10_golden_hitl_benchmark.json": 30
+        "G7_golden_denial_router.json": 140
     }
     total_cases = 0
     for fname, count in expected.items():
         fpath = folder / fname
+        if not fpath.exists() and fname == "G7_golden_denial_router.json":
+            alt_path = folder / "G9_golden_denial_router.json"
+            if alt_path.exists():
+                fpath = alt_path
+                fname = "G9_golden_denial_router.json"
         assert fpath.exists(), f"Missing golden JSON {fname}"
         with open(fpath, encoding="utf-8") as f:
             data = json.load(f)
@@ -145,5 +163,5 @@ if __name__ == "__main__":
     print(f"  - {len(docs)} Policy Wordings PDFs across {len(insurers)} Insurers ({', '.join(insurers)})")
     print(f"  - {n_raw} Raw Ingestion Datasets & Manifests")
     print(f"  - {n_csvs} Active Runtime Knowledge-Base CSVs ({n_clauses} policy clauses)")
-    print(f"  - 10 Golden DeepEval Benchmarks ({n_golden} Cases)")
+    print(f"  - 7 Golden DeepEval Benchmarks ({n_golden} Cases)")
     print("=" * 70)

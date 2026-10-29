@@ -3,120 +3,245 @@
     "code": "PR-1",
     "type": "CARC",
     "description": "Deductible Amount",
-    "category": "FINANCIAL_LIMIT"
+    "category": "FINANCIAL_LIMIT",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "PR-2",
     "type": "CARC",
     "description": "Coinsurance Amount",
-    "category": "FINANCIAL_LIMIT"
+    "category": "FINANCIAL_LIMIT",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "PR-3",
     "type": "CARC",
     "description": "Co-payment Amount",
-    "category": "FINANCIAL_LIMIT"
+    "category": "FINANCIAL_LIMIT",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-4",
     "type": "CARC",
     "description": "The procedure code is inconsistent with the modifier used or a required modifier is missing.",
-    "category": "DOCUMENTATION"
+    "category": "DOCUMENTATION",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-16",
     "type": "CARC",
     "description": "Claim/service lacks information or has submission/billing error(s).",
-    "category": "DOCUMENTATION"
+    "category": "DOCUMENTATION",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-18",
     "type": "CARC",
     "description": "Exact duplicate claim/service.",
-    "category": "ADMINISTRATIVE_PROCEDURAL"
+    "category": "ADMINISTRATIVE_PROCEDURAL",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
+  },
+  {
+    "code": "CO-26",
+    "type": "CARC",
+    "description": "Expenses incurred prior to coverage.",
+    "category": "ELIGIBILITY_COVERAGE",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
+  },
+  {
+    "code": "CO-27",
+    "type": "CARC",
+    "description": "Expenses incurred after coverage was terminated.",
+    "category": "ELIGIBILITY_COVERAGE",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-29",
     "type": "CARC",
     "description": "The time limit for filing has expired.",
-    "category": "ADMINISTRATIVE_PROCEDURAL"
+    "category": "ADMINISTRATIVE_PROCEDURAL",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
+  },
+  {
+    "code": "CO-30",
+    "type": "CARC",
+    "description": "Payment adjusted because the patient has not met the required eligibility, spend down, waiting, or residency requirements.",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-35",
     "type": "CARC",
     "description": "Lifetime benefit maximum has been reached.",
-    "category": "FINANCIAL_LIMIT"
+    "category": "FINANCIAL_LIMIT",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
+  },
+  {
+    "code": "CO-45",
+    "type": "CARC",
+    "description": "Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement.",
+    "category": "FINANCIAL_LIMIT",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-50",
     "type": "CARC",
     "description": "These are non-covered services because this is not deemed a 'medical necessity' by the payer.",
-    "category": "MEDICAL_NECESSITY"
+    "category": "MEDICAL_NECESSITY",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
+  },
+  {
+    "code": "CO-51",
+    "type": "CARC",
+    "description": "These are non-covered services because this is a pre-existing condition.",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-57",
     "type": "CARC",
     "description": "Decision based on medical review: lack of sufficient clinical records.",
-    "category": "MEDICAL_NECESSITY"
+    "category": "MEDICAL_NECESSITY",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-96",
     "type": "CARC",
-    "description": "Non-covered charge(s). At least one Remark Code must be provided.",
-    "category": "POLICY_EXCLUSION"
+    "description": "Non-covered charge(s). At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT).",
+    "category": "POLICY_EXCLUSION",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-119",
     "type": "CARC",
     "description": "Benefit maximum for this time period or occurrence has been reached.",
-    "category": "FINANCIAL_LIMIT"
+    "category": "FINANCIAL_LIMIT",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
-    "code": "CO-149",
+    "code": "CO-150",
     "type": "CARC",
-    "description": "Lifetime benefit maximum has been reached for this specific service.",
-    "category": "FINANCIAL_LIMIT"
+    "description": "Payer deems the information submitted does not support this level of service.",
+    "category": "MEDICAL_NECESSITY",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-197",
     "type": "CARC",
-    "description": "Pre-certification/authorization/prior-approval was absent or deficient.",
-    "category": "ADMINISTRATIVE_PROCEDURAL"
+    "description": "Precertification/authorization/notification absent.",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-204",
     "type": "CARC",
     "description": "This service/equipment/drug is not covered under the patient's current benefit plan.",
-    "category": "ELIGIBILITY_COVERAGE"
+    "category": "ELIGIBILITY_COVERAGE",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "CO-252",
     "type": "CARC",
-    "description": "Pre-existing condition clause waiting period has not elapsed.",
-    "category": "PRE_EXISTING_WAITING_PERIOD"
+    "description": "An attachment/other documentation is required to adjudicate this claim/service. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT).",
+    "category": "DOCUMENTATION",
+    "source": "ASC X12 Standard Claim Adjustment Reason Codes / CMS"
   },
   {
     "code": "N115",
     "type": "RARC",
-    "description": "This procedure is non-covered when performed for this diagnosis.",
-    "category": "POLICY_EXCLUSION"
+    "description": "This decision was based on a Local Coverage Determination (LCD). An LCD provides a guide to assist in determining whether a particular item or service is covered.",
+    "category": "MEDICAL_NECESSITY",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "N130",
+    "type": "RARC",
+    "description": "Consult plan benefit documents/guidelines for information about restrictions for this service.",
+    "category": "POLICY_EXCLUSION",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "N204",
+    "type": "RARC",
+    "description": "Services under review for possible pre-existing condition. Send medical records for prior 12 months.",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "N225",
+    "type": "RARC",
+    "description": "Incomplete/invalid documentation/orders/notes/summary/report/chart.",
+    "category": "DOCUMENTATION",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
   },
   {
     "code": "N382",
     "type": "RARC",
-    "description": "Missing documentation: pre-operative clinical notes and conservative therapy log.",
-    "category": "DOCUMENTATION"
+    "description": "Missing/incomplete/invalid patient identifier.",
+    "category": "DOCUMENTATION",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "N425",
+    "type": "RARC",
+    "description": "Statutorily excluded service(s).",
+    "category": "POLICY_EXCLUSION",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "N432",
+    "type": "RARC",
+    "description": "Alert: Adjustment based on a Recovery Audit.",
+    "category": "POLICY_EXCLUSION",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "N640",
+    "type": "RARC",
+    "description": "Exceeds number/frequency approved/allowed within time period.",
+    "category": "FINANCIAL_LIMIT",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "M1",
+    "type": "RARC",
+    "description": "X-ray not taken within the past 12 months or near enough to the start of treatment.",
+    "category": "DOCUMENTATION",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "M15",
+    "type": "RARC",
+    "description": "Separately billed services/tests have been bundled into other services or procedures.",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
   },
   {
     "code": "M38",
     "type": "RARC",
-    "description": "The patient is not eligible for benefits under this program.",
-    "category": "ELIGIBILITY_COVERAGE"
+    "description": "Alert: The patient is liable for the charges for this service as they were informed in writing before the service was furnished that we would not pay for it and the patient agreed to be responsible for the charges.",
+    "category": "ELIGIBILITY_COVERAGE",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "M51",
+    "type": "RARC",
+    "description": "Missing/incomplete/invalid procedure code(s).",
+    "category": "DOCUMENTATION",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
+  },
+  {
+    "code": "M127",
+    "type": "RARC",
+    "description": "Missing patient medical record for this service.",
+    "category": "DOCUMENTATION",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
   },
   {
     "code": "MA01",
     "type": "RARC",
-    "description": "Alert: If you do not agree with what we approved, you may appeal our decision.",
-    "category": "APPEAL_NOTICE"
+    "description": "Alert: If you do not agree with what we approved for these services, you may appeal our decision.",
+    "category": "APPEAL_NOTICE",
+    "source": "ASC X12 Standard Remittance Advice Remark Codes / CMS"
   }
 ]

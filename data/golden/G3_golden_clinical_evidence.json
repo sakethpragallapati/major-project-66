@@ -1,1141 +1,1211 @@
 [
   {
     "case_id": "G3-001",
-    "clinical_notes": "41yo female with chronic right knee pain unresponsive to 24 months of physical therapy, steroid injections, and daily NSAIDs. Weight-bearing radiographs reveal severe end-stage osteoarthritis with complete joint space loss and bone-on-bone contact. Reddy certifies surgical intervention is imperative.",
+    "clinical_notes": "53yo female with chronic left knee pain. Pain unresponsive to 18 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Patel certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 18,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 24
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 24 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 18 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Patel certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-002",
-    "clinical_notes": "66yo male presenting with exertional chest pain NYHA Class III and documented double-vessel coronary artery disease on angiography dated 2024-11-24. LVEF 45%. History of prior MI in 2022. Cardiothoracic surgeon Dr. Reddy recommends CABG as medical management has failed after 15 months of conservative management including medications and physiotherapy.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "62yo female with low back pain radiating to the right leg. Symptoms persist after 6 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L5-S1 with motor weakness grade 3/5. Spine surgeon Dr. Patel certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 6,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 15
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 15 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 6 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L5-S1 with motor weakness grade 3/5.",
+      "Spine surgeon Dr. Patel certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-003",
-    "clinical_notes": "50yo female with progressive low back pain radiating to bilateral lower extremity for 12 months. MRI shows significant narrowing with osteophyte formation at L3-L4. Failed conservative management including medications and physiotherapy over 12 months. Neurological deficit noted: foot drop. Spine surgeon Dr. Reddy recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "43yo male with exertional angina, NYHA class III. Angina persists despite 24 months of optimal medical therapy with antiplatelets, statins and beta-blockers. Coronary angiography shows triple-vessel disease with LVEF 40%. Cardiothoracic surgeon Dr. Gupta certifies that CABG is medically necessary.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 24,
       "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
+        "antiplatelets",
+        "statins",
+        "beta-blockers"
       ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "disease_severity_grade": "triple-vessel disease",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 12
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 12 months",
-      "Severe disc herniation with neurological deficit"
+      "Angina persists despite 24 months of optimal medical therapy with antiplatelets, statins and beta-blockers.",
+      "Coronary angiography shows triple-vessel disease with LVEF 40%.",
+      "Cardiothoracic surgeon Dr. Gupta certifies that CABG is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-004",
-    "clinical_notes": "43yo male diagnosed with Stage IIB invasive ductal carcinoma of bilateral breast. Biopsy confirmed on 2023-06-29. Tumor size 2.2cm. ER+/PR-/HER2+. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Sen at Yashoda Hospital, Hyderabad has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "58yo female with a 2.6 cm mass in the right breast. Core biopsy confirms Stage IIB invasive ductal carcinoma, ER+/PR+/HER2-. The tumour board led by Dr. Iyer recommends mastectomy followed by adjuvant therapy.",
+    "procedure": "Mastectomy (Breast Cancer)",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Stage IIB invasive ductal carcinoma",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Core biopsy confirms Stage IIB invasive ductal carcinoma, ER+/PR+/HER2-.",
+      "The tumour board led by Dr. Iyer recommends mastectomy followed by adjuvant therapy."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-005",
-    "clinical_notes": "53yo female admitted with acute NSTEMI on 2024-01-26. Troponin elevated at 12.43. Emergent coronary angiography shows significant narrowing with osteophyte formation. Mehta performed primary PCI with biodegradable polymer stent deployment to LAD. Post-procedure TIMI 2 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "46yo female admitted with acute inferior STEMI. Troponin is elevated and emergency angiography shows a 95% occlusion of the LAD. Dr. Mehta performed emergency primary angioplasty with stent placement.",
+    "procedure": "Percutaneous Coronary Stent",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "95% occlusion of the LAD",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Troponin is elevated and emergency angiography shows a 95% occlusion of the LAD.",
+      "Dr. Mehta performed emergency primary angioplasty with stent placement."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-006",
-    "clinical_notes": "65yo male with chronic bilateral knee pain unresponsive to 18 months of physical therapy, steroid injections, and daily NSAIDs. Weight-bearing radiographs reveal Grade III-IV osteoarthritis with complete joint space loss and bone-on-bone contact. Gupta certifies surgical intervention is the only viable option.",
+    "clinical_notes": "42yo male with chronic right knee pain. Pain unresponsive to 15 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Iyer certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 15,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 18
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 18 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 15 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Iyer certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-007",
-    "clinical_notes": "64yo female presenting with exertional chest pain NYHA Class III and documented left main plus two-vessel coronary artery disease on angiography dated 2023-04-12. LVEF 40%. Previous PCI to RCA in 2021. Cardiothoracic surgeon Dr. Patel recommends CABG as medical management has failed after 24 months of pharmacological therapy and rehabilitation.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "39yo female with low back pain radiating to the left leg. Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L5-S1 with motor weakness grade 3/5. Spine surgeon Dr. Iyer certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 8,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 24
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 24 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L5-S1 with motor weakness grade 3/5.",
+      "Spine surgeon Dr. Iyer certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-008",
-    "clinical_notes": "38yo female with progressive low back pain radiating to left lower extremity for 8 months. MRI shows complete joint space loss and bone-on-bone contact at L5-S1. Failed physical therapy, steroid injections, and daily NSAIDs over 8 months. Neurological deficit noted: foot drop. Spine surgeon Dr. Mehta recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "36yo female with exertional angina, NYHA class III. Angina persists despite 15 months of optimal medical therapy with antiplatelets, statins and beta-blockers. Coronary angiography shows triple-vessel disease with LVEF 30%. Cardiothoracic surgeon Dr. Rao certifies that CABG is medically necessary.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 15,
       "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
+        "antiplatelets",
+        "statins",
+        "beta-blockers"
       ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "disease_severity_grade": "triple-vessel disease",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 8
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 8 months",
-      "Severe disc herniation with neurological deficit"
+      "Angina persists despite 15 months of optimal medical therapy with antiplatelets, statins and beta-blockers.",
+      "Coronary angiography shows triple-vessel disease with LVEF 30%.",
+      "Cardiothoracic surgeon Dr. Rao certifies that CABG is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-009",
-    "clinical_notes": "73yo male diagnosed with Stage IIB invasive ductal carcinoma of left breast. Biopsy confirmed on 2023-01-17. Tumor size 2.1cm. ER+/PR+/HER2-. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Iyer at AIIMS, New Delhi has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "61yo female with a 3.1 cm mass in the right breast. Core biopsy confirms Stage IIIA invasive ductal carcinoma, triple negative. The tumour board led by Dr. Gupta recommends mastectomy followed by adjuvant therapy.",
+    "procedure": "Mastectomy (Breast Cancer)",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Stage IIIA invasive ductal carcinoma",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Core biopsy confirms Stage IIIA invasive ductal carcinoma, triple negative.",
+      "The tumour board led by Dr. Gupta recommends mastectomy followed by adjuvant therapy."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-010",
-    "clinical_notes": "63yo female admitted with acute NSTEMI on 2023-04-21. Troponin elevated at 7.61. Emergent coronary angiography shows significant narrowing with osteophyte formation. Mehta performed primary PCI with biodegradable polymer stent deployment to LAD. Post-procedure TIMI 2 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "75yo male admitted with acute inferior STEMI. Troponin is elevated and emergency angiography shows a 95% occlusion of the LCx. Dr. Rao performed emergency primary angioplasty with stent placement.",
+    "procedure": "Percutaneous Coronary Stent",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "95% occlusion of the LCx",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Troponin is elevated and emergency angiography shows a 95% occlusion of the LCx.",
+      "Dr. Rao performed emergency primary angioplasty with stent placement."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-011",
-    "clinical_notes": "55yo male with chronic right knee pain unresponsive to 8 months of pharmacological therapy and rehabilitation. Weight-bearing radiographs reveal Grade III-IV osteoarthritis with significant narrowing with osteophyte formation. Reddy certifies surgical intervention is the only viable option.",
+    "clinical_notes": "49yo female with chronic left knee pain. Pain unresponsive to 6 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Reddy certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 6,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 8
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 8 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 6 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Reddy certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-012",
-    "clinical_notes": "62yo female presenting with unstable angina and documented double-vessel coronary artery disease on angiography dated 2024-03-13. LVEF 35%. Previous PCI to RCA in 2021. Cardiothoracic surgeon Dr. Gupta recommends CABG as medical management has failed after 15 months of conservative management including medications and physiotherapy.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "45yo male with low back pain radiating to the right leg. Symptoms persist after 24 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L3-L4 with motor weakness grade 3/5. Spine surgeon Dr. Menon certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 24,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 15
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 15 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 24 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L3-L4 with motor weakness grade 3/5.",
+      "Spine surgeon Dr. Menon certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-013",
-    "clinical_notes": "43yo male with progressive low back pain radiating to bilateral lower extremity for 18 months. MRI shows severe degenerative changes with subchondral sclerosis at L5-S1. Failed physical therapy, steroid injections, and daily NSAIDs over 18 months. Neurological deficit noted: diminished ankle reflex. Spine surgeon Dr. Gupta recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "37yo female with exertional angina, NYHA class III. Angina persists despite 18 months of optimal medical therapy with antiplatelets, statins and beta-blockers. Coronary angiography shows triple-vessel disease with LVEF 30%. Cardiothoracic surgeon Dr. Patel certifies that CABG is medically necessary.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 18,
       "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
+        "antiplatelets",
+        "statins",
+        "beta-blockers"
       ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "disease_severity_grade": "triple-vessel disease",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 18
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 18 months",
-      "Severe disc herniation with neurological deficit"
+      "Angina persists despite 18 months of optimal medical therapy with antiplatelets, statins and beta-blockers.",
+      "Coronary angiography shows triple-vessel disease with LVEF 30%.",
+      "Cardiothoracic surgeon Dr. Patel certifies that CABG is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-014",
-    "clinical_notes": "52yo male diagnosed with Stage IIA invasive ductal carcinoma of left breast. Biopsy confirmed on 2023-05-27. Tumor size 3.5cm. Triple negative. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Sen at Max Super Speciality, Saket has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "54yo female with a 3.9 cm mass in the right breast. Core biopsy confirms Stage IIA invasive ductal carcinoma, triple negative. The tumour board led by Dr. Patel recommends mastectomy followed by adjuvant therapy.",
+    "procedure": "Mastectomy (Breast Cancer)",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Stage IIA invasive ductal carcinoma",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Core biopsy confirms Stage IIA invasive ductal carcinoma, triple negative.",
+      "The tumour board led by Dr. Patel recommends mastectomy followed by adjuvant therapy."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-015",
-    "clinical_notes": "59yo female admitted with acute inferior STEMI on 2024-09-13. Troponin elevated at 6.91. Emergent coronary angiography shows severe degenerative changes with subchondral sclerosis. Iyer performed primary PCI with biodegradable polymer stent deployment to LAD. Post-procedure TIMI 2 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "64yo male admitted with acute anterior STEMI. Troponin is elevated and emergency angiography shows a 95% occlusion of the RCA. Dr. Iyer performed emergency primary angioplasty with stent placement.",
+    "procedure": "Percutaneous Coronary Stent",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "95% occlusion of the RCA",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Troponin is elevated and emergency angiography shows a 95% occlusion of the RCA.",
+      "Dr. Iyer performed emergency primary angioplasty with stent placement."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-016",
-    "clinical_notes": "57yo female with chronic right knee pain unresponsive to 12 months of pharmacological therapy and rehabilitation. Weight-bearing radiographs reveal severe end-stage osteoarthritis with complete joint space loss and bone-on-bone contact. Nair certifies surgical intervention is the only viable option.",
+    "clinical_notes": "67yo male with chronic left knee pain. Pain unresponsive to 8 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Nair certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 8,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 12
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 12 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 8 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Nair certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-017",
-    "clinical_notes": "59yo male presenting with exertional chest pain NYHA Class III and documented triple-vessel coronary artery disease on angiography dated 2024-04-15. LVEF 25%. Known diabetic with peripheral vascular disease. Cardiothoracic surgeon Dr. Gupta recommends CABG as medical management has failed after 18 months of conservative management including medications and physiotherapy.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "74yo female with low back pain radiating to the right leg. Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L3-L4 with motor weakness grade 3/5. Spine surgeon Dr. Gupta certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 8,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 18
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 18 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L3-L4 with motor weakness grade 3/5.",
+      "Spine surgeon Dr. Gupta certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-018",
-    "clinical_notes": "58yo male with progressive low back pain radiating to left lower extremity for 6 months. MRI shows significant narrowing with osteophyte formation at L5-S1. Failed pharmacological therapy and rehabilitation over 6 months. Neurological deficit noted: foot drop. Spine surgeon Dr. Sharma recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "54yo female with exertional angina, NYHA class III. Angina persists despite 6 months of optimal medical therapy with antiplatelets, statins and beta-blockers. Coronary angiography shows triple-vessel disease with LVEF 30%. Cardiothoracic surgeon Dr. Patel certifies that CABG is medically necessary.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 6,
       "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
+        "antiplatelets",
+        "statins",
+        "beta-blockers"
       ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "disease_severity_grade": "triple-vessel disease",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 6
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 6 months",
-      "Severe disc herniation with neurological deficit"
+      "Angina persists despite 6 months of optimal medical therapy with antiplatelets, statins and beta-blockers.",
+      "Coronary angiography shows triple-vessel disease with LVEF 30%.",
+      "Cardiothoracic surgeon Dr. Patel certifies that CABG is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-019",
-    "clinical_notes": "41yo male diagnosed with Stage IIIA invasive ductal carcinoma of left breast. Biopsy confirmed on 2024-08-01. Tumor size 3.8cm. ER+/PR-/HER2+. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Iyer at KIMS, Hyderabad has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "66yo female with a 4.6 cm mass in the left breast. Core biopsy confirms Stage IIIA invasive ductal carcinoma, triple negative. The tumour board led by Dr. Sen recommends mastectomy followed by adjuvant therapy.",
+    "procedure": "Mastectomy (Breast Cancer)",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Stage IIIA invasive ductal carcinoma",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Core biopsy confirms Stage IIIA invasive ductal carcinoma, triple negative.",
+      "The tumour board led by Dr. Sen recommends mastectomy followed by adjuvant therapy."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-020",
-    "clinical_notes": "75yo female admitted with acute inferior STEMI on 2024-08-17. Troponin elevated at 8.54. Emergent coronary angiography shows severe degenerative changes with subchondral sclerosis. Sen performed primary PCI with everolimus-eluting stent deployment to LAD. Post-procedure TIMI 3 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "37yo female admitted with acute inferior STEMI. Troponin is elevated and emergency angiography shows a 95% occlusion of the LCx. Dr. Rao performed emergency primary angioplasty with stent placement.",
+    "procedure": "Percutaneous Coronary Stent",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "95% occlusion of the LCx",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Troponin is elevated and emergency angiography shows a 95% occlusion of the LCx.",
+      "Dr. Rao performed emergency primary angioplasty with stent placement."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-021",
-    "clinical_notes": "71yo male with chronic left knee pain unresponsive to 18 months of physical therapy, steroid injections, and daily NSAIDs. Weight-bearing radiographs reveal Grade IV osteoarthritis with severe degenerative changes with subchondral sclerosis. Nair certifies surgical intervention is the only viable option.",
+    "clinical_notes": "52yo male with chronic right knee pain. Pain unresponsive to 6 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Patel certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 6,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 18
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 18 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 6 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Patel certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-022",
-    "clinical_notes": "61yo female presenting with exertional chest pain NYHA Class III and documented triple-vessel coronary artery disease on angiography dated 2024-07-25. LVEF 40%. Known diabetic with peripheral vascular disease. Cardiothoracic surgeon Dr. Sen recommends CABG as medical management has failed after 18 months of pharmacological therapy and rehabilitation.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "37yo male with low back pain radiating to the right leg. Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L5-S1 with motor weakness grade 3/5. Spine surgeon Dr. Gupta certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 8,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 18
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 18 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L5-S1 with motor weakness grade 3/5.",
+      "Spine surgeon Dr. Gupta certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-023",
-    "clinical_notes": "43yo male with progressive low back pain radiating to left lower extremity for 18 months. MRI shows significant narrowing with osteophyte formation at L3-L4. Failed conservative management including medications and physiotherapy over 18 months. Neurological deficit noted: motor weakness grade 3/5. Spine surgeon Dr. Patel recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "55yo male with exertional angina, NYHA class III. Angina persists despite 18 months of optimal medical therapy with antiplatelets, statins and beta-blockers. Coronary angiography shows triple-vessel disease with LVEF 40%. Cardiothoracic surgeon Dr. Reddy certifies that CABG is medically necessary.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 18,
       "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
+        "antiplatelets",
+        "statins",
+        "beta-blockers"
       ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "disease_severity_grade": "triple-vessel disease",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 18
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 18 months",
-      "Severe disc herniation with neurological deficit"
+      "Angina persists despite 18 months of optimal medical therapy with antiplatelets, statins and beta-blockers.",
+      "Coronary angiography shows triple-vessel disease with LVEF 40%.",
+      "Cardiothoracic surgeon Dr. Reddy certifies that CABG is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-024",
-    "clinical_notes": "43yo male diagnosed with Stage IIA invasive ductal carcinoma of right breast. Biopsy confirmed on 2023-06-16. Tumor size 2.1cm. ER+/PR-/HER2+. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Mehta at Aster MIMS, Kozhikode has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "36yo female with a 4.3 cm mass in the left breast. Core biopsy confirms Stage IIIA invasive ductal carcinoma, ER+/PR-/HER2+. The tumour board led by Dr. Mehta recommends mastectomy followed by adjuvant therapy.",
+    "procedure": "Mastectomy (Breast Cancer)",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Stage IIIA invasive ductal carcinoma",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Core biopsy confirms Stage IIIA invasive ductal carcinoma, ER+/PR-/HER2+.",
+      "The tumour board led by Dr. Mehta recommends mastectomy followed by adjuvant therapy."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-025",
-    "clinical_notes": "63yo female admitted with acute NSTEMI on 2023-05-22. Troponin elevated at 13.16. Emergent coronary angiography shows severe degenerative changes with subchondral sclerosis. Sharma performed primary PCI with drug-eluting stent deployment to LCx. Post-procedure TIMI 3 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "65yo female admitted with acute inferior STEMI. Troponin is elevated and emergency angiography shows a 95% occlusion of the LAD. Dr. Sen performed emergency primary angioplasty with stent placement.",
+    "procedure": "Percutaneous Coronary Stent",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "95% occlusion of the LAD",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Troponin is elevated and emergency angiography shows a 95% occlusion of the LAD.",
+      "Dr. Sen performed emergency primary angioplasty with stent placement."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-026",
-    "clinical_notes": "58yo male with chronic bilateral knee pain unresponsive to 18 months of physical therapy, steroid injections, and daily NSAIDs. Weight-bearing radiographs reveal Grade IV osteoarthritis with severe degenerative changes with subchondral sclerosis. Mehta certifies surgical intervention is medically necessary.",
+    "clinical_notes": "50yo male with chronic right knee pain. Pain unresponsive to 8 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Sen certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 8,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 18
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 18 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 8 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Sen certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-027",
-    "clinical_notes": "36yo female presenting with exertional chest pain NYHA Class III and documented left main plus two-vessel coronary artery disease on angiography dated 2023-05-23. LVEF 40%. Known diabetic with peripheral vascular disease. Cardiothoracic surgeon Dr. Gupta recommends CABG as medical management has failed after 24 months of physical therapy, steroid injections, and daily NSAIDs.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "74yo female with low back pain radiating to the right leg. Symptoms persist after 24 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L3-L4 with foot drop. Spine surgeon Dr. Iyer certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 24,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 24
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 24 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 24 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L3-L4 with foot drop.",
+      "Spine surgeon Dr. Iyer certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-028",
-    "clinical_notes": "54yo male with progressive low back pain radiating to right lower extremity for 8 months. MRI shows complete joint space loss and bone-on-bone contact at L3-L4. Failed pharmacological therapy and rehabilitation over 8 months. Neurological deficit noted: motor weakness grade 3/5. Spine surgeon Dr. Patel recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "46yo female with exertional angina, NYHA class III. Angina persists despite 18 months of optimal medical therapy with antiplatelets, statins and beta-blockers. Coronary angiography shows triple-vessel disease with LVEF 40%. Cardiothoracic surgeon Dr. Gupta certifies that CABG is medically necessary.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 18,
       "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
+        "antiplatelets",
+        "statins",
+        "beta-blockers"
       ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "disease_severity_grade": "triple-vessel disease",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 8
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 8 months",
-      "Severe disc herniation with neurological deficit"
+      "Angina persists despite 18 months of optimal medical therapy with antiplatelets, statins and beta-blockers.",
+      "Coronary angiography shows triple-vessel disease with LVEF 40%.",
+      "Cardiothoracic surgeon Dr. Gupta certifies that CABG is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-029",
-    "clinical_notes": "40yo female diagnosed with Stage IIA invasive ductal carcinoma of right breast. Biopsy confirmed on 2024-11-03. Tumor size 3.7cm. ER+/PR-/HER2+. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Sen at KIMS, Hyderabad has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "50yo female with a 3.9 cm mass in the left breast. Core biopsy confirms Stage IIB invasive ductal carcinoma, triple negative. The tumour board led by Dr. Reddy recommends mastectomy followed by adjuvant therapy.",
+    "procedure": "Mastectomy (Breast Cancer)",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Stage IIB invasive ductal carcinoma",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Core biopsy confirms Stage IIB invasive ductal carcinoma, triple negative.",
+      "The tumour board led by Dr. Reddy recommends mastectomy followed by adjuvant therapy."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-030",
-    "clinical_notes": "64yo female admitted with acute inferior STEMI on 2023-02-07. Troponin elevated at 11.42. Emergent coronary angiography shows complete joint space loss and bone-on-bone contact. Iyer performed primary PCI with drug-eluting stent deployment to RCA. Post-procedure TIMI 3 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "70yo female admitted with acute anterior STEMI. Troponin is elevated and emergency angiography shows a 95% occlusion of the RCA. Dr. Menon performed emergency primary angioplasty with stent placement.",
+    "procedure": "Percutaneous Coronary Stent",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "95% occlusion of the RCA",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Troponin is elevated and emergency angiography shows a 95% occlusion of the RCA.",
+      "Dr. Menon performed emergency primary angioplasty with stent placement."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-031",
-    "clinical_notes": "38yo female with chronic left knee pain unresponsive to 6 months of conservative management including medications and physiotherapy. Weight-bearing radiographs reveal Grade III-IV osteoarthritis with severe degenerative changes with subchondral sclerosis. Gupta certifies surgical intervention is medically necessary.",
+    "clinical_notes": "37yo female with chronic right knee pain. Pain unresponsive to 12 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Nair certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 12,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 6
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 6 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 12 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Nair certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-032",
-    "clinical_notes": "55yo male presenting with exertional chest pain NYHA Class III and documented triple-vessel coronary artery disease on angiography dated 2024-12-07. LVEF 40%. Known diabetic with peripheral vascular disease. Cardiothoracic surgeon Dr. Reddy recommends CABG as medical management has failed after 12 months of conservative management including medications and physiotherapy.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "52yo male with low back pain radiating to the right leg. Symptoms persist after 18 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L4-L5 with foot drop. Spine surgeon Dr. Menon certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 18,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 12
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 12 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 18 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L4-L5 with foot drop.",
+      "Spine surgeon Dr. Menon certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-033",
-    "clinical_notes": "67yo male with progressive low back pain radiating to right lower extremity for 8 months. MRI shows complete joint space loss and bone-on-bone contact at L4-L5. Failed physical therapy, steroid injections, and daily NSAIDs over 8 months. Neurological deficit noted: motor weakness grade 3/5. Spine surgeon Dr. Nair recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "41yo female with exertional angina, NYHA class III. Angina persists despite 24 months of optimal medical therapy with antiplatelets, statins and beta-blockers. Coronary angiography shows triple-vessel disease with LVEF 30%. Cardiothoracic surgeon Dr. Nair certifies that CABG is medically necessary.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 24,
       "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
+        "antiplatelets",
+        "statins",
+        "beta-blockers"
       ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "disease_severity_grade": "triple-vessel disease",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 8
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 8 months",
-      "Severe disc herniation with neurological deficit"
+      "Angina persists despite 24 months of optimal medical therapy with antiplatelets, statins and beta-blockers.",
+      "Coronary angiography shows triple-vessel disease with LVEF 30%.",
+      "Cardiothoracic surgeon Dr. Nair certifies that CABG is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-034",
-    "clinical_notes": "55yo female diagnosed with Stage IIA invasive ductal carcinoma of right breast. Biopsy confirmed on 2024-09-18. Tumor size 2.5cm. Triple negative. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Sen at Kokilaben Dhirubhai Ambani, Mumbai has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "65yo female with a 4.7 cm mass in the right breast. Core biopsy confirms Stage IIA invasive ductal carcinoma, ER+/PR-/HER2+. The tumour board led by Dr. Gupta recommends mastectomy followed by adjuvant therapy.",
+    "procedure": "Mastectomy (Breast Cancer)",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Stage IIA invasive ductal carcinoma",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Core biopsy confirms Stage IIA invasive ductal carcinoma, ER+/PR-/HER2+.",
+      "The tumour board led by Dr. Gupta recommends mastectomy followed by adjuvant therapy."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-035",
-    "clinical_notes": "40yo female admitted with acute anterior STEMI on 2024-01-05. Troponin elevated at 8.53. Emergent coronary angiography shows severe degenerative changes with subchondral sclerosis. Mehta performed primary PCI with biodegradable polymer stent deployment to RCA. Post-procedure TIMI 2 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "37yo male admitted with acute anterior STEMI. Troponin is elevated and emergency angiography shows a 95% occlusion of the RCA. Dr. Sen performed emergency primary angioplasty with stent placement.",
+    "procedure": "Percutaneous Coronary Stent",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "95% occlusion of the RCA",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Troponin is elevated and emergency angiography shows a 95% occlusion of the RCA.",
+      "Dr. Sen performed emergency primary angioplasty with stent placement."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-036",
-    "clinical_notes": "74yo male with chronic right knee pain unresponsive to 12 months of pharmacological therapy and rehabilitation. Weight-bearing radiographs reveal severe end-stage osteoarthritis with significant narrowing with osteophyte formation. Patel certifies surgical intervention is the only viable option.",
+    "clinical_notes": "71yo male with chronic left knee pain. Pain unresponsive to 12 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Nair certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 12,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 12
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 12 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 12 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Nair certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-037",
-    "clinical_notes": "67yo male presenting with acute chest pain with diaphoresis and documented triple-vessel coronary artery disease on angiography dated 2023-12-21. LVEF 45%. Known diabetic with peripheral vascular disease. Cardiothoracic surgeon Dr. Iyer recommends CABG as medical management has failed after 18 months of physical therapy, steroid injections, and daily NSAIDs.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "47yo male with low back pain radiating to the left leg. Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L3-L4 with diminished ankle reflex. Spine surgeon Dr. Nair certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 8,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 18
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 18 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L3-L4 with diminished ankle reflex.",
+      "Spine surgeon Dr. Nair certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-038",
-    "clinical_notes": "72yo male with progressive low back pain radiating to right lower extremity for 24 months. MRI shows complete joint space loss and bone-on-bone contact at L4-L5. Failed physical therapy, steroid injections, and daily NSAIDs over 24 months. Neurological deficit noted: motor weakness grade 3/5. Spine surgeon Dr. Gupta recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "47yo male with exertional angina, NYHA class III. Angina persists despite 15 months of optimal medical therapy with antiplatelets, statins and beta-blockers. Coronary angiography shows triple-vessel disease with LVEF 35%. Cardiothoracic surgeon Dr. Rao certifies that CABG is medically necessary.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 15,
       "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
+        "antiplatelets",
+        "statins",
+        "beta-blockers"
       ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "disease_severity_grade": "triple-vessel disease",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 24
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 24 months",
-      "Severe disc herniation with neurological deficit"
+      "Angina persists despite 15 months of optimal medical therapy with antiplatelets, statins and beta-blockers.",
+      "Coronary angiography shows triple-vessel disease with LVEF 35%.",
+      "Cardiothoracic surgeon Dr. Rao certifies that CABG is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-039",
-    "clinical_notes": "54yo female diagnosed with Stage IIB invasive ductal carcinoma of right breast. Biopsy confirmed on 2023-12-20. Tumor size 4.9cm. ER+/PR+/HER2-. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Sen at Yashoda Hospital, Hyderabad has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "50yo female with a 2.6 cm mass in the left breast. Core biopsy confirms Stage IIIA invasive ductal carcinoma, ER+/PR-/HER2+. The tumour board led by Dr. Sharma recommends mastectomy followed by adjuvant therapy.",
+    "procedure": "Mastectomy (Breast Cancer)",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Stage IIIA invasive ductal carcinoma",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Core biopsy confirms Stage IIIA invasive ductal carcinoma, ER+/PR-/HER2+.",
+      "The tumour board led by Dr. Sharma recommends mastectomy followed by adjuvant therapy."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-040",
-    "clinical_notes": "52yo female admitted with acute inferior STEMI on 2023-11-12. Troponin elevated at 7.71. Emergent coronary angiography shows significant narrowing with osteophyte formation. Mehta performed primary PCI with drug-eluting stent deployment to RCA. Post-procedure TIMI 3 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "58yo male admitted with acute inferior STEMI. Troponin is elevated and emergency angiography shows a 95% occlusion of the LCx. Dr. Mehta performed emergency primary angioplasty with stent placement.",
+    "procedure": "Percutaneous Coronary Stent",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "95% occlusion of the LCx",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": true
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Troponin is elevated and emergency angiography shows a 95% occlusion of the LCx.",
+      "Dr. Mehta performed emergency primary angioplasty with stent placement."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-041",
-    "clinical_notes": "50yo male with chronic bilateral knee pain unresponsive to 12 months of conservative management including medications and physiotherapy. Weight-bearing radiographs reveal severe end-stage osteoarthritis with significant narrowing with osteophyte formation. Sen certifies surgical intervention is imperative.",
+    "clinical_notes": "42yo female with chronic left knee pain. Pain unresponsive to 18 months of physical therapy, intra-articular steroid injections and daily NSAIDs. Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact. Orthopaedic surgeon Dr. Sharma certifies that total knee replacement is medically necessary.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 18,
       "treatment_modalities": [
         "physical therapy",
-        "steroid injections",
+        "intra-articular steroid injections",
         "NSAIDs"
       ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "disease_severity_grade": "Kellgren-Lawrence grade 4 osteoarthritis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 12
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 12 months",
-      "Grade IV / Bone-on-bone"
+      "Pain unresponsive to 18 months of physical therapy, intra-articular steroid injections and daily NSAIDs.",
+      "Weight-bearing radiographs show Kellgren-Lawrence grade 4 osteoarthritis with bone-on-bone contact.",
+      "Orthopaedic surgeon Dr. Sharma certifies that total knee replacement is medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-042",
-    "clinical_notes": "58yo female presenting with acute chest pain with diaphoresis and documented triple-vessel coronary artery disease on angiography dated 2023-05-12. LVEF 25%. Known diabetic with peripheral vascular disease. Cardiothoracic surgeon Dr. Nair recommends CABG as medical management has failed after 15 months of conservative management including medications and physiotherapy.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "70yo female with low back pain radiating to the right leg. Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs. MRI shows severe foraminal stenosis at L4-L5 with motor weakness grade 3/5. Spine surgeon Dr. Menon certifies that decompression and fusion are medically necessary.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": true,
+      "conservative_treatment_duration_months": 8,
       "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
+        "physical therapy",
+        "epidural steroid injections",
+        "NSAIDs"
       ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "disease_severity_grade": "severe foraminal stenosis",
       "physician_necessity_stated": true,
-      "conservative_treatment_duration_months": 15
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 15 months",
-      "Multi-vessel CAD / Low EF"
+      "Symptoms persist after 8 months of physical therapy, epidural steroid injections and NSAIDs.",
+      "MRI shows severe foraminal stenosis at L4-L5 with motor weakness grade 3/5.",
+      "Spine surgeon Dr. Menon certifies that decompression and fusion are medically necessary."
     ],
     "expected_determination": "OVERTURN"
   },
   {
     "case_id": "G3-043",
-    "clinical_notes": "56yo female with progressive low back pain radiating to bilateral lower extremity for 15 months. MRI shows severe degenerative changes with subchondral sclerosis at L3-L4. Failed pharmacological therapy and rehabilitation over 15 months. Neurological deficit noted: diminished ankle reflex. Spine surgeon Dr. Iyer recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "70yo male with intermittent right knee pain for 3 months. Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space. Patient requests surgery for faster recovery; no trial of physiotherapy is documented.",
+    "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
-      ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "Kellgren-Lawrence grade 2 osteoarthritis",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 15 months",
-      "Severe disc herniation with neurological deficit"
+      "Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space.",
+      "Patient requests surgery for faster recovery; no trial of physiotherapy is documented."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-044",
-    "clinical_notes": "56yo male diagnosed with Stage IIA invasive ductal carcinoma of left breast. Biopsy confirmed on 2024-08-20. Tumor size 3.2cm. ER+/PR-/HER2+. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Reddy at Aster MIMS, Kozhikode has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "67yo female with mechanical low back pain for 6 weeks. MRI shows mild disc bulge at L3-L4 without neural compression; neurological examination is normal. Fusion is requested before any course of physiotherapy has been tried.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "mild disc bulge",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "MRI shows mild disc bulge at L3-L4 without neural compression; neurological examination is normal.",
+      "Fusion is requested before any course of physiotherapy has been tried."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-045",
-    "clinical_notes": "47yo male admitted with acute NSTEMI on 2024-05-04. Troponin elevated at 8.12. Emergent coronary angiography shows complete joint space loss and bone-on-bone contact. Patel performed primary PCI with biodegradable polymer stent deployment to LAD. Post-procedure TIMI 3 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "36yo female with stable angina, NYHA class I. Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication. The cardiology note recommends continuing medical therapy; surgery is not advised.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "single-vessel disease",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication.",
+      "The cardiology note recommends continuing medical therapy; surgery is not advised."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-046",
-    "clinical_notes": "69yo female with chronic bilateral knee pain unresponsive to 12 months of conservative management including medications and physiotherapy. Weight-bearing radiographs reveal Grade IV osteoarthritis with complete joint space loss and bone-on-bone contact. Reddy certifies surgical intervention is the only viable option.",
+    "clinical_notes": "65yo male with intermittent left knee pain for 3 months. Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space. Patient requests surgery for faster recovery; no trial of physiotherapy is documented.",
     "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "physical therapy",
-        "steroid injections",
-        "NSAIDs"
-      ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "Kellgren-Lawrence grade 2 osteoarthritis",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 12 months",
-      "Grade IV / Bone-on-bone"
+      "Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space.",
+      "Patient requests surgery for faster recovery; no trial of physiotherapy is documented."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-047",
-    "clinical_notes": "42yo female presenting with unstable angina and documented double-vessel coronary artery disease on angiography dated 2024-03-28. LVEF 35%. Previous PCI to RCA in 2021. Cardiothoracic surgeon Dr. Iyer recommends CABG as medical management has failed after 12 months of physical therapy, steroid injections, and daily NSAIDs.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "59yo female with mechanical low back pain for 6 weeks. MRI shows mild disc bulge at L4-L5 without neural compression; neurological examination is normal. Fusion is requested before any course of physiotherapy has been tried.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
-      ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "mild disc bulge",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 12 months",
-      "Multi-vessel CAD / Low EF"
+      "MRI shows mild disc bulge at L4-L5 without neural compression; neurological examination is normal.",
+      "Fusion is requested before any course of physiotherapy has been tried."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-048",
-    "clinical_notes": "38yo male with progressive low back pain radiating to bilateral lower extremity for 8 months. MRI shows significant narrowing with osteophyte formation at L3-L4. Failed conservative management including medications and physiotherapy over 8 months. Neurological deficit noted: foot drop. Spine surgeon Dr. Sen recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "49yo male with stable angina, NYHA class I. Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication. The cardiology note recommends continuing medical therapy; surgery is not advised.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
-      ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "single-vessel disease",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 8 months",
-      "Severe disc herniation with neurological deficit"
+      "Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication.",
+      "The cardiology note recommends continuing medical therapy; surgery is not advised."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-049",
-    "clinical_notes": "38yo male diagnosed with Stage IIIA invasive ductal carcinoma of bilateral breast. Biopsy confirmed on 2023-10-24. Tumor size 4.6cm. ER+/PR+/HER2-. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Sharma at CMC Vellore has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "57yo male with intermittent left knee pain for 3 months. Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space. Patient requests surgery for faster recovery; no trial of physiotherapy is documented.",
+    "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "Kellgren-Lawrence grade 2 osteoarthritis",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space.",
+      "Patient requests surgery for faster recovery; no trial of physiotherapy is documented."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-050",
-    "clinical_notes": "69yo female admitted with acute anterior STEMI on 2024-09-17. Troponin elevated at 12.91. Emergent coronary angiography shows severe degenerative changes with subchondral sclerosis. Nair performed primary PCI with biodegradable polymer stent deployment to RCA. Post-procedure TIMI 3 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "41yo male with mechanical low back pain for 6 weeks. MRI shows mild disc bulge at L4-L5 without neural compression; neurological examination is normal. Fusion is requested before any course of physiotherapy has been tried.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "mild disc bulge",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "MRI shows mild disc bulge at L4-L5 without neural compression; neurological examination is normal.",
+      "Fusion is requested before any course of physiotherapy has been tried."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-051",
-    "clinical_notes": "40yo female with chronic bilateral knee pain unresponsive to 6 months of conservative management including medications and physiotherapy. Weight-bearing radiographs reveal severe end-stage osteoarthritis with complete joint space loss and bone-on-bone contact. Iyer certifies surgical intervention is imperative.",
-    "procedure": "Total Knee Replacement",
+    "clinical_notes": "43yo female with stable angina, NYHA class I. Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication. The cardiology note recommends continuing medical therapy; surgery is not advised.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "physical therapy",
-        "steroid injections",
-        "NSAIDs"
-      ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "single-vessel disease",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 6 months",
-      "Grade IV / Bone-on-bone"
+      "Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication.",
+      "The cardiology note recommends continuing medical therapy; surgery is not advised."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-052",
-    "clinical_notes": "64yo female presenting with exertional chest pain NYHA Class III and documented left main plus two-vessel coronary artery disease on angiography dated 2023-08-15. LVEF 30%. History of prior MI in 2022. Cardiothoracic surgeon Dr. Reddy recommends CABG as medical management has failed after 15 months of physical therapy, steroid injections, and daily NSAIDs.",
-    "procedure": "Coronary Artery Bypass Graft",
+    "clinical_notes": "68yo male with intermittent left knee pain for 3 months. Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space. Patient requests surgery for faster recovery; no trial of physiotherapy is documented.",
+    "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
-      ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "Kellgren-Lawrence grade 2 osteoarthritis",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 15 months",
-      "Multi-vessel CAD / Low EF"
+      "Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space.",
+      "Patient requests surgery for faster recovery; no trial of physiotherapy is documented."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-053",
-    "clinical_notes": "68yo female with progressive low back pain radiating to bilateral lower extremity for 24 months. MRI shows complete joint space loss and bone-on-bone contact at L4-L5. Failed pharmacological therapy and rehabilitation over 24 months. Neurological deficit noted: foot drop. Spine surgeon Dr. Gupta recommends surgical decompression and fusion.",
+    "clinical_notes": "66yo male with mechanical low back pain for 6 weeks. MRI shows mild disc bulge at L3-L4 without neural compression; neurological examination is normal. Fusion is requested before any course of physiotherapy has been tried.",
     "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
-      ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "mild disc bulge",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 24 months",
-      "Severe disc herniation with neurological deficit"
+      "MRI shows mild disc bulge at L3-L4 without neural compression; neurological examination is normal.",
+      "Fusion is requested before any course of physiotherapy has been tried."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-054",
-    "clinical_notes": "64yo male diagnosed with Stage IIA invasive ductal carcinoma of bilateral breast. Biopsy confirmed on 2024-08-15. Tumor size 1.8cm. Triple negative. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Nair at Yashoda Hospital, Hyderabad has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "69yo female with stable angina, NYHA class I. Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication. The cardiology note recommends continuing medical therapy; surgery is not advised.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "single-vessel disease",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication.",
+      "The cardiology note recommends continuing medical therapy; surgery is not advised."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-055",
-    "clinical_notes": "37yo female admitted with acute anterior STEMI on 2024-07-04. Troponin elevated at 6.2. Emergent coronary angiography shows severe degenerative changes with subchondral sclerosis. Iyer performed primary PCI with drug-eluting stent deployment to LCx. Post-procedure TIMI 2 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "68yo male with intermittent left knee pain for 3 months. Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space. Patient requests surgery for faster recovery; no trial of physiotherapy is documented.",
+    "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "Kellgren-Lawrence grade 2 osteoarthritis",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space.",
+      "Patient requests surgery for faster recovery; no trial of physiotherapy is documented."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-056",
-    "clinical_notes": "35yo male with chronic left knee pain unresponsive to 15 months of conservative management including medications and physiotherapy. Weight-bearing radiographs reveal Grade IV osteoarthritis with complete joint space loss and bone-on-bone contact. Patel certifies surgical intervention is the only viable option.",
-    "procedure": "Total Knee Replacement",
+    "clinical_notes": "47yo male with mechanical low back pain for 6 weeks. MRI shows mild disc bulge at L3-L4 without neural compression; neurological examination is normal. Fusion is requested before any course of physiotherapy has been tried.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "physical therapy",
-        "steroid injections",
-        "NSAIDs"
-      ],
-      "disease_severity_grade": "Grade IV / Bone-on-bone",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "mild disc bulge",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 15 months",
-      "Grade IV / Bone-on-bone"
+      "MRI shows mild disc bulge at L3-L4 without neural compression; neurological examination is normal.",
+      "Fusion is requested before any course of physiotherapy has been tried."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-057",
-    "clinical_notes": "50yo male presenting with acute chest pain with diaphoresis and documented double-vessel coronary artery disease on angiography dated 2023-08-28. LVEF 45%. Known diabetic with peripheral vascular disease. Cardiothoracic surgeon Dr. Sharma recommends CABG as medical management has failed after 15 months of physical therapy, steroid injections, and daily NSAIDs.",
+    "clinical_notes": "48yo female with stable angina, NYHA class I. Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication. The cardiology note recommends continuing medical therapy; surgery is not advised.",
     "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "dual antiplatelet therapy",
-        "statins",
-        "beta-blockers"
-      ],
-      "disease_severity_grade": "Multi-vessel CAD / Low EF",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "single-vessel disease",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 15 months",
-      "Multi-vessel CAD / Low EF"
+      "Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication.",
+      "The cardiology note recommends continuing medical therapy; surgery is not advised."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-058",
-    "clinical_notes": "75yo female with progressive low back pain radiating to bilateral lower extremity for 15 months. MRI shows severe degenerative changes with subchondral sclerosis at L4-L5. Failed pharmacological therapy and rehabilitation over 15 months. Neurological deficit noted: diminished ankle reflex. Spine surgeon Dr. Sen recommends surgical decompression and fusion.",
-    "procedure": "Lumbar Spinal Fusion",
+    "clinical_notes": "50yo female with intermittent left knee pain for 3 months. Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space. Patient requests surgery for faster recovery; no trial of physiotherapy is documented.",
+    "procedure": "Total Knee Replacement",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
-      "treatment_modalities": [
-        "physical therapy",
-        "epidural injections",
-        "NSAIDs"
-      ],
-      "disease_severity_grade": "Severe disc herniation with neurological deficit",
+      "conservative_treatment_duration_months": 0,
+      "treatment_modalities": [],
+      "disease_severity_grade": "Kellgren-Lawrence grade 2 osteoarthritis",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "unresponsive to 15 months",
-      "Severe disc herniation with neurological deficit"
+      "Radiographs show Kellgren-Lawrence grade 2 osteoarthritis with preserved joint space.",
+      "Patient requests surgery for faster recovery; no trial of physiotherapy is documented."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-059",
-    "clinical_notes": "70yo female diagnosed with Stage IIIA invasive ductal carcinoma of left breast. Biopsy confirmed on 2023-07-15. Tumor size 1.7cm. Triple negative. Oncology tumor board recommends mastectomy followed by adjuvant chemotherapy. Dr. Iyer at Aster MIMS, Kozhikode has scheduled surgery.",
-    "procedure": "Mastectomy for Breast Cancer",
+    "clinical_notes": "41yo female with mechanical low back pain for 6 weeks. MRI shows mild disc bulge at L5-S1 without neural compression; neurological examination is normal. Fusion is requested before any course of physiotherapy has been tried.",
+    "procedure": "Lumbar Spinal Fusion",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Stage II-III Invasive Carcinoma",
+      "disease_severity_grade": "mild disc bulge",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "Stage II-III Invasive Carcinoma"
+      "MRI shows mild disc bulge at L5-S1 without neural compression; neurological examination is normal.",
+      "Fusion is requested before any course of physiotherapy has been tried."
     ],
     "expected_determination": "UPHOLD"
   },
   {
     "case_id": "G3-060",
-    "clinical_notes": "65yo male admitted with acute inferior STEMI on 2024-06-30. Troponin elevated at 9.91. Emergent coronary angiography shows complete joint space loss and bone-on-bone contact. Sen performed primary PCI with biodegradable polymer stent deployment to RCA. Post-procedure TIMI 3 flow achieved.",
-    "procedure": "Percutaneous Coronary Stent Placement",
+    "clinical_notes": "51yo female with stable angina, NYHA class I. Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication. The cardiology note recommends continuing medical therapy; surgery is not advised.",
+    "procedure": "Coronary Artery Bypass Graft",
     "ground_truth_checklist": {
       "conservative_treatment_attempted": false,
+      "conservative_treatment_duration_months": 0,
       "treatment_modalities": [],
-      "disease_severity_grade": "Acute coronary syndrome / STEMI",
+      "disease_severity_grade": "single-vessel disease",
       "physician_necessity_stated": false,
-      "conservative_treatment_duration_months": 0
+      "acute_or_oncologic_indication": false
     },
     "verbatim_evidence_spans": [
-      "Acute coronary syndrome / STEMI"
+      "Coronary angiography shows single-vessel disease with normal LVEF; symptoms are controlled on medication.",
+      "The cardiology note recommends continuing medical therapy; surgery is not advised."
     ],
     "expected_determination": "UPHOLD"
   }

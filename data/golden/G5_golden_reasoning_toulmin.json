@@ -3,1040 +3,1120 @@
     "case_id": "G5-001",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Liver Transplant is an excluded elective procedure.",
-      "grounds": "Patient underwent 12 months of failed conservative management including physical therapy, steroid injections, and NSAIDs.",
-      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
+      "claim": "Cervical Spinal Fusion was elective and not medically necessary.",
+      "grounds": "The record documents 18 months of failed physiotherapy and medication, imaging confirming severe disease, and a specialist certificate of necessity.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
       "exception_status": "SATISFIED",
-      "rebuttal": "No contradicting evidence found; physician certifies necessity."
+      "rebuttal": "Failed conservative treatment and specialist certification establish medical necessity."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.93
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-002",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Septoplasty is an excluded elective procedure.",
-      "grounds": "Acute presentation requiring emergent surgical intervention; no window for conservative therapy.",
-      "warrant": "Emergency treatment is covered under all plans regardless of elective exclusions.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Emergency nature documented in ER admission records."
+      "claim": "Total Knee Replacement was elective and not medically necessary.",
+      "grounds": "Surgery was performed 7 weeks after symptom onset with no physiotherapy or medication trial and no specialist certificate.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No record supports medical necessity, so the exclusion applies."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.94
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-003",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Aortic Valve Replacement is an excluded elective procedure.",
-      "grounds": "Prior authorization was obtained from TPA confirming medical necessity for the procedure.",
-      "warrant": "Pre-authorized procedures are deemed medically necessary per insurer's own assessment.",
+      "claim": "Septoplasty was elective and not medically necessary.",
+      "grounds": "The record documents 24 months of failed physiotherapy and medication, imaging confirming severe disease, and a specialist certificate of necessity.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Pre-authorization approval letter on file."
+      "rebuttal": "Failed conservative treatment and specialist certification establish medical necessity."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.93
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-004",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Cervical Spinal Fusion is an excluded elective procedure.",
-      "grounds": "No evidence of conservative treatment attempted before surgical intervention.",
-      "warrant": "Clause 4.3 requires documentation of failed conservative management before elective surgery coverage.",
+      "claim": "Cervical Spinal Fusion was elective and not medically necessary.",
+      "grounds": "Surgery was performed 4 weeks after symptom onset with no physiotherapy or medication trial and no specialist certificate.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Patient records show no physiotherapy or non-surgical treatment."
+      "rebuttal": "No record supports medical necessity, so the exclusion applies."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.82
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-005",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Total Hip Replacement is an excluded elective procedure.",
-      "grounds": "Treatment is classified as cosmetic by the insurer's medical panel.",
-      "warrant": "Clause 3.8 excludes cosmetic procedures unless functionally necessary post-accident or cancer.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "No evidence of functional impairment or post-accident reconstruction."
+      "claim": "Laparoscopic Sleeve Gastrectomy was elective and not medically necessary.",
+      "grounds": "The record documents 9 months of failed physiotherapy and medication, imaging confirming severe disease, and a specialist certificate of necessity.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Failed conservative treatment and specialist certification establish medical necessity."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.91
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-006",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "IMRT Radiation Therapy is an excluded elective procedure.",
-      "grounds": "Patient underwent 18 months of failed conservative management including physical therapy, steroid injections, and NSAIDs.",
-      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "No contradicting evidence found; physician certifies necessity."
+      "claim": "Lumbar Spinal Fusion was elective and not medically necessary.",
+      "grounds": "Surgery was performed 8 weeks after symptom onset with no physiotherapy or medication trial and no specialist certificate.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No record supports medical necessity, so the exclusion applies."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.88
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-007",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Aortic Valve Replacement is an excluded elective procedure.",
-      "grounds": "Acute presentation requiring emergent surgical intervention; no window for conservative therapy.",
-      "warrant": "Emergency treatment is covered under all plans regardless of elective exclusions.",
+      "claim": "Septoplasty was elective and not medically necessary.",
+      "grounds": "The record documents 8 months of failed physiotherapy and medication, imaging confirming severe disease, and a specialist certificate of necessity.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Emergency nature documented in ER admission records."
+      "rebuttal": "Failed conservative treatment and specialist certification establish medical necessity."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.95
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-008",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Lumbar Spinal Fusion is an excluded elective procedure.",
-      "grounds": "Prior authorization was obtained from TPA confirming medical necessity for the procedure.",
-      "warrant": "Pre-authorized procedures are deemed medically necessary per insurer's own assessment.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Pre-authorization approval letter on file."
+      "claim": "Laparoscopic Sleeve Gastrectomy was elective and not medically necessary.",
+      "grounds": "Surgery was performed 5 weeks after symptom onset with no physiotherapy or medication trial and no specialist certificate.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No record supports medical necessity, so the exclusion applies."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.86
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-009",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Laparoscopic Sleeve Gastrectomy is an excluded elective procedure.",
-      "grounds": "No evidence of conservative treatment attempted before surgical intervention.",
-      "warrant": "Clause 4.3 requires documentation of failed conservative management before elective surgery coverage.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Patient records show no physiotherapy or non-surgical treatment."
+      "claim": "Septoplasty was elective and not medically necessary.",
+      "grounds": "The record documents 6 months of failed physiotherapy and medication, imaging confirming severe disease, and a specialist certificate of necessity.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Failed conservative treatment and specialist certification establish medical necessity."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
+    "expected_verdict": "CONTRADICTS_DENIAL",
     "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-010",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Aortic Valve Replacement is an excluded elective procedure.",
-      "grounds": "Treatment is classified as cosmetic by the insurer's medical panel.",
-      "warrant": "Clause 3.8 excludes cosmetic procedures unless functionally necessary post-accident or cancer.",
+      "claim": "Septoplasty was elective and not medically necessary.",
+      "grounds": "Surgery was performed 3 weeks after symptom onset with no physiotherapy or medication trial and no specialist certificate.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "No evidence of functional impairment or post-accident reconstruction."
+      "rebuttal": "No record supports medical necessity, so the exclusion applies."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.87
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-011",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Mastectomy (Breast Cancer) is an excluded elective procedure.",
-      "grounds": "Patient underwent 6 months of failed conservative management including physical therapy, steroid injections, and NSAIDs.",
-      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
+      "claim": "Total Hip Replacement was elective and not medically necessary.",
+      "grounds": "The record documents 15 months of failed physiotherapy and medication, imaging confirming severe disease, and a specialist certificate of necessity.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
       "exception_status": "SATISFIED",
-      "rebuttal": "No contradicting evidence found; physician certifies necessity."
+      "rebuttal": "Failed conservative treatment and specialist certification establish medical necessity."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.89
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-012",
     "category": "MEDICAL_NECESSITY",
     "toulmin_components": {
-      "claim": "Percutaneous Coronary Stent is an excluded elective procedure.",
-      "grounds": "Acute presentation requiring emergent surgical intervention; no window for conservative therapy.",
-      "warrant": "Emergency treatment is covered under all plans regardless of elective exclusions.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Emergency nature documented in ER admission records."
+      "claim": "Cervical Spinal Fusion was elective and not medically necessary.",
+      "grounds": "Surgery was performed 6 weeks after symptom onset with no physiotherapy or medication trial and no specialist certificate.",
+      "warrant": "The policy excludes elective procedures unless they are medically necessary as certified by the treating specialist.",
+      "backing": "The policy definition of Medically Necessary Treatment.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No record supports medical necessity, so the exclusion applies."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
+    "expected_verdict": "SUPPORTS_DENIAL",
     "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-013",
-    "category": "MEDICAL_NECESSITY",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
     "toulmin_components": {
-      "claim": "Aortic Valve Replacement is an excluded elective procedure.",
-      "grounds": "Prior authorization was obtained from TPA confirming medical necessity for the procedure.",
-      "warrant": "Pre-authorized procedures are deemed medically necessary per insurer's own assessment.",
+      "claim": "Treatment for Epilepsy falls within the pre-existing disease waiting period.",
+      "grounds": "The policy has been continuously renewed for 26 months, beyond the 24-month waiting period.",
+      "warrant": "Pre-existing diseases are covered after 24 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Pre-authorization approval letter on file."
+      "rebuttal": "The waiting period had expired before admission."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.98
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-014",
-    "category": "MEDICAL_NECESSITY",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
     "toulmin_components": {
-      "claim": "Renal Transplant is an excluded elective procedure.",
-      "grounds": "No evidence of conservative treatment attempted before surgical intervention.",
-      "warrant": "Clause 4.3 requires documentation of failed conservative management before elective surgery coverage.",
+      "claim": "Treatment for Essential Hypertension falls within the pre-existing disease waiting period.",
+      "grounds": "Essential Hypertension was diagnosed 24 months before inception and admission occurred 18 months after inception.",
+      "warrant": "Pre-existing diseases are covered after 48 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Patient records show no physiotherapy or non-surgical treatment."
-    },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.88
-  },
-  {
-    "case_id": "G5-015",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Aortic Valve Replacement is an excluded elective procedure.",
-      "grounds": "Treatment is classified as cosmetic by the insurer's medical panel.",
-      "warrant": "Clause 3.8 excludes cosmetic procedures unless functionally necessary post-accident or cancer.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "No evidence of functional impairment or post-accident reconstruction."
-    },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.83
-  },
-  {
-    "case_id": "G5-016",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Laparoscopic Sleeve Gastrectomy is an excluded elective procedure.",
-      "grounds": "Patient underwent 8 months of failed conservative management including physical therapy, steroid injections, and NSAIDs.",
-      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "No contradicting evidence found; physician certifies necessity."
-    },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.91
-  },
-  {
-    "case_id": "G5-017",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Renal Transplant is an excluded elective procedure.",
-      "grounds": "Acute presentation requiring emergent surgical intervention; no window for conservative therapy.",
-      "warrant": "Emergency treatment is covered under all plans regardless of elective exclusions.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Emergency nature documented in ER admission records."
-    },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.93
-  },
-  {
-    "case_id": "G5-018",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Laparoscopic Sleeve Gastrectomy is an excluded elective procedure.",
-      "grounds": "Prior authorization was obtained from TPA confirming medical necessity for the procedure.",
-      "warrant": "Pre-authorized procedures are deemed medically necessary per insurer's own assessment.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Pre-authorization approval letter on file."
-    },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.88
-  },
-  {
-    "case_id": "G5-019",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Liver Transplant is an excluded elective procedure.",
-      "grounds": "No evidence of conservative treatment attempted before surgical intervention.",
-      "warrant": "Clause 4.3 requires documentation of failed conservative management before elective surgery coverage.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Patient records show no physiotherapy or non-surgical treatment."
-    },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.92
-  },
-  {
-    "case_id": "G5-020",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "IMRT Radiation Therapy is an excluded elective procedure.",
-      "grounds": "Treatment is classified as cosmetic by the insurer's medical panel.",
-      "warrant": "Clause 3.8 excludes cosmetic procedures unless functionally necessary post-accident or cancer.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "No evidence of functional impairment or post-accident reconstruction."
-    },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.83
-  },
-  {
-    "case_id": "G5-021",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Total Hip Replacement is an excluded elective procedure.",
-      "grounds": "Patient underwent 12 months of failed conservative management including physical therapy, steroid injections, and NSAIDs.",
-      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "No contradicting evidence found; physician certifies necessity."
-    },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.92
-  },
-  {
-    "case_id": "G5-022",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Cervical Spinal Fusion is an excluded elective procedure.",
-      "grounds": "Acute presentation requiring emergent surgical intervention; no window for conservative therapy.",
-      "warrant": "Emergency treatment is covered under all plans regardless of elective exclusions.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Emergency nature documented in ER admission records."
-    },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.94
-  },
-  {
-    "case_id": "G5-023",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Craniotomy for Tumor is an excluded elective procedure.",
-      "grounds": "Prior authorization was obtained from TPA confirming medical necessity for the procedure.",
-      "warrant": "Pre-authorized procedures are deemed medically necessary per insurer's own assessment.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Pre-authorization approval letter on file."
-    },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.97
-  },
-  {
-    "case_id": "G5-024",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Craniotomy for Tumor is an excluded elective procedure.",
-      "grounds": "No evidence of conservative treatment attempted before surgical intervention.",
-      "warrant": "Clause 4.3 requires documentation of failed conservative management before elective surgery coverage.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Patient records show no physiotherapy or non-surgical treatment."
-    },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.94
-  },
-  {
-    "case_id": "G5-025",
-    "category": "MEDICAL_NECESSITY",
-    "toulmin_components": {
-      "claim": "Craniotomy for Tumor is an excluded elective procedure.",
-      "grounds": "Treatment is classified as cosmetic by the insurer's medical panel.",
-      "warrant": "Clause 3.8 excludes cosmetic procedures unless functionally necessary post-accident or cancer.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "No evidence of functional impairment or post-accident reconstruction."
+      "rebuttal": "The waiting period had not expired at admission."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
     "confidence_threshold": 0.85
   },
   {
-    "case_id": "G5-026",
-    "category": "MEDICAL_NECESSITY",
+    "case_id": "G5-015",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
     "toulmin_components": {
-      "claim": "Coronary Artery Bypass Graft is an excluded elective procedure.",
-      "grounds": "Patient underwent 12 months of failed conservative management including physical therapy, steroid injections, and NSAIDs.",
-      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
+      "claim": "Treatment for Type 2 Diabetes Mellitus falls within the pre-existing disease waiting period.",
+      "grounds": "The policy has been continuously renewed for 74 months.",
+      "warrant": "After 60 months of continuous coverage a claim cannot be contested on grounds of non-disclosure, except proven fraud.",
+      "backing": "IRDAI Master Circular on Health Insurance Business (2024), moratorium provision.",
       "exception_status": "SATISFIED",
-      "rebuttal": "No contradicting evidence found; physician certifies necessity."
+      "rebuttal": "The moratorium period is complete and no fraud is alleged."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.9
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-016",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for Hypothyroidism falls within the pre-existing disease waiting period.",
+      "grounds": "Hypothyroidism was diagnosed 44 months before inception and admission occurred 3 months after inception.",
+      "warrant": "Pre-existing diseases are covered after 24 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The waiting period had not expired at admission."
+    },
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-017",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for Coronary Artery Disease falls within the pre-existing disease waiting period.",
+      "grounds": "The policy has been continuously renewed for 49 months, beyond the 48-month waiting period.",
+      "warrant": "Pre-existing diseases are covered after 48 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The waiting period had expired before admission."
+    },
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-018",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for Heart Failure falls within the pre-existing disease waiting period.",
+      "grounds": "Heart Failure was diagnosed 43 months before inception and admission occurred 10 months after inception.",
+      "warrant": "Pre-existing diseases are covered after 24 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The waiting period had not expired at admission."
+    },
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-019",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for Essential Hypertension falls within the pre-existing disease waiting period.",
+      "grounds": "The policy has been continuously renewed for 42 months, beyond the 36-month waiting period.",
+      "warrant": "Pre-existing diseases are covered after 36 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The waiting period had expired before admission."
+    },
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-020",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for COPD falls within the pre-existing disease waiting period.",
+      "grounds": "COPD was diagnosed 45 months before inception and admission occurred 17 months after inception.",
+      "warrant": "Pre-existing diseases are covered after 36 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The waiting period had not expired at admission."
+    },
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-021",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for Chronic Kidney Disease falls within the pre-existing disease waiting period.",
+      "grounds": "The policy has been continuously renewed for 67 months.",
+      "warrant": "After 60 months of continuous coverage a claim cannot be contested on grounds of non-disclosure, except proven fraud.",
+      "backing": "IRDAI Master Circular on Health Insurance Business (2024), moratorium provision.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The moratorium period is complete and no fraud is alleged."
+    },
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-022",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for Hypothyroidism falls within the pre-existing disease waiting period.",
+      "grounds": "Hypothyroidism was diagnosed 7 months before inception and admission occurred 19 months after inception.",
+      "warrant": "Pre-existing diseases are covered after 36 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The waiting period had not expired at admission."
+    },
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-023",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for Coronary Artery Disease falls within the pre-existing disease waiting period.",
+      "grounds": "The policy has been continuously renewed for 50 months, beyond the 48-month waiting period.",
+      "warrant": "Pre-existing diseases are covered after 48 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The waiting period had expired before admission."
+    },
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-024",
+    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "toulmin_components": {
+      "claim": "Treatment for Hypertensive Nephropathy falls within the pre-existing disease waiting period.",
+      "grounds": "Hypertensive Nephropathy was diagnosed 18 months before inception and admission occurred 33 months after inception.",
+      "warrant": "Pre-existing diseases are covered after 48 months of continuous coverage.",
+      "backing": "The waiting-period clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The waiting period had not expired at admission."
+    },
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-025",
+    "category": "POLICY_EXCLUSION",
+    "toulmin_components": {
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Reconstructive surgery was performed after a road traffic accident on 2023-12-30, documented in the emergency record.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Reconstruction after an accident falls within the exception."
+    },
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
+  },
+  {
+    "case_id": "G5-026",
+    "category": "POLICY_EXCLUSION",
+    "toulmin_components": {
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Abdominoplasty was performed on 2024-09-10 to change appearance; no injury, burn or cancer is recorded.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No condition of the exception is met."
+    },
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-027",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Lumbar Spinal Fusion is an excluded elective procedure.",
-      "grounds": "Acute presentation requiring emergent surgical intervention; no window for conservative therapy.",
-      "warrant": "Emergency treatment is covered under all plans regardless of elective exclusions.",
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Reconstructive surgery was performed after a road traffic accident on 2023-12-26, documented in the emergency record.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Emergency nature documented in ER admission records."
+      "rebuttal": "Reconstruction after an accident falls within the exception."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.93
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-028",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Craniotomy for Tumor is an excluded elective procedure.",
-      "grounds": "Prior authorization was obtained from TPA confirming medical necessity for the procedure.",
-      "warrant": "Pre-authorized procedures are deemed medically necessary per insurer's own assessment.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Pre-authorization approval letter on file."
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Liposuction was performed on 2024-10-13 to change appearance; no injury, burn or cancer is recorded.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No condition of the exception is met."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.92
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-029",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "IMRT Radiation Therapy is an excluded elective procedure.",
-      "grounds": "No evidence of conservative treatment attempted before surgical intervention.",
-      "warrant": "Clause 4.3 requires documentation of failed conservative management before elective surgery coverage.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Patient records show no physiotherapy or non-surgical treatment."
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Reconstructive surgery was performed after a road traffic accident on 2024-03-05, documented in the emergency record.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Reconstruction after an accident falls within the exception."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.87
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-030",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Lumbar Spinal Fusion is an excluded elective procedure.",
-      "grounds": "Treatment is classified as cosmetic by the insurer's medical panel.",
-      "warrant": "Clause 3.8 excludes cosmetic procedures unless functionally necessary post-accident or cancer.",
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Rhinoplasty was performed on 2025-02-07 to change appearance; no injury, burn or cancer is recorded.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "No evidence of functional impairment or post-accident reconstruction."
+      "rebuttal": "No condition of the exception is met."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.89
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-031",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Robotic Prostatectomy is an excluded elective procedure.",
-      "grounds": "Patient underwent 12 months of failed conservative management including physical therapy, steroid injections, and NSAIDs.",
-      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Reconstructive surgery was performed after a road traffic accident on 2025-02-07, documented in the emergency record.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
       "exception_status": "SATISFIED",
-      "rebuttal": "No contradicting evidence found; physician certifies necessity."
+      "rebuttal": "Reconstruction after an accident falls within the exception."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.87
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-032",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Robotic Prostatectomy is an excluded elective procedure.",
-      "grounds": "Acute presentation requiring emergent surgical intervention; no window for conservative therapy.",
-      "warrant": "Emergency treatment is covered under all plans regardless of elective exclusions.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Emergency nature documented in ER admission records."
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Liposuction was performed on 2024-02-25 to change appearance; no injury, burn or cancer is recorded.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No condition of the exception is met."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.94
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-033",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Laparoscopic Sleeve Gastrectomy is an excluded elective procedure.",
-      "grounds": "Prior authorization was obtained from TPA confirming medical necessity for the procedure.",
-      "warrant": "Pre-authorized procedures are deemed medically necessary per insurer's own assessment.",
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Reconstructive surgery was performed after a road traffic accident on 2025-01-08, documented in the emergency record.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Pre-authorization approval letter on file."
+      "rebuttal": "Reconstruction after an accident falls within the exception."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.92
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-034",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Total Hip Replacement is an excluded elective procedure.",
-      "grounds": "No evidence of conservative treatment attempted before surgical intervention.",
-      "warrant": "Clause 4.3 requires documentation of failed conservative management before elective surgery coverage.",
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Blepharoplasty was performed on 2024-09-23 to change appearance; no injury, burn or cancer is recorded.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Patient records show no physiotherapy or non-surgical treatment."
+      "rebuttal": "No condition of the exception is met."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.84
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-035",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Percutaneous Coronary Stent is an excluded elective procedure.",
-      "grounds": "Treatment is classified as cosmetic by the insurer's medical panel.",
-      "warrant": "Clause 3.8 excludes cosmetic procedures unless functionally necessary post-accident or cancer.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "No evidence of functional impairment or post-accident reconstruction."
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Reconstructive surgery was performed after a road traffic accident on 2025-06-19, documented in the emergency record.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Reconstruction after an accident falls within the exception."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.83
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-036",
-    "category": "MEDICAL_NECESSITY",
+    "category": "POLICY_EXCLUSION",
     "toulmin_components": {
-      "claim": "Mastectomy (Breast Cancer) is an excluded elective procedure.",
-      "grounds": "Patient underwent 18 months of failed conservative management including physical therapy, steroid injections, and NSAIDs.",
-      "warrant": "Clause 4.3 excludes elective surgeries unless conservative treatment failed for >= 6 months.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "No contradicting evidence found; physician certifies necessity."
+      "claim": "Cosmetic surgery is excluded under the policy.",
+      "grounds": "Blepharoplasty was performed on 2023-05-05 to change appearance; no injury, burn or cancer is recorded.",
+      "warrant": "Cosmetic or plastic surgery is excluded unless it is reconstruction following an accident, burns or cancer.",
+      "backing": "The standard IRDAI exclusion wording for cosmetic surgery.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No condition of the exception is met."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.93
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-037",
-    "category": "MEDICAL_NECESSITY",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Total Hip Replacement is an excluded elective procedure.",
-      "grounds": "Acute presentation requiring emergent surgical intervention; no window for conservative therapy.",
-      "warrant": "Emergency treatment is covered under all plans regardless of elective exclusions.",
+      "claim": "A proportionate deduction applies to the whole bill because a higher room was chosen.",
+      "grounds": "The deduction of Rs 77,000 was applied to medicines, implants and diagnostics as well as room-related charges.",
+      "warrant": "Proportionate deductions apply only to charges that vary with the room category.",
+      "backing": "IRDAI guidelines on proportionate deduction.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Emergency nature documented in ER admission records."
+      "rebuttal": "Medicines, implants and diagnostics must not be scaled."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.96
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-038",
-    "category": "MEDICAL_NECESSITY",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Robotic Prostatectomy is an excluded elective procedure.",
-      "grounds": "Prior authorization was obtained from TPA confirming medical necessity for the procedure.",
-      "warrant": "Pre-authorized procedures are deemed medically necessary per insurer's own assessment.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Pre-authorization approval letter on file."
+      "claim": "The claim is limited by the room rent cap.",
+      "grounds": "The patient chose a room costing Rs 8,000 per day against an eligible limit of Rs 5,000, and the deduction was applied only to room-related charges.",
+      "warrant": "Proportionate deductions apply to charges that vary with the room category.",
+      "backing": "The room rent clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The deduction was applied correctly."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.96
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-039",
-    "category": "MEDICAL_NECESSITY",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Mastectomy (Breast Cancer) is an excluded elective procedure.",
-      "grounds": "No evidence of conservative treatment attempted before surgical intervention.",
-      "warrant": "Clause 4.3 requires documentation of failed conservative management before elective surgery coverage.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Patient records show no physiotherapy or non-surgical treatment."
+      "claim": "A proportionate deduction applies to the whole bill because a higher room was chosen.",
+      "grounds": "The deduction of Rs 39,000 was applied to medicines, implants and diagnostics as well as room-related charges.",
+      "warrant": "Proportionate deductions apply only to charges that vary with the room category.",
+      "backing": "IRDAI guidelines on proportionate deduction.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Medicines, implants and diagnostics must not be scaled."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.82
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-040",
-    "category": "MEDICAL_NECESSITY",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Robotic Prostatectomy is an excluded elective procedure.",
-      "grounds": "Treatment is classified as cosmetic by the insurer's medical panel.",
-      "warrant": "Clause 3.8 excludes cosmetic procedures unless functionally necessary post-accident or cancer.",
+      "claim": "The claim is limited by the room rent cap.",
+      "grounds": "The patient chose a room costing Rs 8,000 per day against an eligible limit of Rs 4,000, and the deduction was applied only to room-related charges.",
+      "warrant": "Proportionate deductions apply to charges that vary with the room category.",
+      "backing": "The room rent clause of the policy wording.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "No evidence of functional impairment or post-accident reconstruction."
+      "rebuttal": "The deduction was applied correctly."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.87
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-041",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Treatment for Hypertensive Nephropathy is excluded as a pre-existing disease.",
-      "grounds": "Policy in continuous force for 51 months; waiting period of 36 months expired 15 months ago.",
-      "warrant": "Clause 5.3: PED covered after 36 months of continuous coverage.",
+      "claim": "A proportionate deduction applies to the whole bill because a higher room was chosen.",
+      "grounds": "The deduction of Rs 63,000 was applied to medicines, implants and diagnostics as well as room-related charges.",
+      "warrant": "Proportionate deductions apply only to charges that vary with the room category.",
+      "backing": "IRDAI guidelines on proportionate deduction.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Insurer cannot contest coverage after waiting period expiry."
+      "rebuttal": "Medicines, implants and diagnostics must not be scaled."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.96
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-042",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Treatment for Chronic Kidney Disease is excluded as a pre-existing disease.",
-      "grounds": "Eight-year moratorium period completed; insurer cannot invoke pre-existing disease ground.",
-      "warrant": "IRDAI Moratorium Clause: After 96 months of continuous coverage, no PED exclusion is valid.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Statutory moratorium overrides contractual PED exclusion."
+      "claim": "The claim is limited by the room rent cap.",
+      "grounds": "The patient chose a room costing Rs 10,000 per day against an eligible limit of Rs 5,000, and the deduction was applied only to room-related charges.",
+      "warrant": "Proportionate deductions apply to charges that vary with the room category.",
+      "backing": "The room rent clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The deduction was applied correctly."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.95
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-043",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Treatment for Heart Failure is excluded as a pre-existing disease.",
-      "grounds": "Condition first diagnosed 19 months after policy inception; not pre-existing.",
-      "warrant": "Clause 5.3 defines PED as conditions existing prior to policy inception.",
+      "claim": "A proportionate deduction applies to the whole bill because a higher room was chosen.",
+      "grounds": "The deduction of Rs 26,000 was applied to medicines, implants and diagnostics as well as room-related charges.",
+      "warrant": "Proportionate deductions apply only to charges that vary with the room category.",
+      "backing": "IRDAI guidelines on proportionate deduction.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Clinical records confirm post-inception onset; PED clause inapplicable."
+      "rebuttal": "Medicines, implants and diagnostics must not be scaled."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.87
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-044",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Treatment for Hypothyroidism is excluded as a pre-existing disease.",
-      "grounds": "Claim filed within 48-month waiting period; PED waiting period not yet exhausted.",
-      "warrant": "Clause 5.3: Pre-existing conditions have a mandatory 48-month waiting period.",
+      "claim": "The claim is limited by the room rent cap.",
+      "grounds": "The patient chose a room costing Rs 12,000 per day against an eligible limit of Rs 5,000, and the deduction was applied only to room-related charges.",
+      "warrant": "Proportionate deductions apply to charges that vary with the room category.",
+      "backing": "The room rent clause of the policy wording.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Waiting period arithmetic confirms claim is premature."
+      "rebuttal": "The deduction was applied correctly."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.89
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-045",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Treatment for Osteoarthritis (Bilateral Knee) is excluded as a pre-existing disease.",
-      "grounds": "Policyholder concealed history of Osteoarthritis (Bilateral Knee) diagnosed 2 years before policy inception.",
-      "warrant": "Insurance Act Section 45: Material non-disclosure within 3 years renders policy voidable.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Proposal form omission confirmed by pre-policy medical records."
+      "claim": "A proportionate deduction applies to the whole bill because a higher room was chosen.",
+      "grounds": "The deduction of Rs 85,000 was applied to medicines, implants and diagnostics as well as room-related charges.",
+      "warrant": "Proportionate deductions apply only to charges that vary with the room category.",
+      "backing": "IRDAI guidelines on proportionate deduction.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Medicines, implants and diagnostics must not be scaled."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.83
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-046",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Treatment for Epilepsy is excluded as a pre-existing disease.",
-      "grounds": "Policy in continuous force for 58 months; waiting period of 48 months expired 10 months ago.",
-      "warrant": "Clause 5.3: PED covered after 48 months of continuous coverage.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Insurer cannot contest coverage after waiting period expiry."
+      "claim": "The claim is limited by the room rent cap.",
+      "grounds": "The patient chose a room costing Rs 8,000 per day against an eligible limit of Rs 6,000, and the deduction was applied only to room-related charges.",
+      "warrant": "Proportionate deductions apply to charges that vary with the room category.",
+      "backing": "The room rent clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The deduction was applied correctly."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.89
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-047",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "FINANCIAL_LIMIT",
     "toulmin_components": {
-      "claim": "Treatment for Heart Failure is excluded as a pre-existing disease.",
-      "grounds": "Eight-year moratorium period completed; insurer cannot invoke pre-existing disease ground.",
-      "warrant": "IRDAI Moratorium Clause: After 96 months of continuous coverage, no PED exclusion is valid.",
+      "claim": "A proportionate deduction applies to the whole bill because a higher room was chosen.",
+      "grounds": "The deduction of Rs 24,000 was applied to medicines, implants and diagnostics as well as room-related charges.",
+      "warrant": "Proportionate deductions apply only to charges that vary with the room category.",
+      "backing": "IRDAI guidelines on proportionate deduction.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Statutory moratorium overrides contractual PED exclusion."
+      "rebuttal": "Medicines, implants and diagnostics must not be scaled."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.87
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-048",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Hyperlipidemia is excluded as a pre-existing disease.",
-      "grounds": "Condition first diagnosed 14 months after policy inception; not pre-existing.",
-      "warrant": "Clause 5.3 defines PED as conditions existing prior to policy inception.",
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The discharge summary was uploaded with the claim on 2024-01-06, as shown in the submission acknowledgement.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Clinical records confirm post-inception onset; PED clause inapplicable."
+      "rebuttal": "The requested document was already on file."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.97
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-049",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Hypothyroidism is excluded as a pre-existing disease.",
-      "grounds": "Claim filed within 48-month waiting period; PED waiting period not yet exhausted.",
-      "warrant": "Clause 5.3: Pre-existing conditions have a mandatory 48-month waiting period.",
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The submission acknowledgement dated 2024-11-09 lists only the bills; no discharge summary was submitted.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Waiting period arithmetic confirms claim is premature."
+      "rebuttal": "The document is genuinely missing and must be obtained from the hospital."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.91
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-050",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Heart Failure is excluded as a pre-existing disease.",
-      "grounds": "Policyholder concealed history of Heart Failure diagnosed 2 years before policy inception.",
-      "warrant": "Insurance Act Section 45: Material non-disclosure within 3 years renders policy voidable.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Proposal form omission confirmed by pre-policy medical records."
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The discharge summary was uploaded with the claim on 2025-02-20, as shown in the submission acknowledgement.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The requested document was already on file."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.87
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-051",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Benign Prostatic Hyperplasia is excluded as a pre-existing disease.",
-      "grounds": "Policy in continuous force for 45 months; waiting period of 24 months expired 21 months ago.",
-      "warrant": "Clause 5.3: PED covered after 24 months of continuous coverage.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Insurer cannot contest coverage after waiting period expiry."
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The submission acknowledgement dated 2024-11-12 lists only the bills; no discharge summary was submitted.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The document is genuinely missing and must be obtained from the hospital."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.9
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-052",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Type 2 Diabetes Mellitus is excluded as a pre-existing disease.",
-      "grounds": "Eight-year moratorium period completed; insurer cannot invoke pre-existing disease ground.",
-      "warrant": "IRDAI Moratorium Clause: After 96 months of continuous coverage, no PED exclusion is valid.",
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The discharge summary was uploaded with the claim on 2025-05-29, as shown in the submission acknowledgement.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Statutory moratorium overrides contractual PED exclusion."
+      "rebuttal": "The requested document was already on file."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.95
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-053",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Epilepsy is excluded as a pre-existing disease.",
-      "grounds": "Condition first diagnosed 21 months after policy inception; not pre-existing.",
-      "warrant": "Clause 5.3 defines PED as conditions existing prior to policy inception.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Clinical records confirm post-inception onset; PED clause inapplicable."
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The submission acknowledgement dated 2023-01-09 lists only the bills; no discharge summary was submitted.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The document is genuinely missing and must be obtained from the hospital."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.9
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-054",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Essential Hypertension is excluded as a pre-existing disease.",
-      "grounds": "Claim filed within 48-month waiting period; PED waiting period not yet exhausted.",
-      "warrant": "Clause 5.3: Pre-existing conditions have a mandatory 48-month waiting period.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Waiting period arithmetic confirms claim is premature."
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The discharge summary was uploaded with the claim on 2025-12-01, as shown in the submission acknowledgement.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The requested document was already on file."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.9
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-055",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Epilepsy is excluded as a pre-existing disease.",
-      "grounds": "Policyholder concealed history of Epilepsy diagnosed 2 years before policy inception.",
-      "warrant": "Insurance Act Section 45: Material non-disclosure within 3 years renders policy voidable.",
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The submission acknowledgement dated 2025-10-30 lists only the bills; no discharge summary was submitted.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Proposal form omission confirmed by pre-policy medical records."
+      "rebuttal": "The document is genuinely missing and must be obtained from the hospital."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.86
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-056",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Diabetic Retinopathy is excluded as a pre-existing disease.",
-      "grounds": "Policy in continuous force for 64 months; waiting period of 48 months expired 16 months ago.",
-      "warrant": "Clause 5.3: PED covered after 48 months of continuous coverage.",
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The discharge summary was uploaded with the claim on 2023-08-10, as shown in the submission acknowledgement.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Insurer cannot contest coverage after waiting period expiry."
+      "rebuttal": "The requested document was already on file."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.9
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-057",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Coronary Artery Disease is excluded as a pre-existing disease.",
-      "grounds": "Eight-year moratorium period completed; insurer cannot invoke pre-existing disease ground.",
-      "warrant": "IRDAI Moratorium Clause: After 96 months of continuous coverage, no PED exclusion is valid.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Statutory moratorium overrides contractual PED exclusion."
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The submission acknowledgement dated 2024-09-08 lists only the bills; no discharge summary was submitted.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The document is genuinely missing and must be obtained from the hospital."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.87
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-058",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "DOCUMENTATION",
     "toulmin_components": {
-      "claim": "Treatment for Heart Failure is excluded as a pre-existing disease.",
-      "grounds": "Condition first diagnosed 7 months after policy inception; not pre-existing.",
-      "warrant": "Clause 5.3 defines PED as conditions existing prior to policy inception.",
+      "claim": "The claim is incomplete because the discharge summary is missing.",
+      "grounds": "The discharge summary was uploaded with the claim on 2024-02-11, as shown in the submission acknowledgement.",
+      "warrant": "A claim may be held only for documents that have not been submitted.",
+      "backing": "The claim documentation clause of the policy wording.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Clinical records confirm post-inception onset; PED clause inapplicable."
+      "rebuttal": "The requested document was already on file."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.86
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-059",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Atrial Fibrillation is excluded as a pre-existing disease.",
-      "grounds": "Claim filed within 48-month waiting period; PED waiting period not yet exhausted.",
-      "warrant": "Clause 5.3: Pre-existing conditions have a mandatory 48-month waiting period.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Waiting period arithmetic confirms claim is premature."
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The patient was admitted unconscious to the ICU, and the family intimated the insurer 20 days later, on regaining contact.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The delay was beyond the insured's control."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.94
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-060",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Hypothyroidism is excluded as a pre-existing disease.",
-      "grounds": "Policyholder concealed history of Hypothyroidism diagnosed 2 years before policy inception.",
-      "warrant": "Insurance Act Section 45: Material non-disclosure within 3 years renders policy voidable.",
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The planned admission was intimated 14 days after discharge with no reason given.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Proposal form omission confirmed by pre-policy medical records."
+      "rebuttal": "No circumstance justifies the delay."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.95
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-061",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Diabetic Retinopathy is excluded as a pre-existing disease.",
-      "grounds": "Policy in continuous force for 71 months; waiting period of 48 months expired 23 months ago.",
-      "warrant": "Clause 5.3: PED covered after 48 months of continuous coverage.",
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The patient was admitted unconscious to the ICU, and the family intimated the insurer 13 days later, on regaining contact.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Insurer cannot contest coverage after waiting period expiry."
+      "rebuttal": "The delay was beyond the insured's control."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.97
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-062",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Coronary Artery Disease is excluded as a pre-existing disease.",
-      "grounds": "Eight-year moratorium period completed; insurer cannot invoke pre-existing disease ground.",
-      "warrant": "IRDAI Moratorium Clause: After 96 months of continuous coverage, no PED exclusion is valid.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Statutory moratorium overrides contractual PED exclusion."
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The planned admission was intimated 6 days after discharge with no reason given.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No circumstance justifies the delay."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.94
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-063",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Coronary Artery Disease is excluded as a pre-existing disease.",
-      "grounds": "Condition first diagnosed 11 months after policy inception; not pre-existing.",
-      "warrant": "Clause 5.3 defines PED as conditions existing prior to policy inception.",
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The patient was admitted unconscious to the ICU, and the family intimated the insurer 8 days later, on regaining contact.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Clinical records confirm post-inception onset; PED clause inapplicable."
+      "rebuttal": "The delay was beyond the insured's control."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.86
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-064",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Atrial Fibrillation is excluded as a pre-existing disease.",
-      "grounds": "Claim filed within 48-month waiting period; PED waiting period not yet exhausted.",
-      "warrant": "Clause 5.3: Pre-existing conditions have a mandatory 48-month waiting period.",
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The planned admission was intimated 24 days after discharge with no reason given.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Waiting period arithmetic confirms claim is premature."
+      "rebuttal": "No circumstance justifies the delay."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.86
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-065",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Type 2 Diabetes Mellitus is excluded as a pre-existing disease.",
-      "grounds": "Policyholder concealed history of Type 2 Diabetes Mellitus diagnosed 2 years before policy inception.",
-      "warrant": "Insurance Act Section 45: Material non-disclosure within 3 years renders policy voidable.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Proposal form omission confirmed by pre-policy medical records."
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The patient was admitted unconscious to the ICU, and the family intimated the insurer 10 days later, on regaining contact.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The delay was beyond the insured's control."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.87
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-066",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Hypothyroidism is excluded as a pre-existing disease.",
-      "grounds": "Policy in continuous force for 56 months; waiting period of 48 months expired 8 months ago.",
-      "warrant": "Clause 5.3: PED covered after 48 months of continuous coverage.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Insurer cannot contest coverage after waiting period expiry."
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The planned admission was intimated 23 days after discharge with no reason given.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No circumstance justifies the delay."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.95
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-067",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Essential Hypertension is excluded as a pre-existing disease.",
-      "grounds": "Eight-year moratorium period completed; insurer cannot invoke pre-existing disease ground.",
-      "warrant": "IRDAI Moratorium Clause: After 96 months of continuous coverage, no PED exclusion is valid.",
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The patient was admitted unconscious to the ICU, and the family intimated the insurer 25 days later, on regaining contact.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Statutory moratorium overrides contractual PED exclusion."
+      "rebuttal": "The delay was beyond the insured's control."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.96
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-068",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Heart Failure is excluded as a pre-existing disease.",
-      "grounds": "Condition first diagnosed 10 months after policy inception; not pre-existing.",
-      "warrant": "Clause 5.3 defines PED as conditions existing prior to policy inception.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Clinical records confirm post-inception onset; PED clause inapplicable."
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The planned admission was intimated 12 days after discharge with no reason given.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "No circumstance justifies the delay."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.92
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-069",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ADMINISTRATIVE_PROCEDURAL",
     "toulmin_components": {
-      "claim": "Treatment for Chronic Kidney Disease is excluded as a pre-existing disease.",
-      "grounds": "Claim filed within 48-month waiting period; PED waiting period not yet exhausted.",
-      "warrant": "Clause 5.3: Pre-existing conditions have a mandatory 48-month waiting period.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Waiting period arithmetic confirms claim is premature."
+      "claim": "The claim is rejected because the hospitalization was intimated late.",
+      "grounds": "The patient was admitted unconscious to the ICU, and the family intimated the insurer 11 days later, on regaining contact.",
+      "warrant": "Claims should be intimated within the specified time, but genuine claims are not rejected for delay caused by circumstances beyond the insured's control.",
+      "backing": "IRDAI guidance on condonation of delay in claim intimation.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "The delay was beyond the insured's control."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.82
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-070",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Hypertensive Nephropathy is excluded as a pre-existing disease.",
-      "grounds": "Policyholder concealed history of Hypertensive Nephropathy diagnosed 2 years before policy inception.",
-      "warrant": "Insurance Act Section 45: Material non-disclosure within 3 years renders policy voidable.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Proposal form omission confirmed by pre-policy medical records."
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 7 days after the due date, within the grace period, and admission followed.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Renewal within the grace period preserved coverage."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.92
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-071",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Hyperlipidemia is excluded as a pre-existing disease.",
-      "grounds": "Policy in continuous force for 69 months; waiting period of 48 months expired 21 months ago.",
-      "warrant": "Clause 5.3: PED covered after 48 months of continuous coverage.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Insurer cannot contest coverage after waiting period expiry."
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 55 days after the due date, after the grace period had ended.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The grace period had ended, so the policy was not in force."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.86
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-072",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Benign Prostatic Hyperplasia is excluded as a pre-existing disease.",
-      "grounds": "Eight-year moratorium period completed; insurer cannot invoke pre-existing disease ground.",
-      "warrant": "IRDAI Moratorium Clause: After 96 months of continuous coverage, no PED exclusion is valid.",
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 25 days after the due date, within the grace period, and admission followed.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Statutory moratorium overrides contractual PED exclusion."
+      "rebuttal": "Renewal within the grace period preserved coverage."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.91
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-073",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Epilepsy is excluded as a pre-existing disease.",
-      "grounds": "Condition first diagnosed 10 months after policy inception; not pre-existing.",
-      "warrant": "Clause 5.3 defines PED as conditions existing prior to policy inception.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Clinical records confirm post-inception onset; PED clause inapplicable."
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 67 days after the due date, after the grace period had ended.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The grace period had ended, so the policy was not in force."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.98
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-074",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Benign Prostatic Hyperplasia is excluded as a pre-existing disease.",
-      "grounds": "Claim filed within 24-month waiting period; PED waiting period not yet exhausted.",
-      "warrant": "Clause 5.3: Pre-existing conditions have a mandatory 24-month waiting period.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Waiting period arithmetic confirms claim is premature."
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 3 days after the due date, within the grace period, and admission followed.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Renewal within the grace period preserved coverage."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.93
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-075",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Hypothyroidism is excluded as a pre-existing disease.",
-      "grounds": "Policyholder concealed history of Hypothyroidism diagnosed 2 years before policy inception.",
-      "warrant": "Insurance Act Section 45: Material non-disclosure within 3 years renders policy voidable.",
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 41 days after the due date, after the grace period had ended.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Proposal form omission confirmed by pre-policy medical records."
+      "rebuttal": "The grace period had ended, so the policy was not in force."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
     "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-076",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Diabetic Retinopathy is excluded as a pre-existing disease.",
-      "grounds": "Policy in continuous force for 53 months; waiting period of 48 months expired 5 months ago.",
-      "warrant": "Clause 5.3: PED covered after 48 months of continuous coverage.",
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 20 days after the due date, within the grace period, and admission followed.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Insurer cannot contest coverage after waiting period expiry."
+      "rebuttal": "Renewal within the grace period preserved coverage."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.89
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-077",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Type 2 Diabetes Mellitus is excluded as a pre-existing disease.",
-      "grounds": "Eight-year moratorium period completed; insurer cannot invoke pre-existing disease ground.",
-      "warrant": "IRDAI Moratorium Clause: After 96 months of continuous coverage, no PED exclusion is valid.",
-      "exception_status": "SATISFIED",
-      "rebuttal": "Statutory moratorium overrides contractual PED exclusion."
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 39 days after the due date, after the grace period had ended.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
+      "exception_status": "NOT_SATISFIED",
+      "rebuttal": "The grace period had ended, so the policy was not in force."
     },
-    "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.96
+    "expected_verdict": "SUPPORTS_DENIAL",
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-078",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Epilepsy is excluded as a pre-existing disease.",
-      "grounds": "Condition first diagnosed 15 months after policy inception; not pre-existing.",
-      "warrant": "Clause 5.3 defines PED as conditions existing prior to policy inception.",
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 13 days after the due date, within the grace period, and admission followed.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
       "exception_status": "SATISFIED",
-      "rebuttal": "Clinical records confirm post-inception onset; PED clause inapplicable."
+      "rebuttal": "Renewal within the grace period preserved coverage."
     },
     "expected_verdict": "CONTRADICTS_DENIAL",
-    "confidence_threshold": 0.88
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-079",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Benign Prostatic Hyperplasia is excluded as a pre-existing disease.",
-      "grounds": "Claim filed within 24-month waiting period; PED waiting period not yet exhausted.",
-      "warrant": "Clause 5.3: Pre-existing conditions have a mandatory 24-month waiting period.",
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 49 days after the due date, after the grace period had ended.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
       "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Waiting period arithmetic confirms claim is premature."
+      "rebuttal": "The grace period had ended, so the policy was not in force."
     },
     "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.84
+    "confidence_threshold": 0.85
   },
   {
     "case_id": "G5-080",
-    "category": "PRE_EXISTING_WAITING_PERIOD",
+    "category": "ELIGIBILITY_COVERAGE",
     "toulmin_components": {
-      "claim": "Treatment for Essential Hypertension is excluded as a pre-existing disease.",
-      "grounds": "Policyholder concealed history of Essential Hypertension diagnosed 2 years before policy inception.",
-      "warrant": "Insurance Act Section 45: Material non-disclosure within 3 years renders policy voidable.",
-      "exception_status": "NOT_SATISFIED",
-      "rebuttal": "Proposal form omission confirmed by pre-policy medical records."
+      "claim": "The policy had lapsed on the date of admission.",
+      "grounds": "The renewal premium was paid 15 days after the due date, within the grace period, and admission followed.",
+      "warrant": "A policy renewed within the grace period continues without a break in coverage.",
+      "backing": "The grace period clause of the policy wording.",
+      "exception_status": "SATISFIED",
+      "rebuttal": "Renewal within the grace period preserved coverage."
     },
-    "expected_verdict": "SUPPORTS_DENIAL",
-    "confidence_threshold": 0.82
+    "expected_verdict": "CONTRADICTS_DENIAL",
+    "confidence_threshold": 0.85
   }
 ]
