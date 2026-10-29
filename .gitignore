@@ -1,0 +1,6 @@
+# Word lock files (created while a document is open)
+~$*
+
+# Python bytecode
+__pycache__/
+*.pyc
